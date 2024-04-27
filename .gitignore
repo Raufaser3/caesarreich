@@ -1,0 +1,6 @@
+/.vscode/*
+*.md
+*.mod
+LICENSE
+.gitattributes
+localisationadder.py

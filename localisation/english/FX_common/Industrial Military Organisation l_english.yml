@@ -1,0 +1,26 @@
+﻿l_english:
+
+ ##################
+ ### FX MIO loc ###
+ ##################
+
+ #################
+ ### FX Titles ###
+ #################
+
+ generic_FX_general_purpose_organization: "General Purpose Manufacturer"
+
+ #########################################
+ ### FX Subtitles (initial trait name) ###
+ #########################################
+
+ generic_FX_general_purpose_initial_trait: "General Purpose Designer"
+
+ ##################
+ ### FX Headers ###
+ ##################
+
+ FX_mio_header_artillery: "Artillery"
+ FX_mio_header_infantry_equipment: "Infantry Equipment"
+ FX_mio_header_motorised: "Motorised"
+ FX_mio_header_support_equipment: "                    Support Equipment"
