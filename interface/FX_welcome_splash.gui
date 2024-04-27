@@ -5,7 +5,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "FX_intro_window_container"
 		position = { x = 0 y = 150 }
-		size = { width = 800 height = 970 }
+		size = { width = 800 height = 830 }
 		moveable = yes
 		orientation = CENTER
 		origo = center
@@ -15,7 +15,7 @@ guiTypes = {
 		background = {
 			name = "FX_logo"
 			spriteType = "GFX_FX_intro_logo"
-			position = { x = -4 y = -176 }	
+			position = { x = -4 y = -190 }	
 		}
 
 		## checkerboard backfill
