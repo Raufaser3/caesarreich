@@ -6,8 +6,9 @@ state={
 		6889 
 	}
 	history = {
-		owner = SER
+		owner = HUN
 		add_core_of = SER
+		add_core_of = HUN
 	}
 	manpower= 90300
 	buildings_max_level_factor=1.000

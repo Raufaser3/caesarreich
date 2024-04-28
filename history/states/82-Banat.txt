@@ -10,7 +10,7 @@ state={
 	state_category = two
 
 	history={
-		owner = ROM
+		owner = HUN
 		victory_points = {
 			9606 3
 		}
@@ -18,7 +18,7 @@ state={
 			infrastructure = 3
 		}
 		add_claim_by = ROM
-		add_claim_by = HUN
+		add_core_of = HUN
 	}
 
 	provinces={

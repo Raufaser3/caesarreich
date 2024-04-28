@@ -7,7 +7,7 @@ state={
 	state_category = one
 
 	history={
-		owner = SER
+		owner = HUN
 		buildings = {
 			infrastructure = 1
 		}

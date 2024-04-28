@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = CRO
-		owner = SER
+		owner = HUN
 		victory_points = {
 			3924 1 
 		}
@@ -19,7 +19,7 @@ state={
 
 		}
 		add_core_of = SER
-
+		add_core_of = HUN
 	}
 
 	provinces={

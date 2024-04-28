@@ -4,8 +4,8 @@ state={
 
 	history={
 		add_core_of = CRO
-		add_claim_by = HUN
-		owner = SER
+		add_core_of = HUN
+		owner = HUN
 		buildings = {
 			infrastructure = 3
 

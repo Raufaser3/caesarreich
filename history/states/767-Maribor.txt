@@ -5,13 +5,14 @@ state={
 
 	history={
 		add_core_of = SLV
-		owner = SER
+		owner = HUN
 		buildings = {
 			infrastructure = 2
 			air_base = 5
 
 		}
 		add_core_of = SER
+		add_core_of = HUN
 		victory_points = {
 			596 1 
 		}

@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = SER
+		owner = BUL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -20,6 +20,7 @@ state={
 			3882 3 
 		}
 		add_core_of = SER
+		add_core_of = BUL
 
 	}
 
