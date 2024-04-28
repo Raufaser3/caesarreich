@@ -1,19 +1,10 @@
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-green)
-![GitHub last commit](https://img.shields.io/github/last-commit/dax0102/fuhrerredux-mod)
-![GitHub contributors](https://img.shields.io/github/contributors/dax0102/fuhrerredux-mod)
-![Steam Views](https://img.shields.io/steam/views/2419457479?label=Steam%20Workshop%20Views)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/dax0102/fuhrerredux-mod)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dax0102/fuhrerredux-mod)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/dax0102/fuhrerredux-mod)
-![GitHub Repo stars](https://img.shields.io/github/stars/dax0102/fuhrerredux-mod?style=social)
-![GitHub forks](https://img.shields.io/github/forks/dax0102/fuhrerredux-mod?style=social)
-![Version](https://github.com/dax0102/fuhrerredux-mod/assets/57492658/aea42b5f-aa54-4fb3-b6e4-e37cdaeab78e)
 
 # IMPORTANT - PLEASE READ
-## FUHRERREDUX CONTRIBUTOR AND DEVELOPER AGREEMENT
+## CAESARREICH CONTRIBUTOR AND DEVELOPER AGREEMENT
 
 ### Contribution: 
-Contributor agrees to contribute to the Fuhrerredux mod ("modification") created by the Fuhrerredux Team ("Team") on GitHub or Steam Workshop or Paradox Plaza or any other place where the modiciation may be, including but not limited to, code, localisation, assets, or any other materials ("Contribution").
+ Contributor agrees to contribute to the Fuhrerredux mod ("modification") created by the Caesarreich Team ("Team") on GitHub or Steam Workshop or Paradox Plaza or any other place where the modification may be, including but not limited to, code, localisation, assets, or any other materials ("Contribution").
 ### Ownership: 
 Contributor acknowledges and agrees that any original Contribution made to the Project, including but not limited to code, localisation, assets and related materials, shall become the property of the Team upon submission to the GitHub repository maintained by the Team. Contributor hereby irrevocably assigns to the Team all right, title, and interest worldwide in and to the Contribution, including any copyrights, patent rights, trade secret rights, and any other intellectual property rights therein. This clause does not apply to Contributions that are not original work of the Contributor, or that have been created for another modification.
 ### License: 
@@ -31,9 +22,9 @@ Entire Agreement: This Agreement constitutes the entire agreement between the pa
 
 **By Contributing, you hereby acknowledge that you have read and agreed to the terms outlined in this Contributor & Developer Agreement for Fuhrerredux.**
 
-# Führerredux Mod
+# Caesarreich Mod
 The Führerredux files
-## How to install the github version?
+## How to install the GitHub version?
 <details><summary>Click here to show instructions</summary>
 <ul>
   <li>Create a new mod through the Paradox Launcher</li>                  
