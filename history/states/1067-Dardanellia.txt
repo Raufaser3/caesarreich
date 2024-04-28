@@ -5,10 +5,8 @@ state = {
 		849 
 	}
 	history = {
-		owner = ISC
-		add_core_of = GRE
-		add_core_of = ISC
-		add_claim_by = TUR
+		owner = TUR
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 3
 			849 = {

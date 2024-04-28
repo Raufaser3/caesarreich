@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ISC
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -17,8 +17,6 @@ state={
 			6864 4 
 		}
 		add_core_of = TUR
-		add_core_of = ISC
-		add_core_of = GRE
 	}
 
 	provinces={

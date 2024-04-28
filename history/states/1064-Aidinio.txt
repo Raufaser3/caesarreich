@@ -5,9 +5,8 @@ state={
 		11917 9941 9929 10038
 	}
 	history = {
-		owner = GRE
-		add_core_of = GRE
-		add_claim_by = TUR
+		owner = TUR
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 3
 		}

@@ -7,13 +7,12 @@ state={
 	}
 
 	history={
-		owner = ISC
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 		}
 		add_core_of = TUR
-		add_core_of = ISC
 		victory_points = {
 			947 5 
 		}
