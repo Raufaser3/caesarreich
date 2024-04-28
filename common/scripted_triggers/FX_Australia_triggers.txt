@@ -1,3 +1,0 @@
-AST_is_dominion = {
-	is_subject_of = ENG
-}

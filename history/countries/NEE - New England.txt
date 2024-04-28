@@ -24,9 +24,6 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	presidential_republic
-
-	NEE_bastion_of_socialism
-	NEE_supportive_unions
 }
 
 

@@ -52,7 +52,7 @@ defined_text = { # Country
 					has_government = valkist
 				}
 				NOT = {
-					has_completed_focus = GRE_eee
+					# has_completed_focus = GRE_eee
 				}
 				has_country_flag = GRE_golden_dawn_off
 			}

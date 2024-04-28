@@ -51,20 +51,13 @@ set_popularities = {
 	valkist = 48
 }
 
-# country_event = { id = cruzoob.0 days = 2 }
-country_event = { id = cruzoob.1 days = 180 }
 
 add_ideas = {
 	low_economic_mobilisation
 	extensive_conscription
 	one_party_dictatorship
-
-	CRU_spirit_of_the_faithful1
-	CRU_mayan_ascension1
-	CRU_non_existent_industry
 }
-set_country_flag = monroe_doctrine
-add_manpower = 15000
+
 
 recruit_character = CRU_Elvia_Carrillo_Puerto
 recruit_character = CRU_Felipe_Carrillo_Puerto

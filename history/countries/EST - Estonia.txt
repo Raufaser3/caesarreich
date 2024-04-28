@@ -58,10 +58,6 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	presidential_republic
-	
-	EST_ineffective_government_and_unrest_idea
-	EST_university_of_tartu_idea
-	EST_memories_communist_uprising_idea
 }
 
 recruit_character = EST_Karl_Sare

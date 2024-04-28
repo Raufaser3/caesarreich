@@ -5,9 +5,6 @@ oob = "TUR"
 set_research_slots = 3
 
 add_ideas = {
-	# TUR_sick_man_of_europe
-	# TUR_opda_idea
-	
 	civilian_economy
 	export_focus
 	volunteer_only
@@ -98,8 +95,6 @@ set_convoys = 20
 
 set_stability = 0.45
 set_war_support = 0.30
-
-# country_event = { id = tur.1 days = 1 } #intro event
 
 ### VARIANTS ###
 # 1936 Start #

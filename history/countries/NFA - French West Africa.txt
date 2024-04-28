@@ -55,11 +55,6 @@ if = {
 }
 add_ideas = {
 	colonial_government
-
-	NFA_pacification_of_africa
-	NFA_french_sudan
-	NFA_federated_colony
-	NFA_four_cantons
 }
 
 set_convoys = 75

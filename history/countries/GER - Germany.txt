@@ -116,11 +116,6 @@ if = {
 }
 
 add_ideas = {
-	GER_divided_govt
-	GER_naval_treaty
-	HOL_dutch_german_economic_cooperation
-	#GER_army_treaty
-	#GER_versialles_no_good
 	low_economic_mobilisation 
 	limited_exports
 	
@@ -350,5 +345,3 @@ if = {
   limit = { has_dlc = "La Resistance" }
   create_intelligence_agency = yes
 }
-
-GER_Friedrich_Paulus = { unit_leader_event = { id = dutchstate.28 days = 200 } }

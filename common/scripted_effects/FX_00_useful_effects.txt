@@ -735,23 +735,23 @@ all_thema = {
 }
 
 # make_thema TAG in console
-d_make_thema = {
-	for_each_scope_loop = {
-		array = args
-		set_temp_variable = {
-			tag_to_add_to_byz_commonwealth = THIS
-		}
-		BYZ_add_to_commonwealth = yes
-		drop_cosmetic_tag = yes
-		meta_effect = {
-			text = {
-				set_cosmetic_tag = [BYZPuppetTag]_THEMA
-			}
-			BYZPuppetTag = "[THIS.GetTag]"
-		}
-		log = "[THIS.GetName] became a Thema of [FROM.GetName]"
-	}
-}
+# d_make_thema = {
+# 	for_each_scope_loop = {
+# 		array = args
+# 		set_temp_variable = {
+# 			tag_to_add_to_byz_commonwealth = THIS
+# 		}
+# 		BYZ_add_to_commonwealth = yes
+# 		drop_cosmetic_tag = yes
+# 		meta_effect = {
+# 			text = {
+# 				set_cosmetic_tag = [BYZPuppetTag]_THEMA
+# 			}
+# 			BYZPuppetTag = "[THIS.GetTag]"
+# 		}
+# 		log = "[THIS.GetName] became a Thema of [FROM.GetName]"
+# 	}
+# }
 
 prioritize_state = {
 	add_to_temp_variable = { building_index = 1 }

@@ -126,10 +126,6 @@ set_technology = {
 
 add_ideas = {
 	undisturbed_isolation
-	ENG_col_unrest
-	ENG_irb
-	ENG_war_fatigue
-	
 	constitutional_monarchy
 }
 
@@ -304,38 +300,6 @@ NGA = {
 		modifier = IMP_no_statute
 	}
 }
-
-country_event = { id = uk.3 days = 20 } # Death of George V
-country_event = { id = uk.80 days = 60 }
-country_event = { id = uk.2 days = 244 } # London Stock Market Crash
-country_event = { id = uk.6 days = 397 } # Imperial Conference of 1937
-country_event = { id = uk.20 days = 278 } # Jarrow March
-country_event = { id = uk.28 days = 418 } # Manchester Mill Workers Strike
-country_event = { id = uk.42 days = 597 } # Government Calls Election!
-country_event = { id = uk.44 days = 600 } # London Beer Flood
-country_event = { id = uk.45 days = 885 } # The Kikuyu Uprising
-country_event = { id = uk.90 days = 1018 } # National Coal Strike 1938
-country_event = { id = uk.162 days = 2408 } # The Church of Our Lord Charles, King and Martyr
-
-country_event = { id = ukbw.1 days = 300 } # Bank Closure
-country_event = { id = ukbw.2 days = 1200 } # Factory Strike
-
-country_event = { id = ukflavour.1 days = 158 } # The Manchester Canal Breach
-country_event = { id = ukflavour.2 days = 122 } # Amy Johnson
-country_event = { id = ukflavour.3 days = 265 } # The Hobbit
-country_event = { id = ukflavour.4 days = 367 } # Alan Turing
-country_event = { id = ukflavour.4 days = 700 } # Crystal Palace Fire
-country_event = { id = ukflavour.6 days = 763 } # Baird Colour Television
-country_event = { id = ukflavour.7 days = 307 } # BBC Television Service Launched
-country_event = { id = ukflavour.8 days = 1001 } # Launching of the RMS Queen Elizabeth
-country_event = { id = ukflavour.9 days = 1331 } # John Cobb sets new auto speed record
-country_event = { id = ukflavour.10 days = 369 } # Sinking of HMS Thetis
-country_event = { id = ukflavour.11 days = 457 } # Launching of HMS Trafalgar
-country_event = { id = ukflavour.12 days = 2741 } # American Author Visits Britain
-country_event = { id = ukflavour.20 months = 26 } # - Empire Games '38
-country_event = { id = ukflavour.50 months = 4 } # Empire Day
-
-country_event = { id = ukadm.1 days = 122 } # First Lord of the Admiralty
 
 ENG_add_aircraft_variants = yes
 ENG_add_armour_variants = yes

@@ -29,10 +29,6 @@ set_research_slots = 2
 
 add_ideas = {
 	absolute_monarchy
-  HEJ_british_influence
-  HEJ_british_army_training
-  HEJ_ikhwan_raids
-  HEJ_the_liquid_black_gold
 }
 
 set_politics = {
@@ -58,23 +54,6 @@ set_popularities = {
 
 give_military_access = ENG
 save_global_event_target_as = unified_arabia
-set_variable = { var = british_control value = 50 }
-set_variable = { british_control_percent = british_control }
-HEJ_set_british_effects = yes
-add_dynamic_modifier = {
-  modifier = HEJ_british_political_control
-}
-
-# country_event = { id = hejaz.0 days = 1 } # Intro
-country_event = { id = hejaz.20 days = 60 } # 1936 Hajj
-country_event = { id = hejaz.3 days = 30 } # British Prospectors
-country_event = { id = hejaz.20 days = 415 } # 1937 Hajj 
-country_event = { id = hejaz.20 days = 769 } # 1938 Hajj
-country_event = { id = hejaz.20 days = 1123 } # 1939 Hajj
-country_event = { id = hejaz.20 days = 1477 } # 1940 Hajj
-country_event = { id = hejaz.20 days = 1831 } # 1941 Hajj
-country_event = { id = hejaz.20 days = 2186 } # 1941 Hajj
-country_event = { id = hejaz.20 days = 2541 } # 1942 Hajj
 
 recruit_character = HEJ_Abd_al_Ilah
 recruit_character = HEJ_Zeid_bin_Hussein_al_Hashmid

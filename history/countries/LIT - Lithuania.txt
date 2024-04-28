@@ -59,11 +59,8 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
-	GEN_entente_member
 	constitutional_monarchy
 }
-
-set_country_flag = GEN_no_anarchy # Blocks Failing State event
 
 set_technology = {
 	infantry_weapons = 1

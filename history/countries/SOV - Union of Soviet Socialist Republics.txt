@@ -100,11 +100,7 @@ set_convoys = 50
 set_stability = 0.53
 set_war_support = 0.1
 
-# country_event = { id = soviet.1 days = 1 }
-country_event = { id = sovietpol.1303 days = 12 }
-country_event = {  id = sovietpol.1336 days = 300 random_hours = 2400 }
-set_country_flag = SOV_lacking_industrialization_flag
-# DIPLOMACY
+
 add_coalition_libertarian_socialist = yes 
 add_coalition_vanguardist = yes 
 set_politics = {	
@@ -132,8 +128,6 @@ create_faction = 3rd_international
 add_to_faction = SOV
 add_ideas = {
 	limited_exports
-	SOV_lacking_industrialization
-	SOV_political_divide
 	unpopular_conscription
 	unbalanced_economy
 	

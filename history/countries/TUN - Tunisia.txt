@@ -14,16 +14,9 @@ add_ideas = {
 	absolute_monarchy
 }
 
-if = {
-	limit = {
-		TUN = {
-			is_puppet_of = FRA
-		}
-	}
-	TUN = {
-		set_cosmetic_tag = TUN_FRA_subject
-	}
-}
+
+set_cosmetic_tag = TUN_FRA_subject
+
 
 set_popularities = {
 	vanguardist = 10

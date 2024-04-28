@@ -1583,15 +1583,15 @@ puppet_released_tag = {
 				elections_allowed = no
 			}
 			set_puppet_minister = yes
-			if = {
-				limit = {
-					ROOT = {
-						has_cosmetic_tag = BYZ
-						original_tag = GRE
-					}
-				}
-				puppet_as_byzantium = yes
-			}
+			# if = {
+			# 	limit = {
+			# 		ROOT = {
+			# 			has_cosmetic_tag = BYZ
+			# 			original_tag = GRE
+			# 		}
+			# 	}
+			# 	puppet_as_byzantium = yes
+			# }
 		}
 	}
 	recheck_annexations = yes
@@ -1616,7 +1616,7 @@ puppet_released_tag_nocosmetic = {
 						original_tag = GRE
 					}
 				}
-				puppet_as_byzantium = yes
+				# puppet_as_byzantium = yes
 			}
 		}
 	}
@@ -1624,21 +1624,21 @@ puppet_released_tag_nocosmetic = {
 }
 
 
-puppet_as_byzantium = {
-	var:tag_to_release = {
-		drop_cosmetic_tag = yes
-		meta_effect = {
-			text = {
-				set_cosmetic_tag = [BYZPuppetTag]_THEMA
-			}
-			BYZPuppetTag = "[?tag_to_release.GetTag]"
-		}
-		set_temp_variable = {
-			var:tag_to_add_to_byz_commonwealth = var:tag_to_release
-		}
-		BYZ_add_to_commonwealth = yes
-	}
-}
+# puppet_as_byzantium = {
+# 	var:tag_to_release = {
+# 		drop_cosmetic_tag = yes
+# 		meta_effect = {
+# 			text = {
+# 				set_cosmetic_tag = [BYZPuppetTag]_THEMA
+# 			}
+# 			BYZPuppetTag = "[?tag_to_release.GetTag]"
+# 		}
+# 		set_temp_variable = {
+# 			var:tag_to_add_to_byz_commonwealth = var:tag_to_release
+# 		}
+# 		BYZ_add_to_commonwealth = yes
+# 	}
+# }
 
 #########################################
 #########################################

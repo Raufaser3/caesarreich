@@ -257,7 +257,7 @@ country_event = { # Fate of Insulindia
 		name = annex.integrate
 		trigger = {
 			tag = PHI
-			has_completed_focus = PHI_on_our_own
+			# has_completed_focus = PHI_on_our_own
 			has_government = valkist
 		}
 
@@ -481,7 +481,7 @@ country_event = { # Fate of Malaya
 		name = annex.integrate
 		trigger = {
 			tag = PHI
-			has_completed_focus = PHI_on_our_own
+			# has_completed_focus = PHI_on_our_own
 			has_government = valkist
 		}
 		ROOT = {
@@ -690,12 +690,9 @@ country_event = { # Fate of Philippines
 		if = {
 			limit = { tag = ENG }
 			PHI = { set_cosmetic_tag = PHI_ENG }
-			hidden_effect = {
-				country_event = { id = philippines.109 days = 5 }
-			}
 		}
 		else = {
-			PHI = { PHI_remove_governor_general = yes }
+			# PHI = { PHI_remove_governor_general = yes }
 		}
 		hidden_effect = {
 			PHI = {

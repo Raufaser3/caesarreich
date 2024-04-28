@@ -8,7 +8,7 @@ set_technology = {
 	fuel_silos = 1
   basic_train = 1
 }
-country_event = { id = egypt.3 days = 118 }
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_technology = {
@@ -73,21 +73,6 @@ set_politics = {
 
 add_ideas = {
 	constitutional_monarchy
-	
-	EGY_feudal_lords
-	EGY_harboring_senussies
-	EGY_illiterate_populace
-	EGY_agricultural_economy
-	EGY_outdated_military
-}
-
-add_opinion_modifier = {
-	target = ITA
-	modifier = EGY_harboring_senussies
-}
-add_opinion_modifier = {
-	target = LBA
-	modifier = EGY_harboring_senussies
 }
 
 recruit_character = EGY_Fuad_i

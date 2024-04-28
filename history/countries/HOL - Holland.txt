@@ -91,10 +91,6 @@ if = {
 
 add_ideas = {
 	extensive_conscription
-  HOL_leftist_symphatizers
-	HOL_revaunchist_state
-	HOL_dutch_german_economic_cooperation
-	HOL_unrecognized_government
 	one_party_dictatorship
 }
 
@@ -121,14 +117,6 @@ set_popularities = {
 add_coalition_authoritarian_democrat = yes 
 add_coalition_paternal_autocrat = yes 
 
-# country_event = { id = dutchstate.0 days = 2 }
-country_event = { id = dutchstate.18 days = 167 }
-country_event = { id = dutchstate.21 days = 467 }
-country_event = { id = dutchstate.22 days = 1025 }
-country_event = { id = dutchstate.19 days = 1204 }
-country_event = { id = dutchstate.40 days = 200 }
-country_event = { id = dutchstate.49 days = 230 }
-country_event = { id = dutchstate.100 days = 67 }
 
 HOL_add_aircraft_variants = yes
 HOL_add_armour_variants = yes

@@ -13,9 +13,9 @@ scripted_gui = {
 			}
 			is_core_of = SEN
 			is_owned_by = NFA
-			has_dynamic_modifier = {
-				modifier = NFA_four_cantons_senegalese
-			}
+			# has_dynamic_modifier = {
+			# 	modifier = NFA_four_cantons_senegalese
+			# }
 		}
 	}
 }

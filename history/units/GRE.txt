@@ -60,11 +60,6 @@ division_template = {
 	}
 }
 
-focus = {
-	current = GRE_drachma_devaluation
-	progress = 2
-}
-
 units = {
 	######## Ellinikó Genikó Epiteleío ########
 	division = {

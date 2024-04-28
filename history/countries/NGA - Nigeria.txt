@@ -65,7 +65,6 @@ set_popularities = {
 
 add_ideas = {
 	colonial_government
-	ENG_statute_autonomy
 }
 
 set_cosmetic_tag = ENG_NGA

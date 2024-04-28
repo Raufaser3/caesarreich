@@ -72,11 +72,6 @@ set_politics = {
 
 add_ideas = {
 	limited_conscription
-	
-	NOR_monarchist_right_idea
-	NOR_war_on_samfundsvernet_idea
-	NOR_socialism_surrounded_idea
-	
 	presidential_republic
 }
 

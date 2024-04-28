@@ -52,12 +52,6 @@ set_cosmetic_tag = IRQ_mashriq
 
 add_ideas = {
 	constitutional_monarchy
-
-	IRQ_hashmite_dynasty
-	IRQ_semi_democratic_state
-	IRQ_british_protection
-	IRQ_nationalist_unrest
-	IRQ_coalition_fraternal_communique
 }
 
 ENG = {

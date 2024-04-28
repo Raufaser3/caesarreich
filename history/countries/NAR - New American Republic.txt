@@ -25,18 +25,10 @@ set_popularities = {
 	national_populist = 2
 }
 
-set_variable = { var = minority_suppression value = 50 }
-NAR_set_minority_effects = yes
 set_cosmetic_tag = NAR_ford
 
 add_ideas = {
 	limited_conscription
-
-	NAR_racial_issue
-	NAR_economic_downtrum
-	NAR_unstable_bureaucracy
-	NAR_illegitimate_government
-
 	republican_dictatorship
 }
 

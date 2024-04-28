@@ -34,8 +34,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	CHI_backwards_economy
-	CHI_illiterate_population
 	theocratic_dictatorship
 }
 

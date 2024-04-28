@@ -136,47 +136,47 @@ debug_decisions = {
 
 	## American Collapse ##
 
-	trigger_american_collapse = {
-		icon = generic_flags
+	# trigger_american_collapse = {
+	# 	icon = generic_flags
 
-		available = {
-			NOT = {
-				any_country = {
-					has_country_flag = USA_union_collapsed
-				}
-			}
-		}
+	# 	available = {
+	# 		NOT = {
+	# 			any_country = {
+	# 				has_country_flag = USA_union_collapsed
+	# 			}
+	# 		}
+	# 	}
 
-		visible = {
-			OR = {
-				is_debug = yes
-				has_global_flag = debug_decisons_on
-			}
-		}
+	# 	visible = {
+	# 		OR = {
+	# 			is_debug = yes
+	# 			has_global_flag = debug_decisons_on
+	# 		}
+	# 	}
 
-		fire_only_once = no
-		cost = 0
+	# 	fire_only_once = no
+	# 	cost = 0
 
-		complete_effect = {
-			MEX = {
-				country_event = usa.27
-			}
-			USA = {
-				country_event = usa.100
-			}
-			hidden_effect = {
-				PHI = {
-					country_event = philippines.1
-				}
-				USA = {
-					set_autonomy = {
-						target = HAI
-						autonomy_state = autonomy_free
-					}
-				}
-			}
-		}
-	}
+	# 	complete_effect = {
+	# 		MEX = {
+	# 			country_event = usa.27
+	# 		}
+	# 		USA = {
+	# 			country_event = usa.100
+	# 		}
+	# 		hidden_effect = {
+	# 			PHI = {
+	# 				country_event = philippines.1
+	# 			}
+	# 			USA = {
+	# 				set_autonomy = {
+	# 					target = HAI
+	# 					autonomy_state = autonomy_free
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# }
 
 	add_efficiency_growth_debug = {
 		icon = generic_research

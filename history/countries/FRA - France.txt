@@ -248,13 +248,7 @@ set_autonomy = {
 	freedom_level = 0.1
 }
 
-add_ideas = {
-	FRA_great_war_legacy
-	FRA_somme
-	FRA_divided_military_staff
-	FRA_colonial_profits
-	FRA_entente_leader
-	
+add_ideas = {	
 	parliamentary_republic
 }
 
@@ -387,18 +381,6 @@ recruit_character = FRA_Pierre_Boyer
 recruit_character = FRA_Pierre_Lelong
 recruit_character = FRA_Jean_de_Laborde
 recruit_character = FRA_Emmanuel_Macron
-
-if = {
-	limit = {
-		has_game_rule = {
-			rule = allow_macron_meme_options
-			option = MACRON_MEME_ENABLE
-		}
-	}
-	FRA = {
-		country_event = { id = fra.5006 days = 125 random_hours = 6 }
-	}
-}
 
 ### Starting Ministers
 activate_advisor = FRA_Jean_Ybarnegaray_hog_sco

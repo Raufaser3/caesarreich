@@ -115,12 +115,7 @@ if = {
 }
 
 add_ideas = {
-	ENG_statute_autonomy
 	constitutional_monarchy
-
-	AST_auralia_movement_idea
-	AST_internal_divisions_idea
-	AST_memories_of_galipoli_idea
 }
 
 set_politics = {	
@@ -147,16 +142,6 @@ set_popularities = {
 set_cosmetic_tag = AST_ENG
 set_convoys = 56
 
-# country_event = { id = australia.0 days = 5 } # Introduction
-country_event = { id = australia.37 days = 15 } # Victoria Forest Fires
-country_event = { id = australia.1 days = 18 } # King George is Dead
-country_event = { id = australia.40 days = 100 } # Ion Idriess' 'The Cattle King'
-country_event = { id = australia.2 days = 116 } # The May Day Incident
-country_event = { id = australia.3 days = 43 } # The 1936 Western Australia State Election
-country_event = { id = australia.4 days = 187 } # The Military Training Debate
-country_event = { id = australia.6 days = 210 } # Left Laborites Push For Socialization
-country_event = { id = australia.17 days = 603 } # Stab in the Back
-country_event = { id = australia.41 days = 1821 } # 40k Horsemen
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

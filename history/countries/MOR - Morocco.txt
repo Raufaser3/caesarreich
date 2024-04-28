@@ -48,7 +48,6 @@ if = {
 
 add_ideas = {
 	volunteer_only
-	MOR_harsh_environment
 	constitutional_monarchy
 }
 

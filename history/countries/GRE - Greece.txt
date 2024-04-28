@@ -20,33 +20,7 @@ give_guarantee = BUL
 add_ideas = {
 	limited_conscription
 	parliamentary_republic
-	GRE_abysmal_economy
-	GRE_economic_withering_of_smyrna
-	GRE_minority_unrests
-	GRE_anathema
-	GRE_venizelist_officers
-	GRE_golden_dawn
-	GEN_entente_member
 }
-
-
-set_temp_variable = {
-	coalition_partner_var = token:social_liberal
-}
-add_to_coalition = yes
-set_temp_variable = {
-	coalition_partner_var = token:market_liberal
-}
-add_to_coalition = yes
-set_temp_variable = {
-	coalition_partner_var = token:social_democrat
-}
-add_to_coalition = yes
-set_temp_variable = {
-	coalition_partner_var = token:social_conservative
-}
-add_to_coalition = yes
-set_coalition_government_popularity = yes
 
 set_technology = {
 	infantry_weapons = 1
@@ -100,18 +74,6 @@ if = {
 GRE_add_technologies = yes
 GRE_add_variants = yes
 
-add_to_variable = { golden_dawn_influence = 20 }
-
-# Events
-
-country_event = { id = gre.49 days = 148 }
-country_event = { id = gre.50 days = 168 }
-country_event = { id = gre.51 days = 432 }
-country_event = { id = gre.37 days = 49 }
-country_event = { id = gre.4 days = 62 }
-country_event = { id = gre.2 days = 83 }
-country_event = { id = gre.13 days = 364 }
-country_event = { id = gre.120 days = 45 random_days = 10 random_hours = 6 }
 set_rule = { can_join_factions = no }
 
 TUR = { embargo_ROOT = yes }
@@ -235,34 +197,10 @@ recruit_character = GRE_Dimitrios_Partsalidis
 recruit_character = GRE_Monarchist_Comitee
 
 # Starting Advisors
-GRE_hire_soclibs = yes
-
-
-set_variable = { byzvar = 100 }
-
-add_to_array = { GRE.megaliteri_idea_states = 44 }
-add_to_array = { GRE.megaliteri_idea_states = 796 }
-add_to_array = { GRE.megaliteri_idea_states = 787 }
-add_to_array = { GRE.megaliteri_idea_states = 106 }
-add_to_array = { GRE.megaliteri_idea_states = 931 }
-add_to_array = { GRE.megaliteri_idea_states = 941 }
-add_to_array = { GRE.megaliteri_idea_states = 764 }
-add_to_array = { GRE.megaliteri_idea_states = 164 }
-add_to_array = { GRE.megaliteri_idea_states = 116 }
-add_to_array = { GRE.megaliteri_idea_states = 115 }
-add_to_array = { GRE.megaliteri_idea_states = 850 }
-add_to_array = { GRE.megaliteri_idea_states = 156 }
-add_to_array = { GRE.megaliteri_idea_states = 117 }
-add_to_array = { GRE.megaliteri_idea_states = 849 }
-add_to_array = { GRE.megaliteri_idea_states = 345 }
-add_to_array = { GRE.megali_turkey_states = 777 }
-add_to_array = { GRE.megali_turkey_states = 356 }
-add_to_array = { GRE.megali_turkey_states = 355 }
-add_to_array = { GRE.megali_turkey_states = 778 }
-add_to_array = { GRE.megali_turkey_states = 343 }
-add_to_array = { GRE.megali_balkan_states = 787 }
-add_to_array = { GRE.megali_balkan_states = 764 }
-add_to_array = { GRE.megali_balkan_states = 796 }
+activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
+activate_advisor = GRE_Georgios_Maris_sec_sli
+activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
+activate_advisor = GRE_Alexandros_Diomidis_eco_sli
 
 add_to_array = { GRE.hog_characters = token:GRE_Eleftherios_Kyriakou_Venizelos }
 add_to_array = { GRE.hog_characters = token:GRE_Themistoklis_Sofoulis }

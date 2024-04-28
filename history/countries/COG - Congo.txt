@@ -22,14 +22,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-if = {
-	limit = {
-		COG = {
-			is_puppet_of = BEL
-		}
-	}
-	set_cosmetic_tag = COG_BCA
-}
 
 set_popularities = {
   vanguardist = 0

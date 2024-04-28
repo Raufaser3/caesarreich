@@ -4,10 +4,6 @@ oob = "RUS"
 
 add_ideas = {
 	extensive_conscription
-  RUS_russian_emigres
-  RUS_allied_eastern_comission
-  RUS_democratic_opposition
-  RUS_old_army
 	partial_economic_mobilisation
 	parliamentary_republic
 }
@@ -107,11 +103,6 @@ set_research_slots = 3
 set_convoys = 30
 set_stability = 0.56
 set_war_support = 0.61
-
-country_event = {
-	id = rus.2
-	days = 27
-}
 
 set_politics = {	
 	ruling_party = authoritarian_democrat

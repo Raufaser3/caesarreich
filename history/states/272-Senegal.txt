@@ -24,9 +24,6 @@ state={
 				naval_base = 3
 			}
 		}
-		add_dynamic_modifier = {
-			modifier = NFA_four_cantons_senegalese
-		}
 	}
 
 	provinces={

@@ -8,7 +8,6 @@ set_politics = {
 }
 
 add_ideas = {
-	PAP_holy_see
 	theocratic_dictatorship
 }
 

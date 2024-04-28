@@ -128,30 +128,3 @@ if = {
 
 recruit_character = ARM_Drastamat_Kanayan
 recruit_character = ARM_Hovhannes_Kajaznuni
-
-every_state = {
-	limit = {
-		OR = {
-			state = 781 
-			state = 350 
-			state = 352 
-			state = 902 
-			state = 903 
-			state = 231 
-			state = 868 
-			state = 905 
-			state = 859 
-			state = 233 
-			state = 860 
-			state = 857 
-			state = 232 
-			state = 229 
-			state = 903 
-			state = 904 
-			state = 1051 
-			state = 419 
-			state = 420 
-		}
-	}
-	add_to_array = { ARM.transcaucasia_states = THIS }
-}

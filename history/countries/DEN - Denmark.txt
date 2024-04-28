@@ -63,10 +63,6 @@ if = {
 
 add_ideas = {
 	limited_conscription
-	GEN_entente_member
-	DEN_danish_republicanism_idea
-	DEN_unrest_in_flensburg_idea
-
 	constitutional_monarchy
 }
 
@@ -94,8 +90,6 @@ set_popularities = {
 }
 
 add_coalition_social_liberal = yes 
-
-set_country_flag = DEN_economic_recovery_flag
 
 set_research_slots = 3
 set_convoys = 50

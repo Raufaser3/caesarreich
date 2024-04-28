@@ -116,11 +116,6 @@ if = {
 give_military_access = SPM
 
 add_ideas = {
-	SPR_SPM_SPF_SPA_spanish_civil_war_idea
-	SPF_disloyal_militias_idea
-	SPF_coalition_opposing_views_idea
-	SPR_SPM_SPF_SPA_prolonged_recession_idea
-	
 	extensive_conscription
 	low_economic_mobilisation
 	one_party_dictatorship
@@ -154,16 +149,6 @@ set_convoys = 150
 set_stability = 0.40
 set_war_support = 0.65
 
-declare_war_on = {
-	target = SPR
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = SPA
-	type = annex_everything
-}
-
 recruit_character = SPF_Javier_Borbon_Parma
 recruit_character = SPF_Infante_Jaime
 recruit_character = SPF_Jose_Maria_Albinana
@@ -193,5 +178,3 @@ activate_advisor = SPF_Carlos_Ibarguren_hog_npo
 activate_advisor = SPF_Onesimo_Redondo_for_npo
 activate_advisor = SPF_Eugenio_d_Ors_eco_val
 activate_advisor = SPF_Nimio_de_Anquin_sec_pau
-
-set_country_flag = SPF_IN_CIVIL_WAR

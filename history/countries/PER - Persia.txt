@@ -80,10 +80,6 @@ set_popularities = {
 
 add_ideas = {
 	free_trade
-	
-	PER_british_influence_iran_idea
-	PER_underground_revolutionaries_idea
-	PER_primitive_military_idea
 	military_junta
 }
 

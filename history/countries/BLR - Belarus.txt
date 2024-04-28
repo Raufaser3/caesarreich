@@ -58,12 +58,6 @@ if = {
 add_ideas = {
 	republican_dictatorship
 	low_economic_mobilisation
-
-  BLR_question_of_legitimacy
-  BLR_agriarian_traditions
-  BLR_can_you_read_my_son
-  BLR_intense_paranoia
-  BLR_diarchy_stable
 }
 
 set_politics = {	
@@ -75,7 +69,6 @@ set_politics = {
 
 add_coalition_paternal_autocrat = yes 
 
-country_event = { id = belarus.1 days = 14 }
 
 set_popularities = {
   vanguardist = 0

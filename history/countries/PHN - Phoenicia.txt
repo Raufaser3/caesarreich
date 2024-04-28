@@ -1,22 +1,8 @@
 ﻿capital = 553
 
-if = {
-	limit = {
-		PHN = {
-			is_puppet_of = FRA
-		}
-	}
-  set_cosmetic_tag = PHN_FRA
-}
-if = {
-	limit = {
-		PHN = {
-			NOT = {
-				is_puppet_of = FRA
-			}
-		}
-	}
-}
+
+set_cosmetic_tag = PHN_FRA
+
 
 set_stability = 0.50
 set_war_support = 0.50

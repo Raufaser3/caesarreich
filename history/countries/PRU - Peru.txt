@@ -6,10 +6,6 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
-	PRU_weak_constitution
-	PRU_damaged_democracy
-	PRU_proud_and_victorious
-	COL_reparations_from_colombia
 	presidential_republic
 }
 

@@ -115,14 +115,8 @@ if = {
 }
 
 add_ideas = {
-	SPR_SPM_SPF_SPA_spanish_civil_war_idea
-	SPR_unstable_republican_spirit_idea
-	SPR_woe_christmas_coup_idea
-	SPR_SPM_SPF_SPA_prolonged_recession_idea
-	
 	extensive_conscription
 	low_economic_mobilisation
-	GEN_entente_member
 	parliamentary_republic
 }
 
@@ -191,5 +185,3 @@ activate_advisor = SPR_Josep_Tarradellas_eco_mli
 activate_advisor = SPR_Diego_Martines_Barrio_sec_sli
 
 save_global_event_target_as = unified_spain
-
-set_country_flag = SPR_IN_CIVIL_WAR

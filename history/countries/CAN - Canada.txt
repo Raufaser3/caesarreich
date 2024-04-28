@@ -77,10 +77,9 @@ set_stability = 0.6
 set_war_support = 0.40
 set_cosmetic_tag = CAN_ENG
 
-set_country_flag = monroe_doctrine
-set_country_flag = NO_GENERIC_STABILITY_DECISIONS
-set_country_flag = NO_GENERIC_RESOURCE_DECISIONS
-set_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
+# set_country_flag = NO_GENERIC_STABILITY_DECISIONS
+# set_country_flag = NO_GENERIC_RESOURCE_DECISIONS
+# set_country_flag = NO_GENERIC_PROPAGANDA_DECISIONS
 
 # Starting tech
 set_technology = {
@@ -101,12 +100,6 @@ set_technology = {
 add_political_power = -52
 
 add_ideas = {
-	CAN_red_tories
-	CAN_canadian_corps
-	CAN_anglo_french_tension
-	CAN_east_west_divide
-	ENG_statute_autonomy
-	
 	constitutional_monarchy
 }
 

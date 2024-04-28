@@ -10,9 +10,6 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
-	CHL_crumbling_government
-	CHL_collapsed_economy
-	CHL_political_polarization
 	presidential_republic
 }
 

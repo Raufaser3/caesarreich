@@ -104,10 +104,6 @@ add_ideas = {
 	limited_conscription
 	limited_exports
 	parliamentary_republic
-
-	GEO_junker_school
-	GEO_menshevik_schism
-	GEO_separatism
 }
 
 if = {

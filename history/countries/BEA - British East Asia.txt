@@ -16,9 +16,6 @@ set_technology = {
 
 add_ideas = {
 	volunteer_only
-	
-	BEA_disputes_between_british_and_dutch_idea
-	BEA_colonial_nation_idea
 	colonial_government
 }
 

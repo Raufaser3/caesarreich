@@ -77,10 +77,6 @@ set_popularities = {
   valkist = 7
 }
 
-add_ideas = {
-	IND_mahatma_memories
-	IND_indian_rebels
-}
 
 recruit_character = IND_V_D_Savarkar
 recruit_character = IND_Provisional_Government

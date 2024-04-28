@@ -66,11 +66,6 @@ if = {
 }
 
 add_ideas = {
-	CHI_illiterate_population
-	CHI_backwards_economy
-	KMT_factionism
-	KMT_american_support
-	
 	semi_presidential_republic
 }
 

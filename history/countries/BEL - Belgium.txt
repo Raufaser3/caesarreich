@@ -51,10 +51,6 @@ if = {
 	}
 }
 add_ideas = {
-	GEN_entente_member
-	BEL_pillarized_society
-	BEL_national_unity_government
-	BEL_linguistic_debacle
 	constitutional_monarchy
 }
 
@@ -87,10 +83,6 @@ set_autonomy = {
 	autonomous_state = autonomy_colony
 }
 
-country_event = {
-	id = bca.1
-	days = 5
-}
 
 recruit_character = BEL_Albert_van_Belgie
 recruit_character = BEL_Paul_Emile_Janson

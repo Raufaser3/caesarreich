@@ -137,10 +137,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	USA_the_greater_depression
-	USA_malnourished_populace
-	USA_failed_offensive
-
 	limited_conscription
 	presidential_republic
 }

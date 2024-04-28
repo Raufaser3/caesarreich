@@ -57,12 +57,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	
 	direct_democracy
-	SWI_arms_industry
-	SWI_die_schweizer_armee
-	SWI_the_swiss_banking_act
-	SWI_swiss_neutrality
 }
 
 set_stability = 0.50

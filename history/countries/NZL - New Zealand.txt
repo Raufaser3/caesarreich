@@ -68,7 +68,6 @@ if = {
 }
 
 add_ideas = {
-	ENG_statute_autonomy
 	constitutional_monarchy
 }
 

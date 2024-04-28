@@ -12,46 +12,10 @@ set_war_support = 0.15
 set_convoys = 50
 set_research_slots = 2
 
-add_to_array = {
-	array = ISC.guarantees_array
-	value = ENG
-}
-add_to_array = {
-	array = ISC.guarantees_array
-	value = FRA
-}
-add_to_array = {
-	array = ISC.guarantees_array
-	value = GRE
-}
-add_to_array = {
-	array = ISC.guarantees_array
-	value = ITA
-}
-add_to_array = {
-	array = ISC.guarantees_array
-	value = USA
-}
-
-for_each_scope_loop = {
-	array = ISC.guarantees_array
-	give_guarantee = ISC
-	ISC = {
-		give_military_access = PREV
-	}
-	diplomatic_relation = {
-		country = ISC
-		relation = non_aggression_pact
-	}
-}
-
 add_ideas = {
 	disarmed_nation
 	civilian_economy
 	parliamentary_republic
-	GEN_entente_member
-	ISC_the_patriarchate
-	ISC_free_zone
 }
 
 #Starting tech

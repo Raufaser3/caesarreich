@@ -6,11 +6,7 @@ set_convoys = 500
 oob = "MAC"
 
 add_ideas = {
-	macedonian_legions
-	macedonian_trade
-	macedonian_economy
 	one_party_dictatorship
-	MAC_alexanders_regime
 }
 
 set_technology = {
@@ -247,6 +243,3 @@ set_popularities = {
 
 
 recruit_character = MAC_Alexander_The_Great
-recruit_character = MAC_Alexander_The_Great_general
-
-set_major = yes

@@ -4,7 +4,6 @@ oob = "NFL"
 
 set_research_slots = 3
 set_cosmetic_tag = NFL_DOM
-set_country_flag = monroe_doctrine
 
 # Starting tech
 set_technology = {
@@ -89,7 +88,6 @@ if = {
 }
 
 add_ideas = {
-	ENG_statute_autonomy
 	constitutional_monarchy
 }
 

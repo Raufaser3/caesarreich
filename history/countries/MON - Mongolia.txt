@@ -10,15 +10,8 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	MON_without_khan
-	MON_nomad
-	MON_doctrine
-	MON_industrial_combine
 	theocratic_dictatorship
 }
-
-#Events
-	country_event = { id = mon.1 days = 1}
 
 
 set_stability = 0.45

@@ -94,11 +94,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	POL_Lithuanian_unrest
 	limited_conscription
-	GEN_entente_member
-	POL_poland_ab_idea
-	POL_advisors_council
 	constitutional_monarchy
 }
 

@@ -100,10 +100,6 @@ add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 3 producer
 
 
 add_ideas = {	
-	# pretender_crisis
-	# foreign_company_investment
-	# parliament_with_officers
-	# stable_bureaucrat
 	constitutional_monarchy
 }
 805 = { set_demilitarized_zone = yes }

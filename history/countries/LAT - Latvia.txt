@@ -69,7 +69,6 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	parliamentary_republic
-	GEN_entente_member
 }
 
 ### VARIANTS ###

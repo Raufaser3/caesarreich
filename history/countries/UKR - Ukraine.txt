@@ -91,13 +91,6 @@ set_war_support = 0.20
 
 add_ideas = {
 	parliamentary_republic
-	GEN_entente_member
-
-	UKR_mutilated_victory
-	UKR_obsolete_agriculture
-	UKR_insufficient_industrialization
-	UKR_russian_issue
-	UKR_underfunded_army
 }
 
 set_country_flag = coalition_libertarian_socialist
@@ -124,13 +117,6 @@ set_popularities = {
   valkist = 0
 }
 
-# country_event = { id = ukraine.1 days = 5 } # Intro Event
-country_event = { id = ukraine.3 days = 40 } # Disunity in the Pink-Orange Coalition
-country_event = { id = ukraine.4 days = 65 } # Clashes Between the OUN and PNIU
-country_event = { id = ukraine.5 days = 120 } # Dontsov Accusses Government of Wide-Scale Corruption
-country_event = { id = ukraine.6 days = 140 } # Rumours about the President's Death
-country_event = { id = ukraine.8 days = 170 } # Deploying the Police?
-country_event = { id = ukraine.12 days = 250 } # Strikes
 
 recruit_character = UKR_Mykola_Strypnyk
 recruit_character = UKR_Yurii_Lapchynsky

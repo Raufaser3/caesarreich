@@ -137,13 +137,8 @@ set_popularities = {
 KMT = { embargo_ROOT = yes }
 
 add_ideas = {
-	JAP_gunbatsu
-	JAP_interservice_rivalry_balanced
-	jap_wnt
-	JAP_duplicate_research_efforts
 	constitutional_monarchy
 }
-# country_event = { id = jap.0 days = 2 } # Intro Event
 
 give_guarantee = RUS
 
@@ -972,10 +967,7 @@ recruit_character = JAP_Yoshikawa_Takeo
 recruit_character = JAP_Shiratori_Toshio
 recruit_character = JAP_Mushanokoji_Kintomo
 recruit_character = JAP_Hayashi_Fusao
-###
-every_unit_leader = {
-	set_character_flag = JAP_leader
-}
+
 
 ### Starting Ministers
 activate_advisor = JAP_Inukai_Tsuyoshi_hog_sco

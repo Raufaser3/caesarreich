@@ -12,7 +12,6 @@ set_technology = {
 }
 
 add_ideas = {
-  ENG_statute_autonomy
   colonial_government
 }
 

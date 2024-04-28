@@ -82,9 +82,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	SHO_hamburg_legacy
-	SHO_nazbol_gang
-	SHO_political_repression
 	republican_dictatorship
 }
 

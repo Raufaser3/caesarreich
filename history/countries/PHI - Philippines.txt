@@ -49,38 +49,9 @@ if = {
 	}
 }
 
-USA = {
-	set_autonomy = {
-		target = PHI
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.50
-	}
-}
-
-set_cosmetic_tag = PHI_USA
-
-# country_event = { id = philippines.0 days = 5 } # Intro Event
-country_event = { id = philippines.9 days = 120 } # The Envelope
-country_event = { id = philippines.32 days = 335 } # Bonifacio Day
-country_event = { id = philippines.28 days = 350 } # Pampanga Lantern Festival
-country_event = { id = philippines.27 days = 374 } # Feast of the Black Nazarene
-country_event = { id = philippines.46 days = 448 } # Crucifixion in the Philippines
-country_event = { id = philippines.33 days = 508 } # Opening of the Election Campaign
-country_event = { id = philippines.42 days = 580 } # Aftermath of Typhoon Seling
-country_event = { id = philippines.88 days = 630 } # Bountiful Harvest this Year
-country_event = { id = philippines.31 days = 715 } # Misa de Gallo
-country_event = { id = philippines.43 days = 867 } # Quezon Flies to US
-country_event = { id = philippines.90 days = 1028 } # Socialist Sympathies
-country_event = { id = philippines.91 days = 1705 } # Gregorio Aglipay Dies
-country_event = { id = philippines.110 days = 960 } # Aswang
 
 add_ideas = {
 	presidential_republic
-
-	PHI_catholic_nation
-	PHI_lingering_sakdalistas
-	PHI_agricultural_society
-	PHI_hacienda_questions
 }
 
 set_convoys = 25

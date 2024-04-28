@@ -11,10 +11,6 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
-
-	ARG_british_companies
-	ARG_memories_of_the_chaco_war
-	ARG_labour_strikes
 	presidential_republic
 }
 

@@ -74,15 +74,6 @@ set_popularities = {
 
 add_ideas = {
   disarmed_nation
-  RHI_S_rhineland_coal
-  RHI_S_disarmed
-  RHI_S_political_powderkeg
-  RHI_S_melting_pot
-  RHI_S_rhenish_freikorps
-  RHI_S_spectre_of_spartacists
-  RHI_S_einstein
-  GEN_entente_member
-
   colonial_government
 }
 

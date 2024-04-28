@@ -5,13 +5,6 @@ oob = "SWE"
 set_research_slots = 3
 
 add_ideas = {
-	GEN_entente_member
-
-	SWE_unbroken_neutrality_idea
-	SWE_sluggish_economy_idea
-	SWE_revolution_and_reaction_idea
-	SWE_conservative_military_idea
-
 	constitutional_monarchy
 }
 

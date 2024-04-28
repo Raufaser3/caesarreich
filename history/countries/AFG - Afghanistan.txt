@@ -28,11 +28,7 @@ if = {
 
 add_ideas = {
 	constitutional_monarchy
-	
-	AFG_tribal_influences_afghanistan_idea
-	AFG_afghan_nationalism_idea
-	AFG_mounting_opposition_king_idea
-	AFG_backward_army_and_economy_idea
+
 }
 
 set_politics = {	

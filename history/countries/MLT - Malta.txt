@@ -52,9 +52,6 @@ if = {
 
 add_ideas = {
 	parliamentary_republic
-	MLT_Church_Tensions
-	MLT_Social_Democrat_Rising
-	MLT_Language_Question
 }
 
 set_politics = {	

@@ -10,12 +10,8 @@ add_ideas = {
 
 add_ideas = {
 	limited_conscription
-	minority_rule
 	war_economy 
 	limited_exports
-	shepherdess_podhale
-	life_of_goral
-	polish_strike
 	one_party_dictatorship
 }
 

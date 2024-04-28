@@ -57,12 +57,6 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	theocratic_republic
-
-	CLB_enemies_on_all_sides
-	CLB_beginings_of_commonwealth
-	CLB_the_ward_system
-	CLB_democracy_in_limbo
-	CLB_spliting_at_seems
 }
 
 recruit_character = CLB_George_W_Norris

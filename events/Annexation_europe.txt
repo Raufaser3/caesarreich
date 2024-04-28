@@ -662,13 +662,6 @@ country_event = { # Fate of Belarus
 		BLR = {
 			if = {
 				limit = {
-					has_idea = constitutional_monarchy
-				}
-
-				BLR_remove_monarchy = yes
-			}
-			if = {
-				limit = {
 					ROOT = {
 						tag = GER
 						has_government = valkist
@@ -855,7 +848,7 @@ country_event = { # Fate of Bulgaria
 			NOT = {
 				AND = {
 					tag = ROM
-					has_completed_focus = ROM_resurrect_an_empire
+					# has_completed_focus = ROM_resurrect_an_empire
 				}
 			}
 		}
@@ -868,7 +861,7 @@ country_event = { # Fate of Bulgaria
 		name = annex.integrate
 		trigger = {
 			tag = ROM
-			has_completed_focus = ROM_resurrect_an_empire
+			# has_completed_focus = ROM_resurrect_an_empire
 		}
 
 		set_country_flag = BUL_CONQ
@@ -1046,7 +1039,7 @@ country_event = { # Fate of England
 				}
 				set_cosmetic_tag = GER_ENG_rk
 			}
-			EGL_create_republican_britain = yes
+			# EGL_create_republican_britain = yes
 		}
 	}
 
@@ -1071,7 +1064,7 @@ country_event = { # Fate of England
 				}
 				set_cosmetic_tag = GER_ENG_rk
 			}
-			EGL_create_monarchist_britain = yes
+			# EGL_create_monarchist_britain = yes
 		}
 	}
 
@@ -1710,9 +1703,9 @@ country_event = { # Fate of Germany
 			base = 60
 		}
 
-		hidden_effect = {
-			GER_transfer_characters_to_puppet = yes
-		}
+		# hidden_effect = {
+		# 	GER_transfer_characters_to_puppet = yes
+		# }
 		set_temp_variable = { tag_to_release = GRP }
 		release_targeted_tag = yes
 	}
@@ -1776,7 +1769,7 @@ country_event = { # Fate of Greece
 			NOT = {
 				AND = {
 					tag = ROM
-					has_completed_focus = ROM_resurrect_an_empire
+					# has_completed_focus = ROM_resurrect_an_empire
 				}
 			}
 		}
@@ -1789,7 +1782,7 @@ country_event = { # Fate of Greece
 		name = annex.integrate
 		trigger = {
 			tag = ROM
-			has_completed_focus = ROM_resurrect_an_empire
+			# has_completed_focus = ROM_resurrect_an_empire
 		}
 
 		set_country_flag = GRE_CONQ
@@ -2028,7 +2021,7 @@ country_event = { # Fate of Netherlands
 			}
 			HOL = {
 				restore_previous_government_type = yes
-				HOL_reset_path = yes
+				# HOL_reset_path = yes
 				set_country_flag = HOL_junta_path
 				set_country_flag = political_branch_ready
 				mark_focus_tree_layout_dirty = yes
@@ -2379,7 +2372,7 @@ country_event = { # Fate of Italy
 
 		set_temp_variable = { tag_to_release = ITA }
 		release_targeted_tag = yes
-		ITA_become_republic = yes
+		# ITA_become_republic = yes
 	}
 
 	option = { # Kingdom
@@ -2392,7 +2385,7 @@ country_event = { # Fate of Italy
 
 		set_temp_variable = { tag_to_release = ITA }
 		release_targeted_tag = yes
-		ITA_become_kingdom = yes
+		# ITA_become_kingdom = yes
 	}
 
 	option = { # Split
@@ -3440,15 +3433,15 @@ country_event = { # Fate of Romania
 				}
 			}
 
-			ROM = {
-				if = {
-					limit = { has_country_flag = ROM_michael_assassinated }
-					ROM_make_nicholas_king = yes
-				}
-				else = {
-					ROM_make_michael_king = yes
-				}
-			}
+			# ROM = {
+			# 	if = {
+			# 		limit = { has_country_flag = ROM_michael_assassinated }
+			# 		# ROM_make_nicholas_king = yes
+			# 	}
+			# 	else = {
+			# 		# ROM_make_michael_king = yes
+			# 	}
+			# }
 		}
 		else_if = {
 			limit = {
@@ -3458,12 +3451,12 @@ country_event = { # Fate of Romania
 
 			ROM = {
 				set_country_flag = BYZ_PUPPET
-				ROM_become_republic = yes
+				# ROM_become_republic = yes
 			}
 
 		}
 		else = {
-			ROM = { ROM_become_republic = yes }
+			# ROM = { ROM_become_republic = yes }
 		}
 	}
 
@@ -3949,7 +3942,7 @@ country_event = { # Fate of Serbia
 			NOT = {
 				AND = {
 					tag = ROM
-					has_completed_focus = ROM_resurrect_an_empire
+					# has_completed_focus = ROM_resurrect_an_empire
 				}
 			}
 		}
@@ -3962,7 +3955,7 @@ country_event = { # Fate of Serbia
 		name = annex.integrate
 		trigger = {
 			tag = ROM
-			has_completed_focus = ROM_resurrect_an_empire
+			# has_completed_focus = ROM_resurrect_an_empire
 		}
 
 		set_country_flag = SER_CONQ
@@ -4608,7 +4601,7 @@ country_event = { # Fate of Ukraine
 		}
 		set_temp_variable = { tag_to_release = UKR }
 		release_targeted_tag = yes
-		UKR = { UKR_remove_monarchy = yes }
+		# UKR = { UKR_remove_monarchy = yes }
 		if = {
 			limit = {
 				tag = GER
@@ -6925,7 +6918,7 @@ country_event = { # Fate of Turkey
 			NOT = {
 				AND = {
 					tag = ROM
-					has_completed_focus = ROM_resurrect_an_empire
+					# has_completed_focus = ROM_resurrect_an_empire
 				}
 			}
 		}
@@ -6941,7 +6934,7 @@ country_event = { # Fate of Turkey
 		name = annex.integrate
 		trigger = {
 			tag = ROM
-			has_completed_focus = ROM_resurrect_an_empire
+			# has_completed_focus = ROM_resurrect_an_empire
 		}
 
 		set_country_flag = TUR_CONQ

@@ -31,9 +31,6 @@ set_popularities = {
 add_ideas = {
 	partial_economic_mobilisation
 	one_party_dictatorship
-
-	VRS_war_devastation
-	VRS_resisting_unions
 }
 
 recruit_character = VRS_Viktor_Baydalakov

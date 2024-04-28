@@ -91,7 +91,6 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	BRA_political_instability
 	presidential_republic
 }
 

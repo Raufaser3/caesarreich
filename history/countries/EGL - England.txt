@@ -9,7 +9,6 @@ set_war_support = 0.70
 
 add_ideas = {
 	constitutional_monarchy
-  EGL_war_reparations
 }
 
 set_convoys = 250

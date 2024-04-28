@@ -2,6 +2,8 @@
 # Capitulation Events #
 #######################
 
+# TODO: implement
+
 add_namespace = country_capitulated
 
 # FROM is winner

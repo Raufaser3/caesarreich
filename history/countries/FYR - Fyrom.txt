@@ -11,7 +11,7 @@ set_research_slots = 3
 # clone of Yugoslavia
 #renamed to FYR by Legendary Kebab Remover
 #all rights reserved
-# whoever changes it back, I'll jump his ass
+# whoever changes it back, YOURE DONE
 
 #Fyrom tech
 set_technology = {

@@ -83,14 +83,6 @@ set_popularities = {
   valkist = 0
 }
 
-add_ideas = {
-	RAJ_poor_conditions
-	RAJ_poor_training
-	RAJ_colonial_administration
-	RAJ_anti_british
-	RAJ_princely_states
-}
-
 
 recruit_character = RAJ_Lord_Linlithgow
 recruit_character = RAJ_Ganga_Singh

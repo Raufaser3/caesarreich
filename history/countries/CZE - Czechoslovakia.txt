@@ -56,11 +56,6 @@ if = {
 }
 
 add_ideas = {
-	GEN_entente_member
-	CZE_suspended_democracy
-	CZE_memories_of_the_revolution
-	CZE_ethnic_tensions
-	
 	military_junta
 }	
 set_research_slots = 3

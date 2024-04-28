@@ -30,7 +30,6 @@ if = {
 }
 
 add_ideas = {
-	ALB_liberation_movement
 	constitutional_monarchy
 }
 

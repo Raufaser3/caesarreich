@@ -16,8 +16,6 @@ set_research_slots = 2
 
 add_ideas = {
 	absolute_monarchy
-  SAU_risen_from_ashes
-  SAU_the_ikhwan
 }
 
 set_politics = {
@@ -40,14 +38,6 @@ set_popularities = {
   national_populist = 8
   valkist = 0
 }
-
-country_event = { id = hejaz.20 days = 415 } # 1937 Hajj 
-country_event = { id = hejaz.20 days = 769 } # 1938 Hajj
-country_event = { id = hejaz.20 days = 1123 } # 1939 Hajj
-country_event = { id = hejaz.20 days = 1477 } # 1940 Hajj
-country_event = { id = hejaz.20 days = 1831 } # 1941 Hajj
-country_event = { id = hejaz.20 days = 2186 } # 1941 Hajj
-country_event = { id = hejaz.20 days = 2541 } # 1942 Hajj
 
 recruit_character = SAU_Saud_bin_Abdulaziz_al_Saud
 recruit_character = SAU_Rashid_bin_Abdulaziz_bin_Saud_bin_Mohammed_al_Saud

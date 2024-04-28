@@ -35,9 +35,6 @@ if = {
 }
 
 add_ideas = {
-	INS_war_for_insulindian_independence_idea
-	INS_non_existing_economy_idea
-	INS_political_instability_idea
 	presidential_republic
 }
 

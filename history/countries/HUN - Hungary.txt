@@ -76,9 +76,7 @@ set_popularities = {
 }
 
 add_ideas = {
-  hun_trianon
-  hun_economic_ruin
-  disarmed_nation
+	disarmed_nation
 	parliamentary_republic
 }
 

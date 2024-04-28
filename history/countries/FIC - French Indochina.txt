@@ -7,10 +7,6 @@ set_war_support = 0.20
 set_research_slots = 2
 
 add_ideas = {
-	FIC_colonial_exploitation
-	FIC_vietnamese_unrest
-	FIC_the_indochinese_apparatus
-	FIC_salt_opium_alcohol
 	colonial_government
 }
 

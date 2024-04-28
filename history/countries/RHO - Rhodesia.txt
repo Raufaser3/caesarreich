@@ -55,7 +55,6 @@ set_war_support = 0.55
 
 add_ideas = {
 	colonial_economy
-	ENG_statute_autonomy
 }
 
 

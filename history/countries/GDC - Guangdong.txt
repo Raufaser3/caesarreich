@@ -36,8 +36,6 @@ if = {
 #Events
 
 add_ideas = {
-	CHI_backwards_economy
-	CHI_illiterate_population
 	parliamentary_republic
 }
 

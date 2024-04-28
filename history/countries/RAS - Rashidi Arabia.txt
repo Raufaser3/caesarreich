@@ -18,8 +18,7 @@ set_war_support = 0.50
 
 add_ideas = {
 	absolute_monarchy
-  RAS_our_only_chance
-  RAS_desert_warriors
+
 }
 
 set_politics = {

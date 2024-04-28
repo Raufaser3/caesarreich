@@ -39,7 +39,6 @@ set_war_support = 0.72
 
 add_ideas = {
 	extensive_conscription
-	KNE_military_refugees
 	constitutional_monarchy
 }
 

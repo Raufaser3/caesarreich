@@ -117,10 +117,6 @@ if = {
 give_military_access = SPF
 
 add_ideas = {
-	SPR_SPM_SPF_SPA_spanish_civil_war_idea
-	SPM_internal_strifes_monarchist_movement_idea
-	SPR_SPM_SPF_SPA_prolonged_recession_idea
-	
 	extensive_conscription
 	low_economic_mobilisation
 	absolute_monarchy
@@ -152,16 +148,6 @@ add_coalition_paternal_autocrat = yes
 set_convoys = 150
 set_stability = 0.55
 set_war_support = 0.75
-
-declare_war_on = {
-	target = SPR
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = SPA
-	type = annex_everything
-}
 
 recruit_character = SPM_Alfonso_XIII
 recruit_character = SPM_Jose_Sanjurjo
@@ -209,5 +195,3 @@ activate_advisor = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade
 activate_advisor = SPM_Alberto_M_Artejo_Alvarez_for_ade
 activate_advisor = SPM_Jose_Calvo_Sotelo_eco_ade
 activate_advisor = SPM_Blas_Perez_Gonzalez_sec_ade
-
-set_country_flag = SPM_IN_CIVIL_WAR

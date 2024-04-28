@@ -1,6 +1,6 @@
 capital = 427
 
-oob = "00_default_templatedefault_template"
+oob = "00_default_template"
 
 # Starting tech
 set_technology = {

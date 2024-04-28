@@ -88,8 +88,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	COL_reparations_to_peru
-	COL_patria_revancha
 	presidential_republic
 }
 
@@ -205,5 +203,3 @@ activate_advisor = COL_Ruben_Piedrahita_Arango_hog_pau
 activate_advisor = COL_Julio_Cesar_Turbay_Ayala_for_pau
 activate_advisor = COL_Gabriel_Paris_Gordillo_eco_pau
 activate_advisor = COL_Alfredo_Vazquez_Carrizosa_sec_pau
-
-country_event = { days = 1 id = col.2 }

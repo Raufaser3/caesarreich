@@ -6,8 +6,6 @@ set_research_slots = 4
 
 add_ideas = {
 	civilian_economy
-	ENG_war_fatigue
-	UOB_revo_recov
 	workers_republic
 }
 

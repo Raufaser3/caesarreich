@@ -26,8 +26,6 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-
-	SRA_our_right_to_survive
 	revolutionary_movement
 }
 

@@ -597,15 +597,15 @@ country_event = { # Fate of Ethiopia
 		set_temp_variable = { tag_to_release = ETH }
 		release_targeted_tag = yes
 
-		if = {
-			limit = {
-				ROOT = { tag = ITA }
-			}
-			ITA_create_east_africa = yes
-		}
-		else = {
-			ITA_remove_east_africa = yes
-		}
+		# if = {
+		# 	limit = {
+		# 		ROOT = { tag = ITA }
+		# 	}
+		# 	ITA_create_east_africa = yes
+		# }
+		# else = {
+		# 	ITA_remove_east_africa = yes
+		# }
 	}
 
 	option = { # Occupy

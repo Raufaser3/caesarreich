@@ -57,18 +57,11 @@ set_convoys = 25
 
 add_manpower = 50000
 
-# country_event = { id = finland.0 days = 2 } # Intro event
-country_event = { id = finland.3 days = 254 } # London crash event
 
 
 add_ideas = {
 	limited_conscription
 	parliamentary_republic
-	
-	FIN_finland_marches_on_idea
-	FIN_agrarian_society_idea
-	FIN_legacy_civil_war_idea
-	FIN_silver_decade_idea
 }
 
 add_coalition_market_liberal = yes 
@@ -272,8 +265,3 @@ activate_advisor = FIN_Juho_Sunila_hog_sli
 activate_advisor = FIN_Eljas_Erkko_for_mli
 activate_advisor = FIN_Albin_Manner_eco_sli
 activate_advisor = FIN_Urho_Castren_sec_sco
-
-add_to_array = { FIN_char_ideologies = token:social_democrat_subtype }
-add_to_array = { FIN_char_ideologies = token:social_liberal_subtype }
-add_to_array = { FIN_char_ideologies = token:market_liberal_subtype }
-add_to_array = { FIN_char_ideologies = token:social_conservative_subtype }

@@ -64,12 +64,6 @@ if = {
 
 add_ideas = {
 	limited_conscription
-	FNG_political_reform
-	FNG_antijapanese_sentiment
-	FNG_warlord_ubiquity
-  CHI_backwards_economy
-	CHI_illiterate_population
-
 	military_junta
 }
 
@@ -100,10 +94,6 @@ set_popularities = {
 
 KMT = { embargo_ROOT = yes }
 ZHI = { embargo_ROOT = yes }
-
-set_variable = { FNG_fengtian_influence_with_japan = 0 }
-country_event = { id = man.48 days = 6 }
-country_event = { id = man.82 days = 4 }
 
 recruit_character = FNG_Tang_Hualong
 recruit_character = FNG_Tang_Shaoyi

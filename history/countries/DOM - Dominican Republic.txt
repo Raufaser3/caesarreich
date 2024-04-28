@@ -6,8 +6,6 @@ set_convoys = 5
 set_stability = 0.77
 set_war_support = 0.23
 
-set_country_flag = monroe_doctrine
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

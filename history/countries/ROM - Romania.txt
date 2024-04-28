@@ -82,9 +82,6 @@ if = {
 
 
 add_ideas = {
-	GEN_entente_member
-	ROM_the_iron_guard
-	ROM_economic_modernization
 	constitutional_monarchy
 }
 
@@ -110,13 +107,6 @@ set_popularities = {
   national_populist = 3
   valkist = 15
 }
-
-# country_event = { id = romania.0 days = 1 } # Intro
-country_event = { id = romania.1 days = 14 } # Appointing a Regent
-country_event = { id = romania.5 days = 30 } # Tensions in Translyvania
-country_event = { id = romania.18 days = 80 } # North Railway Station Fire
-country_event = { id = romania.19 days = 280 } # Troops Deployment
-country_event = { id = romania.2 days = 663 } # Coronation of King Michael
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }

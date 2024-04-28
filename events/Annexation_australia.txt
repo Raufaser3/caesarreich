@@ -88,11 +88,11 @@ country_event = { # Fate of Australia
 			limit = { tag = ENG }
 			AST = {
 				set_cosmetic_tag = AST_ENG
-				AST_remove_republic = yes
+				# AST_remove_republic = yes
 			}
 		}
 		else = {
-			AST = { AST_become_republic = yes }
+			# AST = { AST_become_republic = yes }
 		}
 	}
 
@@ -171,11 +171,11 @@ country_event = { # Fate of New Zealand
 			limit = { tag = ENG }
 			NZL = {
 				set_cosmetic_tag = NZL_ENG
-				NZL_remove_republic = yes
+				# NZL_remove_republic = yes
 			}
 		}
 		else = {
-			NZL = { NZL_become_republic = yes }
+			# NZL = { NZL_become_republic = yes }
 		}
 	}
 
