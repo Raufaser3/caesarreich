@@ -22,7 +22,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Jack_Reed_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_red_chairmen
 			}
 		}
@@ -165,7 +165,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Earl_Warren_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -193,7 +193,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Harold_Stassen_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -221,7 +221,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_W_Bricker_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -253,7 +253,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Quentin_Roosevelt_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -280,7 +280,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Quentin_Roosevelt_II_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -308,7 +308,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Thomas_Dewey_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_old_compromiser
 			}
 		}
@@ -335,7 +335,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_L_McNary_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_old_general
 			}
 		}
@@ -362,7 +362,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Adlai_Stevenson_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -376,7 +376,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marlib_centrist_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -394,7 +394,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Curtis_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -422,7 +422,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Alben_W_Barkley_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -440,7 +440,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -470,7 +470,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Dwight_D_Eisenhower_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_reformist_soldier
 			}
 		}
@@ -506,7 +506,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Alf_Landon_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_smiling_oilman
 			}
 		}
@@ -534,7 +534,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Harry_Truman_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -561,7 +561,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_James_E_Murray_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -589,7 +589,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Wendell_Willkie_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_old_compromiser
 			}
 		}
@@ -616,7 +616,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_William_Averell_Harriman_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -895,7 +895,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Eugene_Dennis_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_relations_expert
 			}
 		}
@@ -1014,7 +1014,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Henry_Lewis_Stimson_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_Bassett_Moore_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -1068,7 +1068,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Cordell_Hull_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -1095,7 +1095,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Henry_Morgenthau_Jr_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -1257,7 +1257,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Paul_Mattick_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1338,7 +1338,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Edison_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_mixed_economy
 			}
 		}
@@ -1365,7 +1365,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Alfred_Emanuel_Smith_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -1392,7 +1392,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Daniel_Calhoun_Roper_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_theoretical_scientist
 			}
 		}
@@ -1523,7 +1523,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_John_Abt_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1604,7 +1604,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Douglas_Jackson_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1631,7 +1631,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Charles_Evans_Hughes_Sr_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1658,7 +1658,7 @@ characters = {
 				ROOT = { clr_country_flag = USA_Robert_Ferdinand_Wagner_I_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_driven_recruiter
 			}
 		}
@@ -2536,7 +2536,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -2548,7 +2548,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -2560,7 +2560,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -2572,7 +2572,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}

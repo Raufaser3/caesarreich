@@ -37,8 +37,8 @@ defined_text = { # Country
 		trigger = {
 			tag = GRE
 			OR = {
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 		localization_key = newspaper_rizospastis
@@ -48,8 +48,8 @@ defined_text = { # Country
 			tag = GRE
 			AND = {
 				OR = {
-					has_government = national_populist
-					has_government = valkist
+					has_government = ultranationalist
+					has_government = esoteric_nationalist
 				}
 				NOT = {
 					# has_completed_focus = GRE_eee

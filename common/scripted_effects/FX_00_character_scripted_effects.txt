@@ -10,13 +10,13 @@ add_each_ideology_to_array = {
 	add_to_array = { global.subideologies_array = token:hardliner_bolshevism_subtype }
 	add_to_array = { global.subideologies_array = token:red_junta_subtype }
 	add_to_array = { global.subideologies_array = token:socialist_security_state_subtype }
-	# Collectivists
-	add_to_array = { global.subideologies_array = token:collectivist_subtype }
+	# utopian_socialists
+	add_to_array = { global.subideologies_array = token:utopian_socialist_subtype }
 	add_to_array = { global.subideologies_array = token:monsoc_subtype }
 	add_to_array = { global.subideologies_array = token:leninism_subtype }
 	add_to_array = { global.subideologies_array = token:anarchism_subtype }
 	# Libertarian Socialists
-	add_to_array = { global.subideologies_array = token:libertarian_socialist_subtype }
+	add_to_array = { global.subideologies_array = token:revolutionary_socialist_subtype }
 	add_to_array = { global.subideologies_array = token:socialist_feminist_subtype }
 	add_to_array = { global.subideologies_array = token:libsoc_utopian_socialism_subtype }
 	add_to_array = { global.subideologies_array = token:anarcho_syndicalism_subtype }
@@ -32,12 +32,12 @@ add_each_ideology_to_array = {
 	add_to_array = { global.subideologies_array = token:socdem_christian_socialism_subtype }
 	add_to_array = { global.subideologies_array = token:socdem_christian_democracy_subtype }
 	# Social Liberals
-	add_to_array = { global.subideologies_array = token:social_liberal_subtype }
+	add_to_array = { global.subideologies_array = token:liberal_subtype }
 	add_to_array = { global.subideologies_array = token:centrist_subtype }
 	add_to_array = { global.subideologies_array = token:radical_liberalism_subtype }
 	add_to_array = { global.subideologies_array = token:venizelism_subtype }
 	# Market Liberals
-	add_to_array = { global.subideologies_array = token:market_liberal_subtype }
+	add_to_array = { global.subideologies_array = token:liberal_subtype }
 	add_to_array = { global.subideologies_array = token:marlib_centrist_subtype }
 	add_to_array = { global.subideologies_array = token:marlib_classical_liberalism_subtype }
 	add_to_array = { global.subideologies_array = token:liberal_conservative_subtype }
@@ -83,7 +83,7 @@ add_each_ideology_to_array = {
 	add_to_array = { global.subideologies_array = token:theocracy_subtype }
 	add_to_array = { global.subideologies_array = token:pataut_metaxism_subtype }
 	# National Populists
-	add_to_array = { global.subideologies_array = token:national_populist_subtype }
+	add_to_array = { global.subideologies_array = token:ultranationalist_subtype }
 	add_to_array = { global.subideologies_array = token:statist_showaist_subtype }
 	add_to_array = { global.subideologies_array = token:legionarism_subtype }
 	add_to_array = { global.subideologies_array = token:integralism_subtype }
@@ -91,8 +91,8 @@ add_each_ideology_to_array = {
 	add_to_array = { global.subideologies_array = token:ukrainian_national_integralism_subtype }
 	add_to_array = { global.subideologies_array = token:falangism_subtype }
 	add_to_array = { global.subideologies_array = token:metaxism_subtype }
-	# Valkist
-	add_to_array = { global.subideologies_array = token:valkist_subtype }
+	# esoteric_nationalist
+	add_to_array = { global.subideologies_array = token:esoteric_nationalist_subtype }
 	add_to_array = { global.subideologies_array = token:panasian_nichirenist_subtype }
 	add_to_array = { global.subideologies_array = token:occultism_subtype }
 	add_to_array = { global.subideologies_array = token:val_legionarism_subtype }

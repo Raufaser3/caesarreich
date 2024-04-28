@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_relations_expert
 			}
 		}
@@ -59,7 +59,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -78,7 +78,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Elvia_Carrillo_Puerto_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +110,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Felipe_Carrillo_Puerto_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -220,7 +220,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Alfredo_Barrera_Vasquez_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -247,7 +247,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Arturo_Campillo_Seyde_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -274,7 +274,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Carlos_R_Menendez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_local_tyrant
 			}
 		}
@@ -288,7 +288,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -306,7 +306,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -325,7 +325,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_military_entrepreneur
 			}
 		}
@@ -344,7 +344,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Gustavo_Arce_Correa_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_preserver_of_culture
 			}
 		}
@@ -491,7 +491,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 		}
 	}
 	CRU_Francisco_May_Pech = {
@@ -507,7 +507,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -533,7 +533,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Francisco_May_Pech_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_respected_war_hero
 			}
 		}
@@ -576,7 +576,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Alma_Marie_Sullivan_Reed_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_ideological_crusader
 			}
 		}
@@ -603,7 +603,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Jose_Clemente_Orozco_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_foreign_sympathizer
 			}
 		}
@@ -722,7 +722,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -741,7 +741,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrialiser
 			}
 		}
@@ -760,7 +760,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Miguel_Alonzo_Romero_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -787,7 +787,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Roberto_Reyes_Barreiro_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -814,7 +814,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Nicolas_Camara_Vales_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -833,7 +833,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Nicolas_Camara_Vales_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Rodolfo_Menendez_Mena_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_hawkish_intervener
 			}
 		}
@@ -879,7 +879,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Rodolfo_Menendez_Mena_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}
@@ -906,7 +906,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Raquel_Dzib_Cicero_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1014,7 +1014,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Mauro_Graciano_Ricalde_Gamboa_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1041,7 +1041,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Ricardo_Lopez_Mendez_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_keynesian_economy
 			}
 		}
@@ -1060,7 +1060,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Ricardo_Lopez_Mendez_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}
@@ -1087,7 +1087,7 @@ characters = {
 				ROOT = { clr_country_flag = CRU_Maria_Rosa_Torre_Gonzalez_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_health_and_safety
 			}
 		}

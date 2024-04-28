@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Antonio_Gramsci_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -85,7 +85,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Nenni_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_political_protege
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Matteotti_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -191,7 +191,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -209,7 +209,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ferruccio_Parri_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -237,7 +237,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ivanoe_Bonomi_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -264,7 +264,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Einaudi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -419,7 +419,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Italo_Balbo_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_old_general
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giovanni_Giuriati_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_determined_populist
 			}
 		}
@@ -468,7 +468,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -486,7 +486,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Gabrielle_D_Annunzio_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_underground_figurehead
 			}
 		}
@@ -540,7 +540,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vincenzo_Vacirca_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_biased_intellectual
 			}
 		}
@@ -567,7 +567,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Altiero_Spinelli_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -675,7 +675,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Manlio_Brosio_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -784,7 +784,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Dino_Alfieri_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_relations_expert
 			}
 		}
@@ -811,7 +811,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Acerbo_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_radical_among_moderates
 			}
 		}
@@ -866,7 +866,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Alceste_De_Ambris_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_planned_economy_proponent
 			}
 		}
@@ -893,7 +893,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Achille_Grandi_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_reformer
 			}
 		}
@@ -974,7 +974,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Piero_Calamandrei_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_administrative_genius
 			}
 		}
@@ -1001,7 +1001,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Marcello_Soleri_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_infantry_proponent
 			}
 		}
@@ -1015,7 +1015,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1114,7 +1114,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giuseppe_Volpi_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_industrial_chemist
 			}
 		}
@@ -1142,7 +1142,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Edmondo_Rossoni_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_steel_magnate
 			}
 		}
@@ -1196,7 +1196,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vittorio_Vidali_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1223,7 +1223,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1277,7 +1277,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Mastino_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1385,7 +1385,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Alessandro_Pavolini_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_secret_police_chief
 			}
 		}
@@ -1412,7 +1412,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Razza_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_preserver_of_culture
 			}
 		}
@@ -1633,11 +1633,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { ITA_soldier_king }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
@@ -1823,7 +1819,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}

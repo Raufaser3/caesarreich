@@ -1727,7 +1727,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = generictemp_collectivist_ethos_kr
+		id = generictemp_utopian_socialist_ethos_kr
 		icon = GFX_goal_generictemp_national_unity #icon = GFX_goal_tripartite_pact
 
 		prerequisite = { focus = generictemp_political_effort }
@@ -1741,7 +1741,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus generictemp_collectivist_ethos_kr"
+			log = "[GetDateText]: [Root.GetName]: Focus generictemp_utopian_socialist_ethos_kr"
 
 			add_stability = 0.05
 
@@ -1759,14 +1759,14 @@ focus_tree = {
 
 				has_government = vanguardist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = ultranationalist
 
 			}
 
 		}
 
 		prerequisite = { focus = generictemp_political_effort }
-		mutually_exclusive = { focus = generictemp_collectivist_ethos_kr }
+		mutually_exclusive = { focus = generictemp_utopian_socialist_ethos_kr }
 
 		x = 23
 		y = 1
@@ -1787,7 +1787,7 @@ focus_tree = {
 		id = generictemp_militarism
 		icon = GFX_goal_generictemp_political_pressure
 
-		prerequisite = { focus = generictemp_collectivist_ethos_kr }
+		prerequisite = { focus = generictemp_utopian_socialist_ethos_kr }
 		x = 21
 		y = 2
 		cost = 10

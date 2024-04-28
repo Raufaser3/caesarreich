@@ -101,10 +101,10 @@ set_stability = 0.53
 set_war_support = 0.1
 
 
-add_coalition_libertarian_socialist = yes 
+add_coalition_revolutionary_socialist = yes 
 add_coalition_vanguardist = yes 
 set_politics = {	
-	ruling_party = collectivist
+	ruling_party = utopian_socialist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -112,16 +112,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 15
-  collectivist = 50
-  libertarian_socialist = 26
+  utopian_socialist = 50
+  revolutionary_socialist = 26
   social_democrat = 8
-  social_liberal = 1
-  market_liberal = 0
+  liberal = 1
+  liberal = 0
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 0
-  valkist = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
 }
 
 create_faction = 3rd_international

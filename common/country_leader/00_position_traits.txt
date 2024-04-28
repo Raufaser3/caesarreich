@@ -34,15 +34,14 @@ leader_traits = {
 #####################
 
 	vanguardist = {}
-	libertarian_socialist = {}
-	collectivist = {}
+	revolutionary_socialist = {}
+	utopian_socialist = {}
 	social_democrat = {}
-	social_liberal = {}
-	market_liberal = {}
+	liberal = {}
 	social_conservative = {}
 	authoritarian_democrat = {}
 	paternal_autocrat = {}
-	national_populist = {}
-	valkist = {}
+	ultranationalist = {}
+	esoteric_nationalist = {}
 
 }

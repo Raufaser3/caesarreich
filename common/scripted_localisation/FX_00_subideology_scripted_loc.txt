@@ -8,9 +8,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_socialism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = national_socialism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -98,9 +98,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_centrist_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_centrist_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -206,9 +206,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_classical_liberalism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -248,9 +248,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_conservative_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = liberal_conservative_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -314,9 +314,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_venizelism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_venizelism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -469,15 +469,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = collectivist_subtype
+			has_country_leader_ideology = utopian_socialist_subtype
 		}
-		localization_key = collectivist
+		localization_key = utopian_socialist
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = revolutionary_socialist_subtype
 		}
-		localization_key = libertarian_socialist
+		localization_key = revolutionary_socialist
 	}
 	text = {
 		trigger = {
@@ -487,15 +487,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
-		}
-		localization_key = market_liberal
+		localization_key = liberal
 	}
 	text = {
 		trigger = {
@@ -517,22 +511,22 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = ultranationalist_subtype
 		}
-		localization_key = national_populist
+		localization_key = ultranationalist
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = esoteric_nationalist_subtype
 		}
-		localization_key = valkist
+		localization_key = esoteric_nationalist
 	}
 
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_socialism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = national_socialism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -608,9 +602,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_centrist_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_centrist_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -716,9 +710,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_classical_liberalism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -758,9 +752,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_conservative_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = liberal_conservative_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -824,9 +818,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_venizelism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_venizelism_subtype
+		localization_key = liberal_subtype
 	}
 	text = {
 		trigger = {
@@ -979,9 +973,9 @@ defined_text = {
 	name = GetRulingIdeologySubtypeDesc
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_socialism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = national_socialism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1057,9 +1051,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_centrist_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_centrist_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1165,9 +1159,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_classical_liberalism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1213,9 +1207,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_conservative_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = liberal_conservative_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1279,9 +1273,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_venizelism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_venizelism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1441,15 +1435,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = collectivist_subtype
+			has_country_leader_ideology = utopian_socialist_subtype
 		}
-		localization_key = collectivist_subtype_desc
+		localization_key = utopian_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = revolutionary_socialist_subtype
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = revolutionary_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1459,15 +1453,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1489,21 +1483,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = esoteric_nationalist_subtype
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = esoteric_nationalist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = ultranationalist_subtype
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = ultranationalist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_socialism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = national_socialism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1579,9 +1573,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_centrist_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_centrist_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1687,9 +1681,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_classical_liberalism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1735,9 +1729,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_conservative_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = liberal_conservative_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1801,9 +1795,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_venizelism_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = marlib_venizelism_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1975,18 +1969,18 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = collectivist_subtype
+				has_country_leader_ideology = utopian_socialist_subtype
 				has_country_leader_ideology = monsoc_subtype
 				has_country_leader_ideology = leninism_subtype
 				has_country_leader_ideology = anarchism_subtype
 			}
 		}
-		localization_key = collectivist_color
+		localization_key = utopian_socialist_color
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = libertarian_socialist_subtype
+				has_country_leader_ideology = revolutionary_socialist_subtype
 				has_country_leader_ideology = socialist_feminist_subtype
 				has_country_leader_ideology = libsoc_utopian_socialism_subtype
 				has_country_leader_ideology = anarcho_syndicalism_subtype
@@ -1995,7 +1989,7 @@ defined_text = {
 				has_country_leader_ideology = moderate_socialist_subtype
 			}
 		}
-		localization_key = libertarian_socialist_color
+		localization_key = revolutionary_socialist_color
 	}
 	text = {
 		trigger = {
@@ -2014,26 +2008,26 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = social_liberal_subtype
+				has_country_leader_ideology = liberal_subtype
 				has_country_leader_ideology = centrist_subtype
 				has_country_leader_ideology = radical_liberalism_subtype
 				has_country_leader_ideology = venizelism_subtype
-				has_country_leader_ideology = national_socialism_subtype
+				has_country_leader_ideology = liberal_subtype
 			}
 		}
-		localization_key = social_liberal_color
+		localization_key = liberal_color
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = market_liberal_subtype
-				has_country_leader_ideology = marlib_centrist_subtype
-				has_country_leader_ideology = marlib_classical_liberalism_subtype
-				has_country_leader_ideology = liberal_conservative_subtype
-				has_country_leader_ideology = marlib_venizelism_subtype
+				has_country_leader_ideology = liberal_subtype
+				has_country_leader_ideology = liberal_subtype
+				has_country_leader_ideology = liberal_subtype
+				has_country_leader_ideology = liberal_subtype
+				has_country_leader_ideology = liberal_subtype
 			}
 		}
-		localization_key = market_liberal_color
+		localization_key = liberal_color
 	}
 	text = {
 		trigger = {
@@ -2095,7 +2089,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = national_populist_subtype
+				has_country_leader_ideology = ultranationalist_subtype
 				has_country_leader_ideology = statist_showaist_subtype	
 				has_country_leader_ideology = legionarism_subtype
 				has_country_leader_ideology = integralism_subtype
@@ -2104,12 +2098,12 @@ defined_text = {
 				has_country_leader_ideology = metaxism_subtype
 			}
 		}
-		localization_key = national_populist_color
+		localization_key = ultranationalist_color
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = valkist_subtype
+				has_country_leader_ideology = esoteric_nationalist_subtype
 				has_country_leader_ideology = panasian_nichirenist_subtype
 				has_country_leader_ideology = occultism_subtype
 				has_country_leader_ideology = val_legionarism_subtype
@@ -2118,7 +2112,7 @@ defined_text = {
 				has_country_leader_ideology = mercourism_subtype
 			}
 		}
-		localization_key = valkist_color
+		localization_key = esoteric_nationalist_color
 	}
 }
 
@@ -2132,15 +2126,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = collectivist_subtype
+			has_country_leader_ideology = utopian_socialist_subtype
 		}
-		localization_key = collectivist_subtype_desc
+		localization_key = utopian_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = revolutionary_socialist_subtype
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = revolutionary_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -2150,15 +2144,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = liberal_subtype
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -2180,14 +2174,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = ultranationalist_subtype
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = ultranationalist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = valkist_subtype
+			has_country_leader_ideology = esoteric_nationalist_subtype
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = esoteric_nationalist_subtype_desc
 	}
 }

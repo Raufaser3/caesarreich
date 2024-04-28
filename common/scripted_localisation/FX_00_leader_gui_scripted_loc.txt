@@ -140,7 +140,7 @@ defined_text = {
 # 	# text = {
 # 	# 	trigger = {
 # 	# 		tag = LIB
-# 	# 		has_government = national_populist
+# 	# 		has_government = ultranationalist
 # 	# 	}
 # 	# 	localization_key = MASON_TRAIT
 # 	# }
@@ -212,7 +212,7 @@ defined_text = {
 			OR = {
 				has_government = social_democrat
 				has_government = social_conservative
-				has_government = national_populist
+				has_government = ultranationalist
 			}
 		}
 		localization_key = PM_OR_LEADER
@@ -369,7 +369,7 @@ defined_text = {
 			OR = {
 				has_government = social_democrat
 				has_government = social_conservative
-				has_government = national_populist
+				has_government = ultranationalist
 			}
 		}
 		localization_key = PM_OR_LEADER2

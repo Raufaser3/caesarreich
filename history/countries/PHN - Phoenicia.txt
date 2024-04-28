@@ -82,16 +82,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 1
-  collectivist = 2
-  libertarian_socialist = 1
+  utopian_socialist = 2
+  revolutionary_socialist = 1
   social_democrat = 30
-  social_liberal = 0
-  market_liberal = 10
+  liberal = 0
+  liberal = 10
   social_conservative = 45
   authoritarian_democrat = 10
   paternal_autocrat = 0
-  national_populist = 1
-  valkist = 0
+  ultranationalist = 1
+  esoteric_nationalist = 0
 }
 recruit_character = PHN_Emile_Edde
 

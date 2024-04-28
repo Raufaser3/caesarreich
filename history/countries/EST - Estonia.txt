@@ -32,7 +32,7 @@ if = {
 }
 
 add_coalition_social_conservative = yes 
-add_coalition_market_liberal = yes 
+add_coalition_liberal = yes 
 
 set_politics = {	
 	ruling_party = authoritarian_democrat
@@ -43,16 +43,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 1
-  social_liberal = 7
-  market_liberal = 2
+  liberal = 7
+  liberal = 2
   social_conservative = 12
   authoritarian_democrat = 35
   paternal_autocrat = 2
-  national_populist = 41
-  valkist = 0
+  ultranationalist = 41
+  esoteric_nationalist = 0
 }
 
 add_ideas = {

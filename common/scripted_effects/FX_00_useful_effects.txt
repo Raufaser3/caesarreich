@@ -157,24 +157,20 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = vanguardist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = collectivist } }
-		set_politics = { ruling_party = collectivist elections_allowed = no }
+		limit = { ROOT = { has_government = utopian_socialist } }
+		set_politics = { ruling_party = utopian_socialist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = libertarian_socialist } }
-		set_politics = { ruling_party = libertarian_socialist elections_allowed = no }
+		limit = { ROOT = { has_government = revolutionary_socialist } }
+		set_politics = { ruling_party = revolutionary_socialist elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = social_democrat } }
 		set_politics = { ruling_party = social_democrat elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = social_liberal } }
-		set_politics = { ruling_party = social_liberal elections_allowed = no }
-	}
-	if = {
-		limit = { ROOT = { has_government = market_liberal } }
-		set_politics = { ruling_party = market_liberal elections_allowed = no }
+		limit = { ROOT = { has_government = liberal } }
+		set_politics = { ruling_party = liberal elections_allowed = no }
 	}
 	if = {
 		limit = { ROOT = { has_government = social_conservative } }
@@ -189,12 +185,12 @@ copy_government_of_ROOT = {
 		set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = national_populist } }
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		limit = { ROOT = { has_government = ultranationalist } }
+		set_politics = { ruling_party = ultranationalist elections_allowed = no }
 	}
 	if = {
-		limit = { ROOT = { has_government = valkist } }
-		set_politics = { ruling_party = valkist elections_allowed = no }
+		limit = { ROOT = { has_government = esoteric_nationalist } }
+		set_politics = { ruling_party = esoteric_nationalist elections_allowed = no }
 	}
 }
 
@@ -341,37 +337,35 @@ copy_government_idea_of_ROOT = {
 # use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
 # and then the second, also in the scope of the puppet, right after
 get_current_government_type = {
-	clr_country_flag = was_libertarian_socialist
-	clr_country_flag = was_collectivist
+	clr_country_flag = was_revolutionary_socialist
+	clr_country_flag = was_utopian_socialist
 	clr_country_flag = was_vanguardist
 	clr_country_flag = was_social_democrat
-	clr_country_flag = was_social_liberal
-	clr_country_flag = was_market_liberal
+	clr_country_flag = was_liberal
 	clr_country_flag = was_social_conservative
 	clr_country_flag = was_authoritarian_democrat
 	clr_country_flag = was_paternal_autocrat
-	clr_country_flag = was_national_populist
-	clr_country_flag = was_valkist
+	clr_country_flag = was_ultranationalist
+	clr_country_flag = was_esoteric_nationalist
 
-	set_variable = { var = libsoc value = party_popularity@libertarian_socialist }
-	set_variable = { var = collie value = party_popularity@collectivist }
+	set_variable = { var = libsoc value = party_popularity@revolutionary_socialist }
+	set_variable = { var = utosoc value = party_popularity@utopian_socialist }
 	set_variable = { var = vang value = party_popularity@vanguardist }
 	set_variable = { var = socdem value = party_popularity@social_democrat }
-	set_variable = { var = soclib value = party_popularity@social_liberal }
-	set_variable = { var = marklib value = party_popularity@market_liberal }
+	set_variable = { var = liberal value = party_popularity@liberal }
 	set_variable = { var = soccon value = party_popularity@social_conservative }
 	set_variable = { var = authdem value = party_popularity@authoritarian_democrat }
 	set_variable = { var = pataut value = party_popularity@paternal_autocrat }
-	set_variable = { var = natpop value = party_popularity@national_populist }
-	set_variable = { var = valk value = party_popularity@valkist }
+	set_variable = { var = ultranat value = party_popularity@ultranationalist }
+	set_variable = { var = valk value = party_popularity@esoteric_nationalist }
 
 	if = {
-		limit = { has_government = libertarian_socialist }
-		set_country_flag = was_libertarian_socialist
+		limit = { has_government = revolutionary_socialist }
+		set_country_flag = was_revolutionary_socialist
 	}
 	if = {
-		limit = { has_government = collectivist }
-		set_country_flag = was_collectivist
+		limit = { has_government = utopian_socialist }
+		set_country_flag = was_utopian_socialist
 	}
 	if = {
 		limit = { has_government = vanguardist }
@@ -382,12 +376,8 @@ get_current_government_type = {
 		set_country_flag = was_social_democrat
 	}
 	if = {
-		limit = { has_government = social_liberal }
-		set_country_flag = was_social_liberal
-	}
-	if = {
-		limit = { has_government = market_liberal }
-		set_country_flag = was_market_liberal
+		limit = { has_government = liberal }
+		set_country_flag = was_liberal
 	}
 	if = {
 		limit = { has_government = social_conservative }
@@ -402,24 +392,24 @@ get_current_government_type = {
 		set_country_flag = was_paternal_autocrat
 	}
 	if = {
-		limit = { has_government = national_populist }
-		set_country_flag = was_national_populist
+		limit = { has_government = ultranationalist }
+		set_country_flag = was_ultranationalist
 	}
 	if = {
-		limit = { has_government = valkist }
-		set_country_flag = was_valkist
+		limit = { has_government = esoteric_nationalist }
+		set_country_flag = was_esoteric_nationalist
 	}
 }
 
 restore_previous_government_type = {
 	hidden_effect = {
 		if = {
-			limit = { has_country_flag = was_libertarian_socialist }
-			set_politics = { ruling_party = libertarian_socialist }
+			limit = { has_country_flag = was_revolutionary_socialist }
+			set_politics = { ruling_party = revolutionary_socialist }
 		}
 		if = {
-			limit = { has_country_flag = was_collectivist }
-			set_politics = { ruling_party = collectivist }
+			limit = { has_country_flag = was_utopian_socialist }
+			set_politics = { ruling_party = utopian_socialist }
 		}
 		if = {
 			limit = { has_country_flag = was_vanguardist }
@@ -430,12 +420,8 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = social_democrat }
 		}
 		if = {
-			limit = { has_country_flag = was_social_liberal }
-			set_politics = { ruling_party = social_liberal }
-		}
-		if = {
-			limit = { has_country_flag = was_market_liberal }
-			set_politics = { ruling_party = market_liberal }
+			limit = { has_country_flag = was_liberal }
+			set_politics = { ruling_party = liberal }
 		}
 		if = {
 			limit = { has_country_flag = was_social_conservative }
@@ -450,46 +436,44 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = paternal_autocrat }
 		}
 		if = {
-			limit = { has_country_flag = was_national_populist }
-			set_politics = { ruling_party = national_populist }
+			limit = { has_country_flag = was_ultranationalist }
+			set_politics = { ruling_party = ultranationalist }
 		}
 		if = {
-			limit = { has_country_flag = was_valkist }
-			set_politics = { ruling_party = valkist }
+			limit = { has_country_flag = was_esoteric_nationalist }
+			set_politics = { ruling_party = esoteric_nationalist }
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = -1.0 }
-		add_popularity = { ideology = libertarian_socialist popularity = libsoc }
-		add_popularity = { ideology = collectivist popularity = -1.0 }
-		add_popularity = { ideology = collectivist popularity = collie }
+		add_popularity = { ideology = revolutionary_socialist popularity = -1.0 }
+		add_popularity = { ideology = revolutionary_socialist popularity = libsoc }
+		add_popularity = { ideology = utopian_socialist popularity = -1.0 }
+		add_popularity = { ideology = utopian_socialist popularity = utosoc }
 		add_popularity = { ideology = vanguardist popularity = -1.0 }
 		add_popularity = { ideology = vanguardist popularity = vang }
 		add_popularity = { ideology = social_democrat popularity = -1.0 }
 		add_popularity = { ideology = social_democrat popularity = socdem }
-		add_popularity = { ideology = social_liberal popularity = -1.0 }
-		add_popularity = { ideology = social_liberal popularity = soclib }
-		add_popularity = { ideology = market_liberal popularity = -1.0 }
-		add_popularity = { ideology = market_liberal popularity = marklib }
+		add_popularity = { ideology = liberal popularity = -1.0 }
+		add_popularity = { ideology = liberal popularity = liberal }
 		add_popularity = { ideology = social_conservative popularity = -1.0 }
 		add_popularity = { ideology = social_conservative popularity = soccon }
 		add_popularity = { ideology = authoritarian_democrat popularity = -1.0 }
 		add_popularity = { ideology = authoritarian_democrat popularity = authdem }
 		add_popularity = { ideology = paternal_autocrat popularity = -1.0 }
 		add_popularity = { ideology = paternal_autocrat popularity = pataut }
-		add_popularity = { ideology = national_populist popularity = -1.0 }
-		add_popularity = { ideology = national_populist popularity = natpop }
-		add_popularity = { ideology = valkist popularity = -1.0 }
-		add_popularity = { ideology = valkist popularity = valk }
+		add_popularity = { ideology = ultranationalist popularity = -1.0 }
+		add_popularity = { ideology = ultranationalist popularity = ultranat }
+		add_popularity = { ideology = esoteric_nationalist popularity = -1.0 }
+		add_popularity = { ideology = esoteric_nationalist popularity = valk }
 
 		clear_variable = libsoc
-		clear_variable = collie
+		clear_variable = utosoc
 		clear_variable = valk
 		clear_variable = socdem
-		clear_variable = soclib
+		clear_variable = liberal
 		clear_variable = marklib
 		clear_variable = soccon
 		clear_variable = authdem
 		clear_variable = pataut
-		clear_variable = natpop
+		clear_variable = ultranat
 		clear_variable = valk
 	}
 }
@@ -708,16 +692,15 @@ copy_popularities_of_ROOT = {
 	hidden_effect = {
 		set_popularities = {
 			vanguardist = ROOT.party_popularity_100@vanguardist
-			collectivist = ROOT.party_popularity_100@collectivist
-			libertarian_socialist = ROOT.party_popularity_100@libertarian_socialist
+			utopian_socialist = ROOT.party_popularity_100@utopian_socialist
+			revolutionary_socialist = ROOT.party_popularity_100@revolutionary_socialist
 			social_democrat = ROOT.party_popularity_100@social_democrat
-			social_liberal = ROOT.party_popularity_100@social_liberal
-			market_liberal = ROOT.party_popularity_100@market_liberal
+			liberal = ROOT.party_popularity_100@liberal
 			social_conservative = ROOT.party_popularity_100@social_conservative
 			authoritarian_democrat = ROOT.party_popularity_100@authoritarian_democrat
 			paternal_autocrat = ROOT.party_popularity_100@paternal_autocrat
-			national_populist = ROOT.party_popularity_100@national_populist
-			valkist = ROOT.party_popularity_100@valkist
+			ultranationalist = ROOT.party_popularity_100@ultranationalist
+			esoteric_nationalist = ROOT.party_popularity_100@esoteric_nationalist
 		}
 	}
 }
@@ -5111,25 +5094,25 @@ init_opinion_ideology_modifier_setup_for_tag = {
 					NOT = { has_government = PREV }
 					OR = {
 						has_government = social_democrat
-						has_government = social_liberal
+						has_government = liberal
 					}
 					PREV = {
 						OR = {
 							has_government = social_democrat
-							has_government = social_liberal
+							has_government = liberal
 						}
 					}
 				}
 				AND = {
 					NOT = { has_government = PREV }
 					OR = {
-						has_government = valkist
-						has_government = national_populist
+						has_government = esoteric_nationalist
+						has_government = ultranationalist
 					}
 					PREV = {
 						OR = {
-							has_government = valkist
-							has_government = national_populist
+							has_government = esoteric_nationalist
+							has_government = ultranationalist
 						}
 					}
 				}
@@ -5147,7 +5130,7 @@ init_opinion_ideology_modifier_setup_for_tag = {
 					has_government = social_democrat
 					PREV = {
 						OR = {
-							has_government = market_liberal
+							has_government = liberal
 							has_government = social_conservative
 							has_government = authoritarian_democrat
 						}
@@ -5155,7 +5138,7 @@ init_opinion_ideology_modifier_setup_for_tag = {
 				}
 				AND = {
 					OR = {
-						has_government = market_liberal
+						has_government = liberal
 						has_government = social_conservative
 						has_government = authoritarian_democrat
 					}
@@ -5163,10 +5146,10 @@ init_opinion_ideology_modifier_setup_for_tag = {
 				}
 				AND = {
 					has_government = vanguardist
-					PREV = { has_government = collectivist }
+					PREV = { has_government = utopian_socialist }
 				}
 				AND = {
-					has_government = collectivist
+					has_government = utopian_socialist
 					PREV = { has_government = vanguardist }
 				}
 			}
@@ -5215,10 +5198,10 @@ init_opinion_ideology_modifier_setup_for_tag = {
 			OR = {
 				AND = {
 					has_government = social_democrat
-					PREV = { has_government = collectivist }
+					PREV = { has_government = utopian_socialist }
 				}
 				AND = {
-					has_government = collectivist
+					has_government = utopian_socialist
 					PREV = { has_government = social_democrat }
 				}
 				AND = {
@@ -5230,7 +5213,7 @@ init_opinion_ideology_modifier_setup_for_tag = {
 					PREV = { has_government = paternal_autocrat }
 				}
 				AND = {
-					has_government = national_populist
+					has_government = ultranationalist
 					PREV = {
 						OR = {
 							has_government = social_conservative
@@ -5243,7 +5226,7 @@ init_opinion_ideology_modifier_setup_for_tag = {
 						has_government = social_conservative
 						has_government = authoritarian_democrat
 					}
-					PREV = { has_government = national_populist }
+					PREV = { has_government = ultranationalist }
 				}
 			}
 		}
@@ -5266,15 +5249,15 @@ init_opinion_ideology_modifier_setup_for_tag = {
 	}
 	if = {
 		limit = {
-			has_government = collectivist
+			has_government = utopian_socialist
 		}
-		set_country_flag = opinion_set_collectivist
+		set_country_flag = opinion_set_utopian_socialist
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = revolutionary_socialist
 		}
-		set_country_flag = opinion_set_libertarian_socialist
+		set_country_flag = opinion_set_revolutionary_socialist
 	}
 	if = {
 		limit = {
@@ -5284,15 +5267,9 @@ init_opinion_ideology_modifier_setup_for_tag = {
 	}
 	if = {
 		limit = {
-			has_government = social_liberal
+			has_government = liberal
 		}
-		set_country_flag = opinion_set_social_liberal
-	}
-	if = {
-		limit = {
-			has_government = market_liberal
-		}
-		set_country_flag = opinion_set_market_liberal
+		set_country_flag = opinion_set_liberal
 	}
 	if = {
 		limit = {
@@ -5314,14 +5291,14 @@ init_opinion_ideology_modifier_setup_for_tag = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = ultranationalist
 		}
-		set_country_flag = opinion_set_national_populist
+		set_country_flag = opinion_set_ultranationalist
 	}
 	if = {
 		limit = {
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
-		set_country_flag = opinion_set_valkist
+		set_country_flag = opinion_set_esoteric_nationalist
 	}
 }

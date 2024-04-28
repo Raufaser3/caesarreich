@@ -14,12 +14,7 @@ characters = {
 		}
     country_leader = {
       desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
     country_leader = {
@@ -176,7 +171,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Husain_Sirhan_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -203,7 +198,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -231,7 +226,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Calouste_Gulbenkian_hog_mli_hired }
 			}
       traits = {
-        market_liberal
+        liberal
         hog_smiling_oilman
       }
     }
@@ -370,7 +365,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -451,7 +446,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Tahseen_Qadri_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -508,7 +503,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_industrialiser
 			}
 		}
@@ -624,7 +619,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_media_magnate
 			}
 		}
@@ -651,7 +646,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -821,7 +816,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Nuri_al_Said_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -848,7 +843,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Francis_Humphrys_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -875,7 +870,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_John_Cadman_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_resource_industrialist
 			}
 		}
@@ -902,7 +897,7 @@ characters = {
 				ROOT = { clr_country_flag = HEJ_Percy_Cox_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}

@@ -122,7 +122,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = national_populist
+	ruling_party = ultranationalist
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -130,20 +130,20 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 4
-	libertarian_socialist = 0
+	utopian_socialist = 4
+	revolutionary_socialist = 0
 	social_democrat = 4
-	social_liberal = 4
-	market_liberal = 0
+	liberal = 4
+	liberal = 0
 	social_conservative = 3
 	authoritarian_democrat = 5
 	paternal_autocrat = 28
-	national_populist = 30
-	valkist = 22
+	ultranationalist = 30
+	esoteric_nationalist = 22
 }
 
 add_coalition_paternal_autocrat = yes 
-add_coalition_valkist = yes 
+add_coalition_esoteric_nationalist = yes 
 
 set_convoys = 150
 set_stability = 0.40

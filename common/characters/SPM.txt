@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -23,11 +23,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -35,11 +31,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -176,7 +172,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -203,7 +199,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -311,7 +307,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Alfonso_Castelao_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -338,7 +334,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Anton_Vilar_Ponte_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -365,7 +361,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Claudio_Sanchez_Albornoz_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -527,7 +523,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Bernardo_Giner_de_los_Rios_Garcia_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrialiser
 			}
 		}
@@ -554,7 +550,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Emilio_Herrera_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -581,7 +577,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Diego_Hidalgo_Duran_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -811,7 +807,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Federico_Escofet_Alsina_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -841,7 +837,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_back_stabber
 			}
 		}

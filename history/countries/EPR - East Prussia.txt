@@ -14,8 +14,8 @@ set_politics = {
 
 set_popularities = {
   social_conservative = 80
-  valkist = 10
-  collectivist = 10
+  esoteric_nationalist = 10
+  utopian_socialist = 10
   social_democrat = 0
 }
 

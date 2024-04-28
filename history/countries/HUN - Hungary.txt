@@ -55,7 +55,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = ultranationalist
 	last_election = "1920.1.25"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,16 +63,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 1
-  collectivist = 2
-  libertarian_socialist = 8
+  utopian_socialist = 2
+  revolutionary_socialist = 8
   social_democrat = 9
-  social_liberal = 3
-  market_liberal = 7
+  liberal = 3
+  liberal = 7
   social_conservative = 10
   authoritarian_democrat = 7
   paternal_autocrat = 1
-  national_populist = 51
-  valkist = 1
+  ultranationalist = 51
+  esoteric_nationalist = 1
 }
 
 add_ideas = {

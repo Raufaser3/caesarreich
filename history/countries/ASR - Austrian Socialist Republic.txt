@@ -11,7 +11,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = collectivist
+	ruling_party = utopian_socialist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -19,16 +19,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 15
-	collectivist = 42
-	libertarian_socialist = 9
+	utopian_socialist = 42
+	revolutionary_socialist = 9
 	social_democrat = 21
-	social_liberal = 4
-	market_liberal = 9
+	liberal = 4
+	liberal = 9
 	social_conservative = 0
 	authoritarian_democrat = 0
 	paternal_autocrat = 0
-	national_populist = 0
-	valkist = 0
+	ultranationalist = 0
+	esoteric_nationalist = 0
 }
 
 recruit_character = ASR_Otto_Bauer

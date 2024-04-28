@@ -548,7 +548,7 @@ defined_text = {
 		localization_key = generic_raise_stability_liberal
 	}
 	text = {
-		trigger = { has_government = market_liberal }
+		trigger = { has_government = liberal }
 		localization_key = generic_raise_stability_liberal
 	}
 	text = {
@@ -571,7 +571,7 @@ defined_text = {
 		localization_key = generic_raise_stability_liberal_desc
 	}
 	text = {
-		trigger = { has_government = market_liberal }
+		trigger = { has_government = liberal }
 		localization_key = generic_raise_stability_liberal_desc
 	}
 	text = {
@@ -591,11 +591,11 @@ defined_text = {
 		localization_key = increase_popularity_vang
 	}
 	text = {
-		trigger = { has_government = collectivist }
-		localization_key = increase_popularity_collie
+		trigger = { has_government = utopian_socialist }
+		localization_key = increase_popularity_utosoc
 	}
 	text = {
-		trigger = { has_government = libertarian_socialist }
+		trigger = { has_government = revolutionary_socialist }
 		localization_key = increase_popularity_libsoc
 	}
 	text = {
@@ -603,12 +603,8 @@ defined_text = {
 		localization_key = increase_popularity_socdem
 	}
 	text = {
-		trigger = { has_government = social_liberal }
-		localization_key = increase_popularity_soclib
-	}
-	text = {
-		trigger = { has_government = market_liberal }
-		localization_key = increase_popularity_marlib
+		trigger = { has_government = liberal }
+		localization_key = increase_popularity_liberal
 	}
 	text = {
 		trigger = { has_government = social_conservative }
@@ -623,12 +619,12 @@ defined_text = {
 		localization_key = increase_popularity_pataut
 	}
 	text = {
-		trigger = { has_government = national_populist }
-		localization_key = increase_popularity_natpop
+		trigger = { has_government = ultranationalist }
+		localization_key = increase_popularity_ultranat
 	}
 	text = {
-		trigger = { has_government = valkist }
-		localization_key = increase_popularity_valkist
+		trigger = { has_government = esoteric_nationalist }
+		localization_key = increase_popularity_esoteric_nationalist
 	}
 }
 
@@ -639,11 +635,11 @@ defined_text = {
 		localization_key = increase_popularity_vang_desc
 	}
 	text = {
-		trigger = { has_government = collectivist }
-		localization_key = increase_popularity_collie_desc
+		trigger = { has_government = utopian_socialist }
+		localization_key = increase_popularity_utosoc_desc
 	}
 	text = {
-		trigger = { has_government = libertarian_socialist }
+		trigger = { has_government = revolutionary_socialist }
 		localization_key = increase_popularity_libsoc_desc
 	}
 	text = {
@@ -651,12 +647,8 @@ defined_text = {
 		localization_key = increase_popularity_socdem_desc
 	}
 	text = {
-		trigger = { has_government = social_liberal }
-		localization_key = increase_popularity_soclib_desc
-	}
-	text = {
-		trigger = { has_government = market_liberal }
-		localization_key = increase_popularity_marlib_desc
+		trigger = { has_government = liberal }
+		localization_key = increase_popularity_liberal_desc
 	}
 	text = {
 		trigger = { has_government = social_conservative }
@@ -671,12 +663,12 @@ defined_text = {
 		localization_key = increase_popularity_pataut_desc
 	}
 	text = {
-		trigger = { has_government = national_populist }
-		localization_key = increase_popularity_natpop_desc
+		trigger = { has_government = ultranationalist }
+		localization_key = increase_popularity_ultranat_desc
 	}
 	text = {
-		trigger = { has_government = valkist }
-		localization_key = increase_popularity_valkist_desc
+		trigger = { has_government = esoteric_nationalist }
+		localization_key = increase_popularity_esoteric_nationalist_desc
 	}
 }
 

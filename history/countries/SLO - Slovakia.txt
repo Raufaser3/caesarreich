@@ -69,16 +69,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 2
-  collectivist = 2
-  libertarian_socialist = 1
+  utopian_socialist = 2
+  revolutionary_socialist = 1
   social_democrat = 11
-  social_liberal = 26
-  market_liberal = 6
+  liberal = 26
+  liberal = 6
   social_conservative = 47
   authoritarian_democrat = 2
   paternal_autocrat = 0
-  national_populist = 3
-  valkist = 0
+  ultranationalist = 3
+  esoteric_nationalist = 0
 }
 
 recruit_character = SLO_Andrej_Hlinka

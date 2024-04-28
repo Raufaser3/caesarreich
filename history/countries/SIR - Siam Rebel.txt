@@ -88,16 +88,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 56
-	collectivist = 5
-	libertarian_socialist = 4
+	utopian_socialist = 5
+	revolutionary_socialist = 4
 	social_democrat = 0
-	social_liberal = 1
-	market_liberal = 3
+	liberal = 1
+	liberal = 3
 	social_conservative = 0
 	authoritarian_democrat = 10
 	paternal_autocrat = 13
-	national_populist = 3
-	valkist = 5
+	ultranationalist = 3
+	esoteric_nationalist = 5
 }
 set_country_flag = can_replace_military_staff
 

@@ -72,7 +72,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Cornelis_van_Geelkerken_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_determined_populist
 			}
 		}
@@ -145,7 +145,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Willem_Bernard_Engelbrecht_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_iron_fisted_brute
 			}
 		}
@@ -199,7 +199,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Alfred_Haighton_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_military_entrepreneur
 			}
 		}
@@ -226,7 +226,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Gerrit_van_Burink_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_resource_industrialist
 			}
 		}
@@ -307,7 +307,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_AJ_van_der_Hoeven_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_compassionate_gentleman
 			}
 		}
@@ -334,7 +334,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Gerhardus_Dieters_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_silent_lawyer
 			}
 		}
@@ -545,14 +545,14 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = {
 				prince_of_the_people
 			}
 		}
 		country_leader = {
       desc = "POLITICS_PRINCE_BERNHARD_DESC"
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = {
 				prince_of_the_people
 			}
@@ -663,7 +663,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = collectivist_subtype
+      ideology = utopian_socialist_subtype
       traits = {}
     }
 		advisor = {
@@ -681,7 +681,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Anton_Pannekoek_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -708,7 +708,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Harm_Kolthek_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -735,7 +735,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Henk_Sneevliet_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -762,7 +762,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Piet_Johannes_Schmidt_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_charismatic_charmer
 			}
 		}
@@ -816,7 +816,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Nicolaas_Beuzemaker_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -843,7 +843,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Benjamin_Boers_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_biased_intellectual
 			}
 		}
@@ -897,7 +897,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Abraham_Verduin_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -911,7 +911,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = libertarian_socialist_subtype
+      ideology = revolutionary_socialist_subtype
       traits = {}
     }
 		advisor = {
@@ -929,7 +929,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jacques_de_Kadt_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_industrialiser
 			}
 		}
@@ -956,7 +956,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Jan_Tinbergen_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1010,7 +1010,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Daniel_Goulooze_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1037,7 +1037,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Henriette_Roland_Holst_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1064,7 +1064,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Abraham_Menist_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1091,7 +1091,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Fokke_Bosman_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_prince_of_terror
 			}
 		}

@@ -33,11 +33,11 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = communism_X
-						value = party_popularity@collectivist
+						value = party_popularity@utopian_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_X
-						value = party_popularity@libertarian_socialist
+						value = party_popularity@revolutionary_socialist
 					}					
 					multiply_temp_variable = {
 						communism_X = -210
@@ -47,32 +47,32 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = communism_Y
-						value = party_popularity@collectivist
+						value = party_popularity@utopian_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_Y
-						value = party_popularity@libertarian_socialist
+						value = party_popularity@revolutionary_socialist
 					}
 					multiply_temp_variable = {
 						communism_Y = 112
 					}
 				
 					set_temp_variable = {
-						fascism_X = party_popularity@national_populist
+						fascism_X = party_popularity@ultranationalist
 					}
 					add_to_temp_variable = {
 						var = fascism_X
-						value = party_popularity@valkist
+						value = party_popularity@esoteric_nationalist
 					}					
 					multiply_temp_variable = {
 						fascism_X = 210
 					}
 					set_temp_variable = {
-						fascism_Y = party_popularity@national_populist
+						fascism_Y = party_popularity@ultranationalist
 					}
 					add_to_temp_variable = {
 						var = fascism_Y
-						value = party_popularity@valkist
+						value = party_popularity@esoteric_nationalist
 					}					
 					multiply_temp_variable = {
 						fascism_Y = 112
@@ -83,11 +83,7 @@ scripted_gui = {
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
-						value = party_popularity@social_liberal
-					}
-					add_to_temp_variable = {
-						var = democratic_Y
-						value = party_popularity@market_liberal
+						value = party_popularity@liberal
 					}
 					add_to_temp_variable = {
 						var = democratic_Y
@@ -143,8 +139,7 @@ scripted_gui = {
 						is_faction_leader = yes
 						OR = {
 							has_government = social_democrat
-							has_government = social_liberal
-							has_government = market_liberal
+							has_government = liberal
 							has_government = social_conservative
 						}
 						all_of_scopes = {
@@ -176,8 +171,8 @@ scripted_gui = {
 						is_faction_leader = yes
 						OR = {
 							has_government = vanguardist
-							has_government = collectivist
-							has_government = libertarian_socialist
+							has_government = utopian_socialist
+							has_government = revolutionary_socialist
 						}
 						all_of_scopes = {
 							array = global.majors
@@ -207,10 +202,10 @@ scripted_gui = {
 					limit = {
 						is_faction_leader = yes
 						OR = {
-							has_government = national_populist
+							has_government = ultranationalist
 							has_government = paternal_autocrat
 							has_government = authoritarian_democrat
-							has_government = valkist
+							has_government = esoteric_nationalist
 						}
 						all_of_scopes = {
 							array = global.majors

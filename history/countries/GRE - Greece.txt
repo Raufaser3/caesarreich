@@ -38,7 +38,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -46,16 +46,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0 #KAKE
-	collectivist = 9 #Communist Party of Greece
-	libertarian_socialist = 10 #Communist Party of Greece
+	utopian_socialist = 9 #Communist Party of Greece
+	revolutionary_socialist = 10 #Communist Party of Greece
 	social_democrat = 1  #Progressives
-	social_liberal = 20 #liberal party
-	market_liberal = 15 # GLRE
+	liberal = 20 #liberal party
+	liberal = 15 # GLRE
 	social_conservative = 20 #People's Party
 	authoritarian_democrat = 0 #MEK
 	paternal_autocrat = 11 #FREETHINKERS
-	national_populist = 7 #EEE
-	valkist = 7 #GOLDEN DAWN
+	ultranationalist = 7 #EEE
+	esoteric_nationalist = 7 #GOLDEN DAWN
 }
 
 if = {
@@ -86,7 +86,7 @@ recruit_character = GRE_Nikos_Zachariadis #HOS - LibSocs, Colls
 recruit_character = GRE_Dimitris_Giotopoulos #HOS - Vangs
 recruit_character = GRE_Ioannis_Michail_Metaxas #HOS - PatAut
 recruit_character = GRE_Georgios_Kosmidis #HOS - NatPops
-recruit_character = GRE_Georgios_Spyridon_Merkouris #HOS - Valkists
+recruit_character = GRE_Georgios_Spyridon_Merkouris #HOS - esoteric_nationalists
 recruit_character = GRE_Eleftherios_Kyriakou_Venizelos # Starting HOG
 
 recruit_character = GRE_Alexandros_Papanastasiou

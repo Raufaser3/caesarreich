@@ -61,10 +61,10 @@ if = {
 	}
 }
 
-add_coalition_collectivist = yes 
+add_coalition_utopian_socialist = yes 
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = revolutionary_socialist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -77,16 +77,16 @@ add_ideas = {
 
 set_popularities = {
   vanguardist = 2
-  collectivist = 8
-  libertarian_socialist = 35
+  utopian_socialist = 8
+  revolutionary_socialist = 35
   social_democrat = 7
-  social_liberal = 13
-  market_liberal = 19
+  liberal = 13
+  liberal = 19
   social_conservative = 5
   authoritarian_democrat = 4
   paternal_autocrat = 3
-  national_populist = 2
-  valkist = 2
+  ultranationalist = 2
+  esoteric_nationalist = 2
 }
 
 recruit_character = NOR_Olav_V

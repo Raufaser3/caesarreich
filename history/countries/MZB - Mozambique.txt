@@ -25,14 +25,14 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 0
-  social_liberal = 0
-  market_liberal = 0
+  liberal = 0
+  liberal = 0
   social_conservative = 25
   authoritarian_democrat = 75
   paternal_autocrat = 0
-  national_populist = 0
-  valkist = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
 }

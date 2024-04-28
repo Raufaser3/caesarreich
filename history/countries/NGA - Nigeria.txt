@@ -36,7 +36,7 @@ if = {
 
 ########## before
 # set_politics = {	
-# 	ruling_party = social_liberal
+# 	ruling_party = liberal
 # 	last_election = "1931.11.8"
 # 	election_frequency = 72
 # 	elections_allowed = no
@@ -51,16 +51,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 5
-  social_liberal = 10
-  market_liberal = 15
+  liberal = 10
+  liberal = 15
   social_conservative = 60
   authoritarian_democrat = 5
   paternal_autocrat = 0
-  national_populist = 5
-  valkist = 0
+  ultranationalist = 5
+  esoteric_nationalist = 0
 }
 
 add_ideas = {

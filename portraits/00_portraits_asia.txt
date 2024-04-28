@@ -28,7 +28,7 @@ AFG = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_5.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -39,7 +39,7 @@ AFG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -63,7 +63,7 @@ AFG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -75,7 +75,7 @@ AFG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -116,7 +116,7 @@ AFG = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_5.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -124,7 +124,7 @@ AFG = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_5.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -166,7 +166,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -175,7 +175,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -193,7 +193,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -202,7 +202,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -238,7 +238,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -246,7 +246,7 @@ BHU = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -288,7 +288,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -297,7 +297,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -315,7 +315,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -324,7 +324,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -360,7 +360,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -368,7 +368,7 @@ NEP = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -410,7 +410,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -419,7 +419,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -437,7 +437,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -446,7 +446,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -482,7 +482,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -490,7 +490,7 @@ SIR = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -532,7 +532,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -541,7 +541,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -559,7 +559,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -568,7 +568,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -604,7 +604,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -612,7 +612,7 @@ SHN = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -654,7 +654,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -663,7 +663,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -681,7 +681,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -690,7 +690,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_4.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_5.png"
@@ -726,7 +726,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"
@@ -734,7 +734,7 @@ MNS = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_land_new_6.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_2.png"
 				"gfx/leaders/Generic/Asian/Portrait_Asia_Generic_new_7.png"

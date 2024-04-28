@@ -53,7 +53,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Fidel_Velazquez_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_local_tyrant
 			}
 		}
@@ -80,7 +80,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Rosendo_Salazar_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -112,7 +112,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Vicente_Lombardo_Toledano_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -139,7 +139,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Antonio_Irineo_Villarreal_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -263,7 +263,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Miguel_Aleman_Valdes_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_local_tyrant
 			}
 		}
@@ -478,7 +478,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Alberto_B_Gutierrez_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_state_secularist
 			}
 		}
@@ -505,7 +505,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Jose_Antonio_Urquiza_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -559,7 +559,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Amalia_Gonzalez_Caballero_de_Castillo_Ledon_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -586,7 +586,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Evelio_Vadillo_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_world_patrician
 			}
 		}
@@ -613,7 +613,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Juan_Sarabia_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -640,7 +640,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Francisco_Castillo_Najera_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -667,7 +667,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Gilberto_Bosques_Saldivar_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_relations_expert
 			}
 		}
@@ -694,7 +694,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Gildardo_Magana_Cerda_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_foreign_sympathizer
 			}
 		}
@@ -883,7 +883,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Alfonso_Junco_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_moderate_among_radicals
 			}
 		}
@@ -910,7 +910,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Jose_de_Leon_Toral_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_great_compromiser
 			}
 		}
@@ -951,7 +951,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -969,7 +969,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Antonio_Diaz_Soto_y_Gama_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -996,7 +996,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Adolfo_Ruiz_Cortines_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_construction_magnate
 			}
 		}
@@ -1023,7 +1023,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Magdaleno_Aguilar_Castillo_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_industrialiser
 			}
 		}
@@ -1050,7 +1050,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Serafin_M_Robles_Morales_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_reformer
 			}
 		}
@@ -1239,7 +1239,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Pedro_Zuloaga_Irigoiti_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_keynesian_economy
 			}
 		}
@@ -1293,7 +1293,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Elisa_Acuna_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1320,7 +1320,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Ricardo_Flores_Magon_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1347,7 +1347,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Rafael_Buelna_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1374,7 +1374,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Rafael_Pascasio_Gamboa_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_regionalist
 			}
 		}
@@ -1509,7 +1509,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Daniel_Cosio_Villegas_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_preserver_of_culture
 			}
 		}
@@ -1536,7 +1536,7 @@ characters = {
 				ROOT = { clr_country_flag = MEX_Victoriano_Ramirez_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_crime_fighter
 			}
 		}
@@ -1925,7 +1925,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -1937,7 +1937,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}

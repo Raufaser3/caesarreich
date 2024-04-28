@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Grigol_Robakidze_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_underground_figurehead
 			}
 		}
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +110,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Aleqsandre_Asatiani_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_smiling_oilman
 			}
 		}
@@ -129,7 +129,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Aleqsandre_Asatiani_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -161,7 +161,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Ioseb_Baratashvili_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_reformist_soldier
 			}
 		}
@@ -207,7 +207,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -225,7 +225,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Irakli_Tsereteli_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -238,7 +238,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -444,7 +444,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Mamia_Orakhelashvili_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_red_chairmen
 			}
 		}
@@ -553,12 +553,12 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Salva_Karumidze_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_pragmatic_statesman
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -638,7 +638,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Grigol_Uratadze_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -692,7 +692,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Simon_Mdivani_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -719,7 +719,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Akaki_Khoshtaria_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -854,7 +854,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Beso_Lominadze_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -881,7 +881,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Giorgi_Tsintsadze_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_industrialiser
 			}
 		}
@@ -908,7 +908,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Teimuraz_Chelidze_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -962,7 +962,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Mammad_Yusif_Jafarov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -989,7 +989,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Grigol_Natadze_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1070,7 +1070,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Vlasa_Mgeladze_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1151,7 +1151,7 @@ characters = {
 				ROOT = { clr_country_flag = GEO_Ioseb_Gedevanishvili_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}

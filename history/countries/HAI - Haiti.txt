@@ -25,16 +25,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 4
-  social_liberal = 21
-  market_liberal = 0
+  liberal = 21
+  liberal = 0
   social_conservative = 5
   authoritarian_democrat = 53
   paternal_autocrat = 0
-  national_populist = 17
-  valkist = 0
+  ultranationalist = 17
+  esoteric_nationalist = 0
 }
 
 recruit_character = HAI_Jacques_Roumain

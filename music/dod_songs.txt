@@ -17,8 +17,8 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
-				has_government = valkist
+				has_government = ultranationalist
+				has_government = esoteric_nationalist
 			}
 		}
 		modifier = {
@@ -52,8 +52,8 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
-				has_government = valkist
+				has_government = ultranationalist
+				has_government = esoteric_nationalist
 			}
 		}
 		modifier = {
@@ -84,8 +84,8 @@ music = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_government = national_populist
-				has_government = valkist
+				has_government = ultranationalist
+				has_government = esoteric_nationalist
 			}
 		}
 		modifier = {

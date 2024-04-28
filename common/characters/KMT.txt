@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -112,7 +112,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -130,7 +130,7 @@ characters = {
 				ROOT = { clr_country_flag = KMT_Sun_Fo_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -177,7 +177,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -195,7 +195,7 @@ characters = {
 				ROOT = { clr_country_flag = KMT_Hu_Hanmin_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_naive_optimist
 			}
 		}
@@ -220,7 +220,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -738,7 +738,7 @@ characters = {
 				ROOT = { clr_country_flag = KMT_Chiang_Ching_Kuo_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_administrative_genius
 			}
 		}
@@ -752,7 +752,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -770,7 +770,7 @@ characters = {
 				ROOT = { clr_country_flag = KMT_Dai_Chunfeng_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_secret_police_chief
 			}
 		}

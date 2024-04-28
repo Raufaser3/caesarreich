@@ -48,7 +48,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Orlando_Capriles_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -75,7 +75,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gustavo_Adolfo_Navarro_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_happy_amateur
 			}
 		}
@@ -129,7 +129,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Jose_Tejada_Sorzano_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -156,7 +156,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Waldo_Belmonte_Pool_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -183,7 +183,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Daniel_Sanchez_Bustamante_Vasquez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -196,7 +196,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -273,7 +273,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -302,7 +302,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gualberto_Villarroel_Lopez_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_revanchist_conspirator
 			}
 		}
@@ -391,7 +391,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Eduardo_Anze_Matienzo_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -418,7 +418,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Adolfo_Costa_du_Reis_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_general_staffer
 			}
 		}
@@ -526,7 +526,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Gonzalo_Romero_Alvarez_Garcia_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_hawkish_intervener
 			}
 		}
@@ -553,7 +553,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Edwin_Moller_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -580,7 +580,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Roberto_Jordan_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_trade_proponent
 			}
 		}
@@ -634,7 +634,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Moritz_Hochschild_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_mixed_economy
 			}
 		}
@@ -807,7 +807,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Juan_Sanjines_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_military_entrepreneur
 			}
 		}
@@ -834,7 +834,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Mariano_Basptista_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_health_and_safety
 			}
 		}
@@ -861,7 +861,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Jose_Santos_Quinteros_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -888,7 +888,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Tomas_Monje_Gutierrez_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -915,7 +915,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Roberto_Hinojosa_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -996,7 +996,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Julian_V_Montellano_Carrasco_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_efficient_sociopath
 			}
 		}
@@ -1054,7 +1054,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -1066,7 +1066,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -1078,7 +1078,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -1090,7 +1090,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}

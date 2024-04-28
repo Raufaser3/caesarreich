@@ -66,16 +66,16 @@ set_cosmetic_tag = NFQ_FRA
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 3
-	libertarian_socialist = 4
+	utopian_socialist = 3
+	revolutionary_socialist = 4
 	social_democrat = 0
-	social_liberal = 25
-	market_liberal = 9
+	liberal = 25
+	liberal = 9
 	social_conservative = 15
 	authoritarian_democrat = 1
 	paternal_autocrat = 43
-	national_populist = 0
-	valkist = 0
+	ultranationalist = 0
+	esoteric_nationalist = 0
 }
 	
 set_politics = {

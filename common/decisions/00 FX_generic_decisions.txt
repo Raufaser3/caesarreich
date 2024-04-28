@@ -1,167 +1,3 @@
-# REMOVED - thanasislanaras
-# political_actions_left = {
-# 	centralized_economic_planning = {
-# 		icon = generic_industry
-# 		cost = 100
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		days_remove = 30
-# 		available = {
-# 			OR = {
-# 				has_government = vanguardist
-# 				has_government = collectivist
-# 			}
-# 		}
-# 		visible = {
-# 			OR = {
-# 				has_government = vanguardist
-# 				has_government = collectivist
-# 			}
-# 		}
-# 		modifier = {
-# 			production_speed_buildings_factor = 0.1
-# 			consumer_goods_factor = 0.025
-# 			industrial_capacity_factory = -0.025
-# 		}
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# 	decentralized_economic_planning = {
-# 		icon = generic_industry
-# 		cost = 100
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		days_remove = 30
-# 		available = {
-# 			has_government = libertarian_socialist
-# 		}
-# 		visible = {
-# 			has_government = libertarian_socialist
-# 		}
-# 		modifier = {
-# 			production_speed_buildings_factor = -0.05
-# 			consumer_goods_factor = -0.05
-# 			industrial_capacity_factory = 0.025
-# 		}
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# }
-
-# political_actions_dem = {
-# 	industrial_privatization = {
-# 		icon = generic_industry
-# 		cost = 100
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		days_remove = 30
-# 		available = {
-# 			OR = {
-# 				has_government = social_liberal
-# 				has_government = market_liberal
-# 			}
-# 		}
-# 		visible = {
-# 			OR = {
-# 				has_government = social_liberal
-# 				has_government = market_liberal
-# 			}
-# 		}
-# 		modifier = {
-# 			industrial_capacity_factory = 0.1
-# 			production_factory_max_efficiency_factor = 0.025
-# 			consumer_goods_factor = 0.025
-# 		}
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# 	economic_regulation = {
-# 		icon = generic_industry
-# 		days_remove = 30
-# 		cost = 100
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		available = {
-# 			OR = {
-# 				has_government = social_conservative
-# 				has_government = authoritarian_democrat
-# 			}
-# 		}
-# 		visible = {
-# 			OR = {
-# 				has_government = social_conservative
-# 				has_government = authoritarian_democrat
-# 			}
-# 		}
-# 		modifier = {
-# 			production_factory_max_efficiency_factor = 0.025
-# 			consumer_goods_factor = -0.05
-# 			industrial_capacity_factory = -0.05
-# 		}
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# 	nationalize_key_industries = {
-# 		icon = generic_industry
-# 		cost = 100
-# 		days_remove = 30
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		available = {
-# 			has_government = social_democrat
-# 		}
-# 		visible = {
-# 			has_government = social_democrat
-# 		}
-# 		modifier = {
-# 			industrial_capacity_factory = 0.025
-# 			consumer_goods_factor = -0.05
-# 			production_factory_max_efficiency_factor = 0.05
-# 		}
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# }
-
-# political_actions_right = {
-# 	nationalize_foreign_industries = {
-# 		icon = generic_industry
-# 		cost = 100
-# 		fire_only_once = no #May take this decision multiple times
-# 		days_re_enable = 730 #2 years until the decision may be taken again
-# 		days_remove = 30
-# 		available = {
-# 			OR = {
-# 				has_government = paternal_autocrat
-# 				has_government = national_populist
-# 				has_government = valkist
-# 			}
-# 		}
-# 		visible = {
-# 			OR = {
-# 				has_government = paternal_autocrat
-# 				has_government = national_populist
-# 				has_government = valkist
-# 			}
-# 		}
-# 		modifier = {
-# 			production_factory_max_efficiency_factor = 0.05
-# 			production_factory_efficiency_gain_factor = 0.05
-# 			consumer_goods_factor = 0.03
-# 		}
-
-# 		ai_will_do = {
-# 			factor = 0
-# 		}
-# 	}
-# }
-
-
 political_actions = {
 
 	generic_raise_stability = {
@@ -176,7 +12,7 @@ political_actions = {
 			trigger = {
 				OR = {
 					has_democratic_left_government = yes
-					has_government = market_liberal
+					has_government = liberal
 				}
 			}
 		}
@@ -294,8 +130,8 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
-				has_government = social_liberal
+				has_government = liberal
+				has_government = liberal
 			}
 			NOT = {
 				has_country_flag = NO_GENERIC_STABILITY_DECISIONS
@@ -1459,11 +1295,11 @@ war_measures = {
 					has_war_support > 0.85
 				}
 				AND = {
-					has_government = collectivist
+					has_government = utopian_socialist
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = libertarian_socialist
+					has_government = revolutionary_socialist
 					has_war_support > 0.79
 				}
 				AND = {
@@ -1471,11 +1307,11 @@ war_measures = {
 					has_war_support > 0.70
 				}
 				AND = {
-					has_government = social_liberal
+					has_government = liberal
 					has_war_support > 0.60
 				}
 				AND = {
-					has_government = market_liberal
+					has_government = liberal
 					has_war_support > 0.60
 				}
 				AND = {
@@ -1491,11 +1327,11 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = national_populist
+					has_government = ultranationalist
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = valkist
+					has_government = esoteric_nationalist
 					has_war_support > 0.85
 				}
 			}

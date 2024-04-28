@@ -104,16 +104,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 3
-  collectivist = 5
-  libertarian_socialist = 11
+  utopian_socialist = 5
+  revolutionary_socialist = 11
   social_democrat = 14
-  social_liberal = 8
-  market_liberal = 24
+  liberal = 8
+  liberal = 24
   social_conservative = 32
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 3
-  valkist = 0
+  ultranationalist = 3
+  esoteric_nationalist = 0
 }
 
 ### Ship Variants ###

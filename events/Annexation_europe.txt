@@ -161,7 +161,7 @@ country_event = { # Fate of Austria
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_AUS_rk
@@ -664,7 +664,7 @@ country_event = { # Fate of Belarus
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_BLR_rk
@@ -673,7 +673,7 @@ country_event = { # Fate of Belarus
 				limit = {
 					ROOT = {
 						tag = UKR
-						has_government = national_populist
+						has_government = ultranationalist
 					}
 				}
 				set_cosmetic_tag = UKR_BLR
@@ -687,7 +687,7 @@ country_event = { # Fate of Belarus
 		ai_chance = { base = 100 }
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 		}
 
 		set_country_flag = UKR_integrate_belarus
@@ -909,7 +909,7 @@ country_event = { # Fate of Czechoslovakia
 		trigger = {
 			NOT = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 		}
 		set_temp_variable = { tag_to_release = CZE }
@@ -924,7 +924,7 @@ country_event = { # Fate of Czechoslovakia
 		}
 		trigger = {
 			tag = GER
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
 		set_country_flag = CZE_CONQ
 	}
@@ -974,7 +974,7 @@ country_event = { # Fate of Denmark
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_DEN_rk
@@ -1034,7 +1034,7 @@ country_event = { # Fate of England
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_ENG_rk
@@ -1059,7 +1059,7 @@ country_event = { # Fate of England
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_ENG_rk
@@ -1296,7 +1296,7 @@ country_event = { # Fate of Estonia
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -1312,7 +1312,7 @@ country_event = { # Fate of Estonia
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = BAT }
 		}
 		set_temp_variable = { tag_to_release = EST }
@@ -1333,7 +1333,7 @@ country_event = { # Fate of Estonia
 		name = annex.113.b
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = BAT
 			BAT = { is_subject_of = ROOT }
 		}
@@ -1509,7 +1509,7 @@ country_event = { # Fate of France
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_FRA_rk
@@ -1607,7 +1607,7 @@ country_event = { # Fate of Great Britain
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_ENG_rk
@@ -2014,8 +2014,8 @@ country_event = { # Fate of Netherlands
 				ROOT = {
 					tag = GER
 					OR = {
-						has_government = national_populist
-						has_government = valkist
+						has_government = ultranationalist
+						has_government = esoteric_nationalist
 					}
 				}
 			}
@@ -2156,7 +2156,7 @@ country_event = { # Fate of Hungary
 		trigger = {
 			NOT = {
 				tag = UKR
-				has_government = national_populist
+				has_government = ultranationalist
 			}
 		}
 		set_temp_variable = { tag_to_release = HUN }
@@ -2164,7 +2164,7 @@ country_event = { # Fate of Hungary
 		if = {
 			limit = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 			HUN = { set_cosmetic_tag = GER_HUN_rk }
 		}
@@ -2178,7 +2178,7 @@ country_event = { # Fate of Hungary
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = CRP }
 		}
 		set_temp_variable = { tag_to_release = HUN }
@@ -2200,7 +2200,7 @@ country_event = { # Fate of Hungary
 		ai_chance = { base = 100 }
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = CRP
 			CRP = { is_subject_of = ROOT }
 		}
@@ -2265,7 +2265,7 @@ country_event = { # Fate of Ireland
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_IRE_rk
@@ -2299,7 +2299,7 @@ country_event = { # Fate of Italy
 			if = {
 				limit = {
 					tag = GER
-					has_government = valkist
+					has_government = esoteric_nationalist
 				}
 				ITP = { save_global_event_target_as = italy_tag }
 			}
@@ -2343,7 +2343,7 @@ country_event = { # Fate of Italy
 		trigger = {
 			AND = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 		}
 
@@ -2352,7 +2352,7 @@ country_event = { # Fate of Italy
 		if = {
 			limit = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 			ITP = { set_cosmetic_tag = GER_ITA_rk }
 		}
@@ -2365,7 +2365,7 @@ country_event = { # Fate of Italy
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = valkist
+					has_government = esoteric_nationalist
 				}
 			}
 		}
@@ -2380,7 +2380,7 @@ country_event = { # Fate of Italy
 		name = annex.125.b
 		trigger = {
 			has_socialist_government = no
-			NOT = { has_government = valkist }
+			NOT = { has_government = esoteric_nationalist }
 		}
 
 		set_temp_variable = { tag_to_release = ITA }
@@ -2444,7 +2444,7 @@ country_event = { # Fate of Latvia
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -2460,7 +2460,7 @@ country_event = { # Fate of Latvia
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = BAT }
 		}
 		set_temp_variable = { tag_to_release = LAT }
@@ -2481,7 +2481,7 @@ country_event = { # Fate of Latvia
 		name = annex.113.b
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = BAT
 			BAT = { is_subject_of = ROOT }
 		}
@@ -2534,7 +2534,7 @@ country_event = { # Fate of Lithuania
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -2550,7 +2550,7 @@ country_event = { # Fate of Lithuania
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = BAT }
 		}
 		set_temp_variable = { tag_to_release = LIT }
@@ -2571,7 +2571,7 @@ country_event = { # Fate of Lithuania
 		name = annex.113.b
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = BAT
 			BAT = { is_subject_of = ROOT }
 		}
@@ -3055,14 +3055,14 @@ country_event = { # Fate of Poland
 		if = {
 			limit = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 			POL = { set_cosmetic_tag = GER_POL_rk }
 		}
 		else_if = {
 			limit = {
 				tag = UKR
-				has_government = national_populist
+				has_government = ultranationalist
 			}
 			POL = { set_cosmetic_tag = UKR_POL }
 		}
@@ -3415,7 +3415,7 @@ country_event = { # Fate of Romania
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -3468,7 +3468,7 @@ country_event = { # Fate of Romania
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = CRP }
 		}
 		set_temp_variable = { tag_to_release = ROM }
@@ -3490,7 +3490,7 @@ country_event = { # Fate of Romania
 		ai_chance = { base = 100 }
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = CRP
 			CRP = { is_subject_of = ROOT }
 		}
@@ -3570,7 +3570,7 @@ country_event = { # Fate of Russia
 		name = annex.integrate
 		trigger = {
 			tag = UKR
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
 
 		set_country_flag = RUS_CONQ
@@ -3741,7 +3741,7 @@ country_event = { # Fate of Scotland
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_SCO_rk
@@ -4301,7 +4301,7 @@ country_event = { # Fate of Slovakia
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -4311,7 +4311,7 @@ country_event = { # Fate of Slovakia
 		if = {
 			limit = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 
 			SLO = { set_cosmetic_tag = GER_SLO_rk }
@@ -4326,7 +4326,7 @@ country_event = { # Fate of Slovakia
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = CRP }
 		}
 
@@ -4349,7 +4349,7 @@ country_event = { # Fate of Slovakia
 		ai_chance = { base = 100 }
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = CRP
 			CRP = { is_subject_of = ROOT }
 		}
@@ -4401,7 +4401,7 @@ country_event = { # Fate of Soviet Union
 		if = {
 			limit = {
 				tag = UKR
-				has_government = national_populist
+				has_government = ultranationalist
 			}
 			VRS = { set_cosmetic_tag = UKR_VRS }
 		}
@@ -4605,7 +4605,7 @@ country_event = { # Fate of Ukraine
 		if = {
 			limit = {
 				tag = GER
-				has_government = valkist
+				has_government = esoteric_nationalist
 			}
 			UKR = { set_cosmetic_tag = GER_UKR_rk }
 		}
@@ -4697,7 +4697,7 @@ country_event = { # Fate of Wales
 				limit = {
 					ROOT = {
 						tag = GER
-						has_government = valkist
+						has_government = esoteric_nationalist
 					}
 				}
 				set_cosmetic_tag = GER_WLS_rk
@@ -6810,7 +6810,7 @@ country_event = { # Fate of Gorskaya
 			NOT = {
 				AND = {
 					tag = UKR
-					has_government = national_populist
+					has_government = ultranationalist
 				}
 			}
 		}
@@ -6826,7 +6826,7 @@ country_event = { # Fate of Gorskaya
 		}
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			NOT = { country_exists = CAU }
 		}
 		set_temp_variable = { tag_to_release = GOR }
@@ -6845,7 +6845,7 @@ country_event = { # Fate of Gorskaya
 		ai_chance = { base = 100 }
 		trigger = {
 			tag = UKR
-			has_government = national_populist
+			has_government = ultranationalist
 			country_exists = CAU
 			CAU = { is_subject_of = ROOT }
 		}
@@ -7337,12 +7337,12 @@ country_event = { # Fate of European Russia
 			limit = {
 				ROOT = {
 					tag = GER
-					has_government = valkist
+					has_government = esoteric_nationalist
 				}
 			}
 			VRS = {
 				set_party_name = {
-					ideology = valkist
+					ideology = esoteric_nationalist
 					long_name = VRS_rk_party
 					name = VRS_rk_party_long
 				}
@@ -7351,9 +7351,9 @@ country_event = { # Fate of European Russia
 		else = {
 			VRS = {
 				set_party_name = {
-					ideology = valkist
-					long_name = VRS_valkist_party
-					name = VRS_valkist_party_long
+					ideology = esoteric_nationalist
+					long_name = VRS_esoteric_nationalist_party
+					name = VRS_esoteric_nationalist_party_long
 				}
 			}
 		}

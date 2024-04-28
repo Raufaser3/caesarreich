@@ -86,7 +86,7 @@ if = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1935.10.30"
 	election_frequency = 60
 	elections_allowed = no
@@ -94,16 +94,16 @@ set_politics = {
 
 set_popularities = {
     vanguardist = 1
-    collectivist = 5
-    libertarian_socialist = 6
+    utopian_socialist = 5
+    revolutionary_socialist = 6
     social_democrat = 13
-    social_liberal = 23
-    market_liberal = 2
+    liberal = 23
+    liberal = 2
     social_conservative = 3
     authoritarian_democrat = 6
     paternal_autocrat = 16
-    national_populist = 1
-    valkist = 24
+    ultranationalist = 1
+    esoteric_nationalist = 24
 }
 
 ### Ship Variants ###

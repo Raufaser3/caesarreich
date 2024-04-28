@@ -27,7 +27,7 @@ set_convoys = 50
 set_stability = 0.45
 set_war_support = 0.45
 set_politics = {	
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,16 +35,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 8
-	libertarian_socialist = 4
+	utopian_socialist = 8
+	revolutionary_socialist = 4
 	social_democrat = 4
-	social_liberal = 15
-	market_liberal = 41
+	liberal = 15
+	liberal = 41
 	social_conservative = 0
 	authoritarian_democrat = 7
 	paternal_autocrat = 4
-	national_populist = 17
-	valkist = 0
+	ultranationalist = 17
+	esoteric_nationalist = 0
 }
 
 recruit_character = BAY_Kurt_Eisner

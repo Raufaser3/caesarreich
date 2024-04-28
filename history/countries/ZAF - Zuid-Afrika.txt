@@ -53,7 +53,7 @@ add_ideas = {
 }
 	
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = esoteric_nationalist
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -61,16 +61,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 0
-  social_liberal = 0
-  market_liberal = 0
+  liberal = 0
+  liberal = 0
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 25
-  national_populist = 25
-  valkist = 50
+  ultranationalist = 25
+  esoteric_nationalist = 50
 }
 
 recruit_character = ZAF_D_F_Malan

@@ -52,7 +52,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -65,7 +65,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_11.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -94,7 +94,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -110,7 +110,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_17.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -166,7 +166,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -178,7 +178,7 @@ GEO = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"

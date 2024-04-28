@@ -458,7 +458,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Minoo_Masani_hog_mli_hired }
       }
       traits = {
-        market_liberal
+        liberal
         hog_corporate_suit
       }
     }
@@ -477,7 +477,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Minoo_Masani_eco_mli_hired }
       }
       traits = {
-        market_liberal
+        liberal
         eco_bank_president
       }
     }
@@ -558,7 +558,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Tej_Bahadur_Sapru_for_sli_hired }
       }
       traits = {
-        social_liberal
+        liberal
         for_apologetic_clerk
       }
     }
@@ -658,7 +658,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Kanhaiyalal_Maneklal_Munshi_eco_sli_hired }
       }
       traits = {
-        social_liberal
+        liberal
         eco_industrialiser
       }
     }
@@ -712,7 +712,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Balasaheb_Gangadhar_Kher_sec_sli_hired }
       }
       traits = {
-        social_liberal
+        liberal
         sec_health_and_safety
       }
     }
@@ -739,7 +739,7 @@ characters = {
         ROOT = { clr_country_flag = RAJ_Ramaswami_Iyer_sec_mli_hired }
       }
       traits = {
-        market_liberal
+        liberal
         sec_crime_fighter
       }
     }

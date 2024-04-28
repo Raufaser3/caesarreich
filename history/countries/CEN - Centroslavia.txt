@@ -68,16 +68,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 5
+  utopian_socialist = 0
+  revolutionary_socialist = 5
   social_democrat = 20
-  social_liberal = 30
-  market_liberal = 5
+  liberal = 30
+  liberal = 5
   social_conservative = 40
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 0
-  valkist = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
 }
 
 recruit_character = CEN_Emil_Hacha

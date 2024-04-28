@@ -91,16 +91,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 2
-	collectivist = 6
-	libertarian_socialist = 4
+	utopian_socialist = 6
+	revolutionary_socialist = 4
 	social_democrat = 17
-	social_liberal = 6
-	market_liberal = 4
+	liberal = 6
+	liberal = 4
 	social_conservative = 13
 	authoritarian_democrat = 33
 	paternal_autocrat = 12
-	national_populist = 3
-	valkist = 0
+	ultranationalist = 3
+	esoteric_nationalist = 0
 }
   
 recruit_character = KMT_Zhang_Guotao

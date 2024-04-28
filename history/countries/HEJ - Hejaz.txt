@@ -40,16 +40,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 2
+  utopian_socialist = 0
+  revolutionary_socialist = 2
   social_democrat = 8
-  social_liberal = 2
-  market_liberal = 14
+  liberal = 2
+  liberal = 14
   social_conservative = 16
   authoritarian_democrat = 8
   paternal_autocrat = 50
-  national_populist = 0
-  valkist = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
 }
 
 give_military_access = ENG

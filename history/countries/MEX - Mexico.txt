@@ -59,7 +59,7 @@ set_war_support = 0.84
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = national_populist
+	ruling_party = ultranationalist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -67,16 +67,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 2
-  collectivist = 2
-  libertarian_socialist = 2
+  utopian_socialist = 2
+  revolutionary_socialist = 2
   social_democrat = 10
-  social_liberal = 4
-  market_liberal = 3
+  liberal = 4
+  liberal = 3
   social_conservative = 8
   authoritarian_democrat = 0
   paternal_autocrat = 16
-  national_populist = 37
-  valkist = 16
+  ultranationalist = 37
+  esoteric_nationalist = 16
 }
 
 ### VARIANTS ###

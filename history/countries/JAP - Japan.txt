@@ -122,16 +122,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 1
-  collectivist = 2
-  libertarian_socialist = 2
+  utopian_socialist = 2
+  revolutionary_socialist = 2
   social_democrat = 13
-  social_liberal = 5
-  market_liberal = 25
+  liberal = 5
+  liberal = 25
   social_conservative = 28
   authoritarian_democrat = 5
   paternal_autocrat = 9
-  national_populist = 7
-  valkist = 3
+  ultranationalist = 7
+  esoteric_nationalist = 3
 }
 
 KMT = { embargo_ROOT = yes }

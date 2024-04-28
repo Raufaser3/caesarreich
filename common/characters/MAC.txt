@@ -29,25 +29,22 @@ characters = {
 			ideology = social_democrat_subtype
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 		}
 		country_leader = {
 			ideology = autocratic_socialist_subtype
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
-		}
-		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 		}
 		# field_marshal = {
 		# 	skill = 5

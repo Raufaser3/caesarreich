@@ -12928,11 +12928,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_collectivist_menace_shine"
-    texturefile = "gfx/interface/goals/goal_collectivist_menace.png"
+    name = "GFX_goal_utopian_socialist_menace_shine"
+    texturefile = "gfx/interface/goals/goal_utopian_socialist_menace.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_collectivist_menace.png"
+      animationmaskfile = "gfx/interface/goals/goal_utopian_socialist_menace.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -12945,7 +12945,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_collectivist_menace.png"
+      animationmaskfile = "gfx/interface/goals/goal_utopian_socialist_menace.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -19200,7 +19200,7 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_Five_Races_National_Populist_shine"
+    name = "GFX_goal_Five_Races_ultranationalist_shine"
     texturefile = "gfx/interface/goals/Five_Races_Natpop.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
@@ -39776,11 +39776,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_collectivist_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_collectivist.png"
+    name = "GFX_goal_ideology_utopian_socialist_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_utopian_socialist.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_collectivist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_utopian_socialist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -39793,7 +39793,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_collectivist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_utopian_socialist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -39872,11 +39872,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_market_liberal_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+    name = "GFX_goal_ideology_liberal_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_liberal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -39889,7 +39889,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -39904,11 +39904,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_national_populist_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_national_populist.png"
+    name = "GFX_goal_ideology_ultranationalist_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_ultranationalist.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_ultranationalist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -39921,7 +39921,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_ultranationalist.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -40096,11 +40096,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_goal_ideology_social_liberal_shine"
-    texturefile = "gfx/interface/goals/goal_ideology_social_liberal.png"
+    name = "GFX_goal_ideology_liberal_shine"
+    texturefile = "gfx/interface/goals/goal_ideology_liberal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_social_liberal.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -40113,7 +40113,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/goal_ideology_social_liberal.png"
+      animationmaskfile = "gfx/interface/goals/goal_ideology_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -78240,11 +78240,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_SWI_market_liberal_shine"
-    texturefile = "gfx/interface/goals/SWI_market_liberal.png"
+    name = "GFX_SWI_liberal_shine"
+    texturefile = "gfx/interface/goals/SWI_liberal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+      animationmaskfile = "gfx/interface/goals/SWI_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -78257,7 +78257,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+      animationmaskfile = "gfx/interface/goals/SWI_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no
@@ -78336,11 +78336,11 @@ spriteTypes = {
   }
 
 	spriteType = {
-    name = "GFX_SWI_social_liberal_shine"
-    texturefile = "gfx/interface/goals/SWI_social_liberal.png"
+    name = "GFX_SWI_liberal_shine"
+    texturefile = "gfx/interface/goals/SWI_liberal.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_social_liberal.png"
+      animationmaskfile = "gfx/interface/goals/SWI_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = -90.0
       animationlooping = no
@@ -78353,7 +78353,7 @@ spriteTypes = {
     }
 
     animation = {
-      animationmaskfile = "gfx/interface/goals/SWI_social_liberal.png"
+      animationmaskfile = "gfx/interface/goals/SWI_liberal.png"
       animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
       animationrotation = 90.0
       animationlooping = no

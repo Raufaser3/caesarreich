@@ -91,7 +91,7 @@
 # 						OR = {
 # 							has_government = paternal_autocrat
 # 							has_government = authoritarian_democrat
-# 							has_government = national_populist
+# 							has_government = ultranationalist
 # 						}
 # 					}
 # 				}
@@ -108,8 +108,8 @@
 # 					SOV = {
 # 						controls_state = 195
 # 						OR = {
-# 							has_government = collectivist
-# 							has_government = libertarian_socialist
+# 							has_government = utopian_socialist
+# 							has_government = revolutionary_socialist
 # 							has_government = vanguardist
 # 						}
 # 					}
@@ -137,8 +137,8 @@
 # 						controls_state = 195
 # 						NOT = {
 # 							OR = {
-# 								has_government = collectivist
-# 								has_government = libertarian_socialist
+# 								has_government = utopian_socialist
+# 								has_government = revolutionary_socialist
 # 								has_government = vanguardist
 # 							}
 # 						}

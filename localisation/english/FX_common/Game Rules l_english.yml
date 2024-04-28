@@ -93,9 +93,9 @@ GER_AI_BEHAVIOR: "@GER Germany"
 RULE_OPTION_DEFAULT: "Randomised"
 RULE_OPTION_DEFAULT_AI_DESC: "A new Germany have risen, and with it a revaunchist state wanting to break off French and Italian hegemony over Europe; still the big player in the European affairs, any actions she will take it have its own rewards and reprecussions; but what path she will take?Only the Fuhrer may know."
 RULE_OPTION_GER_WEST_FIRST: "Focus on France"
-RULE_OPTION_GER_WEST_FIRST_DESC: "1919 saw the German Empire defeated by France and the Entente powers. In the aftermath of this devastating loss Kaiser Wilhelm II was forced to abdicate leading to the creation of the Weimar Republic whom soon found herself the victim of French Revanchism. The Treaty of Versailles was drafted to the French to keep Germany permanently weak. Adam Dressler came into power promising a complete reversal of the Treaty of Versailles and as such will commit all of Germany's energy in defeating the French.\n\n§GIdeology:§! Valkist\n§GObjective:§! Defeat France and The Entente"
+RULE_OPTION_GER_WEST_FIRST_DESC: "1919 saw the German Empire defeated by France and the Entente powers. In the aftermath of this devastating loss Kaiser Wilhelm II was forced to abdicate leading to the creation of the Weimar Republic whom soon found herself the victim of French Revanchism. The Treaty of Versailles was drafted to the French to keep Germany permanently weak. Adam Dressler came into power promising a complete reversal of the Treaty of Versailles and as such will commit all of Germany's energy in defeating the French.\n\n§GIdeology:§! esoteric_nationalist\n§GObjective:§! Defeat France and The Entente"
 RULE_OPTION_GER_EAST_FIRST: "Focus on the Soviet Union"
-RULE_OPTION_GER_EAST_FIRST_DESC: "The defeat of the Russian Empire in the Great War allowed for the creation of the world's first Socialist state, The Soviet Union. Adam Dressler sees socialism not only as a threat to the stability of Germany but an existential threat to the very survival of Europe herself. Dressler shall commit all of Germany's energy into dismantling the Soviet Union and crushing socialism wherever it may arise.\n\n§GIdeology:§! Valkist\n§GObjective:§! Defeat The Soviet Union and The Third International"
+RULE_OPTION_GER_EAST_FIRST_DESC: "The defeat of the Russian Empire in the Great War allowed for the creation of the world's first Socialist state, The Soviet Union. Adam Dressler sees socialism not only as a threat to the stability of Germany but an existential threat to the very survival of Europe herself. Dressler shall commit all of Germany's energy into dismantling the Soviet Union and crushing socialism wherever it may arise.\n\n§GIdeology:§! esoteric_nationalist\n§GObjective:§! Defeat The Soviet Union and The Third International"
 
 ### HOL - Dutch State
 HOL_AI_BEHAVIOR: "@HOL Holland's Future"
@@ -116,8 +116,8 @@ RULE_OPTION_ITA_COMMIE: "Elect the Communists"
 RULE_OPTION_ITA_COMMIE_DESC: "Italy will elect the §rCommunist§! parties in the 1936 election."
 RULE_OPTION_ITA_DEMOCRATIC: "Stay Democratic"
 RULE_OPTION_ITA_DEMOCRATIC_DESC: "Italy will stay §Cdemocratic§! and allied to France following the 1936 election."
-RULE_OPTION_ITA_VALKIST: "Elect the Nationalists"
-RULE_OPTION_ITA_VALKIST_DESC: "Italy will elect the §NNationalist§! parties in the 1936 election."
+RULE_OPTION_ITA_esoteric_nationalist: "Elect the Nationalists"
+RULE_OPTION_ITA_esoteric_nationalist_DESC: "Italy will elect the §NNationalist§! parties in the 1936 election."
 
 ### JAP - Empire of Japan
 JAP_AI_BEHAVIOR: "@JAP The Jewel of All Asia"
@@ -147,7 +147,7 @@ RULE_OPTION_ROM_THE_NEW_ERA: "The New Era"
 RULE_OPTION_ROM_THE_NEW_ERA_DESC: "A coalition between the §SPSDR§! and §RPDaT§! will be created before the elections; resulting in a leftist majority. However, the §nIron Guard§! will assassinate the Prime Minister resulting in a radical change in government.\n\n§GGGovernment:§! Libertarian Socialist\n§GForeign Policy:§! Join the International"
 RULE_OPTION_ROM_GREEN_DAWN: "Green Dawn"
 RULE_OPTION_ROM_GREEN_DAWN_DESC: "The §nIron Guard§!, lead by Corneliu Codreanu will be elected in the 1937 General Elections."
-RULE_OPTION_ROM_DIRECT_RULE: "Direct Rule from Bucharest\n\n§GGovernment:§! Valkist\n§GForeign Policy:§! Join the Stahlpakt"
+RULE_OPTION_ROM_DIRECT_RULE: "Direct Rule from Bucharest\n\n§GGovernment:§! esoteric_nationalist\n§GForeign Policy:§! Join the Stahlpakt"
 RULE_OPTION_ROM_DIRECT_RULE_DESC: "Catastrophe hits and the King hence §Pdissolves parliament§! in order to ensure the stability of the state.\n\n§GGovernment:§! Paternal Autocrat\n§GForeign Policy:§! Random"
 
 ### SAF - South Africa

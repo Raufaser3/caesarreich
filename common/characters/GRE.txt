@@ -17,15 +17,15 @@ characters = {
 			on_add = { GRE = { GRE = { set_country_flag = GRE_Alexandros_Papanastasiou_for_sde_hired } } }
 			on_remove = { GRE = { clr_country_flag = GRE_Alexandros_Papanastasiou_for_sde_hired } }
 			traits = {
-				social_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
 		country_leader = {
 			desc = "POLITICS_PAPANASTASIOU_DESC"
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -37,17 +37,17 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			desc = "POLITICS_ZACHARIADIS_DESC"
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			desc = "POLITICS_ZACHARIADIS_DESC"
 			traits = {
-				collectivist
+				utopian_socialist
 			}
 		}
 	}
@@ -60,9 +60,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marlib_venizelism_subtype
+			ideology = liberal_subtype
 			traits = {
-				market_liberal
+				liberal
 			}
 		}
 	}
@@ -170,7 +170,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_pragmatic_statesman
 			}
 		}
@@ -195,7 +195,7 @@ characters = {
 				GRE = { set_country_flag = GRE_Themistoklis_Sofoulis_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -223,7 +223,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Sofoklis_Venizelos_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -248,7 +248,7 @@ characters = {
 				GRE = { set_country_flag = GRE_Georgios_Kondylis_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_old_general
 			}
 		}
@@ -272,7 +272,7 @@ characters = {
 			on_add = { GRE = { set_country_flag = GRE_Ioannis_Theotokis_hog_mli_hired } }
 			on_remove = { GRE = { clr_country_flag = GRE_Ioannis_Theotokis_hog_mli_hired } }
 			traits = {
-				market_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -287,7 +287,7 @@ characters = {
 			on_add = { GRE = { set_country_flag = GRE_Ioannis_Theotokis_for_mli_hired } }
 			on_remove = { GRE = { clr_country_flag = GRE_Ioannis_Theotokis_for_mli_hired } }
 			traits = {
-				market_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -507,7 +507,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -525,7 +525,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Georgios_Kosmidis_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -539,7 +539,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -557,7 +557,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Georgios_Poulos_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_local_tyrant
 			}
 		}
@@ -591,7 +591,7 @@ characters = {
 				}
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 			}
 		}
 	}
@@ -614,7 +614,7 @@ characters = {
 			on_add = { GRE = { set_country_flag = GRE_Manolis_Manoleas_hog_val_hired } }
 			on_remove = { GRE = { clr_country_flag = GRE_Manolis_Manoleas_hog_val_hired } }
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_backroom_backstabber
 			}
 		}
@@ -642,7 +642,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Miltiadis_Porfyrogenis_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -670,7 +670,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Giannis_Ioannidis_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_red_chairmen
 			}
 		}
@@ -719,7 +719,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = marlib_venizelism_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -823,7 +823,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -835,7 +835,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -847,7 +847,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -859,7 +859,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	country_leader = {
-	# 		ideology = valkist_subtype
+	# 		ideology = esoteric_nationalist_subtype
 	# 		traits = { }
 	# 	}
 	# }
@@ -907,7 +907,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Andreas_Michalakopoulos_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -991,7 +991,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Anastasios_Tavoularis_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_iron_fisted_brute
 			}
 		}
@@ -1019,7 +1019,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Dimitrios_Delivanis_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_biased_intellectual
 			}
 		}
@@ -1047,7 +1047,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Andreas_Tzimas_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1075,7 +1075,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Petros_Rousos_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_general_staffer
 			}
 		}
@@ -1131,7 +1131,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Alexandros_Diomidis_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1159,7 +1159,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Kyriakos_Varvaresos_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1187,7 +1187,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Georgios_Kartalis_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1327,7 +1327,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Ektor_Tsironikos_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_corrupt_kleptocrat
 			}
 		}
@@ -1355,7 +1355,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Georgios_Simitis_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_military_entrepreneur
 			}
 		}
@@ -1383,7 +1383,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Kostas_Theos_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1411,7 +1411,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Vasilis_Bartziotas_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1467,7 +1467,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Georgios_Maris_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}
@@ -1495,7 +1495,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Ioannis_Tsirimokos_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1523,7 +1523,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Dimitrios_Stefanopoulos_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1708,7 +1708,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Panagiotis_Demestichas_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}
@@ -1736,7 +1736,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Nikolaos_Kalyvas_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_health_and_safety
 			}
 		}
@@ -1764,7 +1764,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Vasilis_Nefeloudis_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_great_soul
 			}
 		}
@@ -1792,7 +1792,7 @@ characters = {
 				GRE = { clr_country_flag = GRE_Markos_Vafiadis_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}

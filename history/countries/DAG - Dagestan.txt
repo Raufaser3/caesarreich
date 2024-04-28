@@ -42,7 +42,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = revolutionary_socialist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -50,16 +50,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 15
-  collectivist = 15
-  libertarian_socialist = 60
+  utopian_socialist = 15
+  revolutionary_socialist = 60
   social_democrat = 10
-  social_liberal = 0
-  market_liberal = 0
+  liberal = 0
+  liberal = 0
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 0
-  valkist = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
 }
 
 recruit_character = DAG_Jelal_Kormaxov

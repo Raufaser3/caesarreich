@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -144,7 +144,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Hans_Adam_Dorten_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_backroom_backstabber
 			}
 		}
@@ -158,7 +158,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -176,7 +176,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Heinrich_Himmler_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_military_entrepreneur
 			}
 		}
@@ -201,7 +201,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -225,7 +225,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -237,7 +237,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Otto_Lichtschlag_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -534,7 +534,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Albert_Leo_Schlageter_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_naive_optimist
 			}
 		}
@@ -642,7 +642,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Theodor_Reismann_Grone_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_general_staffer
 			}
 		}
@@ -669,7 +669,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Walter_Stennes_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -777,7 +777,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Emil_Kirdorf_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_reformer
 			}
 		}
@@ -888,7 +888,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Walther_Lichtschlag_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}
@@ -926,7 +926,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Franz_Pfeffer_von_Salomon_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_preserver_of_culture
 			}
 		}

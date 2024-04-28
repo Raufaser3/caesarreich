@@ -77,20 +77,20 @@ add_ideas = {
 
 set_popularities = {
 	vanguardist = 11
-	collectivist = 21
-	libertarian_socialist = 5
+	utopian_socialist = 21
+	revolutionary_socialist = 5
 	social_democrat = 27
-	social_liberal = 4
-	market_liberal = 4
+	liberal = 4
+	liberal = 4
 	social_conservative = 15
 	authoritarian_democrat = 9
 	paternal_autocrat = 3
-	national_populist = 1
-	valkist = 0
+	ultranationalist = 1
+	esoteric_nationalist = 0
 }
 
 set_politics = {
-	ruling_party = collectivist
+	ruling_party = utopian_socialist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

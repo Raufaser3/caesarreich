@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -55,7 +55,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -160,7 +160,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -178,7 +178,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Goring_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_old_admiral
 			}
 		}
@@ -199,7 +199,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			desc = "POLITICS_ADAM_DRESSLER_DESC"
 			traits = { }
 		}
@@ -1433,7 +1433,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Grotewohl_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -1487,7 +1487,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Erich_Koch_Weser_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -1514,7 +1514,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hans_von_Raumer_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -1649,7 +1649,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Frick_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_happy_amateur
 			}
 		}
@@ -1676,7 +1676,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinrich_Behrmann_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_local_tyrant
 			}
 		}
@@ -1703,7 +1703,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Sebottendorf_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_local_tyrant
 			}
 		}
@@ -1730,7 +1730,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Julius_Schrek_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_backroom_backstabber
 			}
 		}
@@ -1757,7 +1757,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Erich_Schmidt_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_naive_optimist
 			}
 		}
@@ -1784,7 +1784,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Anton_Arco_auf_Valley_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1811,7 +1811,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ernst_Toller_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -1838,7 +1838,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Paul_Levi_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1865,7 +1865,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinirch_Mann_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1919,7 +1919,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Albert_Dufour_Feronce_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1946,7 +1946,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Roepke_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -2094,7 +2094,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Konstantin_von_Neurath_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_biased_intellectual
 			}
 		}
@@ -2121,7 +2121,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Max_Amann_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_ideological_crusader
 			}
 		}
@@ -2148,7 +2148,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Alfred_Rosenburg_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_iron_fisted_brute
 			}
 		}
@@ -2229,7 +2229,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Willi_Stoph_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -2256,7 +2256,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Lujo_Brentano_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -2337,7 +2337,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Dietrich_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_administrative_genius
 			}
 		}
@@ -2364,7 +2364,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Julius_Curtis_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -2499,7 +2499,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Gregor_Strasser_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_planned_economy_proponent
 			}
 		}
@@ -2526,7 +2526,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Gernhard_Rossbach_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_construction_magnate
 			}
 		}
@@ -2554,7 +2554,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Strasser_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -2581,7 +2581,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Adolf_Hitler_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_administrative_genius
 			}
 		}
@@ -2635,7 +2635,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Eugen_Levine_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -2662,7 +2662,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hilde_Benjamin_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -2716,7 +2716,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Gessler_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -2743,7 +2743,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_crime_fighter
 			}
 		}
@@ -2905,7 +2905,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Hess_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_efficient_sociopath
 			}
 		}
@@ -2932,7 +2932,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Kurt_Deluge_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_silent_lawyer
 			}
 		}
@@ -2959,7 +2959,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Diels_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_secret_police_chief
 			}
 		}
@@ -2986,7 +2986,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Ehrhardt_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_preserver_of_culture
 			}
 		}
@@ -3243,11 +3243,11 @@ characters = {
 			}
 		}
 	}
-  GER_Valkist_Council = {
-    name = "Valkist Council"
+  GER_esoteric_nationalist_Council = {
+    name = "esoteric_nationalist Council"
     portraits = {
       civilian = {
-        large = "gfx/leaders/GER/Portrait_GER_Valkist_Council.png"
+        large = "gfx/leaders/GER/Portrait_GER_esoteric_nationalist_Council.png"
       }
     }
   }

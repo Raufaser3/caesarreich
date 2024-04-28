@@ -97,16 +97,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 12
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 34
-  social_liberal = 0
-  market_liberal = 0
+  liberal = 0
+  liberal = 0
   social_conservative = 26
   authoritarian_democrat = 0
   paternal_autocrat = 18
-  national_populist = 7
-  valkist = 3
+  ultranationalist = 7
+  esoteric_nationalist = 3
 }
 
 recruit_character = IRQ_Faisal_I

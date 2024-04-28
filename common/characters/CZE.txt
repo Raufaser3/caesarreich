@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_socialism_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -34,7 +34,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		corps_commander = {
@@ -67,14 +67,14 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
 			slot = head_of_government
 			idea_token = CZE_Rudolf_Beran_hog_sli
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -86,7 +86,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Klement_Gottwald_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_red_chairmen
 			}
 		}
@@ -303,7 +303,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Bohuslav_Vrbensky_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -330,7 +330,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Vilem_Brodecky_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -357,7 +357,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jan_Garrigue_Masaryk_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_silent_workhorse
 			}
 		}
@@ -384,7 +384,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Rudolf_Mlčoch_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -568,7 +568,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Mikulas_Mlčoch_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_pragmatic_statesman
 			}
 		}
@@ -622,7 +622,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Artur_London_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_ideological_crusader
 			}
 		}
@@ -649,7 +649,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Gertruda_Sekaninova_Čakrtova_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -703,7 +703,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Josef_Kinsky_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -730,7 +730,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Kamil_Krofta_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -865,7 +865,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantisek_Chvalkovsky_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -919,7 +919,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Zdeněk_Nejedly_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_mixed_economy
 			}
 		}
@@ -946,7 +946,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Frantiska_Plaminkova_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_reformer
 			}
 		}
@@ -1000,7 +1000,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Emil_Franke_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1027,7 +1027,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Josef_Kalfus_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_infantry_proponent
 			}
 		}
@@ -1149,7 +1149,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jiři_Střibrny_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_oil_baron
 			}
 		}
@@ -1211,7 +1211,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Antonin_Srba_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1238,7 +1238,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Alfred_Meissner_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1292,7 +1292,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Prokop_Drtina_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1319,7 +1319,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Jaroslav_Stransky_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_secret_police_chief
 			}
 		}
@@ -1454,7 +1454,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Ladislav_Kobsinek_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_media_magnate
 			}
 		}

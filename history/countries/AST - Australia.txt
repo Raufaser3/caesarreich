@@ -127,16 +127,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 2
-	collectivist = 4
-	libertarian_socialist = 3
+	utopian_socialist = 4
+	revolutionary_socialist = 3
 	social_democrat = 44
-	social_liberal = 3
-	market_liberal = 21
+	liberal = 3
+	liberal = 21
 	social_conservative = 12
 	authoritarian_democrat = 3
 	paternal_autocrat = 4
-	national_populist = 4
-	valkist = 0
+	ultranationalist = 4
+	esoteric_nationalist = 0
 }
 
 set_cosmetic_tag = AST_ENG

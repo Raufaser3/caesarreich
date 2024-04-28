@@ -24,16 +24,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 2
-	collectivist = 2
-	libertarian_socialist = 2
+	utopian_socialist = 2
+	revolutionary_socialist = 2
 	social_democrat = 4
-	social_liberal = 4
-	market_liberal = 4
+	liberal = 4
+	liberal = 4
 	social_conservative = 10
 	authoritarian_democrat = 64
 	paternal_autocrat = 4
-	national_populist = 4
-	valkist = 0
+	ultranationalist = 4
+	esoteric_nationalist = 0
 }
 
 recruit_character = BHU_Jigme_Wangchuck

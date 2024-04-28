@@ -27,7 +27,7 @@ ALG = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -37,7 +37,7 @@ ALG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -58,7 +58,7 @@ ALG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -69,7 +69,7 @@ ALG = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -105,14 +105,14 @@ ALG = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -149,7 +149,7 @@ EGY = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -159,7 +159,7 @@ EGY = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -180,7 +180,7 @@ EGY = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -191,7 +191,7 @@ EGY = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -227,14 +227,14 @@ EGY = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -271,7 +271,7 @@ WES = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -281,7 +281,7 @@ WES = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -302,7 +302,7 @@ WES = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -313,7 +313,7 @@ WES = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -349,14 +349,14 @@ WES = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -393,7 +393,7 @@ LBA = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -403,7 +403,7 @@ LBA = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -424,7 +424,7 @@ LBA = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -435,7 +435,7 @@ LBA = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -471,14 +471,14 @@ LBA = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -515,7 +515,7 @@ MOR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -525,7 +525,7 @@ MOR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -546,7 +546,7 @@ MOR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -557,7 +557,7 @@ MOR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -593,14 +593,14 @@ MOR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -637,7 +637,7 @@ SUD = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -647,7 +647,7 @@ SUD = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -668,7 +668,7 @@ SUD = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -679,7 +679,7 @@ SUD = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -715,7 +715,7 @@ SUD = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -759,7 +759,7 @@ TUN = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -769,7 +769,7 @@ TUN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -790,7 +790,7 @@ TUN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -801,7 +801,7 @@ TUN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -837,14 +837,14 @@ TUN = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -881,7 +881,7 @@ PHN = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -891,7 +891,7 @@ PHN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -912,7 +912,7 @@ PHN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -923,7 +923,7 @@ PHN = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -959,14 +959,14 @@ PHN = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1003,7 +1003,7 @@ KUR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1013,7 +1013,7 @@ KUR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1034,7 +1034,7 @@ KUR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1045,7 +1045,7 @@ KUR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1081,14 +1081,14 @@ KUR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1125,7 +1125,7 @@ IRQ = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1135,7 +1135,7 @@ IRQ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1156,7 +1156,7 @@ IRQ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1167,7 +1167,7 @@ IRQ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1203,14 +1203,14 @@ IRQ = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1247,7 +1247,7 @@ HEJ = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1257,7 +1257,7 @@ HEJ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1278,7 +1278,7 @@ HEJ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1289,7 +1289,7 @@ HEJ = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1325,14 +1325,14 @@ HEJ = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1369,7 +1369,7 @@ YEM = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1379,7 +1379,7 @@ YEM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1400,7 +1400,7 @@ YEM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1411,7 +1411,7 @@ YEM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1447,14 +1447,14 @@ YEM = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1491,7 +1491,7 @@ ARM = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1501,7 +1501,7 @@ ARM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1522,7 +1522,7 @@ ARM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1533,7 +1533,7 @@ ARM = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1569,14 +1569,14 @@ ARM = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1613,7 +1613,7 @@ AZR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1623,7 +1623,7 @@ AZR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1644,7 +1644,7 @@ AZR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1655,7 +1655,7 @@ AZR = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1691,14 +1691,14 @@ AZR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1735,7 +1735,7 @@ TRK = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1745,7 +1745,7 @@ TRK = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1766,7 +1766,7 @@ TRK = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1777,7 +1777,7 @@ TRK = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -1813,14 +1813,14 @@ TRK = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -1858,14 +1858,14 @@ ISR = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_15.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_2.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_5.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_12.png"
@@ -1879,14 +1879,14 @@ ISR = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_9.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_3.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_4.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_5.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_15.png"
@@ -1914,14 +1914,14 @@ ISR = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_5.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_15.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/European/Portrait_Europe_Generic_new_13.png"
@@ -1958,7 +1958,7 @@ PER = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		utopian_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1968,7 +1968,7 @@ PER = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		libertarian_socialist = {
+		revolutionary_socialist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -1989,7 +1989,7 @@ PER = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		social_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -2000,7 +2000,7 @@ PER = {
 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 			}
 		}
-		market_liberal = {
+		liberal = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -2036,14 +2036,14 @@ PER = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		national_populist = {
+		ultranationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		valkist = {
+		esoteric_nationalist = {
 			male = {
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
@@ -2080,7 +2080,7 @@ PER = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 # 			}
 # 		}
-# 		collectivist = {
+# 		utopian_socialist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -2090,7 +2090,7 @@ PER = {
 # 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 # 			}
 # 		}
-# 		libertarian_socialist = {
+# 		revolutionary_socialist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_7.png"
@@ -2111,7 +2111,7 @@ PER = {
 # 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 # 			}
 # 		}
-# 		social_liberal = {
+# 		liberal = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -2122,7 +2122,7 @@ PER = {
 # 				"gfx/leaders/Generic/South_American/Portrait_South_America_Generic_new_1.png"
 # 			}
 # 		}
-# 		market_liberal = {
+# 		liberal = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
@@ -2158,14 +2158,14 @@ PER = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 # 			}
 # 		}
-# 		national_populist = {
+# 		ultranationalist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_3.png"
 # 			}
 # 		}
-# 		valkist = {
+# 		esoteric_nationalist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Arabian/Portrait_Arabia_Generic_new_6.png"

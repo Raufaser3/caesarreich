@@ -33,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -62,7 +62,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -94,7 +94,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Lavr_Kornilov_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_respected_war_hero
 			}
 		}
@@ -115,7 +115,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -127,7 +127,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -575,7 +575,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Anton_Turkul_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_efficient_sociopath
 			}
 		}
@@ -1294,7 +1294,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Venedikt_Miakotin_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_political_protege
 			}
 		}
@@ -1321,7 +1321,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pavel_N_Milyukov_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -1591,7 +1591,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_M_Purishkevich_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1618,7 +1618,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_V_Ustryalov_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_determined_populist
 			}
 		}
@@ -1645,7 +1645,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Sergei_G_Romanovski_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_happy_amateur
 			}
 		}
@@ -1672,7 +1672,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Viktor_L_Pokrovsky_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_charismatic_charmer
 			}
 		}
@@ -1699,7 +1699,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Viktor_M_Baydalakov_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_backroom_backstabber
 			}
 		}
@@ -1780,7 +1780,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Ariadna_V_Tyrkova_Williams_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -1807,7 +1807,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Georgiy_V_Vernadsky_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -1834,7 +1834,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_I_Tereshchenko_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1861,7 +1861,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_V_Nekrasov_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -1888,7 +1888,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Pyotr_B_Struve_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -1915,7 +1915,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_I_Konovalov_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -1942,7 +1942,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexei_M_Nikitin_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -2131,7 +2131,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_Dikgof_Derental_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_ideological_crusader
 			}
 		}
@@ -2158,7 +2158,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_L_Kazembek_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_biased_intellectual
 			}
 		}
@@ -2185,7 +2185,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksei_N_Tolstoy_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_relations_expert
 			}
 		}
@@ -2212,7 +2212,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Dmitri_M_Odinets_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_apologetic_clerk
 			}
 		}
@@ -2239,7 +2239,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexander_Vuygrler_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_ideological_crusader
 			}
 		}
@@ -2266,7 +2266,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Andrei_D_Sakharov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -2293,7 +2293,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vadim_V_Rudnev_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_resource_industrialist
 			}
 		}
@@ -2320,7 +2320,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vladimir_P_Smirnov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -2347,7 +2347,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Alexey_Peshekhonov_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrial_chemist
 			}
 		}
@@ -2374,7 +2374,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Mikhail_V_Bernacki_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -2401,7 +2401,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Wassily_Leontief_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -2671,7 +2671,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Andrey_I_Zankevich_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_railway_magnate
 			}
 		}
@@ -2698,7 +2698,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Nikolai_P_Krasnov_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_balanced_budget_economy
 			}
 		}
@@ -2725,7 +2725,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Yuri_V_Kluchnikov_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_theoretical_scientist
 			}
 		}
@@ -2752,7 +2752,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Georgiy_Gins_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_national_liberal
 			}
 		}
@@ -2833,7 +2833,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Andrei_I_Shingarev_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -2860,7 +2860,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Vasily_A_Kharlamov_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -3157,7 +3157,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Aleksandr_A_Galich_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_media_magnate
 			}
 		}
@@ -3184,7 +3184,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Anatoly_MacReady_Stenroos_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}
@@ -3211,7 +3211,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Bronislav_V_Kaminski_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_compassionate_gentleman
 			}
 		}
@@ -3238,7 +3238,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Emma_Dikgof_Derental_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_crime_fighter
 			}
 		}
@@ -3265,7 +3265,7 @@ characters = {
 				ROOT = { clr_country_flag = RUS_Ivan_A_Ilyin_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_secret_police_chief
 			}
 		}

@@ -27,11 +27,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -65,7 +65,7 @@ characters = {
 				ROOT = { clr_country_flag = LBA_Omar_Shegewi_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_nationalist_patriot
 			}
 		}
@@ -119,7 +119,7 @@ characters = {
 				ROOT = { clr_country_flag = LBA_Abdul_Majid_Kabar_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}

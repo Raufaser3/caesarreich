@@ -70,16 +70,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 15
-  libertarian_socialist = 0
+  utopian_socialist = 15
+  revolutionary_socialist = 0
   social_democrat = 0
-  social_liberal = 0
-  market_liberal = 15
+  liberal = 0
+  liberal = 15
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 60
-  national_populist = 0
-  valkist = 10
+  ultranationalist = 0
+  esoteric_nationalist = 10
 }
 
 set_stability = 0.55

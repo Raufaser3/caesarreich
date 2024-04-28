@@ -343,7 +343,7 @@ leader_traits = {
 	# 	}
 	# }
 
-	# GRE_valkist_collab_loyalist = { #Will be given when GRE RK is established, hidden for now
+	# GRE_esoteric_nationalist_collab_loyalist = { #Will be given when GRE RK is established, hidden for now
 	# 	type = all
 	# 	trait_type = personality_trait
 	# 	allowed = {

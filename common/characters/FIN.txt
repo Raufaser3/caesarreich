@@ -39,7 +39,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -57,7 +57,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Kullervo_Manner_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 			}
 		}
 	}
@@ -70,7 +70,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -88,7 +88,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Oskari_Tokoi_hog_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 			}
 		}
 	}
@@ -113,7 +113,7 @@ characters = {
 			}
 		}
 		country_leader = {
-		ideology = social_liberal_subtype
+		ideology = liberal_subtype
 		traits = {}
 		}
 		country_leader = {
@@ -148,7 +148,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -250,7 +250,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -268,7 +268,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Vilho_Annala_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_political_protege
 			}
 		}
@@ -282,7 +282,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -300,7 +300,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Vilho_Helanen_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_secret_police_chief
 			}
 		}
@@ -838,7 +838,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Adolf_Taimi_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -865,7 +865,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Jaakko_Kivi_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -919,7 +919,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Juho_Sunila_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -946,7 +946,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Aimo_Cajander_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -973,7 +973,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Oskari_Mantere_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_smiling_oilman
 			}
 		}
@@ -1146,7 +1146,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Bruno_Salmiala_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1173,7 +1173,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Ville_Pessi_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1200,7 +1200,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Yrjo_Sirola_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1227,7 +1227,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Hannes_Pulkkinen_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -1281,7 +1281,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Urho_Kekkonen_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -1300,7 +1300,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Urho_Kekkonen_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -1326,7 +1326,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Eljas_Erkko_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_great_compromiser
 			}
 		}
@@ -1353,7 +1353,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Toivo_Mikael_Kivimaki_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -1461,7 +1461,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Arne_Somersalo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_iron_fisted_brute
 			}
 		}
@@ -1515,7 +1515,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Edvard_Gylling_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_reformer
 			}
 		}
@@ -1542,7 +1542,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Elin_Airamo_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1569,7 +1569,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Frans_Hiilos_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1623,7 +1623,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Mauno_Pekkala_hog_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_corporate_suit
 			}
 		}
@@ -1677,7 +1677,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Albin_Manner_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_industrial_chemist
 			}
 		}
@@ -1696,7 +1696,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Albin_Manner_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -1722,7 +1722,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Eemil_Linna_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -1749,7 +1749,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Juho_Vennola_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1776,7 +1776,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Risto_Ryti_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -1940,7 +1940,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Jussi_Muilu_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1967,7 +1967,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Rafael_Haarla_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_mixed_economy
 			}
 		}
@@ -2048,7 +2048,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Evert_Eloranta_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -2075,7 +2075,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Toivo_Alavirta_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_driven_recruiter
 			}
 		}
@@ -2156,7 +2156,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Juho_Niukkanen_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -2175,7 +2175,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Juho_Niukkanen_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 			}
 		}
 	}
@@ -2255,7 +2255,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Elias_Simojoki_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_compassionate_gentleman
 			}
 		}
@@ -2282,7 +2282,7 @@ characters = {
 				ROOT = { clr_country_flag = FIN_Martti_Pihkala_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}
@@ -2330,7 +2330,7 @@ characters = {
 			slot = economy_minister
 			idea_token = FIN_Tyko_Reinikka_eco_sli
 			traits = {
-				social_liberal
+				liberal
 			}
 			allowed = {
 				hidden_trigger = {
@@ -2376,7 +2376,7 @@ characters = {
 			slot = foreign_minister
 			idea_token = FIN_Reinhold_Svento_for_lso
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 			}
 			allowed = {
 				hidden_trigger = {
@@ -2406,7 +2406,7 @@ characters = {
 			slot = security_minister
 			idea_token = FIN_Eino_Kilpi_sec_lso
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 			}
 			allowed = {
 				hidden_trigger = {

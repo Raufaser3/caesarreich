@@ -15,11 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -31,11 +27,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}

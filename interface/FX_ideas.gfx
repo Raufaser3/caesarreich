@@ -708,8 +708,8 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/ideas/generic_maritime_industry.png"
     }
 	spriteType = {
-        name = "GFX_idea_generic_national_populist_resistance"
-        texturefile = "gfx/interface/ideas/ideas/generic_national_populist_resistance.png"
+        name = "GFX_idea_generic_ultranationalist_resistance"
+        texturefile = "gfx/interface/ideas/ideas/generic_ultranationalist_resistance.png"
     }
 	spriteType = {
         name = "GFX_idea_generic_naval_company"

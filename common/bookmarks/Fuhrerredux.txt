@@ -13,7 +13,7 @@ bookmarks = {
     }
     "USA" = {
       history = "USA_FUHRERREDUX_DESC"
-      ideology = market_liberal
+      ideology = liberal
       ideas = {
 
       }
@@ -23,7 +23,7 @@ bookmarks = {
     }
     "SOV" = {
       history = "SOV_FUHRERREDUX_DESC"
-      ideology = collectivist
+      ideology = utopian_socialist
       ideas = {
 
       }
@@ -33,7 +33,7 @@ bookmarks = {
     }
     "GER" = {
       history = "GER_FUHRERREDUX_DESC"
-      ideology = valkist
+      ideology = esoteric_nationalist
       ideas = {
  
       }
@@ -88,7 +88,7 @@ bookmarks = {
     ### Minors
     "HOL" = {
       history = "HOL_FUHRERREDUX_DESC"
-      ideology = national_populist
+      ideology = ultranationalist
       minor = yes
       ideas = {
 
@@ -132,7 +132,7 @@ bookmarks = {
     }
     "GRE" = {
       history = "GRE_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
 
@@ -143,7 +143,7 @@ bookmarks = {
     }
     "BLR" = {
       history = "BLR_FUHRERREDUX_DESC"
-      ideology = valkist
+      ideology = esoteric_nationalist
       minor = yes
       ideas = {
 
@@ -176,7 +176,7 @@ bookmarks = {
     }
     "FIN" = {
       history = "FIN_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
 
@@ -209,7 +209,7 @@ bookmarks = {
     }
     "ARG" = {
       history = "ARG_FUHRERREDUX_DESC"
-      ideology = social_liberal
+      ideology = liberal
       minor = yes
       ideas = {
 
@@ -253,7 +253,7 @@ bookmarks = {
     }
     "CRU" = {
       history = "CRU_FUHRERREDUX_DESC"
-      ideology = valkist
+      ideology = esoteric_nationalist
       minor = yes
       ideas = {
 

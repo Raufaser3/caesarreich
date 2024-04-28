@@ -228,24 +228,20 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = vanguardist }
 		}
 		AND = {
-			has_government = collectivist
-			ROOT = { has_government = collectivist }
+			has_government = utopian_socialist
+			ROOT = { has_government = utopian_socialist }
 		}
 		AND = {
-			has_government = libertarian_socialist
-			ROOT = { has_government = libertarian_socialist }
+			has_government = revolutionary_socialist
+			ROOT = { has_government = revolutionary_socialist }
 		}
 		AND = {
 			has_government = social_democrat
 			ROOT = { has_government = social_democrat }
 		}
 		AND = {
-			has_government = social_liberal
-			ROOT = { has_government = social_liberal }
-		}
-		AND = {
-			has_government = market_liberal
-			ROOT = { has_government = market_liberal }
+			has_government = liberal
+			ROOT = { has_government = liberal }
 		}
 		AND = {
 			has_government = social_conservative
@@ -260,12 +256,12 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = paternal_autocrat }
 		}
 		AND = {
-			has_government = national_populist
-			ROOT = { has_government = national_populist }
+			has_government = ultranationalist
+			ROOT = { has_government = ultranationalist }
 		}
 		AND = {
-			has_government = valkist
-			ROOT = { has_government = valkist }
+			has_government = esoteric_nationalist
+			ROOT = { has_government = esoteric_nationalist }
 		}
 	}
 }
@@ -276,8 +272,8 @@ has_socialist_government = {
 		tooltip = FX_is_socialist_tt
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 }
@@ -288,8 +284,7 @@ has_elected_government = {
 		tooltip = FX_is_elected_tt
 		OR = {
 			has_government = social_democrat
-			has_government = social_liberal
-			has_government = market_liberal
+			has_government = liberal
 			has_government = social_conservative
 		}
 	}
@@ -301,8 +296,7 @@ has_democratic_government = {
 		tooltip = FX_is_democratic_tt
 		OR = {
 			has_government = social_democrat
-			has_government = social_liberal
-			has_government = market_liberal
+			has_government = liberal
 			has_government = social_conservative
 			has_government = authoritarian_democrat
 		}
@@ -314,7 +308,7 @@ has_democratic_left_government = {
 		tooltip = FX_is_democratic_left_tt
 		OR = {
 			has_government = social_democrat
-			has_government = social_liberal
+			has_government = liberal
 		}
 	}
 }
@@ -323,7 +317,7 @@ has_democratic_right_government = {
 	custom_trigger_tooltip = {
 		tooltip = FX_is_democratic_right_tt
 		OR = {
-			has_government = market_liberal
+			has_government = liberal
 			has_government = social_conservative
 		}
 	}
@@ -336,8 +330,8 @@ has_authoritarian_government = {
 		OR = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
-			has_government = national_populist
-			has_government = valkist
+			has_government = ultranationalist
+			has_government = esoteric_nationalist
 		}
 	}
 }
@@ -348,8 +342,8 @@ has_dictatorship_government = {
 		tooltip = FX_is_dictatorship_tt
 		OR = {
 			has_government = paternal_autocrat
-			has_government = national_populist
-			has_government = valkist
+			has_government = ultranationalist
+			has_government = esoteric_nationalist
 		}
 	}
 }
@@ -358,8 +352,8 @@ has_ultranationalist_government = {
 	custom_trigger_tooltip = {
 		tooltip = FX_is_ultranationalist_tt
 		OR = {
-			has_government = national_populist
-			has_government = valkist
+			has_government = ultranationalist
+			has_government = esoteric_nationalist
 		}
 	}
 }

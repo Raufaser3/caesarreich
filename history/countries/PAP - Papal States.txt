@@ -13,14 +13,14 @@ add_ideas = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 0
-	libertarian_socialist = 6
+	utopian_socialist = 0
+	revolutionary_socialist = 6
 	social_democrat = 2
-	social_liberal = 10
-	market_liberal = 10
+	liberal = 10
+	liberal = 10
 	social_conservative = 12
 	authoritarian_democrat = 8
 	paternal_autocrat = 42
-	national_populist = 10
-	valkist = 0
+	ultranationalist = 10
+	esoteric_nationalist = 0
 }

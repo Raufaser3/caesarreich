@@ -19,16 +19,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 3
-  libertarian_socialist = 5
+  utopian_socialist = 3
+  revolutionary_socialist = 5
   social_democrat = 40
-  social_liberal = 25
-  market_liberal = 25
+  liberal = 25
+  liberal = 25
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 1
-  national_populist = 1
-  valkist = 0
+  ultranationalist = 1
+  esoteric_nationalist = 0
 }
 
 recruit_character = FRP_Francois_Coty

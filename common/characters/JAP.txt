@@ -11,11 +11,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -31,7 +27,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -103,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -140,7 +136,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -153,7 +149,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Oyama_Ikuo_hog_col_hired }
 			on_remove = { clr_character_flag = JAP_Oyama_Ikuo_hog_col_hired }
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_red_chairmen
 			}
 		}
@@ -187,7 +183,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_prince_of_terror
 			}
 		}
@@ -206,7 +202,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_holy_vice_marshal
 			}
 		}
@@ -323,7 +319,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Nakano_Seigo_eco_npo_hired }
 			on_remove = { clr_character_flag = JAP_Nakano_Seigo_eco_npo_hired }
 			traits = {
-				national_populist
+				ultranationalist
 				eco_planned_economy_proponent
 			}
 		}
@@ -342,7 +338,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Nakano_Seigo_hog_npo_hired }
 			on_remove = { clr_character_flag = JAP_Nakano_Seigo_hog_npo_hired }
 			traits = {
-				national_populist
+				ultranationalist
 				hog_nationalist_patriot
 			}
 		}
@@ -470,7 +466,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
 			on_remove = { clr_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_prince_of_terror
 			}
 		}
@@ -1219,7 +1215,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suzuki_Mosaburo_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -1297,7 +1293,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hamaguchi_Osachi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_local_tyrant
 			}
 		}
@@ -1323,7 +1319,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Machida_Chuji_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -1349,7 +1345,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Miki_Bukichi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -1375,7 +1371,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Ugaki_Kazushige_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_smiling_oilman
 			}
 		}
@@ -1739,7 +1735,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Araki_Sadao_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_charismatic_charmer
 			}
 		}
@@ -1765,7 +1761,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Konoe_Fumimaro_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_determined_populist
 			}
 		}
@@ -1791,7 +1787,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kuhara_Fusanosuke_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_local_tyrant
 			}
 		}
@@ -1843,7 +1839,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Yamamoto_Kenzo_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1869,7 +1865,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shidehara_Kijuro_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_apologetic_clerk
 			}
 		}
@@ -2047,7 +2043,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Hayashi_Fusao_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_biased_intellectual
 			}
 		}
@@ -2099,7 +2095,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Shiratori_Toshio_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_ideological_crusader
 			}
 		}
@@ -2177,7 +2173,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Okawa_Shumei_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_relations_expert
 			}
 		}
@@ -2229,7 +2225,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Yamada_Moritaro_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -2307,7 +2303,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Inoue_Junnosuke_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_bank_president
 			}
 		}
@@ -2333,7 +2329,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Matsumura_Kenzo_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_reformer
 			}
 		}
@@ -2541,7 +2537,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suzuki_Teiichi_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_industrialiser
 			}
 		}
@@ -2567,7 +2563,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Etsusaburo_Shiina_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_administrative_genius
 			}
 		}
@@ -2593,7 +2589,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kimura_Takeo_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_reformer
 			}
 		}
@@ -2645,7 +2641,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Takashi_Hishikari_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}
@@ -2697,7 +2693,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Sakisaka_Itsuro_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_back_stabber
 			}
 		}
@@ -2749,7 +2745,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kawasaki_Katsu_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -2775,7 +2771,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kawasaki_Takukichi_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_silent_lawyer
 			}
 		}
@@ -2801,7 +2797,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Kimura_Kozaemon_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_man_of_the_people
 			}
 		}
@@ -2827,7 +2823,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Saito_Takao_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -3061,7 +3057,7 @@ characters = {
 				ROOT = { clr_character_flag = JAP_Suetsugu_Nobumasa_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_back_stabber
 			}
 		}

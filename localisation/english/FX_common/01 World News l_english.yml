@@ -92,7 +92,7 @@ fxnews.22.d: "[This.GetNewspaperHeader]The National Liberal Party has won the el
 fxnews.22.a: "Cheers to the PNL!"
 
 fxnews.23.t: "PSDR Wins Romanian Elections"
-fxnews.23.d: "[This.GetNewspaperHeader]The Romanian Social Democratic Party has won the elections. Almost all Romanians were surprised by this underdog securing victory in the recent elections. Since their founding in 1927, the PSDR has offered an alternative to the establishment Collectivists who support the Third International and Soviet Russia. For the first time in decades, the National Liberal Party has suffered a humiliating defeat."
+fxnews.23.d: "[This.GetNewspaperHeader]The Romanian Social Democratic Party has won the elections. Almost all Romanians were surprised by this underdog securing victory in the recent elections. Since their founding in 1927, the PSDR has offered an alternative to the establishment utopian_socialists who support the Third International and Soviet Russia. For the first time in decades, the National Liberal Party has suffered a humiliating defeat."
 fxnews.23.a: "Cheers to the PSDR!"
 
 fxnews.24.t: "PNT Wins Romanian Elections"
@@ -376,7 +376,7 @@ fxnews.81.e: "France devolves further into degeneracy."
 fxnews.81.f: "For liberty!"
 
 fxnews.82.t: "ARD Victorious in French Elections"
-fxnews.82.d: "[This.GetNewspaperHeader]Whilst the French political scene has been often known as a chaotic one, the fallout of the Rollin affair has totally uprooted the dominance of the National Bloc in French politics. Nonetheless, the formerly dominant Democratic Republican Alliance now reigns supreme following the recent elections.\n\nFormerly the largest faction of the National Bloc, the victory of the ARD means that it is unlikely for Paris to drastically change course. Nevertheless, many wonder if the new French government, now wielding a harsher opinion of Valkist Germany are up to the task of maintaining peace in the existing European order as the spectre of war looms closer."
+fxnews.82.d: "[This.GetNewspaperHeader]Whilst the French political scene has been often known as a chaotic one, the fallout of the Rollin affair has totally uprooted the dominance of the National Bloc in French politics. Nonetheless, the formerly dominant Democratic Republican Alliance now reigns supreme following the recent elections.\n\nFormerly the largest faction of the National Bloc, the victory of the ARD means that it is unlikely for Paris to drastically change course. Nevertheless, many wonder if the new French government, now wielding a harsher opinion of esoteric_nationalist Germany are up to the task of maintaining peace in the existing European order as the spectre of war looms closer."
 fxnews.82.a: "What else did we expect?"
 fxnews.82.b: "France maintains her course."
 fxnews.82.c: "That's a relief."
@@ -452,7 +452,7 @@ fxnews.94.d: "[This.GetNewspaperHeader]The Italian election's failiure to determ
 fxnews.94.a: "These are truly difficult times for Italy."
 
 fxnews.95.t: "Civil War in Brazil"
-fxnews.95.d: "[This.GetNewspaperHeader]In an event that shocked absolutely no one, Chaos and strife surges once again in South America. This time, it is the South American giant, Brazil, the one that is split apart by internal issues.\n\nAs a collectivist revolt has risen against the so called "corrupt" Brazilian Republic in the west side of the country, in the south, traditionalists and nationalists group that have no loyalty for either the Republic or the socialist Insurgency have taken the matter into their own hands and risen as well.\n\nOne thing is for certain, this is the largest civil war the continent has seen in a long time, and its effects will be great."
+fxnews.95.d: "[This.GetNewspaperHeader]In an event that shocked absolutely no one, Chaos and strife surges once again in South America. This time, it is the South American giant, Brazil, the one that is split apart by internal issues.\n\nAs a utopian_socialist revolt has risen against the so called "corrupt" Brazilian Republic in the west side of the country, in the south, traditionalists and nationalists group that have no loyalty for either the Republic or the socialist Insurgency have taken the matter into their own hands and risen as well.\n\nOne thing is for certain, this is the largest civil war the continent has seen in a long time, and its effects will be great."
 fxnews.95.a: "No stability to be found down under anymore."
 
 fxnews.96.t: "The Second Leticia War"
@@ -628,7 +628,7 @@ fxnews.125.d: "[This.GetNewspaperHeader]Yesterday Germany sent an ultimatum to D
 fxnews.125.a: "Why die for Denmark?"
 
 fxnews.126.t: "Germany annexes the Rhine"
-fxnews.126.d: "[This.GetNewspaperHeader]Last night the results of the Rhineland referendum came in, Rhineland will become part of Germany once again. The shocking results have caused much controversy. In France complaints of election fraud by the Rhinish Valkist party have become more and more common but no substantial proof can be found. Today it seems the balance of power in Europe has slowly tipped into Germany's favor."
+fxnews.126.d: "[This.GetNewspaperHeader]Last night the results of the Rhineland referendum came in, Rhineland will become part of Germany once again. The shocking results have caused much controversy. In France complaints of election fraud by the Rhinish esoteric_nationalist party have become more and more common but no substantial proof can be found. Today it seems the balance of power in Europe has slowly tipped into Germany's favor."
 fxnews.126.a: "A truly embarrassing turn of events for France."
 
 fxnews.127.t: "France Backs The Czech State"
@@ -726,7 +726,7 @@ worldnews_ww2_neutral: "War is hell."
 fxnews.141.t: "The Second Great War"
 fxnews.141.d: "[This.GetNewspaperHeader]When the guns fell silent and the first Great War was at an end, many had thought that it would be the war to end all wars. The costs of war had irrevocably changed the landscape of Europe and it was assumed that no one had the appetite for more war. Nevertheless, there were those who doubted that peace could last.\n\nToday, these pessimists have been vindicated; denouncing their supposed enslavement by the Treaty of Versailles, Germany has mobilized her forces once again, threatening Paris to withdraw from all claimed territory at once. Such unacceptable demands have naturally been laughed off by France, igniting the spark with reports of German artillery striking French positions  - the induction of another Great War that will shake the European continent."
 worldnews_ger_vs_fra_FRA: "They shall not pass."
-worldnews_ger_vs_fra_FRA_allies: "We must stop Valkist terror!"
+worldnews_ger_vs_fra_FRA_allies: "We must stop esoteric_nationalist terror!"
 worldnews_ger_vs_fra_USA: "How could we let Germany do this?"
 worldnews_ger_vs_fra_GER: "We will crush these impudent rats."
 worldnews_ger_vs_fra_GER_allies: "The Entente shall be thrown down to hell, where it belongs."

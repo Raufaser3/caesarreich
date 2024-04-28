@@ -10,10 +10,10 @@ characters = {
       ideology = vanguardist_subtype
     }
     country_leader = {
-      ideology = collectivist_subtype
+      ideology = utopian_socialist_subtype
     }
     country_leader = {
-      ideology = libertarian_socialist_subtype
+      ideology = revolutionary_socialist_subtype
     }
   }
   PRS_Wilhelm_III = {
@@ -27,10 +27,7 @@ characters = {
       ideology = social_democrat_subtype
     }
     country_leader = {
-      ideology = social_liberal_subtype
-    }
-    country_leader = {
-      ideology = market_liberal_subtype
+      ideology = liberal_subtype
     }
     country_leader = {
       ideology = social_conservative_subtype
@@ -42,10 +39,10 @@ characters = {
       ideology = paternal_autocrat_subtype
     }
     country_leader = {
-      ideology = national_populist_subtype
+      ideology = ultranationalist_subtype
     }
     country_leader = {
-      ideology = valkist_subtype
+      ideology = esoteric_nationalist_subtype
     }
   }
 }

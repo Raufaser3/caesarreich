@@ -9,8 +9,8 @@ AST_DD_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -40,8 +40,8 @@ AST_CL_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -68,8 +68,8 @@ AST_CA_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -96,8 +96,8 @@ AST_BB_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -123,8 +123,8 @@ AST_BC_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -150,8 +150,8 @@ AST_CV_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -178,8 +178,8 @@ AST_SS_HISTORICAL = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -204,8 +204,8 @@ AST_ANIMALS = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -247,8 +247,8 @@ AST_DD_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -276,8 +276,8 @@ AST_CL_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -302,8 +302,8 @@ AST_CA_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -328,8 +328,8 @@ AST_BB_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -353,8 +353,8 @@ AST_BC_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -378,8 +378,8 @@ AST_CV_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -404,8 +404,8 @@ AST_SS_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -428,8 +428,8 @@ AST_ANIMALS_COMMUNIST = {
 	can_use = {
 		OR = {
 			has_government = vanguardist
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 

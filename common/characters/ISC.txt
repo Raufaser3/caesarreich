@@ -14,12 +14,12 @@ characters = {
 		# }
 		# country_leader = {
 		# 	desc = "POLITICS_ISC_DESC"
-		# 	ideology = social_liberal_subtype
+		# 	ideology = liberal_subtype
 		# 	traits = { }
 		# }
 		# country_leader = {
 		# 	desc = "POLITICS_ISC_DESC"
-		# 	ideology = market_liberal_subtype
+		# 	ideology = liberal_subtype
 		# 	traits = { }
 		# }
 		# country_leader = {
@@ -39,12 +39,12 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ISC_DESC"
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
 			desc = "POLITICS_ISC_DESC"
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -54,12 +54,12 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ISC_DESC"
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		country_leader = {
 			desc = "POLITICS_ISC_DESC"
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -76,12 +76,7 @@ characters = {
 			traits = { the_high_commissioner }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			desc = ""
-			traits = { the_high_commissioner }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			desc = ""
 			traits = { the_high_commissioner }
 		}

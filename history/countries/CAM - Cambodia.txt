@@ -56,23 +56,23 @@ if = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
     vanguardist = 25
-    collectivist = 0
-    libertarian_socialist = 0
+    utopian_socialist = 0
+    revolutionary_socialist = 0
     social_democrat = 0
-    social_liberal = 0
-    market_liberal = 40
+    liberal = 0
+    liberal = 40
     social_conservative = 35
     authoritarian_democrat = 0
     paternal_autocrat = 0
-    national_populist = 0
-    valkist = 0
+    ultranationalist = 0
+    esoteric_nationalist = 0
 }
 
 recruit_character = CAM_Pol_Pot

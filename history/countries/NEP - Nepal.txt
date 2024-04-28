@@ -24,16 +24,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 12
-  collectivist = 2
-  libertarian_socialist = 0
+  utopian_socialist = 2
+  revolutionary_socialist = 0
   social_democrat = 2
-  social_liberal = 0
-  market_liberal = 3
+  liberal = 0
+  liberal = 3
   social_conservative = 8
   authoritarian_democrat = 32
   paternal_autocrat = 35
-  national_populist = 4
-  valkist = 2
+  ultranationalist = 4
+  esoteric_nationalist = 2
 }
 
 recruit_character = NEP_Tribhuvana

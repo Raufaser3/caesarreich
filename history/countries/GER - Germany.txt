@@ -133,7 +133,7 @@ set_stability = 0.44
 set_war_support = 0.49
 
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = esoteric_nationalist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -142,16 +142,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 8
-	libertarian_socialist = 1
+	utopian_socialist = 8
+	revolutionary_socialist = 1
 	social_democrat = 1
-	social_liberal = 1
-	market_liberal = 6
+	liberal = 1
+	liberal = 6
 	social_conservative = 15
 	authoritarian_democrat = 14
 	paternal_autocrat = 1
-	national_populist = 13
-	valkist = 40
+	ultranationalist = 13
+	esoteric_nationalist = 40
 }
 
 GER_add_armour_variants = yes
@@ -327,7 +327,7 @@ recruit_character = GER_Alfred_Bulowius
 recruit_character = GER_Hermann_Kohl
 recruit_character = GER_Willy_Brandt
 recruit_character = GER_Hans_von_Seeckt
-recruit_character = GER_Valkist_Council
+recruit_character = GER_esoteric_nationalist_Council
 recruit_character = GER_Fedor_von_Bock
 recruit_character = GER_Alfred_Saalwachter
 recruit_character = GER_Werner_von_Blomberg

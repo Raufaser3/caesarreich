@@ -44,20 +44,20 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	collectivist = {
+	utopian_socialist = {
 		types = {
-			collectivist_subtype = {}
+			utopian_socialist_subtype = {}
 			monsoc_subtype = { can_be_randomly_selected = no }
 			leninism_subtype = { can_be_randomly_selected = no }
 			anarchism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_collectivist_1"
-			"FACTION_NAME_collectivist_2"
-			"FACTION_NAME_collectivist_3"
-			"FACTION_NAME_collectivist_4"
-			"FACTION_NAME_collectivist_5"
-			"FACTION_NAME_collectivist_6"
+			"FACTION_NAME_utopian_socialist_1"
+			"FACTION_NAME_utopian_socialist_2"
+			"FACTION_NAME_utopian_socialist_3"
+			"FACTION_NAME_utopian_socialist_4"
+			"FACTION_NAME_utopian_socialist_5"
+			"FACTION_NAME_utopian_socialist_6"
 		}
 		color = { 164 26 26 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
 		rules = {
@@ -79,9 +79,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	libertarian_socialist = {
+	revolutionary_socialist = {
 		types = {
-			libertarian_socialist_subtype = {}
+			revolutionary_socialist_subtype = {}
 			socialist_feminist_subtype = { can_be_randomly_selected = no }
 			libsoc_utopian_socialism_subtype = { can_be_randomly_selected = no }
 			anarcho_syndicalism_subtype = { can_be_randomly_selected = no }
@@ -90,12 +90,12 @@ ideologies = {
 			moderate_socialist_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+			"FACTION_NAME_revolutionary_socialist_1"
+			"FACTION_NAME_revolutionary_socialist_2"
+			"FACTION_NAME_revolutionary_socialist_3"
+			"FACTION_NAME_revolutionary_socialist_4"
+			"FACTION_NAME_revolutionary_socialist_5"
+			"FACTION_NAME_revolutionary_socialist_6"
 		}
 		color = { 233 58 58 } #old one was 255 65 65
 		rules = {
@@ -157,20 +157,20 @@ ideologies = {
 
 	}
 	
-	social_liberal = {
+	liberal = {
 		types = {
-			social_liberal_subtype = {}
+			liberal_subtype = {}
 			centrist_subtype = { can_be_randomly_selected = no }
 			radical_liberalism_subtype = { can_be_randomly_selected = no }
 			venizelism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERAL_1"
-			"FACTION_NAME_SOCIAL_LIBERAL_2"
-			"FACTION_NAME_SOCIAL_LIBERAL_3"
-			"FACTION_NAME_SOCIAL_LIBERAL_4"
-			"FACTION_NAME_SOCIAL_LIBERAL_5"
-			"FACTION_NAME_SOCIAL_LIBERAL_6"
+			"FACTION_NAME_liberal_1"
+			"FACTION_NAME_liberal_2"
+			"FACTION_NAME_liberal_3"
+			"FACTION_NAME_liberal_4"
+			"FACTION_NAME_liberal_5"
+			"FACTION_NAME_liberal_6"
 		}
 		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
 		rules = {
@@ -189,43 +189,6 @@ ideologies = {
 			airforce_intel_to_others = 5
 		}
 		ai_neutral = yes		
-		#can_be_boosted = no
-	}
-
-	market_liberal = {
-		types = {
-			market_liberal_subtype = {}
-			marlib_centrist_subtype = { can_be_randomly_selected = no }
-			marlib_classical_liberalism_subtype = { can_be_randomly_selected = no }
-			liberal_conservative_subtype = { can_be_randomly_selected = no }
-			marlib_venizelism_subtype = { can_be_randomly_selected = no }
-			national_socialism_subtype = { can_be_randomly_selected = no }
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_MARKET_LIBERAL_1"
-			"FACTION_NAME_MARKET_LIBERAL_2"
-			"FACTION_NAME_MARKET_LIBERAL_3"
-			"FACTION_NAME_MARKET_LIBERAL_4"
-			"FACTION_NAME_MARKET_LIBERAL_5"
-			"FACTION_NAME_MARKET_LIBERAL_6"
-		}
-		color = { 255 216 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-			can_create_factions = no
-		}
-		modifiers = {
-			generate_wargoal_tension = 0.75
-			guarantee_tension = 0.75
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-		}
-		ai_neutral = yes	
 		#can_be_boosted = no
 	}
 	
@@ -358,9 +321,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	national_populist = {
+	ultranationalist = {
 		types = {
-			national_populist_subtype = {}
+			ultranationalist_subtype = {}
 			statist_showaist_subtype = { can_be_randomly_selected = no }
 			legionarism_subtype = { can_be_randomly_selected = no }
 			integralism_subtype = { can_be_randomly_selected = no }
@@ -370,12 +333,12 @@ ideologies = {
 			metaxism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_POPULIST_1"
-			"FACTION_NAME_NATIONAL_POPULIST_2"
-			"FACTION_NAME_NATIONAL_POPULIST_3"
-			"FACTION_NAME_NATIONAL_POPULIST_4"
-			"FACTION_NAME_NATIONAL_POPULIST_5"
-			"FACTION_NAME_NATIONAL_POPULIST_6"
+			"FACTION_NAME_ultranationalist_1"
+			"FACTION_NAME_ultranationalist_2"
+			"FACTION_NAME_ultranationalist_3"
+			"FACTION_NAME_ultranationalist_4"
+			"FACTION_NAME_ultranationalist_5"
+			"FACTION_NAME_ultranationalist_6"
 		}
 		color = { 94 50 11 } #142 57 0 is original
 		rules = {
@@ -397,9 +360,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	valkist = {
+	esoteric_nationalist = {
 		types = {
-			valkist_subtype = {}
+			esoteric_nationalist_subtype = {}
 			panasian_nichirenist_subtype = { can_be_randomly_selected = no }
 			occultism_subtype = { can_be_randomly_selected = no }
 			val_legionarism_subtype = { can_be_randomly_selected = no }
@@ -409,12 +372,12 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_VALKIST_1"
-			"FACTION_NAME_VALKIST_2"
-			"FACTION_NAME_VALKIST_3"
-			"FACTION_NAME_VALKIST_4"
-			"FACTION_NAME_VALKIST_5"
-			"FACTION_NAME_VALKIST_6"
+			"FACTION_NAME_esoteric_nationalist_1"
+			"FACTION_NAME_esoteric_nationalist_2"
+			"FACTION_NAME_esoteric_nationalist_3"
+			"FACTION_NAME_esoteric_nationalist_4"
+			"FACTION_NAME_esoteric_nationalist_5"
+			"FACTION_NAME_esoteric_nationalist_6"
 		}
 		color = { 11 46 29 }
 		rules = {

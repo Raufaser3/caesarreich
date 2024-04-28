@@ -1616,8 +1616,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/goal_collectivism_red.png"
     }
 	spriteType = {
-        name = "GFX_goal_collectivist_menace"
-        texturefile = "gfx/interface/goals/goal_collectivist_menace.png"
+        name = "GFX_goal_utopian_socialist_menace"
+        texturefile = "gfx/interface/goals/goal_utopian_socialist_menace.png"
     }
 	spriteType = {
         name = "GFX_goal_collie_industry"
@@ -2400,7 +2400,7 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/goal_firm_arg2.png"
     }
 	spriteType = {
-        name = "GFX_goal_Five_Races_National_Populist"
+        name = "GFX_goal_Five_Races_ultranationalist"
         texturefile = "gfx/interface/goals/Five_Races_Natpop.png"
     }
 	spriteType = {
@@ -4972,8 +4972,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/goal_ideology_authoritarian_democrat.png"
     }
 	spriteType = {
-        name = "GFX_goal_ideology_collectivist"
-        texturefile = "gfx/interface/goals/goal_ideology_collectivist.png"
+        name = "GFX_goal_ideology_utopian_socialist"
+        texturefile = "gfx/interface/goals/goal_ideology_utopian_socialist.png"
     }
 	spriteType = {
         name = "GFX_goal_ideology_internationalist"
@@ -4984,12 +4984,12 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/goal_ideology_libertarian_socialism.png"
     }
 	spriteType = {
-        name = "GFX_goal_ideology_market_liberal"
-        texturefile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+        name = "GFX_goal_ideology_liberal"
+        texturefile = "gfx/interface/goals/goal_ideology_liberal.png"
     }
 	spriteType = {
-        name = "GFX_goal_ideology_national_populist"
-        texturefile = "gfx/interface/goals/goal_ideology_national_populist.png"
+        name = "GFX_goal_ideology_ultranationalist"
+        texturefile = "gfx/interface/goals/goal_ideology_ultranationalist.png"
     }
 	spriteType = {
         name = "GFX_goal_ideology_nazbolgang"
@@ -5012,8 +5012,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/goal_ideology_social_democrat.png"
     }
 	spriteType = {
-        name = "GFX_goal_ideology_social_liberal"
-        texturefile = "gfx/interface/goals/goal_ideology_social_liberal.png"
+        name = "GFX_goal_ideology_liberal"
+        texturefile = "gfx/interface/goals/goal_ideology_liberal.png"
     }
 	spriteType = {
         name = "GFX_goal_ideology_syndicalist"
@@ -9780,8 +9780,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/SWI_authoritarian_democrat.png"
     }
 	spriteType = {
-        name = "GFX_SWI_market_liberal"
-        texturefile = "gfx/interface/goals/SWI_market_liberal.png"
+        name = "GFX_SWI_liberal"
+        texturefile = "gfx/interface/goals/SWI_liberal.png"
     }
 	spriteType = {
         name = "GFX_SWI_social_conservative"
@@ -9792,8 +9792,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/SWI_social_democrat.png"
     }
 	spriteType = {
-        name = "GFX_SWI_social_liberal"
-        texturefile = "gfx/interface/goals/SWI_social_liberal.png"
+        name = "GFX_SWI_liberal"
+        texturefile = "gfx/interface/goals/SWI_liberal.png"
     }
 	spriteType = {
         name = "GFX_Take_distances_from_Moscow_2"

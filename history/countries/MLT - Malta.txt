@@ -63,16 +63,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 5
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 20
-  social_liberal = 0
-  market_liberal = 10
+  liberal = 0
+  liberal = 10
   social_conservative = 10
   authoritarian_democrat = 25
   paternal_autocrat = 10
-  national_populist = 10
-  valkist = 10
+  ultranationalist = 10
+  esoteric_nationalist = 10
 }
 set_cosmetic_tag = MLT_ENG
 recruit_character = MLT_Charles_Bonham_Carter

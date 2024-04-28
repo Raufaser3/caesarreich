@@ -30,16 +30,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 0
-	libertarian_socialist = 0
+	utopian_socialist = 0
+	revolutionary_socialist = 0
 	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 13
+	liberal = 0
+	liberal = 13
 	social_conservative = 22
 	authoritarian_democrat = 45
 	paternal_autocrat = 15
-	national_populist = 5
-	valkist = 0
+	ultranationalist = 5
+	esoteric_nationalist = 0
 }
 
 recruit_character = LBA_Idris_Senussi

@@ -12,11 +12,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -67,7 +63,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -79,7 +75,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -92,7 +88,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +106,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Roman_Dmowski_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_determined_populist
 			}
 		}
@@ -138,7 +134,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -420,7 +416,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jan_Mosdorf_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_underground_figurehead
 			}
 		}
@@ -447,7 +443,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Henryk_Rossman_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_local_tyrant
 			}
 		}
@@ -555,7 +551,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jerzy_Kurcyusz_for_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				for_ideological_crusader
 			}
 		}
@@ -582,7 +578,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Głąbiński_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_iron_fisted_brute
 			}
 		}
@@ -609,7 +605,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maciej_Rataj_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_biased_intellectual
 			}
 		}
@@ -690,7 +686,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jędrzej_Giertych_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_relations_expert
 			}
 		}
@@ -717,7 +713,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Kozicki_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_apologetic_clerk
 			}
 		}
@@ -744,7 +740,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jozef_Feliks_Ciszewski_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_ideological_crusader
 			}
 		}
@@ -771,7 +767,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maria_Koszutska_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -790,7 +786,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maria_Koszutska_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -898,7 +894,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Roman_Rybarski_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_mixed_economy
 			}
 		}
@@ -925,7 +921,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Mikołajczyk_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -952,7 +948,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Todtleben_eco_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				eco_resource_industrialist
 			}
 		}
@@ -1006,7 +1002,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jan_Jodzewicz_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_back_stabber
 			}
 		}
@@ -1087,7 +1083,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Bielecki_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_secret_police_chief
 			}
 		}
@@ -1114,7 +1110,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Gluziński_sec_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				sec_man_of_the_people
 			}
 		}

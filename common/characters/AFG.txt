@@ -28,11 +28,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
     advisor = {
@@ -67,7 +67,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -161,7 +161,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -188,7 +188,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -415,7 +415,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_ideological_crusader
 			}
 		}
@@ -618,7 +618,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_industrialiser
 			}
 		}
@@ -653,7 +653,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_back_stabber
 			}
 		}
@@ -780,7 +780,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_prince_of_terror
 			}
 		}

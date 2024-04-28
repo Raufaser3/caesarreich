@@ -16,7 +16,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = liberal
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -24,16 +24,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 3
-  collectivist = 3
-  libertarian_socialist = 3
+  utopian_socialist = 3
+  revolutionary_socialist = 3
   social_democrat = 31
-  social_liberal = 5
-  market_liberal = 35
+  liberal = 5
+  liberal = 35
   social_conservative = 10
   authoritarian_democrat = 0
   paternal_autocrat = 2
-  national_populist = 8
-  valkist = 0
+  ultranationalist = 8
+  esoteric_nationalist = 0
 }
 
 recruit_character = PAN_Juan_Demostenes_Arosemena

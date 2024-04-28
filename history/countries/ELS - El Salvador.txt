@@ -32,7 +32,7 @@ set_stability = 0.45
 set_war_support = 0.59
 
 set_politics = {	
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1933.1.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,16 +40,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 2
+  utopian_socialist = 0
+  revolutionary_socialist = 2
   social_democrat = 24
-  social_liberal = 44
-  market_liberal = 9
+  liberal = 44
+  liberal = 9
   social_conservative = 15
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 6
-  valkist = 0
+  ultranationalist = 6
+  esoteric_nationalist = 0
 }
 
 recruit_character = ELS_Jose_Castellanos_Contreras

@@ -93,8 +93,8 @@ add_ideas = {
 	parliamentary_republic
 }
 
-set_country_flag = coalition_libertarian_socialist
-set_country_flag = coalition_social_liberal
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_liberal
 
 set_politics = {	
 	ruling_party = social_democrat
@@ -105,16 +105,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 6
-  libertarian_socialist = 3
+  utopian_socialist = 6
+  revolutionary_socialist = 3
   social_democrat = 20
-  social_liberal = 22
-  market_liberal = 11
+  liberal = 22
+  liberal = 11
   social_conservative = 10
   authoritarian_democrat = 2
   paternal_autocrat = 20
-  national_populist = 6
-  valkist = 0
+  ultranationalist = 6
+  esoteric_nationalist = 0
 }
 
 

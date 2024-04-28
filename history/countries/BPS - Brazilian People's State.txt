@@ -14,12 +14,12 @@ set_politics = {
 
 set_popularities = {
 	social_conservative = 5
-	market_liberal = 7
-	national_populist = 10
-	valkist = 19
+	liberal = 7
+	ultranationalist = 10
+	esoteric_nationalist = 19
 	paternal_autocrat = 42
-	collectivist = 6
-	libertarian_socialist = 6
+	utopian_socialist = 6
+	revolutionary_socialist = 6
 	authoritarian_democrat = 5
 }
 set_convoys = 40

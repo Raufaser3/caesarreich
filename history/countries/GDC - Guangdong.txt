@@ -44,7 +44,7 @@ set_stability = 0.56
 set_war_support = 0.67
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,14 +52,14 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 13
-  collectivist = 12
-  libertarian_socialist = 4
+  utopian_socialist = 12
+  revolutionary_socialist = 4
   social_democrat = 6
-  social_liberal = 33
-  market_liberal = 0
+  liberal = 33
+  liberal = 0
   social_conservative = 4
   authoritarian_democrat = 15
   paternal_autocrat = 6
-  national_populist = 3
-  valkist = 4
+  ultranationalist = 3
+  esoteric_nationalist = 4
 }

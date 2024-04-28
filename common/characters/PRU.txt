@@ -49,7 +49,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Victor_Raul_Haya_de_la_Torre_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_happy_amateur
 			}
 		}
@@ -119,7 +119,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Jose_Alcamora_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_democratic_tyrant
 			}
 		}
@@ -146,7 +146,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Cisneros_Sanchez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -173,7 +173,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Rafael_Belaunde_Diez_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_corporate_suit
 			}
 		}
@@ -403,7 +403,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Carlos_Miro_Quesada_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_happy_amateur
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Jose_de_la_Riva_Aguero_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_old_compromiser
 			}
 		}
@@ -467,7 +467,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -547,7 +547,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Cesar_Vallejo_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -601,7 +601,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Javier_Correa_Elias_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_relations_expert
 			}
 		}
@@ -628,7 +628,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Prado_y_Ugarteche_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				for_ideological_crusader
 			}
 		}
@@ -736,7 +736,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Raul_Ferrero_Rebagliati_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_biased_intellectual
 			}
 		}
@@ -790,7 +790,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Antenor_Orrego_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_industrialiser
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Guillermo_Almenara_Irigoyen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -887,7 +887,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Romulo_Ferrero_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_resource_industrialist
 			}
 		}
@@ -1022,7 +1022,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Carlos_Manuel_Cox_Roose_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1049,7 +1049,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Ciro_Alegria_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_regionalist
 			}
 		}
@@ -1130,7 +1130,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Gallagher_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -1387,7 +1387,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -1423,7 +1423,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}

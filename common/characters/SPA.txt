@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Jose_Diaz_Ramos_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
     }
@@ -77,7 +77,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Jose_Diaz_Ramos_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
     advisor = {
@@ -109,7 +109,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -201,7 +201,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Buenaventura_Durruti_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_crime_fighter
 			}
 		}
@@ -308,7 +308,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Dolores_Ibarruri_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -374,7 +374,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_happy_amateur
 			}
 		}
@@ -393,7 +393,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_biased_intellectual
 			}
 		}
@@ -412,7 +412,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -466,7 +466,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Vicente_Uribe_Galdeano_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -485,7 +485,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Vicente_Uribe_Galdeano_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -513,7 +513,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_charismatic_charmer
 			}
 		}
@@ -540,7 +540,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_political_protege
 			}
 		}
@@ -559,7 +559,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_health_and_safety
 			}
 		}
@@ -586,7 +586,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -709,7 +709,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Jordi_Arquer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -736,7 +736,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Eduardo_de_Guzman_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -763,7 +763,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -790,7 +790,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_relations_expert
 			}
 		}
@@ -817,7 +817,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_relations_expert
 			}
 		}
@@ -836,7 +836,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_tank_proponent
 			}
 		}
@@ -890,7 +890,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Rafael_Vidiella_Franch_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_industrialiser
 			}
 		}
@@ -917,7 +917,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Miquel_Valdes_i_Valdes_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_administrative_genius
 			}
 		}
@@ -944,7 +944,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Federica_Monsteny_Mane_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_infantry_proponent
 			}
 		}
@@ -971,7 +971,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Joaquin_Ascaso_Budria_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_battlefield_support_proponent
 			}
 		}
@@ -1004,7 +1004,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Lopez_Sanchez_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1053,7 +1053,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Juan_Peiro_Belis_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_trade_proponent
 			}
 		}
@@ -1096,7 +1096,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_industrial_chemist
 			}
 		}
@@ -1123,7 +1123,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_reformer
 			}
 		}
@@ -1231,7 +1231,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_media_magnate
 			}
 		}
@@ -1258,7 +1258,7 @@ characters = {
 				ROOT = { clr_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_compassionate_gentleman
 			}
 		}

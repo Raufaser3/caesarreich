@@ -37,16 +37,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 2
-  social_liberal = 6
-  market_liberal = 28
+  liberal = 6
+  liberal = 28
   social_conservative = 35
   authoritarian_democrat = 5
   paternal_autocrat = 22
-  national_populist = 2
-  valkist = 0
+  ultranationalist = 2
+  esoteric_nationalist = 0
 }
 
 recruit_character = LIB_Edwin_Barclay

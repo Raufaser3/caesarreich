@@ -43,16 +43,16 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-	collectivist = 17
-	libertarian_socialist = 0
+	utopian_socialist = 17
+	revolutionary_socialist = 0
 	social_democrat = 6
-	social_liberal = 7
-	market_liberal = 15
+	liberal = 7
+	liberal = 15
 	social_conservative = 14
 	authoritarian_democrat = 0
 	paternal_autocrat = 41
-	national_populist = 0
-	valkist = 0
+	ultranationalist = 0
+	esoteric_nationalist = 0
 }
 
 recruit_character = TRV_Chithira_Thirunal_Balarama_Varma

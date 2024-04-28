@@ -39,7 +39,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 	}
@@ -239,7 +239,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -251,7 +251,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -611,7 +611,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Benoit_Frachon_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -638,7 +638,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Marceau_Pivert_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_naive_optimist
 			}
 		}
@@ -665,7 +665,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Benoit_Broutchoux_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_happy_amateur
 			}
 		}
@@ -692,7 +692,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Daniel_Guerin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_sincere_internationalist
 			}
 		}
@@ -746,7 +746,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Edouard_Daladier_hog_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				hog_happy_amateur
 			}
 		}
@@ -773,7 +773,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Paul_Reynaud_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				hog_democratic_tyrant
 			}
 		}
@@ -974,7 +974,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Charles_Maurras_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -1001,7 +1001,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jacques_Doriot_hog_val_hired }
 			}
 			traits = {
-				valkist
+				esoteric_nationalist
 				hog_underground_figurehead
 			}
 		}
@@ -1055,7 +1055,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Charles_Rappoport_for_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1082,7 +1082,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Nestor_Makhno_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1136,7 +1136,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_George_Bonnet_for_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				for_moderate_among_radicals
 			}
 		}
@@ -1271,7 +1271,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Maurice_Pujo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				for_general_staffer
 			}
 		}
@@ -1298,7 +1298,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Daniel_Renoult_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_reformer
 			}
 		}
@@ -1325,7 +1325,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Leon_Jouhaux_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1352,7 +1352,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Tanguy_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1406,7 +1406,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Andre_Tardieu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -1420,7 +1420,7 @@ characters = {
 			}
 		}
     country_leader = {
-			ideology = liberal_conservative_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1438,7 +1438,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Pierre_Etienne_Flandin_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				liberal
 				eco_national_liberal
 			}
 		}
@@ -1573,7 +1573,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Eugene_Deloncle_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				eco_industrial_chemist
 			}
 		}
@@ -1627,7 +1627,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Bonnet_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1654,7 +1654,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Gourdeaux_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1681,7 +1681,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_May_Picqueray_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_crime_fighter
 			}
 		}
@@ -1708,7 +1708,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Albert_Sarraut_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_prince_of_terror
 			}
 		}
@@ -1735,7 +1735,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jean_Fabry_sec_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1816,7 +1816,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Massis_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				sec_efficient_sociopath
 			}
 		}

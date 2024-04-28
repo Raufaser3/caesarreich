@@ -67,7 +67,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -86,7 +86,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_industrialiser
 			}
 		}
@@ -113,7 +113,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Sidney_Bunting_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_happy_amateur
 			}
 		}
@@ -346,7 +346,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_D_F_Malan_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_local_tyrant
 			}
 		}
@@ -373,7 +373,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_J_F_van_Rensburg_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_silent_workhorse
 			}
 		}
@@ -427,7 +427,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Bram_Fischer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_biased_intellectual
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Yusuf_Dadoo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				for_ideological_crusader
 			}
 		}
@@ -481,7 +481,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Thabo_Mofutsanyana_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -508,7 +508,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Lazar_Bach_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_reformer
 			}
 		}
@@ -627,7 +627,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Alan_Paton_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_balanced_budget_economy
 			}
 		}
@@ -655,7 +655,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Jan_Hendrik_Hofmeyr_eco_sli_hired }
 			}
 			traits = {
-				social_liberal
+				liberal
 				eco_construction_magnate
 			}
 		}
@@ -764,7 +764,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Douglas_Wolton_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -791,7 +791,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1206,11 +1206,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1218,11 +1218,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1238,11 +1234,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = valkist_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}
@@ -1419,7 +1415,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Alfred_Bitini_Xuma_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -1446,7 +1442,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Tielman_Roos_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				ultranationalist
 				hog_local_tyrant
 			}
 		}

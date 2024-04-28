@@ -258,7 +258,7 @@ country_event = { # Fate of Insulindia
 		trigger = {
 			tag = PHI
 			# has_completed_focus = PHI_on_our_own
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
 
 		ROOT = {
@@ -482,7 +482,7 @@ country_event = { # Fate of Malaya
 		trigger = {
 			tag = PHI
 			# has_completed_focus = PHI_on_our_own
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
 		ROOT = {
 			add_state_claim = 336
@@ -702,7 +702,7 @@ country_event = { # Fate of Philippines
 						ROOT = { has_socialist_government = yes }
 					}
 					set_politics = {
-						ruling_party = libertarian_socialist
+						ruling_party = revolutionary_socialist
 						elections_allowed = no
 					}
 				}

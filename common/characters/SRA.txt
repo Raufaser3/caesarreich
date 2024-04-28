@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_James_W_Ford_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				hog_red_chairmen
 			}
 		}
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -90,7 +90,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Bayard_Rustin_eco_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				revolutionary_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -126,7 +126,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Edward_Carter_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				utopian_socialist
 				sec_driven_recruiter
 			}
 		}

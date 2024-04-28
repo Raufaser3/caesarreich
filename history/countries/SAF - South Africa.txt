@@ -92,16 +92,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 1
-  collectivist = 8
-  libertarian_socialist = 0
+  utopian_socialist = 8
+  revolutionary_socialist = 0
   social_democrat = 4
-  social_liberal = 0
-  market_liberal = 29
+  liberal = 0
+  liberal = 29
   social_conservative = 0
   authoritarian_democrat = 42
   paternal_autocrat = 12
-  national_populist = 0
-  valkist = 4
+  ultranationalist = 0
+  esoteric_nationalist = 4
 }
 
 recruit_character = SAF_James_La_Guma

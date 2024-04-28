@@ -23,16 +23,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 4
-  social_liberal = 8
-  market_liberal = 3
+  liberal = 8
+  liberal = 3
   social_conservative = 3
   authoritarian_democrat = 52
   paternal_autocrat = 6
-  national_populist = 24
-  valkist = 0
+  ultranationalist = 24
+  esoteric_nationalist = 0
 }
 
 recruit_character = YEM_Imam_Yahya

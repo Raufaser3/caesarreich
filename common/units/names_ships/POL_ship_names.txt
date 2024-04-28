@@ -113,8 +113,8 @@ POL_THEME_KINGS = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}
@@ -151,8 +151,8 @@ POL_THEME_HISTORICAL_FIGURES = {
 		not = { 
 			OR = {
 				has_government = vanguardist
-				has_government = collectivist
-				has_government = libertarian_socialist
+				has_government = utopian_socialist
+				has_government = revolutionary_socialist
 			}
 		}
 	}

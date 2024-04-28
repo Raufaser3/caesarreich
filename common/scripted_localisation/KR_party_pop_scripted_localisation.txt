@@ -22,15 +22,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = collectivist
+			has_government = utopian_socialist
 		}
-		localization_key = collectivist_subtype_desc
+		localization_key = utopian_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = libertarian_socialist
+			has_government = revolutionary_socialist
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = revolutionary_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -40,15 +40,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = social_liberal
+			has_government = liberal
 		}
-		localization_key = social_liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_government = market_liberal
-		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -70,15 +64,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = national_populist
+			has_government = ultranationalist
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = ultranationalist_subtype_desc
 	}
     text = {
 		trigger = {
-			has_government = valkist
+			has_government = esoteric_nationalist
 		}
-		localization_key = valkist_subtype_desc
+		localization_key = esoteric_nationalist_subtype_desc
 	}
 }
 defined_text = {
@@ -159,16 +153,16 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionCollectivist
+	name = GetCoalitionutopian_socialist
 	text = {
 		trigger = {
 			NOT = {
-				has_government = collectivist
-				check_variable = { political_power_ideology = token:collectivist }
+				has_government = utopian_socialist
+				check_variable = { political_power_ideology = token:utopian_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:collectivist }
+			is_in_array = { ROOT.coalition_partners = token:utopian_socialist }
 		}
-		localization_key = party_pop_coalition_collectivist
+		localization_key = party_pop_coalition_utopian_socialist
 	}
 	text = {
 		localization_key = empty
@@ -179,12 +173,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = libertarian_socialist
-				check_variable = { political_power_ideology = token:libertarian_socialist }
+				has_government = revolutionary_socialist
+				check_variable = { political_power_ideology = token:revolutionary_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+			is_in_array = { ROOT.coalition_partners = token:revolutionary_socialist }
 		}
-		localization_key = party_pop_coalition_libertarian_socialist
+		localization_key = party_pop_coalition_revolutionary_socialist
 	}
 	text = {
 		localization_key = empty
@@ -211,28 +205,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = social_liberal
-				check_variable = { political_power_ideology = token:social_liberal }
+				has_government = liberal
+				check_variable = { political_power_ideology = token:liberal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_liberal }
+			is_in_array = { ROOT.coalition_partners = token:liberal }
 		}
-		localization_key = party_pop_coalition_social_liberal
-	}
-	text = {
-		localization_key = empty
-	}
-}
-defined_text = {
-	name = GetCoalitionMarketLiberal
-	text = {
-		trigger = {
-			NOT = {
-				has_government = market_liberal
-				check_variable = { political_power_ideology = token:market_liberal }
-			}
-			is_in_array = { ROOT.coalition_partners = token:market_liberal }
-		}
-		localization_key = party_pop_coalition_market_liberal
+		localization_key = party_pop_coalition_liberal
 	}
 	text = {
 		localization_key = empty
@@ -290,23 +268,23 @@ defined_text = {
 	name = GetCoalitionNationalPopulist
 	text = {
 		trigger = {
-			NOT = { has_government = national_populist }
-			is_in_array = { ROOT.coalition_partners = token:national_populist }
+			NOT = { has_government = ultranationalist }
+			is_in_array = { ROOT.coalition_partners = token:ultranationalist }
 		}
-		localization_key = party_pop_coalition_national_populist
+		localization_key = party_pop_coalition_ultranationalist
 	}
 	text = {
 		localization_key = empty
 	}
 }
 defined_text = {
-	name = GetCoalitionValkist
+	name = GetCoalitionesoteric_nationalist
 	text = {
 		trigger = {
-			NOT = { has_government = valkist }
-			is_in_array = { ROOT.coalition_partners = token:valkist }
+			NOT = { has_government = esoteric_nationalist }
+			is_in_array = { ROOT.coalition_partners = token:esoteric_nationalist }
 		}
-		localization_key = party_pop_coalition_valkist
+		localization_key = party_pop_coalition_esoteric_nationalist
 	}
 	text = {
 		localization_key = empty
@@ -322,13 +300,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:collectivist }
+			check_variable = { coalition_partner_var = token:utopian_socialist }
 		}
-		localization_key = colour_collectivist_red
+		localization_key = colour_utopian_socialist_red
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:libertarian_socialist }
+			check_variable = { coalition_partner_var = token:revolutionary_socialist }
 		}
 		localization_key = colour_libsoc_red
 	}
@@ -340,13 +318,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:social_liberal }
+			check_variable = { coalition_partner_var = token:liberal }
 		}
-		localization_key = colour_soclib_orange
+		localization_key = colour_liberal_orange
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:market_liberal }
+			check_variable = { coalition_partner_var = token:liberal }
 		}
 		localization_key = colour_marlib_yellow
 	}
@@ -370,13 +348,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:national_populist }
+			check_variable = { coalition_partner_var = token:ultranationalist }
 		}
-		localization_key = colour_natpop_brown
+		localization_key = colour_ultranat_brown
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:valkist }
+			check_variable = { coalition_partner_var = token:esoteric_nationalist }
 		}
 		localization_key = colour_green
 	}

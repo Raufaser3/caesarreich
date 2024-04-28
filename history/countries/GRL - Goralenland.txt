@@ -27,7 +27,7 @@ set_stability = 0.70
 set_war_support = 0.80
 
 set_politics = {	
-	ruling_party = valkist
+	ruling_party = esoteric_nationalist
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
@@ -35,16 +35,16 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 0
-  collectivist = 0
-  libertarian_socialist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
   social_democrat = 0
-  social_liberal = 3
-  market_liberal = 7
+  liberal = 3
+  liberal = 7
   social_conservative = 10
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 0
-  valkist = 80
+  ultranationalist = 0
+  esoteric_nationalist = 80
 }
 
 recruit_character = GRL_Wacław_Krzeptowski

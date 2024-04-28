@@ -254,8 +254,8 @@ liberate_workers_occupation = {
 
 	visible = {
 		OR = {
-			has_government = collectivist
-			has_government = libertarian_socialist
+			has_government = utopian_socialist
+			has_government = revolutionary_socialist
 		}
 	}
 
@@ -399,7 +399,7 @@ brutally_oppressive_occupation = {
 	visible = {
 		OR = {
 			has_government = vanguardist
-			has_government = national_populist
+			has_government = ultranationalist
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 		}
