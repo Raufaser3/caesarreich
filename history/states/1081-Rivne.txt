@@ -1,0 +1,21 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+	manpower = 801290
+	state_category = two
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+			6557 = {
+				bunker = 1
+			}
+			572 = {
+				bunker = 1
+			}
+		}
+	}
+	provinces = { 6557 572 6435 11543 6520 11503 }
+	buildings_max_level_factor=1.000	
+}

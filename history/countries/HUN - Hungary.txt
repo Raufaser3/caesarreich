@@ -186,3 +186,5 @@ activate_advisor = HUN_Laszlo_Bardossy_hog_pau
 activate_advisor = HUN_Gabor_Kemeny_for_npo
 activate_advisor = HUN_Jenő_Racz_eco_npo
 activate_advisor = HUN_Andor_Jaross_sec_npo
+
+save_global_event_target_as = danubia

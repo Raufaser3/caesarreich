@@ -1,0 +1,22 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		11298 11325 315 11229 371 343
+	}
+	history = {
+		owner = UKR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			315 1
+		}
+		add_core_of = UKR
+	}
+	manpower=251019
+	state_category=two
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

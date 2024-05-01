@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = SPR
 		victory_points = {
 			9979 5 
 		}
@@ -34,15 +34,7 @@ state={
 			}
 
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
-		SPM = {
-			set_province_controller = 7153
-			set_province_controller = 7198
-			set_province_controller = 1090
-		}
+		add_core_of = SPR
 
 	}
 

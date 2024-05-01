@@ -1,0 +1,22 @@
+state={
+	id = 917
+	name = "STATE_917"
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+
+		
+		
+	}
+
+	provinces={
+		3403 6451 9573 6597 409 3452 3468 6478
+	}
+	manpower=960219
+	buildings_max_level_factor=1.000
+	state_category = five
+}

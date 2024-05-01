@@ -7,7 +7,7 @@ state={
 	state_category = five
 
 	history={
-		owner = SPF
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -21,20 +21,7 @@ state={
 		victory_points = {
 			3902 2 
 		}
-		add_core_of = SPF
-		add_claim_by = SPR
-		add_claim_by = SPA
-		add_claim_by = SPM
-		SPR = {
-			set_province_controller = 9800
-			set_province_controller = 3820
-			set_province_controller = 11806
-			set_province_controller = 3859
-			set_province_controller = 11766
-			set_province_controller = 11809
-			set_province_controller = 9827
-			set_province_controller = 9846
-		}
+		add_core_of = SPR
 	}
 
 	provinces={

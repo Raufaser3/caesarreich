@@ -7,7 +7,7 @@ state={
 	state_category = four
 
 	history={
-		owner = SPA
+		owner = SPR
 		victory_points = {
 			10024 4 
 		}
@@ -22,15 +22,7 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
-		SPR = {
-			set_province_controller = 11807
-			set_province_controller = 832
-			set_province_controller = 3835
-		}
+		add_core_of = SPR
 	}
 
 	provinces={

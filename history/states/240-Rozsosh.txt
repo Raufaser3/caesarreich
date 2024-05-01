@@ -1,0 +1,22 @@
+
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		473 3469 3567 6432 6517 9424 9489 9518 11412 11475 11500 
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			9449 5
+		}
+		victory_points = {
+			6577 2
+		}
+	}
+	manpower=1464537
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=four
+}

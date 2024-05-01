@@ -84,3 +84,7 @@ WAL = { original_tag = BEL } # for later
 MOT = {
 	variable = generic_operation_target
 }
+
+DNB = {
+	global_event_target = danubia
+}

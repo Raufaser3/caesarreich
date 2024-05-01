@@ -15,9 +15,10 @@ state={
 			13314 = {
 				bunker = 2
 				naval_base = 3
-
 			}
-
+			13313 = {
+				naval_base = 5
+			}
 		}
 		victory_points = {
 			13314 2 
@@ -26,9 +27,9 @@ state={
 	}
 
 	provinces={
-		7193 13314 
+		7193 13314 13313
 	}
-	manpower=250654
+	manpower=260654
 	buildings_max_level_factor=1.000
 	state_category=two
 	local_supplies=0.000
