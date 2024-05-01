@@ -8,7 +8,7 @@ state=
 	state_category = two
 	
 	history = {
-		owner = LIT
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			dockyard = 2
@@ -16,7 +16,8 @@ state=
 				naval_base = 3
 			}
 		}
-		add_core_of = LIT
+		add_core_of = GER
+		add_claim_by = LIT
 		victory_points = {
 			3288 1
 		}

@@ -4,7 +4,7 @@ state={
 	name="STATE_354"
 
 	history={
-		owner = ARM
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -13,8 +13,6 @@ state={
 			10472 2
 		}
 		add_core_of = TUR
-		add_core_of = ARM
-		add_claim_by = GEO
 
 	}
 

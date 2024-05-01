@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = IRQ
+		owner = TUR
 		buildings = {
 			infrastructure = 1
 		}
@@ -14,6 +14,6 @@ state={
 	}
 	
 	provinces={
-		1631 4951 10744 12413 12879 13270
+		1631 4951 10744 12413 12879 13270 13321 13319
 	}
 }

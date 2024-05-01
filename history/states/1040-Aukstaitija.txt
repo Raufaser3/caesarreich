@@ -1,0 +1,23 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		9374 9246 11226 9438 11498 530 6229 6376
+	}
+	history = {
+		owner = LIT
+		add_core_of = LIT
+		victory_points = {
+			6229 1 #Panevezys
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	state_category = two
+	manpower=161450
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}
+
+#Aukstaitija

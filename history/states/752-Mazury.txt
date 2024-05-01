@@ -4,8 +4,7 @@ state={
 	name="STATE_752"
 
 	history={
-		owner = POL
-		controller = POL
+		owner = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -13,7 +12,7 @@ state={
 		victory_points = {
 			3295 1 
 		}
-		add_core_of = POL
+		add_core_of = GER
 	}
 
 	provinces={

@@ -3,21 +3,21 @@ state={ # North Epirus
 	name="STATE_765"
 
 	history={
-		owner = GRE
+		owner = ALB
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 
 		}
 		add_core_of = ALB
-		add_core_of = GRE
+		add_claim_by = GRE
 		victory_points = {
 			914 1
 		}
 	}
 
 	provinces={
-		914 3448 6900 
+		914 6900
 	}
 	manpower=100200
 	buildings_max_level_factor=1.000

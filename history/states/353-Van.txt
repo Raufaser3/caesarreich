@@ -4,7 +4,7 @@ state={
 	name="STATE_353"
 
 	history={
-		owner = ARM
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -18,11 +18,10 @@ state={
 		}
 		add_core_of = ARM
 		add_claim_by = TUR
-
 	}
 
 	provinces={
-		652 864 4583 6935 7470 11853 12376 13121 
+		652 864 4583 6935 7470 11853 12376 13121 11880
 	}
 	manpower=550429
 	buildings_max_level_factor=1.000

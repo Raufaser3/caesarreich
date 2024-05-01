@@ -4,7 +4,7 @@ state={
 	name="STATE_1047"
 	state_category = five
 	history={
-		owner = IRQ
+		owner = TUR
 		add_core_of = IRQ
 		victory_points = {
 			2089 3 

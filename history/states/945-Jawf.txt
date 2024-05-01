@@ -3,16 +3,17 @@ state={
 	name="STATE_945"
 
 	history={
-		owner = HEJ
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 		}
+		add_claim_by = TUR
 		add_core_of = HEJ
 
 	}
 
 	provinces={
-		4440 8101 12455 10901 10815 13274 13277
+		8101 12455 10901 10815 13274 13277
 	}
 	manpower= 56185
 	buildings_max_level_factor=1.000

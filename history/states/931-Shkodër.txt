@@ -7,7 +7,7 @@ state={
 	state_category = one
 
 	history={
-		owner = HUN
+		owner = ALB
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,6 +15,6 @@ state={
 	}
 
 	provinces={
-		13265 3896 13266
+		13265 3896 9780 11762 13266
 	}
 }

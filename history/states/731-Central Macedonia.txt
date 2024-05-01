@@ -1,32 +1,24 @@
 state={
 	id=731
 	name="STATE_731"
-	manpower=1155700
+	manpower = 355700 # ~1155700 with thessaloniki included
 	
-	state_category = eight
+	state_category = seven
 
 	history={
 		owner = GRE
-		victory_points = {
-			11818 20
-		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 1
-			air_base = 2
-			11818 = {
-				naval_base = 3
-
-			}
-
 		}
 		add_core_of = GRE
 		add_claim_by = BUL
-
+		victory_points = {
+			936 2
+		}
 	}
 	
 	provinces={
-		895 936 966 3526 3844 3936 9837 10163 11818 
+		936 966 3526 3844 9837 10163
 	}
 }
