@@ -209,7 +209,7 @@ guiTypes = {
 		buttonType = {
 			name = "leader_button"
 			quadTextureSprite ="GFX_HOS_button"
-			position = { x = 135 y = 260 }
+			position = { x = 135 y = 255 }
 			pdx_tooltip = "HOS_OR_HOG"
 		}
 
