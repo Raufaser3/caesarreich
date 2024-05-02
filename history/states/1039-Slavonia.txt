@@ -3,7 +3,7 @@ state={
 	name="STATE_1039"
 	state_category=four
 	provinces={
-		3627 6647 9595 
+		3627 6647 9595 11594
 	}
 	history = {
 		owner = HUN
