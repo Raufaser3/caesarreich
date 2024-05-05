@@ -7,9 +7,6 @@ state={
 		add_core_of = CRO
 		owner = HUN
 		victory_points = {
-			3924 1 
-		}
-		victory_points = {
 			11564 2 
 		}
 		buildings = {

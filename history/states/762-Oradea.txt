@@ -11,7 +11,9 @@ state={
 
 		}
 		add_core_of = HUN
-
+		victory_points = {
+			746 2
+		}
 	}
 	provinces={
 		713 3696 3709 9687 746

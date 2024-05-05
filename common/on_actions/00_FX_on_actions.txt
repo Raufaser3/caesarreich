@@ -2,7 +2,7 @@ on_actions = {
 	on_startup = {
 		effect = {
 			log = "=== MOD VERSION ==="
-			log = FX_CURRENT_VERSION
+			log = CR_CURRENT_VERSION
 			log = "=== MOD VERSION ==="
 			if = {
 				limit = {

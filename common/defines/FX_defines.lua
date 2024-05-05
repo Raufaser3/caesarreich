@@ -7,8 +7,8 @@ NDefines.NWiki.BASE_URL = "https://fuhrerredux.miraheze.org/wiki/Main_Page" -- V
 NDefines.NWiki.FORUM_URL = "https://forum.paradoxplaza.com/forum/index.php?forums/hearts-of-iron-iv.844/" 
 
 -- Career Profile
-NDefines.NCareerProfile.MOD_STATISTICS_GROUP = "fuhrerredux_career_profile"
-NDefines.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "FUHRERREDUX_CAREER_PROFILE"
+NDefines.NCareerProfile.MOD_STATISTICS_GROUP = "CAESARREICH_CAREER_PROFILE"
+NDefines.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "CAESARREICH_CAREER_PROFILE"
 
 -- Game
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla is 1949.1.1.1

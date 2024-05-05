@@ -237,7 +237,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "FX_welcome_splash_tab_4_header"
-			text = "FX_SPLASH_TITLE"
+			text = "CR_SPLASH_TITLE"
 			position = { x = -320 y = 4 }
 			orientation = center_up
 			format = centre
@@ -247,7 +247,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "FX_welcome_splash_tab_4_content"
-			text = "FX_SPLASH_CREDITS"
+			text = "CR_SPLASH_CREDITS"
 			position = { x = 0 y = 35 }
 			# orientation = center_up
 			scrollbarType = "standardtext_slider"

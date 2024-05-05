@@ -86,5 +86,5 @@ MOT = {
 }
 
 DNB = {
-	global_event_target = danubia
+	global_event_target = unified_danubia
 }

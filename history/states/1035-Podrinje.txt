@@ -1,0 +1,19 @@
+state={
+	id=1035
+	name="STATE_1035"
+	state_category=two
+	provinces={
+		982 11741 606
+	}
+	history = {
+		owner = HUN
+		add_core_of = SER
+		add_core_of = HUN
+		victory_points = {
+			606 2 
+		}
+	}
+	manpower=113100
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

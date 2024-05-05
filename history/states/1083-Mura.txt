@@ -1,0 +1,19 @@
+state={
+	id=1083
+	name="STATE_1083"
+
+	history={
+		add_core_of = HUN
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		6672
+	}
+	manpower=23716
+	buildings_max_level_factor=1.000
+	state_category=two
+}
