@@ -5,7 +5,8 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/caesarreich/caesarreich/main?label=last%20commit%20(main))
 
 
-
+# LICENSE
+All Python files within this repository, governed by the Affero General Public License 3.0, are imported directly from the original [repository](https://github.com/thanasis09/hoi4scripts) specified therein. All other code herein is unlicensed, indicating it is not subject to a specific license, and exclusively owned by the Caesarreich Development team, with all associated rights, titles, and interests worldwide.
 
 # IMPORTANT - PLEASE READ
 ## CAESARREICH CONTRIBUTOR AND DEVELOPER AGREEMENT
@@ -27,7 +28,7 @@ Contributor acknowledges and agrees that the Team has no obligation to incorpora
 Contributor understands that the modification is provided on an "as-is" basis, without warranties or conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, non-infringement, merchantability, or fitness for a particular purpose.
 Entire Agreement: This Agreement constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior and contemporaneous agreements and understandings, whether written or oral, relating to the same subject matter.
 
-**By Contributing, you hereby acknowledge that you have read and agreed to the terms outlined in this Contributor & Developer Agreement for Fuhrerredux.**
+**By Contributing, you hereby acknowledge that you have read and agreed to the terms outlined in this Contributor & Developer Agreement for Caesarreich.**
 
 # Caesarreich Mod
 The Caesarreich files
