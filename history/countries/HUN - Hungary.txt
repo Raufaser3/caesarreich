@@ -80,6 +80,8 @@ add_ideas = {
 	parliamentary_republic
 }
 
+set_cosmetic_tag = HUN_danubia
+
 recruit_character = HUN_Matyas_Rakosi
 recruit_character = HUN_Bela_Kun
 recruit_character = HUN_Imre_Nagy

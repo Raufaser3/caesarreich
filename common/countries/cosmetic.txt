@@ -807,3 +807,7 @@ GRE_unification = {
 	color = rgb { 147 82 173 }
 	color_ui = rgb { 147 82 173 }
 }
+HUN_danubia = {
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
+}

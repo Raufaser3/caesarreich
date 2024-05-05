@@ -4,6 +4,11 @@
 HUN_CAESSAREICH_DESC: "With the fall of the Austro-Hungarian Empire in 1919, the new Hungarian Republic found itself with enemies on all sides. After a joint Entente-led invasion, the Republic was partitioned and its territory handed out to its victorious neighbors. Hungary now looks outward to it's former lands in Transylvania and Slovakia with hungry eyes."
 
 ### Country Names
+
+HUN_danubia: "People's Federation of the Danube" #TODO: Add ideology-related names
+HUN_danubia_ADJ: "Danubian"
+HUN_danubia_def: "The People's Federation of the Danube"
+
 HUN_vanguardist: "Hungarian Union"
 HUN_vanguardist_ADJ: "Hungarian"
 HUN_vanguardist_DEF: "The Union of Hungary"
