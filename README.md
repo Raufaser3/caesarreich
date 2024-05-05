@@ -1,10 +1,17 @@
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-green)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/caesarreich/caesarreich)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/caesarreich/caesarreich/main?label=commit%20activity%20(main))
+![GitHub last commit](https://img.shields.io/github/last-commit/caesarreich/caesarreich)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/caesarreich/caesarreich/main?label=last%20commit%20(main))
+
+
+
 
 # IMPORTANT - PLEASE READ
 ## CAESARREICH CONTRIBUTOR AND DEVELOPER AGREEMENT
 
 ### Contribution: 
- Contributor agrees to contribute to the Fuhrerredux mod ("modification") created by the Caesarreich Team ("Team") on GitHub or Steam Workshop or Paradox Plaza or any other place where the modification may be, including but not limited to, code, localisation, assets, or any other materials ("Contribution").
+ Contributor agrees to contribute to the Caesarreich mod ("modification") created by the Caesarreich Team ("Team") on GitHub or Steam Workshop or Paradox Plaza or any other place where the modification may be, including but not limited to, code, localisation, assets, or any other materials ("Contribution").
 ### Ownership: 
 Contributor acknowledges and agrees that any original Contribution made to the Project, including but not limited to code, localisation, assets and related materials, shall become the property of the Team upon submission to the GitHub repository maintained by the Team. Contributor hereby irrevocably assigns to the Team all right, title, and interest worldwide in and to the Contribution, including any copyrights, patent rights, trade secret rights, and any other intellectual property rights therein. This clause does not apply to Contributions that are not original work of the Contributor, or that have been created for another modification.
 ### License: 
@@ -23,7 +30,7 @@ Entire Agreement: This Agreement constitutes the entire agreement between the pa
 **By Contributing, you hereby acknowledge that you have read and agreed to the terms outlined in this Contributor & Developer Agreement for Fuhrerredux.**
 
 # Caesarreich Mod
-The Führerredux files
+The Caesarreich files
 ## How to install the GitHub version?
 <details><summary>Click here to show instructions</summary>
 <ul>
