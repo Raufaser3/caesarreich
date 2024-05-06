@@ -4,7 +4,7 @@ state={
 	name="STATE_916"
 
 	history={
-		owner = CAN
+		owner = QUE
 		buildings = {
 			infrastructure = 1
 			3691 = {
@@ -13,9 +13,7 @@ state={
 			}
 
 		}
-		add_core_of = CAN
 		add_core_of = QUE
-
 	}
 
 	provinces={
