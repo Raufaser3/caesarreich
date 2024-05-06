@@ -1,5 +1,5 @@
 GER = {
-	color = rgb { 90 100 80 } #We could always use a KR-esque color. Perhaps 77 93 83?
+	color = rgb { 137 137 137 } #We could always use a KR-esque color. Perhaps 77 93 83?
 	color_ui = rgb { 80 90 100 } #Formerly 77 88 99. Rounded it up.
 }
 WGR = {
@@ -91,7 +91,7 @@ CEN = { #133 125 203 is liliac
 	color_ui = rgb { 146  80  140 }
 }
 FRA = {
-	color = rgb { 5 55 165 } #0 0 200 is the former variant. Too purple though. #0 40 190?
+	color = rgb { 82 87 124 } #0 0 200 is the former variant. Too purple though. #0 40 190?
 	color_ui = rgb { 35 60 200 } #Consider use of 0 50 160. 10 50 170 is okay but it's TOO FUCKING PURPLE FUCK WHY IS EVERYTHING FUCKING PURPLE
 }
 LUX = {
@@ -151,7 +151,7 @@ LAT = {
 	color_ui = rgb { 10 40 170 }
 }
 ITA = {
-	color = rgb { 72 125 78 }
+	color = rgb { 61 94 66 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
