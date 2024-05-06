@@ -259,11 +259,6 @@ on_actions = {
 					static_modifiers = { terrain_tirana }
 					province = { id = 9914 }
 				}
-
-				add_province_modifier = {
-					static_modifiers = { terrain_scutari }
-					province = { id = 9780 }
-				}
 			}
 
 			45 = {
@@ -585,7 +580,7 @@ on_actions = {
 				}
 			}
 
-			1034 = {
+			104 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_sarajevo }
 					province = { id = 11899 }
@@ -1029,7 +1024,7 @@ on_actions = {
 				}
 			}
 
-			200 = {
+			798 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_alexandrovsk }
 					province = { id = 11405 }
@@ -1645,7 +1640,7 @@ on_actions = {
 				}	
 			}
 
-			352 = {
+			350 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_diyarbakir }
 					province = { id = 4512 }
@@ -2596,7 +2591,7 @@ on_actions = {
 				}
 			}
 
-			211 = {
+			1036 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_varna }
 					province = { id = 9783 }
@@ -2922,7 +2917,7 @@ on_actions = {
 				}
 			}
 
-			731 = {
+			1043 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_thessaloniki }
 					province = { id = 11818 }
@@ -3045,6 +3040,13 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { terrain_manila }
 					province = { id = 10265 }
+				}
+			}
+
+			931 = {
+				add_province_modifier = {
+					static_modifiers = { terrain_scutari }
+					province = { id = 9780 }
 				}
 			}
 		}
