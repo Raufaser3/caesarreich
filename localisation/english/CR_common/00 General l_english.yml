@@ -375,6 +375,10 @@ offmap_military_factories_tooltip: "Offmap Military Factories"
 offmap_civilian_factories_tooltip: "Offmap Civilian Factories"
 offmap_dockyards_tooltip: "Offmap Dockyards"
 
+#ideology group related 
+socialist_popularity_drift: "Daily Socialist Support"
+authoritarian_center_right_drift: "Daily Authoritarian Right and Center Support"
+
 ### Economy Laws
 colonial_economy: "Colonial Economy"
 colonial_economy_desc: "We are a colony, subject to the whims of our overlord. Our resources are exploited and our industrial efforts oppressed so as to keep us reliant on the industry of our mother country."

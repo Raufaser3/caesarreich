@@ -1,4 +1,16 @@
 characters = {
+	HUN_Josef_Pogany = {
+		name = HUN_Josef_Pogany
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Portrait_HUN_Josef_Pogany.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			desc = POLITICS_JOSEF_POGANY_DESC
+		}
+	}
 	HUN_Matyas_Rakosi = {
 		name = "Mátyás Rákosi"
 		portraits = {
@@ -421,7 +433,7 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 4
 		}
-    country_leader = {
+    	country_leader = {
 			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
@@ -784,7 +796,7 @@ characters = {
 				hog_local_tyrant
 			}
 		}
-    advisor = {
+    	advisor = {
 			cost = 150
 			slot = foreign_minister
 			available = { 

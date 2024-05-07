@@ -1,0 +1,49 @@
+# HUN
+
+
+# We will see if danubia ideas need to be ported in another file
+
+ideas = {
+	country = {
+		HUN_bastion_of_socialism = {
+			available = { original_tag = DNB }
+			on_add = { log = "[GetLogIdeaInfo] HUN_basion_of_socialism" }
+			modifier = {
+				revolutionary_socialist_drift = 0.01
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+				political_power_gain = 0.02
+				defensive_war_stability_factor = 0.1
+			}
+		}
+		HUN_rural_unrest = {
+			available = { original_tag = DNB }
+			on_add = { log = "[GetLogIdeaInfo] HUN_rural_unrest" }
+			modifier = {
+				utopian_socialist_drift = 0.01
+				stability_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+				authoritarian_center_right_drift = 0.01
+				social_conservative_drift = 0.01
+				economy_cost_factor = 0.5
+				political_power_gain = -0.01
+				hidden_modifier = {
+					paternal_autocrat_drift = 0.01
+					authoritarian_democrat_drift = 0.01
+				}
+			}
+		}
+		HUN_red_militias = {
+			available = { original_tag = DNB }
+			on_add = { log = "[GetLogIdeaInfo] HUN_red_militias" }
+			modifier = {
+				stability_factor = -0.1
+				vanguardist_drift = 0.01
+				conscription_factor = -0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+	}
+}

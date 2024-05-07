@@ -6,7 +6,7 @@ state={
     add_core_of = HEJ
   }
 	provinces={
-		8004 10892 12813 12870 
+		8004 10892 12813 10748 2090
 	}
 	manpower=72000
   state_category=enclave

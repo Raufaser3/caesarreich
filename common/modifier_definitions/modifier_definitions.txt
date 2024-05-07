@@ -107,3 +107,17 @@ mic_from_target_factor_tooltip = { #does nothing - only creates a tooltip
 	precision = 2
 	category = country
 }
+
+socialist_popularity_drift = { #does nothing - only creates a tooltip
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = politics
+}
+
+authoritarian_center_right_drift = { #does nothing - only creates a tooltip
+	color_type = good
+	value_type = percentage_in_hundred
+	precision = 2
+	category = politics
+}

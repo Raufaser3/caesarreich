@@ -43,7 +43,7 @@ ideologies = {
 		ai_neutral = yes			
 		#can_be_boosted = no
 	}
-	
+
 	utopian_socialist = {
 		types = {
 			utopian_socialist_subtype = {}
@@ -379,7 +379,7 @@ ideologies = {
 			"FACTION_NAME_esoteric_nationalist_5"
 			"FACTION_NAME_esoteric_nationalist_6"
 		}
-		color = { 11 46 29 }
+		color = { 120 81 184 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

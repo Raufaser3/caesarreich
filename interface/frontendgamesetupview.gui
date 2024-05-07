@@ -155,7 +155,7 @@ guiTypes = {
 			position = { x = 8 y = 245 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 131
+			maxWidth = 135
 			maxHeight = 30
 			fixedsize = no
 			format = center		

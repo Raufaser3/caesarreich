@@ -3,18 +3,18 @@ state={
 	name="STATE_831"
 
 	history = {
-		owner = YEM
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = HEJ
+		add_core_of = TUR
 		victory_points = {
 			8073 2 
 		}
 	}
 
 	provinces={
-		1923 5006 8030 8073 10786
+		1923 8073
 	}
 	manpower = 293850
 	buildings_max_level_factor=1.000

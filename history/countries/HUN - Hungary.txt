@@ -55,33 +55,37 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = ultranationalist
+	ruling_party = revolutionary_socialist
 	last_election = "1920.1.25"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 1
-  utopian_socialist = 2
-  revolutionary_socialist = 8
-  social_democrat = 9
-  liberal = 3
-  liberal = 7
-  social_conservative = 10
-  authoritarian_democrat = 7
-  paternal_autocrat = 1
-  ultranationalist = 51
+  vanguardist = 9
+  utopian_socialist = 8
+  revolutionary_socialist = 54
+  social_democrat = 12
+  liberal = 5
+  social_conservative = 6
+  authoritarian_democrat = 2
+  paternal_autocrat = 2
+  ultranationalist = 1
   esoteric_nationalist = 1
 }
 
 add_ideas = {
 	disarmed_nation
 	parliamentary_republic
+
+	HUN_bastion_of_socialism
+	HUN_rural_unrest
+	HUN_red_militias
 }
 
 set_cosmetic_tag = HUN_danubia
 
+recruit_character = HUN_Josef_Pogany
 recruit_character = HUN_Matyas_Rakosi
 recruit_character = HUN_Bela_Kun
 recruit_character = HUN_Imre_Nagy

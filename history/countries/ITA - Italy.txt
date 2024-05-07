@@ -112,11 +112,6 @@ set_autonomy = {
 	autonomous_state = autonomy_colony
 	freedom_level = 0.1
 }
-set_autonomy = {
-	target = ALB
-	autonomous_state = autonomy_protectorate
-	freedom_level = 0.5
-}
 
 
 set_convoys = 200

@@ -4,7 +4,7 @@ state={
 	name="STATE_679"
 
 	history={
-		owner = HEJ
+		owner = TUR
 		victory_points = {
 			12883 5 
 		}
@@ -19,11 +19,11 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = HEJ
+		add_core_of = TUR
 	}
 
 	provinces={
-		2090 4981 5037 10748 12883 
+		4981 5037 12883
 	}
 	manpower=1511000
 	buildings_max_level_factor=1.000

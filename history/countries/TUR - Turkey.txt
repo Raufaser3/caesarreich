@@ -249,3 +249,7 @@ recruit_character = TUR_Abdulmecid_II
 recruit_character = TUR_Sefik_Husnu_Bey
 recruit_character = TUR_Hikmet_Bey
 recruit_character = TUR_Resad_Fuad_Bey
+
+set_country_flag = SUR_CONQ
+set_country_flag = IRQ_CONQ
+set_country_flag = ARB_CONQ

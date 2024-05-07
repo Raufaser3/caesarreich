@@ -12,7 +12,6 @@ state={
 		}
 		add_core_of = BUL
 		# add_claim_by = GRE
-		set_demilitarized_zone = yes
 
 	}
 
