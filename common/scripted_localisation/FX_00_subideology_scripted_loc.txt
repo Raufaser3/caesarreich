@@ -1,4 +1,5 @@
 defined_text = {
+	#here only subideologies should be added
 	name = GetRulingIdeologySubtype
 	text = {
 		trigger = {
@@ -8,69 +9,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = theocracy_subtype
-		}
-		localization_key = theocracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_jadidism_subtype
-		}
-		localization_key = soccon_jadidism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = panasian_nichirenist_subtype
-		}
-		localization_key = panasian_nichirenist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolutionary_showaist_subtype
-		}
-		localization_key = revolutionary_showaist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_feminist_subtype
-		}
-		localization_key = socialist_feminist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = statist_showaist_subtype
-		}
-		localization_key = statist_showaist_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = absolute_mon_subtype
 		}
 		localization_key = absolute_mon_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = auth_duumvirism_subtype
-		}
-		localization_key = auth_duumvirism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pat_duumvirism_subtype
-		}
-		localization_key = pat_duumvirism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = samurai_dictatorship_subtype
-		}
-		localization_key = samurai_dictatorship_subtype
 	}
 	text = {
 		trigger = {
@@ -80,87 +21,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
-		}
-		localization_key = libsoc_utopian_socialism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = monsoc_subtype
-		}
-		localization_key = monsoc_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
-		}
-		localization_key = authdem_national_conservative_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = christian_democracy_subtype
 		}
 		localization_key = christian_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = police_state_subtype
-		}
-		localization_key = police_state_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_longism_subtype
-		}
-		localization_key = socdem_longism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_colonial_govt_subtype
-		}
-		localization_key = autocratic_colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = junta_subtype
-		}
-		localization_key = junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
-		}
-		localization_key = authdem_junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
-		}
-		localization_key = authdem_warlordism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = colonial_govt_subtype
-		}
-		localization_key = colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_warlordism_subtype
-		}
-		localization_key = soccon_warlordism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
-		}
-		localization_key = pataut_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -170,33 +33,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = centrist_subtype
-		}
-		localization_key = centrist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = oligarchy_subtype
-		}
-		localization_key = oligarchy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = toryism_subtype
-		}
-		localization_key = toryism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = prussian_constitutionalism_subtype
 		}
 		localization_key = prussian_constitutionalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = integralism_subtype
-		}
-		localization_key = integralism_subtype
 	}
 	text = {
 		trigger = {
@@ -206,105 +45,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = controlled_democracy_subtype
-		}
-		localization_key = controlled_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = caudillo_populism_subtype
-		}
-		localization_key = caudillo_populism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = bukharinist_subtype
-		}
-		localization_key = bukharinist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = moderate_socialist_subtype
-		}
-		localization_key = moderate_socialist_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = radical_liberalism_subtype
 		}
 		localization_key = radical_liberalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = national_conservative_subtype
-		}
-		localization_key = national_conservative_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = corporatocracy_subtype
-		}
-		localization_key = corporatocracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = klan_nationalism_subtype
-		}
-		localization_key = klan_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = occultism_subtype
-		}
-		localization_key = occultism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_socialist_subtype
-		}
-		localization_key = autocratic_socialist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
-		}
-		localization_key = pataut_legionarism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_legionarism_subtype
-		}
-		localization_key = val_legionarism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_democratic_socialism_subtype
-		}
-		localization_key = socdem_democratic_socialism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_left_nationalism_subtype
-		}
-		localization_key = socdem_left_nationalism_subtype
 	}
 	text = {
 		trigger = {
@@ -314,39 +57,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = anarchism_subtype
 		}
 		localization_key = anarchism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_nationalism_subtype
-		}
-		localization_key = ukrainian_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_national_integralism_subtype
-		}
-		localization_key = ukrainian_national_integralism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_social_conservatism_subtype
-		}
-		localization_key = ukrainian_social_conservatism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = hetmanism_subtype
-		}
-		localization_key = hetmanism_subtype
 	}
 	text = {
 		trigger = {
@@ -356,87 +69,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = soccon_colonial_govt_subtype
-		}
-		localization_key = soccon_colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
-		}
-		localization_key = authdem_revolution_nationale_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolution_nationale_subtype
-		}
-		localization_key = revolution_nationale_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_humanistic_capitalism_subtype
-		}
-		localization_key = socdem_humanistic_capitalism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = socdem_christian_socialism_subtype
 		}
 		localization_key = socdem_christian_socialism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = hardliner_bolshevism_subtype
-		}
-		localization_key = hardliner_bolshevism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = red_junta_subtype
-		}
-		localization_key = red_junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_security_state_subtype
-		}
-		localization_key = socialist_security_state_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = theocracy_subtype
-		}
-		localization_key = theocracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_jadidism_subtype
-		}
-		localization_key = soccon_jadidism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
-		}
-		localization_key = authdem_christian_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = filipino_nationalism_subtype
-		}
-		localization_key = filipino_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_filipino_nationalism_subtype
-		}
-		localization_key = val_filipino_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_metaxism_subtype
-		}
-		localization_key = 	metaxism_subtype
 	}
 	text = {
 		trigger = {
@@ -444,21 +79,10 @@ defined_text = {
 		}
 		localization_key = 	metaxism_subtype
 	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_metaxism_subtype
-		}
-		localization_key = 	metaxism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = mercourism_subtype
-		}
-		localization_key = 	mercourism_subtype
-	}
 }
 
 defined_text = {
+	# both subideologies and normal ideologies
 	name = GetDiploRulingPartySubtype
 
 	text = {
@@ -522,59 +146,12 @@ defined_text = {
 		localization_key = esoteric_nationalist
 	}
 
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = panasian_nichirenist_subtype
-		}
-		localization_key = panasian_nichirenist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolutionary_showaist_subtype
-		}
-		localization_key = revolutionary_showaist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_feminist_subtype
-		}
-		localization_key = socialist_feminist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = statist_showaist_subtype
-		}
-		localization_key = statist_showaist_subtype
-	}
+
 	text = {
 		trigger = {
 			has_country_leader_ideology = absolute_mon_subtype
 		}
 		localization_key = absolute_mon_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = auth_duumvirism_subtype
-		}
-		localization_key = auth_duumvirism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pat_duumvirism_subtype
-		}
-		localization_key = pat_duumvirism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = samurai_dictatorship_subtype
-		}
-		localization_key = samurai_dictatorship_subtype
 	}
 	text = {
 		trigger = {
@@ -584,87 +161,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
-		}
-		localization_key = libsoc_utopian_socialism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = monsoc_subtype
-		}
-		localization_key = monsoc_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
-		}
-		localization_key = authdem_national_conservative_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = christian_democracy_subtype
 		}
 		localization_key = christian_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = police_state_subtype
-		}
-		localization_key = police_state_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_longism_subtype
-		}
-		localization_key = socdem_longism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_colonial_govt_subtype
-		}
-		localization_key = autocratic_colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = junta_subtype
-		}
-		localization_key = junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
-		}
-		localization_key = authdem_junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
-		}
-		localization_key = authdem_warlordism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = colonial_govt_subtype
-		}
-		localization_key = colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_warlordism_subtype
-		}
-		localization_key = soccon_warlordism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
-		}
-		localization_key = pataut_warlordism_subtype
 	}
 	text = {
 		trigger = {
@@ -674,33 +173,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = centrist_subtype
-		}
-		localization_key = centrist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = oligarchy_subtype
-		}
-		localization_key = oligarchy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = toryism_subtype
-		}
-		localization_key = toryism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = prussian_constitutionalism_subtype
 		}
 		localization_key = prussian_constitutionalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = integralism_subtype
-		}
-		localization_key = integralism_subtype
 	}
 	text = {
 		trigger = {
@@ -710,105 +185,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = controlled_democracy_subtype
-		}
-		localization_key = controlled_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = caudillo_populism_subtype
-		}
-		localization_key = caudillo_populism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = bukharinist_subtype
-		}
-		localization_key = bukharinist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = moderate_socialist_subtype
-		}
-		localization_key = moderate_socialist_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = radical_liberalism_subtype
 		}
 		localization_key = radical_liberalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = national_conservative_subtype
-		}
-		localization_key = national_conservative_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = corporatocracy_subtype
-		}
-		localization_key = corporatocracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = klan_nationalism_subtype
-		}
-		localization_key = klan_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = occultism_subtype
-		}
-		localization_key = occultism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_socialist_subtype
-		}
-		localization_key = autocratic_socialist_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
-		}
-		localization_key = pataut_legionarism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_legionarism_subtype
-		}
-		localization_key = val_legionarism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_democratic_socialism_subtype
-		}
-		localization_key = socdem_democratic_socialism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_left_nationalism_subtype
-		}
-		localization_key = socdem_left_nationalism_subtype
 	}
 	text = {
 		trigger = {
@@ -818,39 +197,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = anarchism_subtype
 		}
 		localization_key = anarchism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_nationalism_subtype
-		}
-		localization_key = ukrainian_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_national_integralism_subtype
-		}
-		localization_key = ukrainian_national_integralism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_social_conservatism_subtype
-		}
-		localization_key = ukrainian_social_conservatism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = hetmanism_subtype
-		}
-		localization_key = hetmanism_subtype
 	}
 	text = {
 		trigger = {
@@ -860,105 +209,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = soccon_colonial_govt_subtype
-		}
-		localization_key = 	soccon_colonial_govt_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
-		}
-		localization_key = authdem_revolution_nationale_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolution_nationale_subtype
-		}
-		localization_key = revolution_nationale_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_humanistic_capitalism_subtype
-		}
-		localization_key = 	socdem_humanistic_capitalism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = socdem_christian_socialism_subtype
 		}
 		localization_key = socdem_christian_socialism_subtype
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = hardliner_bolshevism_subtype
-		}
-		localization_key = hardliner_bolshevism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = red_junta_subtype
-		}
-		localization_key = red_junta_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_security_state_subtype
-		}
-		localization_key = socialist_security_state_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = theocracy_subtype
-		}
-		localization_key = theocracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_jadidism_subtype
-		}
-		localization_key = soccon_jadidism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
-		}
-		localization_key = authdem_christian_democracy_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = filipino_nationalism_subtype
-		}
-		localization_key = filipino_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_filipino_nationalism_subtype
-		}
-		localization_key = val_filipino_nationalism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_metaxism_subtype
-		}
-		localization_key = 	val_metaxism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = metaxism_subtype
 		}
 		localization_key = 	metaxism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_metaxism_subtype
-		}
-		localization_key = 	pataut_metaxism_subtype
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = mercourism_subtype
-		}
-		localization_key = 	mercourism_subtype
 	}
 	text = {
 		trigger = {
@@ -973,57 +232,9 @@ defined_text = {
 	name = GetRulingIdeologySubtypeDesc
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = panasian_nichirenist_subtype
-		}
-		localization_key = panasian_nichirenist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolutionary_showaist_subtype
-		}
-		localization_key = revolutionary_showaist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_feminist_subtype
-		}
-		localization_key = socialist_feminist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = statist_showaist_subtype
-		}
-		localization_key = statist_showaist_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = absolute_mon_subtype
 		}
 		localization_key = absolute_mon_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = auth_duumvirism_subtype
-		}
-		localization_key = auth_duumvirism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pat_duumvirism_subtype
-		}
-		localization_key = pat_duumvirism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = samurai_dictatorship_subtype
-		}
-		localization_key = samurai_dictatorship_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1033,87 +244,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
-		}
-		localization_key = libsoc_utopian_socialism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = monsoc_subtype
-		}
-		localization_key = monsoc_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
-		}
-		localization_key = authdem_national_conservative_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = christian_democracy_subtype
 		}
 		localization_key = christian_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = police_state_subtype
-		}
-		localization_key = police_state_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_longism_subtype
-		}
-		localization_key = socdem_longism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_colonial_govt_subtype
-		}
-		localization_key = autocratic_colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = junta_subtype
-		}
-		localization_key = junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
-		}
-		localization_key = authdem_junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
-		}
-		localization_key = authdem_warlordism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = colonial_govt_subtype
-		}
-		localization_key = colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_warlordism_subtype
-		}
-		localization_key = soccon_warlordism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
-		}
-		localization_key = pataut_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1123,33 +256,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = centrist_subtype
-		}
-		localization_key = centrist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = oligarchy_subtype
-		}
-		localization_key = oligarchy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = toryism_subtype
-		}
-		localization_key = toryism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = prussian_constitutionalism_subtype
 		}
 		localization_key = prussian_constitutionalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = integralism_subtype
-		}
-		localization_key = integralism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1159,111 +268,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = controlled_democracy_subtype
-		}
-		localization_key = controlled_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = caudillo_populism_subtype
-		}
-		localization_key = caudillo_populism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = bukharinist_subtype
-		}
-		localization_key = bukharinist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = moderate_socialist_subtype
-		}
-		localization_key = moderate_socialist_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = radical_liberalism_subtype
 		}
 		localization_key = radical_liberalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = national_conservative_subtype
-		}
-		localization_key = national_conservative_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = corporatocracy_subtype
-		}
-		localization_key = corporatocracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = klan_nationalism_subtype
-		}
-		localization_key = klan_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = occultism_subtype
-		}
-		localization_key = occultism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_socialist_subtype
-		}
-		localization_key = autocratic_socialist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
-		}
-		localization_key = pataut_legionarism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_legionarism_subtype
-		}
-		localization_key = val_legionarism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_democratic_socialism_subtype
-		}
-		localization_key = socdem_democratic_socialism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_left_nationalism_subtype
-		}
-		localization_key = socdem_left_nationalism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1273,39 +280,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = anarchism_subtype
 		}
 		localization_key = anarchism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_nationalism_subtype
-		}
-		localization_key = ukrainian_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_national_integralism_subtype
-		}
-		localization_key = ukrainian_national_integralism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_social_conservatism_subtype
-		}
-		localization_key = ukrainian_social_conservatism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = hetmanism_subtype
-		}
-		localization_key = hetmanism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1315,105 +292,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = soccon_colonial_govt_subtype
-		}
-		localization_key = soccon_colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
-		}
-		localization_key = authdem_revolution_nationale_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolution_nationale_subtype
-		}
-		localization_key = revolution_nationale_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_humanistic_capitalism_subtype
-		}
-		localization_key = socdem_humanistic_capitalism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = socdem_christian_socialism_subtype
 		}
 		localization_key = socdem_christian_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = hardliner_bolshevism_subtype
-		}
-		localization_key = hardliner_bolshevism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = red_junta_subtype
-		}
-		localization_key = red_junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_security_state_subtype
-		}
-		localization_key = socialist_security_state_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = theocracy_subtype
-		}
-		localization_key = theocracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_jadidism_subtype
-		}
-		localization_key = soccon_jadidism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
-		}
-		localization_key = authdem_christian_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = filipino_nationalism_subtype
-		}
-		localization_key = filipino_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_filipino_nationalism_subtype
-		}
-		localization_key = val_filipino_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_metaxism_subtype
-		}
-		localization_key = 	val_metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = metaxism_subtype
 		}
 		localization_key = 	metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_metaxism_subtype
-		}
-		localization_key = 	pataut_metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = mercourism_subtype
-		}
-		localization_key = 	mercourism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1426,6 +313,7 @@ defined_text = {
 
 
 defined_text = {
+	# both ideologies and subideologies
 	name = GetDiploIdeologySubtypeDesc
 	text = {
 		trigger = {
@@ -1450,12 +338,6 @@ defined_text = {
 			has_country_leader_ideology = social_democrat_subtype
 		}
 		localization_key = social_democrat_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1495,57 +377,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = panasian_nichirenist_subtype
-		}
-		localization_key = panasian_nichirenist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolutionary_showaist_subtype
-		}
-		localization_key = revolutionary_showaist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_feminist_subtype
-		}
-		localization_key = socialist_feminist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = statist_showaist_subtype
-		}
-		localization_key = statist_showaist_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = absolute_mon_subtype
 		}
 		localization_key = absolute_mon_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = auth_duumvirism_subtype
-		}
-		localization_key = auth_duumvirism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pat_duumvirism_subtype
-		}
-		localization_key = pat_duumvirism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = samurai_dictatorship_subtype
-		}
-		localization_key = samurai_dictatorship_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1555,87 +389,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libsoc_utopian_socialism_subtype
-		}
-		localization_key = libsoc_utopian_socialism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = monsoc_subtype
-		}
-		localization_key = monsoc_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_national_conservative_subtype
-		}
-		localization_key = authdem_national_conservative_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = christian_democracy_subtype
 		}
 		localization_key = christian_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = police_state_subtype
-		}
-		localization_key = police_state_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_longism_subtype
-		}
-		localization_key = socdem_longism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_colonial_govt_subtype
-		}
-		localization_key = autocratic_colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = junta_subtype
-		}
-		localization_key = junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_junta_subtype
-		}
-		localization_key = authdem_junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_warlordism_subtype
-		}
-		localization_key = authdem_warlordism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = colonial_govt_subtype
-		}
-		localization_key = colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_warlordism_subtype
-		}
-		localization_key = soccon_warlordism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_warlordism_subtype
-		}
-		localization_key = pataut_warlordism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1645,33 +401,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = centrist_subtype
-		}
-		localization_key = centrist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = oligarchy_subtype
-		}
-		localization_key = oligarchy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = toryism_subtype
-		}
-		localization_key = toryism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = prussian_constitutionalism_subtype
 		}
 		localization_key = prussian_constitutionalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = integralism_subtype
-		}
-		localization_key = integralism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1681,111 +413,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = controlled_democracy_subtype
-		}
-		localization_key = controlled_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = caudillo_populism_subtype
-		}
-		localization_key = caudillo_populism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = bukharinist_subtype
-		}
-		localization_key = bukharinist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism_subtype
-		}
-		localization_key = leninism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = moderate_socialist_subtype
-		}
-		localization_key = moderate_socialist_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = radical_liberalism_subtype
 		}
 		localization_key = radical_liberalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = national_conservative_subtype
-		}
-		localization_key = national_conservative_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = corporatocracy_subtype
-		}
-		localization_key = corporatocracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = klan_nationalism_subtype
-		}
-		localization_key = klan_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = occultism_subtype
-		}
-		localization_key = occultism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = autocratic_socialist_subtype
-		}
-		localization_key = autocratic_socialist_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_legionarism_subtype
-		}
-		localization_key = pataut_legionarism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_legionarism_subtype
-		}
-		localization_key = val_legionarism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_democratic_socialism_subtype
-		}
-		localization_key = socdem_democratic_socialism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_left_nationalism_subtype
-		}
-		localization_key = socdem_left_nationalism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1795,69 +425,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = anarchism_subtype
 		}
 		localization_key = anarchism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = ukrainian_nationalism_subtype
-		}
-		localization_key = ukrainian_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_national_integralism_subtype
-		}
-		localization_key = ukrainian_national_integralism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = ukrainian_social_conservatism_subtype
-		}
-		localization_key = ukrainian_social_conservatism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = hetmanism_subtype
-		}
-		localization_key = hetmanism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = falangism_subtype
 		}
 		localization_key = 	falangism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_colonial_govt_subtype
-		}
-		localization_key = 	soccon_colonial_govt_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_revolution_nationale_subtype
-		}
-		localization_key = 	authdem_revolution_nationale_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = revolution_nationale_subtype
-		}
-		localization_key = 	revolution_nationale_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socdem_humanistic_capitalism_subtype
-		}
-		localization_key = 	socdem_humanistic_capitalism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1873,75 +449,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = hardliner_bolshevism_subtype
-		}
-		localization_key = hardliner_bolshevism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = red_junta_subtype
-		}
-		localization_key = red_junta_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_security_state_subtype
-		}
-		localization_key = socialist_security_state_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = theocracy_subtype
-		}
-		localization_key = theocracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = soccon_jadidism_subtype
-		}
-		localization_key = soccon_jadidism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = authdem_christian_democracy_subtype
-		}
-		localization_key = authdem_christian_democracy_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = filipino_nationalism_subtype
-		}
-		localization_key = filipino_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_filipino_nationalism_subtype
-		}
-		localization_key = val_filipino_nationalism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = val_metaxism_subtype
-		}
-		localization_key = 	val_metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = metaxism_subtype
 		}
 		localization_key = 	metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = pataut_metaxism_subtype
-		}
-		localization_key = 	pataut_metaxism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = mercourism_subtype
-		}
-		localization_key = 	mercourism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1957,11 +467,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = vanguardist_subtype
-				has_country_leader_ideology = revolutionary_showaist_subtype
-				has_country_leader_ideology = autocratic_socialist_subtype
-				has_country_leader_ideology = socialist_security_state_subtype
-				has_country_leader_ideology = red_junta_subtype
-				has_country_leader_ideology = hardliner_bolshevism_subtype
 			}
 		}
 		localization_key = vanguardist_color
@@ -1970,8 +475,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = utopian_socialist_subtype
-				has_country_leader_ideology = monsoc_subtype
-				has_country_leader_ideology = leninism_subtype
 				has_country_leader_ideology = anarchism_subtype
 			}
 		}
@@ -1981,12 +484,8 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = revolutionary_socialist_subtype
-				has_country_leader_ideology = socialist_feminist_subtype
-				has_country_leader_ideology = libsoc_utopian_socialism_subtype
 				has_country_leader_ideology = anarcho_syndicalism_subtype
 				has_country_leader_ideology = agrarian_socialism_subtype
-				has_country_leader_ideology = bukharinist_subtype
-				has_country_leader_ideology = moderate_socialist_subtype
 			}
 		}
 		localization_key = revolutionary_socialist_color
@@ -1995,11 +494,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = social_democrat_subtype
-				has_country_leader_ideology = socdem_longism_subtype
-				has_country_leader_ideology = socdem_democratic_socialism_subtype
-				has_country_leader_ideology = socdem_left_nationalism_subtype
 				has_country_leader_ideology = socdem_christian_socialism_subtype
-				has_country_leader_ideology = socdem_humanistic_capitalism_subtype
 				has_country_leader_ideology = socdem_christian_democracy_subtype
 			}
 		}
@@ -2009,22 +504,8 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = liberal_subtype
-				has_country_leader_ideology = centrist_subtype
 				has_country_leader_ideology = radical_liberalism_subtype
 				has_country_leader_ideology = venizelism_subtype
-				has_country_leader_ideology = liberal_subtype
-			}
-		}
-		localization_key = liberal_color
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_country_leader_ideology = liberal_subtype
-				has_country_leader_ideology = liberal_subtype
-				has_country_leader_ideology = liberal_subtype
-				has_country_leader_ideology = liberal_subtype
-				has_country_leader_ideology = liberal_subtype
 			}
 		}
 		localization_key = liberal_color
@@ -2034,13 +515,6 @@ defined_text = {
 			OR = {
 				has_country_leader_ideology = social_conservative_subtype
 				has_country_leader_ideology = christian_democracy_subtype
-				has_country_leader_ideology = soccon_warlordism_subtype
-				has_country_leader_ideology = toryism_subtype
-				has_country_leader_ideology = national_conservative_subtype
-				has_country_leader_ideology = ukrainian_social_conservatism_subtype
-				has_country_leader_ideology = soccon_colonial_govt_subtype
-				has_country_leader_ideology = soccon_jadidism_subtype
-				has_country_leader_ideology = filipino_nationalism_subtype
 			}
 		}
 		localization_key = social_conservative_color
@@ -2049,18 +523,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = authoritarian_democrat_subtype
-				has_country_leader_ideology = authdem_national_conservative_subtype
-				has_country_leader_ideology = auth_duumvirism_subtype
-				has_country_leader_ideology = police_state_subtype
-				has_country_leader_ideology = authdem_junta_subtype
-				has_country_leader_ideology = authdem_warlordism_subtype
-				has_country_leader_ideology = colonial_govt_subtype
-				has_country_leader_ideology = oligarchy_subtype
 				has_country_leader_ideology = prussian_constitutionalism_subtype
-				has_country_leader_ideology = controlled_democracy_subtype
-				has_country_leader_ideology = hetmanism_subtype
-				has_country_leader_ideology = authdem_revolution_nationale_subtype
-				has_country_leader_ideology = authdem_christian_democracy_subtype
 			}
 		}
 		localization_key = authoritarian_democrat_color
@@ -2070,18 +533,6 @@ defined_text = {
 			OR = {
 				has_country_leader_ideology = paternal_autocrat_subtype
 				has_country_leader_ideology = absolute_mon_subtype
-				has_country_leader_ideology = pat_duumvirism_subtype
-				has_country_leader_ideology = samurai_dictatorship_subtype	
-				has_country_leader_ideology = junta_subtype
-				has_country_leader_ideology = autocratic_colonial_govt_subtype
-				has_country_leader_ideology = pataut_warlordism_subtype
-				has_country_leader_ideology = caudillo_populism_subtype
-				has_country_leader_ideology = corporatocracy_subtype
-				has_country_leader_ideology = pataut_legionarism_subtype
-				has_country_leader_ideology = ukrainian_nationalism_subtype
-				has_country_leader_ideology = revolution_nationale_subtype
-				has_country_leader_ideology = theocracy_subtype
-				has_country_leader_ideology = pataut_metaxism_subtype
 				}
 			}
 			localization_key = paternal_autocrat_color
@@ -2090,11 +541,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = ultranationalist_subtype
-				has_country_leader_ideology = statist_showaist_subtype	
 				has_country_leader_ideology = legionarism_subtype
-				has_country_leader_ideology = integralism_subtype
-				has_country_leader_ideology = klan_nationalism_subtype
-				has_country_leader_ideology = ukrainian_national_integralism_subtype
 				has_country_leader_ideology = metaxism_subtype
 			}
 		}
@@ -2104,12 +551,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader_ideology = esoteric_nationalist_subtype
-				has_country_leader_ideology = panasian_nichirenist_subtype
-				has_country_leader_ideology = occultism_subtype
-				has_country_leader_ideology = val_legionarism_subtype
-				has_country_leader_ideology = val_filipino_nationalism_subtype
-				has_country_leader_ideology = val_metaxism_subtype
-				has_country_leader_ideology = mercourism_subtype
 			}
 		}
 		localization_key = esoteric_nationalist_color
@@ -2141,12 +582,6 @@ defined_text = {
 			has_country_leader_ideology = social_democrat_subtype
 		}
 		localization_key = social_democrat_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = liberal_subtype
-		}
-		localization_key = liberal_subtype_desc
 	}
 	text = {
 		trigger = {

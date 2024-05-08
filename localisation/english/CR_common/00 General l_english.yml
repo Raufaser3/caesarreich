@@ -19,7 +19,7 @@ CR_CURRENT_VERSION: "CAESARREICH INDEV VERSION 0.1.0 \"TBD\" - UNRELEASED"
 BM_HISTORY_TITLE: "Brief History"
 CAESSAREICH_NAME: "Legacy of the Great War"
 CAESSAREICH_DESC: "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
-OTHER_CAESSAREICH_DESC: "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the esoteric_nationalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
+OTHER_CAESSAREICH_DESC: "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the National Mysticists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its peaceful existance, plummeting into the hells of war. And it will not wait for your decisions."
 
 # Main Menu Tooltips
 FX_MENU_DISCORD: "Führerredux Discord"
@@ -98,7 +98,7 @@ social_conservative: "Social Conservative"
 authoritarian_democrat: "Authoritarian Democrat"
 paternal_autocrat: "Paternalist"
 ultranationalist: "Ultranationalist"
-esoteric_nationalist: "Estoteric Nationalist"
+esoteric_nationalist: "National Mysticist"
 
 ### Ideologies Colored
 
@@ -112,7 +112,7 @@ social_conservative_color: "§3Social Conservatives§!"
 authoritarian_democrat_color: "§gAuthoritarian Democrats§!"
 paternal_autocrat_color: "§PPaternal Autocrats§!"
 ultranationalist_color: "§NNational Populists§!"
-esoteric_nationalist_color: "§VEstoteric Nationalist§!"
+esoteric_nationalist_color: "§VNational Mysticist§!"
 
 ### Ideology Nouns
 vanguardist_noun: "Vanguardism"
@@ -124,20 +124,20 @@ social_conservative_noun: "Social Conservatism"
 authoritarian_democrat_noun: "Authoritarian Democracy"
 paternal_autocrat_noun: "Paternalism"
 ultranationalist_noun: "Ultranationalism"
-esoteric_nationalist_noun: "Valkism"
+esoteric_nationalist_noun: "National Mysticism"
 
 ### Ideology Desc
 ideology_alignment: "Alignment"
-vanguardist_desc: "Far Left"
-utopian_socialist_desc: "Far Left"
-revolutionary_socialist_desc: "Center Left"
+vanguardist_desc: "Authoritarian Left"
+utopian_socialist_desc: "Center Left"
+revolutionary_socialist_desc: "Libertarian Left"
 social_democrat_desc: "Center Left"
 liberal_desc: "Radical Center"
 social_conservative_desc: "Center Right"
-authoritarian_democrat_desc: "Center Right"
-paternal_autocrat_desc: "Far Right"
-ultranationalist_desc: "Far Right"
-esoteric_nationalist_desc: "Far Right"
+authoritarian_democrat_desc: "Authoritarian Center"
+paternal_autocrat_desc: "Authoritarian Right"
+ultranationalist_desc: "Authoritarian Right"
+esoteric_nationalist_desc: "Authoritarian Center"
 
 ### Ideology Drift
 vanguardist_drift: "Daily Vanguardist support"
@@ -149,7 +149,7 @@ social_conservative_drift: "Daily Social Conservative support"
 authoritarian_democrat_drift: "Daily Authoritarian Democrat support"
 paternal_autocrat_drift: "Daily Paternalist support"
 ultranationalist_drift: "Daily Ultranationalist support"
-esoteric_nationalist_drift: "Daily Esoteric Nationalist support"
+esoteric_nationalist_drift: "Daily National Mysticist support"
 
 ### Ideology Subtype Desc
 vanguardist_subtype_desc: "Vanguardism is a term used to describe the collection of theories and concepts created by Vyacheslav Molotov based off of the attempted Hamburg Commune. National Collectivism emphasizes the development of socialism within the state. National utopian_socialist states build and implement their political base along Leninist lines, creating a revolutionary vanguard state to eventually reach a communist society. However, most power in National Collectivism is centralized around the strong state and its leader. Due to its totalitarian nature, political violence is used liberally to purge counter-revolutionary elements  Agriculture is often collectivized en masse and industry is centrally planned. Despite this, National Collectivism is widespread and sees itself as the true successor of Leninist thought, separating itself from Libertarianism completely while remaining suspicious of mainstream Leninist Socialism."
@@ -162,7 +162,9 @@ social_conservative_subtype_desc: "Conservatism is a political ideology which ca
 authoritarian_democrat_subtype_desc: "Authoritarian Democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian Democratic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
 paternal_autocrat_subtype_desc: "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
 ultranationalist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
-esoteric_nationalist_subtype_desc: "Named after the Germanic symbol that German esoteric_nationalists wear, Valkism is an extreme nationalist and militaristic ideology, that proposes a system where the political power is centralized under a strong leadership, that through the state controls and guides the nation to its national rebirth. Nonetheless, esoteric_nationalists fundamentally defend socially progressive ideals and the leader grants liberties to the people. esoteric_nationalists are characterized by adopting conceptual and aesthetical aspects from ancient, pagan, mystical and esoterical traditions, generally relevant to the nation in question. There are many schools of thought in esoteric_nationalist economics, but the state supremacy and control over it is undisputed."
+esoteric_nationalist_subtype_desc: "National Mysticism refers to a specific brand of Ultranationalism which seeks the spiritual and cultural rebirth of its people, often taking inspiration from ancient and mythological sources, while rejecting Christianity, mainstream conservatism and populist mass movements. National Mysticism movements are opposed to the ideas of liberalism, Marxism and the enlightenment, all of which are deemed as weak and corrosive of the human spirit. Instead, they envision a hierarchical society led by great men under a new aristocracy. The political ideas of Plato, Hermeticism as well as various traditionalist and esoteric scholars hold a major influence on their political beliefs. National Mysticists organise themselves within small elite circles and often act through other politically established factions like the military, political parties, or personal connections."
+
+
 internationalist_subtype_desc: "Developed from particularly interventionist branches of collectivism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 
 ### Ideology Acceptance
@@ -187,7 +189,7 @@ social_conservative_banned: "Banned Social Conservatives"
 authoritarian_democrat_banned: "Banned Authoritarian Democrats"
 paternal_autocrat_banned: "Banned Paternalists"
 ultranationalist_banned: "Banned Ultranationalists"
-esoteric_nationalist_banned: "Banned Esoteric Nationalists"
+esoteric_nationalist_banned: "Banned National Mysticists"
 
 ### Triggers
 can_replace_hog: "Can Replace Head of Government"
@@ -199,8 +201,8 @@ FX_is_elected_tt: "Has a democratic-elected government."
 FX_is_elected_tt_NOT: "Does §Rnot§! have a democratic-elected government."
 FX_is_democratic_tt: "Has a democratic government."
 FX_is_democratic_tt_NOT: "Does §Rnot§! have a democratic government."
-FX_is_authoritarian_tt: "Has an §YAuthoritarian Democrat§!, §YPaternalist§!, §YUltranationalist§! or a §YEsoteric Nationalist§! government."
-FX_is_authoritarian_tt_NOT: "Does §Rnot§! have an §YAuthoritarian Democrat§!, §YPaternalist§!, §YUltranationalist§! or a §YEsoteric Nationalist§! government."
+FX_is_authoritarian_tt: "Has an §YAuthoritarian Democrat§!, §YPaternalist§!, §YUltranationalist§! or a §YNational Mysticist! government."
+FX_is_authoritarian_tt_NOT: "Does §Rnot§! have an §YAuthoritarian Democrat§!, §YPaternalist§!, §YUltranationalist§! or a §YNational Mysticist§! government."
 FX_is_dictatorship_tt: "Has a totalitarian government"
 FX_is_dictatorship_tt_NOT: "Does §Rnot§! have a totalitarian government."
 FX_is_democratic_left_tt: "Has a left-aligned democratic government."
