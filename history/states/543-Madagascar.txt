@@ -8,8 +8,8 @@ state={
 	
 	history={
 		add_core_of = MAD
-    add_claim_by = FRA
-		owner = FRA
+		add_claim_by = FRA
+		owner = GER
 		buildings = {
 			infrastructure = 2
 			air_base = 1
