@@ -224,6 +224,8 @@ enables_new_focus_branches: "Enables new focus branches"
 tooltip_white_line: "   \n"
 
 ### Factions
+monroe_pact: "Monroe Pact"
+
 imperial_protection_alliance: "Imperial Protection Alliance"
 continental_entente: "Continental Entente"
 stahlpakt: "Stahlpakt"

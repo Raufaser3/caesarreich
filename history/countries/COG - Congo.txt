@@ -1,7 +1,7 @@
 ﻿capital = 295
 
 oob = "COG"
-set_cosmetic_tag = COG_BCA
+set_cosmetic_tag = USA_COG
 
 recruit_character = COG_Pierre_Ryckmans
 
@@ -28,8 +28,7 @@ set_popularities = {
   utopian_socialist = 2
   revolutionary_socialist = 3
   social_democrat = 11
-  liberal = 10
-  liberal = 16
+  liberal = 26
   social_conservative = 12
   authoritarian_democrat = 28
   paternal_autocrat = 0

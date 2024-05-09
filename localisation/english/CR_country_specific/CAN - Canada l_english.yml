@@ -39,9 +39,9 @@ CAN_esoteric_nationalist_ADJ: "Canadian"
 CAN_esoteric_nationalist_DEF: "The Northern Brotherhood of Canada"
 
 #### Cosmetic Tags ####
-CAN_ENG: "Dominion of Canada"
-CAN_ENG_DEF: "The Dominion of Canada"
-CAN_ENG_ADJ: "Canadian"
+CAN_USA: "Canadian Military District"
+CAN_USA_DEF: "The Canadian Military District"
+CAN_USA_ADJ: "Canadian"
 
 #### Focus Tree ####
 
