@@ -9,7 +9,7 @@ state=
 	history=
 	{
 		add_core_of = EQG
-		owner = NFQ
+		owner = SPR
 		add_core_of = NFQ
 		buildings = {
 			infrastructure = 2

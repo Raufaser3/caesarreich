@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = RHO
+		owner = GER
 		buildings = {
 			infrastructure = 3
 

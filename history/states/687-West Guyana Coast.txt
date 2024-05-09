@@ -10,9 +10,9 @@ state={
 	}
 
 	history={
-	  add_core_of = GYA
-    add_claim_by = ENG
-		owner = ENG
+		add_core_of = GYA
+    		add_claim_by = ENG
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
