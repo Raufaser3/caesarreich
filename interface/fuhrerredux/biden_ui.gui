@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType =  {
 		name = "joe_biden_gui"
-		position = { x = 10 y = 44 }
+		position = { x = 11 y = 32 }
 		size = { width = 170 height = 260 }
 		orientation = upper_left
 		#background = {
