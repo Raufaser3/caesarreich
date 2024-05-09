@@ -8,7 +8,7 @@ state={
 
 	history={
 		add_core_of = TZN
-		owner = KEN
+		owner = GER
 		add_core_of = KEN
     add_claim_by = ENG
 		victory_points = {

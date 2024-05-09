@@ -4,14 +4,11 @@ state={
 	name="STATE_964"
 
 	history={
-		owner = PRR
-		add_core_of = PRR
-		add_claim_by = POR
+		owner = GER
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = TZN
-		add_core_of = MZB
 	}
 
 	provinces={

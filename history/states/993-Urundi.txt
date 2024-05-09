@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = BRD
-		owner = COG
+		owner = GER
 		add_core_of = COG
 		buildings = {
 			infrastructure = 2

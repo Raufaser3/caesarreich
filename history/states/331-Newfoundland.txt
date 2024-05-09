@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = NFL
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3

@@ -11,7 +11,7 @@ state={
 
 	history={
 		add_core_of = TRI
-		owner = ENG
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			3284 = {

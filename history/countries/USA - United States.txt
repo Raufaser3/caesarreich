@@ -124,21 +124,46 @@ set_politics = {
 
 set_popularities = {
   vanguardist = 1
-  utopian_socialist = 1
-  revolutionary_socialist = 8
-  social_democrat = 19
-  liberal = 20
-  liberal = 27
-  social_conservative = 18
-  authoritarian_democrat = 3
+  utopian_socialist = 2
+  revolutionary_socialist = 3
+  social_democrat = 4
+  liberal = 5
+  social_conservative = 0
+  authoritarian_democrat = 85
   paternal_autocrat = 0
-  ultranationalist = 3
+  ultranationalist = 0
   esoteric_nationalist = 0
 }
 
 add_ideas = {
 	limited_conscription
 	presidential_republic
+}
+
+create_faction = monroe_pact
+add_to_faction = USA
+add_to_faction = CAN
+add_to_faction = QUE
+add_to_faction = LIB
+add_to_faction = NGA
+add_to_faction = COG
+add_to_faction = FIC
+set_autonomy = {
+	target = NGA
+	autonomy_state = autonomy_colony
+}
+set_autonomy = {
+	target = CAN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.25
+}
+set_autonomy = {
+	target = LIB
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = FIC
+	autonomous_state = autonomy_colony
 }
 
 add_ai_strategy = {

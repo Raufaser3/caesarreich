@@ -75,7 +75,7 @@ set_research_slots = 3
 set_convoys = 100
 set_stability = 0.6
 set_war_support = 0.40
-set_cosmetic_tag = CAN_ENG
+set_cosmetic_tag = CAN_USA
 
 # set_country_flag = NO_GENERIC_STABILITY_DECISIONS
 # set_country_flag = NO_GENERIC_RESOURCE_DECISIONS
@@ -115,7 +115,6 @@ set_popularities = {
 	utopian_socialist = 0
 	revolutionary_socialist = 0
 	social_democrat = 16
-	liberal = 0
 	liberal = 11
 	social_conservative = 56
 	authoritarian_democrat = 1

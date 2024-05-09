@@ -271,12 +271,8 @@ ENG_USA = {
 	color_ui = rgb { 213 0 0 }
 }
 PHI_ENG = {
-	color = rgb { 214 0 0 }
-	color_ui = rgb { 214 0 0 }
-}
-ENG_NGA = {
-	color = rgb {214 0 0 }
-	color_ui = rgb { 214 0 0}
+	color = rgb { 20 30 116 }
+	color_ui = rgb { 20 30 116 }
 }
 IMP_CAN = {
 	color = rgb { 186 0 0 }
@@ -374,9 +370,9 @@ HAN_kingdom = {
 	color = rgb { 220 220 73 }
 	color_ui = rgb { 242 255 73 }
 }
-COG_BCA = { 
-	color = rgb { 193 171 8 }
-	color_ui = rgb { 193 171 8 }
+USA_COG	 = { 
+	color = rgb { 55 124 168 }
+	color_ui = rgb { 55 124 168 }
 }
 HUN_kingdom = {
 	color = rgb { 194 198 215 }
@@ -810,4 +806,12 @@ GRE_unification = {
 HUN_danubia = {
 	color = rgb { 102 0 0 }
 	color_ui = rgb { 102 0 0 }
+}
+CAN_USA = {
+	color = rgb { 20 110 180 }
+	color_ui = rgb { 20 110 180 }
+}
+NGA_USA = {
+	color = rgb {90 120 190 }
+	color_ui = rgb { 90 120 190}
 }
