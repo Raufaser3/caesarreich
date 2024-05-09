@@ -15,7 +15,7 @@ state={
 
 		}
 		add_core_of = BLR
-		add_claim_by = SOV
+		add_claim_by = RUS
 
 	}
 

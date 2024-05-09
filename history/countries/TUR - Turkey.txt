@@ -253,3 +253,4 @@ recruit_character = TUR_Resad_Fuad_Bey
 set_country_flag = SUR_CONQ
 set_country_flag = IRQ_CONQ
 set_country_flag = ARB_CONQ
+set_country_flag = TUR_is_ott
