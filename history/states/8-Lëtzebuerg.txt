@@ -1,10 +1,9 @@
+
 state={
 	id=8
 	name="STATE_8"
-	state_category = four
-	manpower = 294748
 	resources={
-		steel=5.0
+		steel=5.000
 	}
 
 	history={
@@ -12,13 +11,21 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
 		}
-		victory_points = { 6583 5 }
+		victory_points = {
+			6583 5 
+		}
 		add_core_of = LUX
 		add_core_of = GER
+
 	}
 
 	provinces={
-		6583 	
+		6583 9418 11407 
 	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=four
+	local_supplies=0.000
 }
