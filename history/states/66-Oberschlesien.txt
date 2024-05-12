@@ -13,15 +13,18 @@ state={
 		}
 		add_core_of = GER
 		victory_points = {
-			11467 5
+			11467 5 
 		}
-
+		victory_points = {
+			13211 5 
+		}
 	}
 
 	provinces={
-		479 6512 9457 9511 11467 
+		479 506 6512 9457 9511 11467 13211 
 	}
 	manpower=1152726
 	buildings_max_level_factor=1.000
 	state_category=six
+	local_supplies=0.000
 }

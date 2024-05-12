@@ -8,18 +8,18 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
- 
+
 		}
 		add_core_of = BLR
 		add_core_of = RUS
-
 		victory_points = {
-			386 5
+			386 5 
 		}
+
 	}
 
 	provinces={
-		304 331 360 386 3350 3759 6373 11313 3293
+		304 331 360 386 3293 3309 3759 9304 9359 11313 11341 
 	}
 	manpower=1041084
 	buildings_max_level_factor=1.000

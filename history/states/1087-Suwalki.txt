@@ -1,8 +1,6 @@
-
 state={
-	id=97
-	name="STATE_97"
-
+	id=1087
+	name="STATE_1087"
 	history={
 		owner = BLR
 		victory_points = {
@@ -20,10 +18,10 @@ state={
 	}
 
 	provinces={
-		318 3281 3366 3393 6306 6340 6359 6413 
+		347 400 3254 11247 
 	}
-	manpower=998900
-	buildings_max_level_factor=1.000
+	manpower=1598900
 	state_category=four
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
