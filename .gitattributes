@@ -1,0 +1,5 @@
+* text=auto
+*.csv text eol=crlf
+*.jpg binary
+*.png binary
+*.yml text charset=UTF-8-BOM
