@@ -1,0 +1,27 @@
+state={
+	id=1087
+	name="STATE_1087"
+	history={
+		owner = BLR
+		victory_points = {
+			3393 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = BLR
+		add_claim_by = RUS
+
+	}
+
+	provinces={
+		347 400 3254 11247 
+	}
+	manpower=1598900
+	state_category=four
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

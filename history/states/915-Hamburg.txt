@@ -1,3 +1,4 @@
+
 state={
 	id=915
 	name="STATE_915"
@@ -16,10 +17,12 @@ state={
 		add_core_of = GER
 
 	}
+
 	provinces={
-		9347 
+		3560 5291 13295 
 	}
 	manpower=1609165
 	buildings_max_level_factor=1.000
 	state_category=six
+	local_supplies=0.000
 }

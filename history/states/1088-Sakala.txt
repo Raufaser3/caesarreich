@@ -1,0 +1,24 @@
+state={
+	id=1088
+	name="STATE_1088"
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = EST
+
+	}
+
+	provinces={
+		83 185 308 3074 3174 6201 6381 11291 
+	}
+	manpower=73660
+	buildings_max_level_factor=1.000
+	state_category=four
+	local_supplies=0.000
+}

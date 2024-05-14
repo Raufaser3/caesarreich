@@ -1,14 +1,10 @@
+
 state={
 	id=191
 	name="STATE_191"
-	
-	state_category = two
 
 	history={
 		owner = EST
-		victory_points = {
-			9221 1 
-		}
 		buildings = {
 			infrastructure = 2
 			4640 = {
@@ -22,8 +18,10 @@ state={
 	}
 
 	provinces={
-		592 4640 6099 6178 6408 9221 9485 11057 11443
+		4640 6099 11057 11443 
 	}
-	manpower=376400
+	manpower=136400
 	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
 }

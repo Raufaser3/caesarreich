@@ -20,9 +20,9 @@ state={
 	}
 
 	provinces={
-		318 3281 3366 3393 11247 6413
+		318 3281 3366 3393 6306 6340 6359 6413 
 	}
-	manpower=1598900
+	manpower=998900
 	buildings_max_level_factor=1.000
 	state_category=four
 	local_supplies=0.000
