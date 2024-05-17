@@ -1,5 +1,35 @@
 leader_traits = {
 
+	# positional traits for other minister
+
+	health_minister = { 
+		random = no
+	}
+	intel_minister = { 
+		random = no
+	}
+	education_minister = { 
+		random = no
+	}
+	culture_minister = { 
+		random = no
+	}
+	agriculture_minister = { 
+		random = no
+	}
+	defence_minister = { 
+		random = no
+	}
+	labor_minister = { 
+		random = no
+	}
+	transport_minister = { 
+		random = no
+	}
+	territory_minister = { 
+		random = no
+	}
+
 	undistinguished_suit = {
 		random = yes
 	}

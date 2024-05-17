@@ -794,7 +794,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Federico_Escofet_Alsina_sec_sli_hired }
 			}			
@@ -824,7 +824,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
 			}			
@@ -859,7 +859,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Blas_Perez_Gonzalez_sec_ade_hired }
 			}			
@@ -886,7 +886,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade_hired }
 			}			
@@ -916,7 +916,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Gonzalo_Queipo_de_Llano_sec_pau_hired }
 			}			
@@ -959,7 +959,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPM_Pedro_Mourlane_Michelena_sec_pau_hired }
 			}			

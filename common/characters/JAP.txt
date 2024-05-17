@@ -172,7 +172,7 @@ characters = {
 		}
 		advisor = { #Pre Iesato Death
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			allowed = {
 				has_character_flag = JAP_Tokugawa_Iesato_Not_Dead
 			}
@@ -458,7 +458,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
 			}
@@ -2629,7 +2629,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Takashi_Hishikari_sec_npo_hired }
 			}
@@ -2655,7 +2655,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yoshikawa_Takeo_sec_pau_hired }
 			}
@@ -2681,7 +2681,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Sakisaka_Itsuro_sec_lib_hired }
 			}
@@ -2707,7 +2707,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsuoka_Komakichi_sec_sde_hired }
 			}
@@ -2733,7 +2733,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Katsu_sec_mli_hired }
 			}
@@ -2759,7 +2759,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Takukichi_sec_mli_hired }
 			}
@@ -2785,7 +2785,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kimura_Kozaemon_sec_mli_hired }
 			}
@@ -2811,7 +2811,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Saito_Takao_sec_mli_hired }
 			}
@@ -2837,7 +2837,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawamura_Takeji_sec_sco_hired }
 			}
@@ -2863,7 +2863,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ohara_Naoshi_sec_sco_hired }
 			}
@@ -2889,7 +2889,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Akita_Kiyoshi_sec_ade_hired }
 			}
@@ -2915,7 +2915,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mochizuki_Keisuke_sec_ade_hired }
 			}
@@ -2941,7 +2941,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagai_Ryutaro_sec_ade_hired }
 			}
@@ -2967,7 +2967,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oasa_Tadao_sec_ade_hired }
 			}
@@ -2993,7 +2993,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Fujie_Keisuke_sec_pau_hired }
 			}
@@ -3019,7 +3019,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shiono_Suehiko_sec_pau_hired }
 			}
@@ -3045,7 +3045,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suetsugu_Nobumasa_sec_npo_hired }
 			}

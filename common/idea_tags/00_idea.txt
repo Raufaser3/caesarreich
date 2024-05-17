@@ -37,7 +37,9 @@ idea_categories = {
 		character_slot = head_of_government
 		character_slot = foreign_minister
 		character_slot = economy_minister
-		character_slot = security_minister
+		character_slot = interior_minister
+		character_slot = other_minister
+		character_slot = other_minister
 		
 		cost = 0
 		removal_cost = -1 # works
@@ -49,6 +51,8 @@ idea_categories = {
 		character_slot = army_chief 
 		character_slot = navy_chief 
 		character_slot = air_chief
+		character_slot = high_command
+		character_slot = high_command
 		character_slot = high_command
 
 		ledger = invalid # must be overridden
@@ -63,7 +67,7 @@ idea_categories = {
 		slot = aircraft_manufacturer
 		slot = naval_manufacturer
 		slot = industrial_concern
-		slot = high_command_focus
+		character_slot = theorist
 
 		cost = 150
 		removal_cost = 0

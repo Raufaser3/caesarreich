@@ -1721,7 +1721,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_James_Chuter_Ede_sec_sde_hired }
 			}
@@ -1748,7 +1748,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_H_G_Wells_sec_sli_hired }
 			}
@@ -1775,7 +1775,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Ivor_Brown_sec_mli_hired }
 			}
@@ -1802,7 +1802,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Anderson_sec_mli_hired }
 			}
@@ -1829,7 +1829,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Desmond_Morton_sec_sco_hired }
 			}
@@ -1856,7 +1856,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Edward_Cavendish_sec_sco_hired }
 			}
@@ -1883,7 +1883,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Randolph_Churchill_sec_sco_hired }
 			}
@@ -1910,7 +1910,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Maxwell_Knight_sec_ade_hired }
 			}
@@ -1940,7 +1940,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Trafford_Leigh_Mallory_sec_ade_hired }
 			}
@@ -1975,7 +1975,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Jeffrey_Hamm_sec_pau_hired }
 			}
@@ -2002,7 +2002,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Beckett_sec_npo_hired }
 			}

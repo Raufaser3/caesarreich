@@ -529,7 +529,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NZL_Henry_G_R_Mason_sec_sde_hired }
 			}

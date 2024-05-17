@@ -1306,7 +1306,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jean_Terfve_sec_van_hired }
 			}
@@ -1333,7 +1333,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Willem_Eekelers_sec_col_hired }
 			}
@@ -1360,7 +1360,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
 			}
@@ -1387,7 +1387,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Adolphe_Van_Glabbeke_sec_sli_hired }
 			}
@@ -1414,7 +1414,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Deveze_sec_mli_hired }
 			}
@@ -1441,7 +1441,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
 			}
@@ -1468,7 +1468,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Janssen_sec_sco_hired }
 			}
@@ -1495,7 +1495,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_August_De_Schryver_sec_sco_hired }
 			}
@@ -1522,7 +1522,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Francois_Bovesse_sec_sco_hired }
 			}
@@ -1549,7 +1549,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jean_Rey_sec_sco_hired }
 			}
@@ -1576,7 +1576,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Georges_Thone_sec_ade_hired }
 			}
@@ -1603,7 +1603,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
 			}
@@ -1630,7 +1630,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
 			}

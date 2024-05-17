@@ -101,7 +101,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Nicypar_Natalievic_sec_van_hired }
 			}
@@ -267,7 +267,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jafim_Bialievic_sec_col_hired }
 			}
@@ -414,7 +414,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
 			}
@@ -553,7 +553,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jazep_Lesik_sec_sde_hired }
 			}
@@ -646,7 +646,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Alyaksandr_Tsvikyevich_sec_sli_hired }
 			}
@@ -766,7 +766,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
 			}
@@ -906,7 +906,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jan_Pazniak_sec_sco_hired }
 			}
@@ -1019,7 +1019,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Sokal_Kutylouski_sec_ade_hired }
 			}
@@ -1292,7 +1292,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
 			}
@@ -1460,7 +1460,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
 			}

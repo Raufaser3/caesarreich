@@ -989,7 +989,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Jan_Jodzewicz_sec_val_hired }
 			}
@@ -1016,7 +1016,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Karol_Popiel_sec_sco_hired }
 			}
@@ -1043,7 +1043,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Kazimierz_Pużak_sec_sde_hired }
 			}
@@ -1070,7 +1070,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tadeusz_Bielecki_sec_npo_hired }
 			}
@@ -1097,7 +1097,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tadeusz_Gluziński_sec_val_hired }
 			}

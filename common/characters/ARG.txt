@@ -1363,7 +1363,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Jose_Peter_sec_van_hired }
 			}
@@ -1390,7 +1390,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Alvaro_Yunque_sec_van_hired }
 			}
@@ -1417,7 +1417,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Micaela_Feldman_de_Etchebehere_sec_van_hired }
 			}
@@ -1444,7 +1444,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Candido_Testa_sec_col_hired }
 			}
@@ -1471,7 +1471,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Juan_Antonio_Moran_sec_col_hired }
 			}
@@ -1498,7 +1498,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Roberto_Noble_sec_lib_hired }
 			}
@@ -1525,7 +1525,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Enzo_Bordabehere_sec_sde_hired }
 			}
@@ -1552,7 +1552,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Arturo_Frondizi_sec_sli_hired }
 			}
@@ -1579,7 +1579,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Enrique_Mosca_sec_sli_hired }
 			}
@@ -1606,7 +1606,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Jose_P_Tamborini_sec_sco_hired }
 			}
@@ -1633,7 +1633,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Reynaldo_Pastor_sec_sco_hired }
 			}
@@ -1672,7 +1672,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Alberto_Teisaire_sec_ade_hired }
 			}
@@ -1707,7 +1707,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_J_Honorio_Silveiro_sec_pau_hired }
 			}
@@ -1734,7 +1734,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ARG_Elbio_Anaya_sec_npo_hired }
 			}

@@ -232,7 +232,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Mohammed_Naguib_sec_sde_hired }
 			}
@@ -1123,7 +1123,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Muhammad_Anwar_el_Sadat_sec_sde_hired }
 			}
@@ -1150,7 +1150,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Taha_Hussein_sec_sli_hired }
 			}
@@ -1177,7 +1177,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Muhammad_Husayn_Haykal_sec_sli_hired }
 			}
@@ -1204,7 +1204,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abbas_al_Aqqad_sec_mli_hired }
 			}
@@ -1231,7 +1231,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abdel_Hamid_Badawi_sec_mli_hired }
 			}
@@ -1258,7 +1258,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Sheikh_Mahmud_Shaltut_sec_sco_hired }
 			}

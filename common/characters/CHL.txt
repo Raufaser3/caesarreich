@@ -536,7 +536,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = security_minister
+			slot = interior_minister
 			cost = 150
 			idea_token = CHL_Francisco_Javier_Diaz_Valderrama_sec_npo
 			traits = { }
@@ -1372,7 +1372,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Gregorio_Davila_Espinoza_sec_col_hired }
 			}
@@ -1399,7 +1399,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Alberto_Cabero_Diaz_sec_lib_hired }
 			}
@@ -1426,7 +1426,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Max_Westenhofer_sec_lib_hired }
 			}
@@ -1453,7 +1453,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Eduardo_Nicanor_Frei_Montalva_sec_sde_hired }
 			}
@@ -1480,7 +1480,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_Salinas_sec_sde_hired }
 			}
@@ -1507,7 +1507,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Valdovinos_Valdovinos_sec_sli_hired }
 			}
@@ -1534,7 +1534,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_Rivas_Vicuna_sec_sco_hired }
 			}
@@ -1561,7 +1561,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Vergara_Montero_sec_ade_hired }
 			}
@@ -1588,7 +1588,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Keller_Rueff_sec_pau_hired }
 			}
