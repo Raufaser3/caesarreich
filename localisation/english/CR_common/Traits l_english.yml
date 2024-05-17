@@ -32,6 +32,7 @@ head_of_government: "Head of Government"
 foreign_minister: "Foreign Minister"
 economy_minister: "Economic Minister"
 interior_minister: "Security Minister"
+other_minister: "Other Minister"
 
 ### Other Minister ###
 health_minister: "Minister of Health"
