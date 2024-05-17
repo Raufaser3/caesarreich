@@ -536,7 +536,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Kaarel_Eenpalu_sec_ade_hired }
 			}
@@ -736,7 +736,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Julius_Seljamaa_sec_ade_hired }
 			}
@@ -993,7 +993,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Aleksander_Rusev_sec_van_hired }
 			}
@@ -1020,7 +1020,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Andrey_Murro_sec_van_hired }
 			}
@@ -1047,7 +1047,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Boris_Kumm_sec_van_hired }
 			}
@@ -1074,7 +1074,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Maksim_Unt_sec_van_hired }
 			}
@@ -1101,7 +1101,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_August_Jurima_sec_mli_hired }
 			}
@@ -1128,7 +1128,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Johannes_Klesment_sec_mli_hired }
 			}
@@ -1158,7 +1158,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Richard_Veermaa_sec_mli_hired }
 			}
@@ -1193,7 +1193,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Karl_Sigismund_Litzmann_sec_npo_hired }
 			}
@@ -1220,7 +1220,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = EST_Oskar_Angelus_sec_npo_hired }
 			}

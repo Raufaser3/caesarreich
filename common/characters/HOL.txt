@@ -240,7 +240,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Frederik_Carel_Gerretson_sec_pau_hired }
 			}
@@ -267,7 +267,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Johannes_Linthorst_Homan_sec_pau_hired }
 			}
@@ -294,7 +294,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_AJ_van_der_Hoeven_sec_npo_hired }
 			}
@@ -321,7 +321,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Gerhardus_Dieters_sec_npo_hired }
 			}
@@ -970,7 +970,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Bernhard_Coltof_sec_van_hired }
 			}			
@@ -997,7 +997,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Daniel_Goulooze_sec_col_hired }
 			}			
@@ -1024,7 +1024,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Henriette_Roland_Holst_sec_col_hired }
 			}			
@@ -1051,7 +1051,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Abraham_Menist_sec_lib_hired }
 			}			
@@ -1078,7 +1078,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Fokke_Bosman_sec_lib_hired }
 			}			

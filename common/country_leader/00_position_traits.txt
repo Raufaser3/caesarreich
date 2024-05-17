@@ -18,7 +18,7 @@ leader_traits = {
 	head_of_government = {}
 	foreign_minister = {}
 	economy_minister = {}
-	security_minister = {}
+	interior_minister = {}
 
 #####################
 # Military Staff

@@ -972,7 +972,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Kilbom_sec_lib_hired }
 			}
@@ -1194,7 +1194,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Martin_Ekstrom_sec_npo_hired }
 			}
@@ -1375,7 +1375,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_J_Rickard_Sandler_sec_sde_hired }
 			}
@@ -1909,7 +1909,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Arvid_Olsson_sec_van_hired }
 			}
@@ -1936,7 +1936,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Folke_Fridell_sec_col_hired }
 			}
@@ -1963,7 +1963,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Schlyter_sec_sde_hired }
 			}
@@ -1990,7 +1990,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Thorwald_Bergquist_sec_mli_hired }
 			}
@@ -2017,7 +2017,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gustav_Andersson_i_Rasjon_sec_mli_hired }
 			}
@@ -2044,7 +2044,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Jarl_Hjalmarson_sec_sco_hired }
 			}
@@ -2071,7 +2071,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Knut_Ewerlof_sec_sco_hired }
 			}
@@ -2098,7 +2098,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Carlos_Adlercreutz_sec_ade_hired }
 			}
@@ -2128,7 +2128,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Axel_Rappe_sec_pau_hired }
 			}
@@ -2166,7 +2166,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Per_Sylvan_sec_ade_hired }
 			}

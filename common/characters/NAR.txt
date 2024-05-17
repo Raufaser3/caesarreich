@@ -897,7 +897,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Clare_E_Hoffman_sec_pau_hired }
 			}
@@ -924,7 +924,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_DW_Griffith_sec_pau_hired }
 			}
@@ -951,7 +951,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Eugene_Talmadge_sec_pau_hired }
 			}
@@ -978,7 +978,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Theophilus_Eugene_Connor_sec_pau_hired }
 			}
@@ -1005,7 +1005,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_William_David_Upshaw_sec_pau_hired }
 			}
@@ -1032,7 +1032,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Addison_Thompson_sec_npo_hired }
 			}
@@ -1059,7 +1059,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Arlene_White_Lawrence_sec_npo_hired }
 			}
@@ -1086,7 +1086,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_CO_Dodd_sec_npo_hired }
 			}
@@ -1113,7 +1113,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Coleman_Livingston_Blease_sec_npo_hired }
 			}
@@ -1140,7 +1140,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Elizabeth_Eloise_Kirkpatrick_Dilling_sec_npo_hired }
 			}
@@ -1167,7 +1167,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_George_Edward_Deatherage_sec_npo_hired }
 			}
@@ -1194,7 +1194,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_John_Franklyn_Norris_sec_npo_hired }
 			}
@@ -1221,7 +1221,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Samuel_Green_sec_npo_hired }
 			}
@@ -1248,7 +1248,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_Theodore_G_Bilbo_sec_val_hired }
 			}
@@ -1275,7 +1275,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = NAR_William_Shephard_sec_val_hired }
 			}

@@ -830,7 +830,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Genrikh_Yagoda_sec_van_hired }
 			}
@@ -857,7 +857,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pyetr_Popkov_sec_col_hired }
 			}
@@ -884,7 +884,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pavel_Sudoplatov_sec_lib_hired }
 			}

@@ -27,7 +27,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_James_La_Guma_sec_van_hired }
 			}
@@ -724,7 +724,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Moses_Kotane_sec_van_hired }
 			}
@@ -751,7 +751,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Douglas_Wolton_sec_lib_hired }
 			}
@@ -797,7 +797,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_W_H_Andrews_sec_lib_hired }
 			}
@@ -824,7 +824,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Thomas_Boydell_sec_sde_hired }
 			}
@@ -851,7 +851,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Deneys_Reitz_sec_sco_hired }
 			}
@@ -878,7 +878,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Ben_Schoeman_sec_ade_hired }
 			}
@@ -924,7 +924,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_C_F_Stallard_sec_sde_hired }
 			}
@@ -951,7 +951,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_F_C_Erasmus_sec_pau_hired }
 			}

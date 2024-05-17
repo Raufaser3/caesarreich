@@ -982,7 +982,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alejandro_Peralta_sec_van_hired }
 			}
@@ -1009,7 +1009,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Carlos_Manuel_Cox_Roose_sec_col_hired }
 			}
@@ -1036,7 +1036,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Ciro_Alegria_sec_col_hired }
 			}
@@ -1063,7 +1063,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Ildefonso_Ballon_Beltran_sec_sde_hired }
 			}
@@ -1090,7 +1090,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Victor_N_Benavente_sec_sde_hired }
 			}
@@ -1117,7 +1117,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Gallagher_sec_sli_hired }
 			}
@@ -1144,7 +1144,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Benigno_Ballon_Farfan_sec_sco_hired }
 			}

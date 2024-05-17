@@ -2595,7 +2595,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ludwig_Renn_sec_van_hired }
 			}
@@ -2622,7 +2622,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Eugen_Levine_sec_col_hired }
 			}
@@ -2649,7 +2649,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hilde_Benjamin_sec_col_hired }
 			}
@@ -2676,7 +2676,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gustav_Noske_sec_sde_hired }
 			}
@@ -2703,7 +2703,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Gessler_sec_sli_hired }
 			}
@@ -2730,7 +2730,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
 			}
@@ -2757,7 +2757,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Goerner_sec_sco_hired }
 			}
@@ -2784,7 +2784,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Arthur_Nebe_sec_sco_hired }
 			}
@@ -2811,7 +2811,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Fritz_Dietlog_Schulenburg_sec_ade_hired }
 			}
@@ -2838,7 +2838,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Roland_Freisler_sec_pau_hired }
 			}
@@ -2865,7 +2865,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_von_Gayl_sec_pau_hired }
 			}
@@ -2892,7 +2892,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Hess_sec_npo_hired }
 			}
@@ -2919,7 +2919,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Kurt_Deluge_sec_npo_hired }
 			}
@@ -2946,7 +2946,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Diels_sec_npo_hired }
 			}
@@ -2973,7 +2973,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Ehrhardt_sec_val_hired }
 			}
