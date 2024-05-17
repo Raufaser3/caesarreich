@@ -54,7 +54,7 @@ if = {
 }
 
 add_ideas = {
-	parliamentary_republic
+	constitutional_monarchy
 }
 
 set_politics = {	
@@ -65,22 +65,21 @@ set_politics = {
 }
 
 set_popularities = {
-    vanguardist = 0
-    utopian_socialist = 8
-    revolutionary_socialist = 0
-    social_democrat = 27
-    liberal = 0
-    liberal = 6
-    social_conservative = 42
-    authoritarian_democrat = 0
-    paternal_autocrat = 5
-    ultranationalist = 12
+    vanguardist = 2
+    utopian_socialist = 6
+    revolutionary_socialist = 9
+    social_democrat = 11
+    liberal = 1
+    social_conservative = 36
+    authoritarian_democrat = 16
+    paternal_autocrat = 8
+    ultranationalist = 11
     esoteric_nationalist = 0
 }
 
 
-recruit_character = AUS_Wilhelm_Miklas
 recruit_character = AUS_Karl_Otto_von_Osterreich
+recruit_character = AUS_Wilhelm_Miklas
 recruit_character = AUS_Karl_Renner
 recruit_character = AUS_Ernst_Kaltenbrunner
 recruit_character = AUS_Otto_Bauer
