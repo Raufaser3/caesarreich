@@ -55,6 +55,9 @@ if = {
 
 add_ideas = {
 	constitutional_monarchy
+	AUS_the_second_danger
+	AUS_cracks_in_the_crown
+	AUS_the_small_austria
 }
 
 set_politics = {	

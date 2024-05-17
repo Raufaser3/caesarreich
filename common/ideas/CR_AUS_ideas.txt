@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		AUS_the_second_danger = {
+			modifier = {
+				authoritarian_democrat_drift = 0.02
+				esoteric_nationalist_drift = 0.02
+				political_power_gain = -0.1
+				conscription_factor = 0.02
+				war_support_factor = 0.1
+			}
+		}
+		
+		AUS_cracks_in_the_crown = {
+			modifier = {
+				paternal_autocrat_drift = -0.01
+				political_power_gain = -0.1
+				stability_factor = 0.15
+				stability_weekly = -0.002
+			}
+		}
+
+		AUS_the_small_austria = {
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = 0.1
+								
+			}
+		}
+	}
+}
