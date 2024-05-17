@@ -19,6 +19,32 @@ set_technology = {
   basic_train = 1
 }
 
+add_ideas = {
+	neutral_harbour_of_europe
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+  vanguardist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 0
+  social_democrat = 0
+  liberal = 0
+  social_conservative = 100
+  authoritarian_democrat = 0
+  paternal_autocrat = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
+}
+
+recruit_character = KNE_Queen_Wilhelmina
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -88,92 +114,3 @@ if = {
 		}
 	}
 }
-
-add_ideas = {
-	extensive_conscription
-	one_party_dictatorship
-}
-
-set_politics = {	
-	ruling_party = ultranationalist
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-  vanguardist = 2
-  utopian_socialist = 0
-  revolutionary_socialist = 0
-  social_democrat = 9
-  liberal = 0
-  liberal = 3
-  social_conservative = 9
-  authoritarian_democrat = 17
-  paternal_autocrat = 15
-  ultranationalist = 45
-  esoteric_nationalist = 0
-}
-add_coalition_authoritarian_democrat = yes 
-add_coalition_paternal_autocrat = yes 
-
-
-HOL_add_aircraft_variants = yes
-HOL_add_armour_variants = yes
-HOL_add_ship_variants = yes
-
-KNE = {
-	inherit_technology = HOL
-	HOL_add_aircraft_variants = yes
-	HOL_add_armour_variants = yes
-	HOL_add_ship_variants = yes
-}
-
-recruit_character = HOL_Izaak_Reynders
-recruit_character = HOL_Cornelis_van_Geelkerken
-recruit_character = HOL_Jan_Baars
-recruit_character = HOL_Willem_Bernard_Engelbrecht
-recruit_character = HOL_Henri_Johannes_ter_Hal
-recruit_character = HOL_Alfred_Haighton
-recruit_character = HOL_Gerrit_van_Burink
-recruit_character = HOL_Frederik_Carel_Gerretson
-recruit_character = HOL_Johannes_Linthorst_Homan
-recruit_character = HOL_AJ_van_der_Hoeven
-recruit_character = HOL_Gerhardus_Dieters
-recruit_character = HOL_Hendrik_Seyffardt
-recruit_character = HOL_Godfried_van_Voorst_tot_Voorst
-recruit_character = HOL_Herman_van_Voorst_tot_Voorst
-recruit_character = HOL_Adrianus_Zondervan
-recruit_character = HOL_Johan_Furstner
-recruit_character = HOL_Pieter_Koenraad
-recruit_character = HOL_Julius_Zegers
-recruit_character = HOL_Willem_Drees
-recruit_character = HOL_Bernhard_of_the_Netherlands
-recruit_character = HOL_Jan_Beelaerts_van_Blokland
-recruit_character = HOL_Kees_van_Eendenburg
-recruit_character = HOL_Conrad_Helfrich
-recruit_character = HOL_Alfred_de_Booy
-recruit_character = HOL_Karel_Doorman
-recruit_character = HOL_David_Wijnkoop
-recruit_character = HOL_Anton_Pannekoek
-recruit_character = HOL_Harm_Kolthek
-recruit_character = HOL_Henk_Sneevliet
-recruit_character = HOL_Piet_Johannes_Schmidt
-recruit_character = HOL_Paul_de_Groot
-recruit_character = HOL_Nicolaas_Beuzemaker
-recruit_character = HOL_Benjamin_Boers
-recruit_character = HOL_Louis_de_Visser
-recruit_character = HOL_Abraham_Verduin
-recruit_character = HOL_Jacques_de_Kadt
-recruit_character = HOL_Jan_Tinbergen
-recruit_character = HOL_Bernhard_Coltof
-recruit_character = HOL_Daniel_Goulooze
-recruit_character = HOL_Henriette_Roland_Holst
-recruit_character = HOL_Abraham_Menist
-recruit_character = HOL_Fokke_Bosman
-
-### Starting Ministers
-activate_advisor = HOL_Cornelis_van_Geelkerken_hog_npo
-activate_advisor = HOL_Willem_Bernard_Engelbrecht_for_npo
-activate_advisor = HOL_Gerrit_van_Burink_eco_npo
-activate_advisor = HOL_Gerhardus_Dieters_sec_npo
