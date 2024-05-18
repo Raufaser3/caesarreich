@@ -10,7 +10,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Portrait_AUS_Wilhelm_Miklas"
-		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
+		texturefile = "gfx/leaders/AUS/AUS_Wilhelm_Miklas.png"
 	}
 	
 	#############################################
