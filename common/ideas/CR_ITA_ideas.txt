@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		ITA_order_of_national_reawakening = {
+		picture = ITA_national_reawakening
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			ultranationalist_drift = 0.05
+			esoteric_nationalist_drift = 0.05
+			recruitable_population_factor = 0.01
+			stability_factor = 0.05
+			training_time_factor = -0.05
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+
+			}
+		
+		}
+		
+		 ITA_saint_peters_wrath = {
+		
+		picture = ita_saint_peters_wrath
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			social_conservative_drift = 0.1
+			authoritarian_democrat_drift = 0.1
+			political_power_gain = -0.05
+			stability_factor = -0.2
+			}
+		}
+
+	
+
+
+			ITA_occult_imperium = {
+			
+			picture = ita_occult_imperium
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				war_support_factor = 0.1
+				stability_factor = -0.07
+				political_power_gain = 0.5
+				social_democrat_drift = 0.1
+				esoteric_nationalist_drift = 0.1
+			}
+		
+		}
+		
+
+
+	}
+
+}

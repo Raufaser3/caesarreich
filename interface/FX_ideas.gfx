@@ -2256,16 +2256,4 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/ZHI/ZHI_tiger.png"
     }
 
-    spriteType = {
-        name = "GFX_idea_HUN_bastion_of_socialism"
-        textureFile = "gfx/interface/ideas/HUN/HUN_bastion_of_socialism.png"
-    }
-    spriteType = {
-        name = "GFX_idea_HUN_red_militias"
-        textureFile = "gfx/interface/ideas/HUN/HUN_red_militias.png"
-    }
-    spriteType = {
-        name = "GFX_idea_HUN_rural_unrest"
-        textureFile = "gfx/interface/ideas/HUN/HUN_rural_unrest.png"
-    }
 }
