@@ -1,16 +1,4 @@
 characters = {
-	AUS_Wilhelm_Miklas = {
-		name = "Wilhelm Miklas"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
-			}
-		}
-		country_leader = {
-			ideology = christian_democracy_subtype
-			traits = { }
-		}
-	}
 	AUS_Karl_Otto_von_Osterreich = {
 		name = "Karl Otto von Österreich"
 		portraits = {
@@ -37,18 +25,6 @@ characters = {
 		country_leader = {
 			ideology = liberal_subtype
 			traits = { }
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-	}
-	AUS_Karl_Renner = {
-		name = "Karl Renner"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
-			}
 		}
 		country_leader = {
 			ideology = social_democrat_subtype
@@ -87,16 +63,166 @@ characters = {
 			traits = { }
 		}
 	}
-	AUS_Alfred_Proksch = {
-		name = "Alfred Proksch"
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+	AUS_Wilhelm_Miklas = {
+		name = "Wilhelm Miklas"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Alfred_Proksch.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Miklas.png"
 			}
 		}
-		country_leader = {
-			ideology = ultranationalist_subtype
-			traits = { }
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Wilhelm_Miklas_hog_sco
+			traits = {
+				social_conservative
+				hog_pragmatic_statesman
+			}
+		}
+
+	}
+	AUS_Viktor_Kienbock = {
+		name = "Viktor Kienböck"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Viktor_Kienbock.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Viktor_Kienbock_eco_sco
+			traits = {
+				social_conservative
+				eco_bank_president
+			}
+		}
+	}
+	AUS_Karl_Buresch = {
+		name = "Karl Buresch"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Karl_Buresch.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Karl_Buresch_for_sco
+			traits = {
+				social_conservative
+				for_great_compromiser
+			}
+		}
+	}
+	AUS_Robert_Winterstein = {
+		name = "Robert Winterstein"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Robert_Winterstein.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Robert_Winterstein_sec_sco
+			traits = {
+				social_conservative
+				sec_compassionate_gentleman
+			}
+		}
+	}
+################################################################################################
+	AUS_Franz_Dinghofer = {
+		name = "Franz Dinghofer"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Franz_Dinghofer.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Franz_Dinghofer_hog_mli
+			traits = {
+				liberal
+				hog_naive_optimist
+			}
+		}
+
+	}
+	AUS_Hans_Schurff = {
+		name = "Hans Schürff"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Hans_Schurff.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Hans_Schurff_eco_mli
+			traits = {
+				liberal
+				eco_national_liberal
+			}
+		}
+	}
+	AUS_Stephan_Tauschitz = {
+		name = "Stephan Tauschitz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Stephan_Tauschitz.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Stephan_Tauschitz_for_mli
+			traits = {
+				liberal
+				for_apologetic_clerk
+			}
+		}
+	}
+	AUS_Franz_Winkler = {
+		name = "Franz Winkler"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Franz_Winkler.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Franz_Winkler_sec_mli
+			traits = {
+				liberal
+				sec_crime_fighter
+			}
+		}
+	}
+################################################################################################
+	AUS_Karl_Renner = {
+		name = "Karl Renner"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
+			}
 		}
 	}
 	AUS_Richard_Steidle = {
@@ -106,11 +232,12 @@ characters = {
 				large = "gfx/leaders/AUS/Portrait_AUS_Richard_Steidle.png"
 			}
 		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
-		}
 	}
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
 	AUS_Theodor_Korner = {
 		name = "Theodor Körner"
 		portraits = {

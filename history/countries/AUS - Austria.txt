@@ -55,6 +55,7 @@ if = {
 
 add_ideas = {
 	constitutional_monarchy
+
 	AUS_the_second_danger
 	AUS_cracks_in_the_crown
 	AUS_the_small_austria
@@ -82,14 +83,30 @@ set_popularities = {
 
 
 recruit_character = AUS_Karl_Otto_von_Osterreich
-recruit_character = AUS_Wilhelm_Miklas
-recruit_character = AUS_Karl_Renner
 recruit_character = AUS_Ernst_Kaltenbrunner
 recruit_character = AUS_Otto_Bauer
-recruit_character = AUS_Alfred_Proksch
+
+recruit_character = AUS_Wilhelm_Miklas
+recruit_character = AUS_Franz_Dinghofer
+recruit_character = AUS_Karl_Renner
 recruit_character = AUS_Richard_Steidle
+
+recruit_character = AUS_Viktor_Kienbock
+recruit_character = AUS_Karl_Buresch
+recruit_character = AUS_Robert_Winterstein
+recruit_character = AUS_Hans_Schurff
+recruit_character = AUS_Stephan_Tauschitz
+recruit_character = AUS_Franz_Winkler
+
+
 recruit_character = AUS_Theodor_Korner
 recruit_character = AUS_Ludwig_Hulgerth
 recruit_character = AUS_Karl_Eglseer
 recruit_character = AUS_Ludwig_von_Eimannsberger
 recruit_character = AUS_Erwin_von_Lahousen
+
+
+activate_advisor = AUS_Wilhelm_Miklas_hog_sco
+activate_advisor = AUS_Viktor_Kienbock_eco_sco
+activate_advisor = AUS_Karl_Buresch_for_sco
+activate_advisor = AUS_Robert_Winterstein_sec_sco
