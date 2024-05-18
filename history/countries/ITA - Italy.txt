@@ -4,14 +4,14 @@ oob = "ITA"
 
 set_research_slots = 4
 
-set_cosmetic_tag = ITA_kingdom
 
 add_ideas = {
-	constitutional_monarchy
+	one_party_dictatorship
+	ITA_order_of_national_reawakening
+	ITA_saint_peters_wrath
+	ITA_occult_imperium
 }
 
-add_coalition_liberal = yes 
-add_coalition_liberal = yes 
 
 # Starting tech
 set_technology = {
@@ -119,24 +119,23 @@ set_stability = 0.41
 set_war_support = 0.27
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = esoteric_nationalist
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	vanguardist = 2
-	utopian_socialist = 10
-	revolutionary_socialist = 14
-	social_democrat = 40
-	liberal = 4
-	liberal = 7
-	social_conservative = 5
-	authoritarian_democrat = 2
-	paternal_autocrat = 1
-	ultranationalist = 5
-	esoteric_nationalist = 10
+	vanguardist = 7
+	utopian_socialist = 1
+	revolutionary_socialist = 4
+	social_democrat = 14
+	liberal = 10
+	social_conservative = 10
+	authoritarian_democrat = 5
+	paternal_autocrat = 11
+	ultranationalist = 10
+	esoteric_nationalist = 28
 }
 
 ITA_add_armour_variants = yes
@@ -185,6 +184,8 @@ SRV = {
 	ITA_add_aircraft_variants = yes
 	ITA_add_ships_variants = yes
 }
+
+recruit_character = ITA_Arturo_Reghini
 
 recruit_character = ITA_Victor_Emmanuel_III
 recruit_character = ITA_Palmiro_Togliatti
