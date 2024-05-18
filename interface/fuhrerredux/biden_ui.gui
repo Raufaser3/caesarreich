@@ -10,6 +10,15 @@ guiTypes = {
 		#}
 
 		#############################################
+		# Austria
+
+		iconType = {
+			name = "Wilhelm_Miklas"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Wilhelm_Miklas
+		}
+		
+		#############################################
 		# Canada
 
 		iconType = {

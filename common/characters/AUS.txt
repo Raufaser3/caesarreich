@@ -69,7 +69,7 @@ characters = {
 ################################################################################################
 ################################################################################################
 	AUS_Wilhelm_Miklas = {
-		name = "Wilhelm Miklas"
+		name = AUS_Wilhelm_Miklas
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
@@ -180,6 +180,80 @@ characters = {
 			}
 		}
 	}
+	AUS_Felix_Frank = {
+		name = "Felix Frank"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Felix_Frank.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Felix_Frank_for_mli
+			traits = {
+				liberal
+				for_great_compromiser
+			}
+		}
+	}
+	AUS_Leopold_Waber = {
+		name = "Leopold Waber"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Leopold_Waber.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Leopold_Waber_sec_mli
+			traits = {
+				liberal
+				sec_great_soul
+			}
+		}
+	}
+################################################################################################
+	AUS_Karl_Hartleb = {
+		name = "Karl Hartleb"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Karl_Hartleb.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Karl_Hartleb_hog_mli
+			traits = {
+				liberal
+				hog_silent_workhorse
+			}
+		}
+
+	}
+	AUS_Vinzenz_Schumy = {
+		name = "Vinzenz Schumy"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Vinzenz_Schumy.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Vinzenz_Schumy_eco_mli
+			traits = {
+				liberal
+				eco_administrative_genius
+			}
+		}
+	}
 	AUS_Stephan_Tauschitz = {
 		name = "Stephan Tauschitz"
 		portraits = {
@@ -217,6 +291,80 @@ characters = {
 		}
 	}
 ################################################################################################
+	AUS_Friedrich_Hayek = {
+		name = "Friedrich August von Hayek"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Friedrich_Hayek.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Friedrich_Hayek_hog_sli
+			traits = {
+				liberal
+				hog_happy_amateur
+			}
+		}
+
+	}
+	AUS_Fritz_Stockinger = {
+		name = "Fritz Stockinger"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Fritz_Stockinger.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Fritz_Stockinger_eco_sli
+			traits = {
+				liberal
+				eco_balanced_budget_economy
+			}
+		}
+	}
+	AUS_Hans_Kelsen = {
+		name = "Hans Kelsen"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Hans_Kelsen.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Hans_Kelsen_for_sli
+			traits = {
+				liberal
+				for_relations_expert
+			}
+		}
+	}
+	AUS_Heinrich_Klang = {
+		name = "Heinrich Klang"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Heinrich_Klang.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Heinrich_Klang_sec_sli
+			traits = {
+				liberal
+				sec_silent_lawyer
+			}
+		}
+	}
+################################################################################################
 	AUS_Karl_Renner = {
 		name = "Karl Renner"
 		portraits = {
@@ -233,6 +381,47 @@ characters = {
 			}
 		}
 	}
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+	AUS_Florian_Fodermayr = {
+		name = "Florian Födermayr"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Florian_Fodermayr.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Florian_Fodermayr_oth_sco
+			traits = {
+				social_conservative
+				agriculture_minister
+			}
+		}
+	}
+	AUS_Eduard_Heinl = {
+		name = "Eduard Heinl"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Eduard_Heinl.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Eduard_Heinl_oth_sco
+			traits = {
+				social_conservative
+				transport_minister
+			}
+		}
+	}
+################################################################################################
+	
 ################################################################################################
 ################################################################################################
 ################################################################################################

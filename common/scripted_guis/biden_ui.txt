@@ -16,7 +16,17 @@ scripted_gui = {
 			leader_button_visible = {
 				uses_leader_gui = yes
 			}
+			
+			#############################################
+			# Austria
 
+			Wilhelm_Miklas_visible = {
+                		AND = {
+                    			has_country_flag = HOG_veiw
+                    			has_idea = AUS_Wilhelm_Miklas_hog_sco
+                		}
+           		}
+			
 			#############################################
 			# Japan
 

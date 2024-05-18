@@ -1,5 +1,6 @@
 uses_leader_gui = {
 	OR = {
+		AUS_has_leader_GUI = yes
 		CAN_has_leader_GUI = yes
 		ENG_has_leader_GUI = yes
 		EGY_has_leader_GUI = yes
@@ -9,6 +10,13 @@ uses_leader_gui = {
 		JAP_has_leader_GUI = yes
 		has_country_flag = LEADER_GUI_VISIBLE
 	}
+}
+
+AUS_has_leader_gui = {
+  original_tag = AUS
+  OR = {
+    has_idea = AUS_Wilhelm_Miklas_hog_sco
+  }
 }
 
 CAN_has_leader_GUI = {

@@ -559,9 +559,9 @@ defined_text = {
 
 defined_text = {
 	name = GetHeadDescription
-
+		
 	### Other ###
-
+	
 	text = {
 		trigger = {
 			has_idea = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
@@ -597,6 +597,12 @@ defined_text = {
 
 defined_text = {
 	name = GetPrimeMinister
+	text = {
+		trigger = {
+			has_idea = AUS_Wilhelm_Miklas_hog_sco
+		}
+		localization_key = AUS_Wilhelm_Miklas
+	}
 	text = {
 		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
@@ -996,6 +1002,15 @@ defined_text = {
 
 defined_text = {
 	name = GetPMPortrait
+	### Austria ###
+	
+	text = {
+		trigger = {
+			has_idea = AUS_Wilhelm_Miklas_hog_sco
+		}
+		localization_key = GFX_Portrait_AUS_Wilhelm_Miklas
+	}
+	
 	### Greece ###
 
 	text = {

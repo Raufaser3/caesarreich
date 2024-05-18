@@ -88,6 +88,8 @@ recruit_character = AUS_Otto_Bauer
 
 recruit_character = AUS_Wilhelm_Miklas
 recruit_character = AUS_Franz_Dinghofer
+recruit_character = AUS_Karl_Hartleb
+recruit_character = AUS_Friedrich_Hayek
 recruit_character = AUS_Karl_Renner
 recruit_character = AUS_Richard_Steidle
 
@@ -95,15 +97,24 @@ recruit_character = AUS_Viktor_Kienbock
 recruit_character = AUS_Karl_Buresch
 recruit_character = AUS_Robert_Winterstein
 recruit_character = AUS_Hans_Schurff
+recruit_character = AUS_Felix_Frank
+recruit_character = AUS_Leopold_Waber
+recruit_character = AUS_Vinzenz_Schumy
 recruit_character = AUS_Stephan_Tauschitz
 recruit_character = AUS_Franz_Winkler
+recruit_character = AUS_Fritz_Stockinger
+recruit_character = AUS_Hans_Kelsen
+recruit_character = AUS_Heinrich_Klang
 
+recruit_character = AUS_Florian_Fodermayr
+recruit_character = AUS_Eduard_Heinl
 
 recruit_character = AUS_Theodor_Korner
 recruit_character = AUS_Ludwig_Hulgerth
 recruit_character = AUS_Karl_Eglseer
 recruit_character = AUS_Ludwig_von_Eimannsberger
 recruit_character = AUS_Erwin_von_Lahousen
+
 
 
 activate_advisor = AUS_Wilhelm_Miklas_hog_sco

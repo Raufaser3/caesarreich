@@ -4,7 +4,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/HOS_button.png"
 	}
 	### Leaders ###
+	
+	#############################################
+	# Austria
 
+	spriteType = {
+		name = "GFX_Portrait_AUS_Wilhelm_Miklas"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
+	}
+	
 	#############################################
 	# Canada
 
