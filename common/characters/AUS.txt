@@ -3,7 +3,7 @@ characters = {
 		name = "Karl Otto von Österreich"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/AUS_Karl_Otto_von_Osterreich.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Otto_von_Osterreich.png"
 			}
 		}
 		country_leader = {
@@ -72,7 +72,7 @@ characters = {
 		name = AUS_Wilhelm_Miklas
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/AUS_Wilhelm_Miklas.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
 				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Miklas.png"
 			}
 		}
