@@ -9,12 +9,12 @@ characters = {
     }
     country_leader = {
       desc = POLITICS_LORD_LINLITHGOW_DESC
-      ideology = colonial_govt_subtype
+      ideology = authoritarian_democrat_subtype
       traits = { }
     }
     country_leader = {
       desc = POLITICS_LORD_LINLITHGOW_DESC
-      ideology = autocratic_colonial_govt_subtype
+      ideology = paternal_autocrat_subtype
       traits = { }
     }
 	}

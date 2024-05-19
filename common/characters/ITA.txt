@@ -401,7 +401,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_govt_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		advisor = {

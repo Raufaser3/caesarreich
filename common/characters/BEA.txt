@@ -46,7 +46,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = autocratic_colonial_govt_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		field_marshal = {

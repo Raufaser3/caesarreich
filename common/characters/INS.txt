@@ -307,7 +307,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			desc = POLTICS_SUKARNO_DESC
 			traits = { }
 		}

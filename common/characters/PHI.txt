@@ -7,7 +7,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = junta_subtype
+      ideology = paternal_autocrat_subtype
 			traits = { }
     }
   }
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = hardliner_bolshevism_subtype
+			ideology = vanguardist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -144,7 +144,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrist_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -229,7 +229,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-			ideology = filipino_nationalism_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -322,7 +322,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_BASILIO_J_VALDEZ_DESC
-			ideology = junta_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { PHI_the_surgeon }
 		}
 		field_marshal = {
@@ -403,7 +403,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_EMILIO_AGUINALDO_DESC"
-			ideology = authdem_national_conservative_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -454,7 +454,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = val_filipino_nationalism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1521,7 +1521,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = integralism_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {

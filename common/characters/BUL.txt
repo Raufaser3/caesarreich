@@ -115,7 +115,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = junta_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 	}

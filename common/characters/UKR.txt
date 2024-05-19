@@ -96,7 +96,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = ukrainian_social_conservatism_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -127,7 +127,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = hetmanism_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 	}
@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = ukrainian_nationalism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -172,7 +172,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = ukrainian_national_integralism_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		country_leader = {

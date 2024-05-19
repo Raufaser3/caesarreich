@@ -60,7 +60,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = corporatocracy_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = klan_nationalism_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 	}
@@ -103,7 +103,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = occultism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 	}

@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = hardliner_bolshevism_subtype
+			ideology = vanguardist_subtype
 			traits = {
 				SOV_the_bureaucrat
 			}
@@ -41,7 +41,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism_subtype
+			ideology = utopian_socialist_subtype
 			traits = {
 				SOV_father
 			}

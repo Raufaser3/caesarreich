@@ -11,7 +11,7 @@ characters = {
 			}
 		}
 		country_leader = {
-      ideology = oligarchy_subtype
+      ideology = authoritarian_democrat_subtype
       traits = {}
     }
     country_leader = {

@@ -103,7 +103,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pataut_metaxism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = {
 				paternal_autocrat
 			}
@@ -571,7 +571,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = mercourism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}	
 		advisor = {

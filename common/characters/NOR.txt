@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderate_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}

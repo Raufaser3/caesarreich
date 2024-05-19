@@ -108,7 +108,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_conservative_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_christian_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
     advisor = {
@@ -194,7 +194,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolution_nationale_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		field_marshal = {
