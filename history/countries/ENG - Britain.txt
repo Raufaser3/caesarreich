@@ -175,6 +175,10 @@ set_autonomy = {
 	autonomy_state = autonomy_colony
 	freedom_level = 0.5
 }
+set_autonomy = {
+	target = NGA
+	autonomy_state = autonomy_colony
+}
 
 
 give_guarantee = HEJ
@@ -227,6 +231,8 @@ add_to_faction = NFL
 add_to_faction = ISR
 add_to_faction = IRQ
 add_to_faction = BEA
+add_to_faction = KEN
+add_to_faction = NGA
 add_to_faction = MLT
 
 give_military_access = RAJ
