@@ -614,6 +614,25 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = AUS_Franz_Dinghofer_hog_mli
+		}
+		localization_key = AUS_Franz_Dinghofer
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Karl_Hartleb_hog_mli
+		}
+		localization_key = AUS_Karl_Hartleb
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Friedrich_Hayek_hog_sli
+		}
+		localization_key = AUS_Friedrich_Hayek
+	}
+	
+	text = {
+		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
 		}
 		localization_key = ENG_Arthur_Greenwood
@@ -1018,6 +1037,24 @@ defined_text = {
 			has_idea = AUS_Wilhelm_Miklas_hog_sco
 		}
 		localization_key = GFX_Portrait_AUS_Wilhelm_Miklas
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Franz_Dinghofer_hog_mli
+		}
+		localization_key = GFX_Portrait_AUS_Franz_Dinghofer
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Karl_Hartleb_hog_mli
+		}
+		localization_key = GFX_Portrait_AUS_Karl_Hartleb
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Friedrich_Hayek_hog_sli
+		}
+		localization_key = GFX_Portrait_AUS_Friedrich_Hayek
 	}
 	
 	### Greece ###

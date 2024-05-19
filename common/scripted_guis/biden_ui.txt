@@ -26,6 +26,24 @@ scripted_gui = {
 					has_idea = AUS_Wilhelm_Miklas_hog_sco
 				}
 			}
+			Franz_Dinghofer_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Franz_Dinghofer_hog_mli
+				}
+			}
+			Karl_Hartleb_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Karl_Hartleb_hog_mli
+				}
+			}
+			Friedrich_Hayek_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Friedrich_Hayek_hog_sli
+				}
+			}
 			
 			#############################################
 			# Japan

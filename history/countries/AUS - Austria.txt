@@ -119,7 +119,9 @@ recruit_character = AUS_Erwin_von_Lahousen
 
 
 
-activate_advisor = AUS_Wilhelm_Miklas_hog_sco
+#activate_advisor = AUS_Wilhelm_Miklas_hog_sco
 activate_advisor = AUS_Viktor_Kienbock_eco_sco
 activate_advisor = AUS_Karl_Buresch_for_sco
 activate_advisor = AUS_Robert_Winterstein_sec_sco
+
+activate_advisor = AUS_Franz_Dinghofer_hog_mli

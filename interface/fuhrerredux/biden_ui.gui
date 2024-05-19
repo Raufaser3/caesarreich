@@ -17,6 +17,21 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_AUS_Wilhelm_Miklas
 		}
+		iconType = {
+			name = "Franz_Dinghofer"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Franz_Dinghofer
+		}
+		iconType = {
+			name = "Karl_Hartleb"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Karl_Hartleb
+		}
+		iconType = {
+			name = "Friedrich_Hayek"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Friedrich_Hayek
+		}
 		
 		#############################################
 		# Canada

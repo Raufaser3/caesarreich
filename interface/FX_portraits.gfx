@@ -13,6 +13,21 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
 	}
 	
+	spriteType = {
+		name = "GFX_Portrait_AUS_Franz_Dinghofer"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ludwig_Hulgerth.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_AUS_Karl_Hartleb"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Hartleb.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_AUS_Friedrich_Hayek"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Friedrich_Hayek.png"
+	}
+	
 	#############################################
 	# Canada
 
