@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_junta_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		field_marshal = {

@@ -7,7 +7,7 @@ characters = {
       }
 		}
 		country_leader = {
-			ideology = authdem_warlordism_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		field_marshal = {
