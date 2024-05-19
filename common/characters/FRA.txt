@@ -108,12 +108,12 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_conservative_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Marin_sec_sco_hired }
 			}
@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_christian_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
     advisor = {
@@ -164,7 +164,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_de_La_Rocque_sec_ade_hired }
 			}
@@ -194,7 +194,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolution_nationale_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -860,7 +860,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Ernest_Mercier_sec_pau_hired }
 			}
@@ -1587,7 +1587,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Claudine_Chomat_sec_van_hired }
 			}
@@ -1614,7 +1614,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Bonnet_sec_col_hired }
 			}
@@ -1641,7 +1641,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Gourdeaux_sec_col_hired }
 			}
@@ -1668,7 +1668,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_May_Picqueray_sec_lib_hired }
 			}
@@ -1695,7 +1695,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Albert_Sarraut_sec_sli_hired }
 			}
@@ -1722,7 +1722,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Fabry_sec_sli_hired }
 			}
@@ -1749,7 +1749,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_George_Lamirand_sec_pau_hired }
 			}
@@ -1776,7 +1776,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Renault_sec_pau_hired }
 			}
@@ -1803,7 +1803,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Massis_sec_npo_hired }
 			}

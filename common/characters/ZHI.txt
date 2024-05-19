@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pataut_warlordism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -560,7 +560,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wang_Yitang_sec_pau_hired }
 			}
@@ -587,7 +587,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wen_Shizhen_sec_ade_hired }
 			}
@@ -614,7 +614,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Pan_Juying_sec_pau_hired }
 			}

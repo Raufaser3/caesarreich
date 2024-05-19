@@ -103,7 +103,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pataut_metaxism_subtype
+			ideology = metaxism_subtype
 			traits = {
 				paternal_autocrat
 			}
@@ -571,7 +571,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = mercourism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}	
 		advisor = {
@@ -741,7 +741,7 @@ characters = {
 		}
 		advisor = {
 			can_be_fired = no
-			slot = security_minister	
+			slot = interior_minister	
 			idea_token = GRE_Georgios_Athanasiadis_Novas_sec
 			traits = { }
 			on_add = {
@@ -1454,7 +1454,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Georgios_Maris_sec_sli_hired } }
@@ -1482,7 +1482,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Ioannis_Tsirimokos_sec_sli_hired } }
@@ -1510,7 +1510,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Dimitrios_Stefanopoulos_sec_mli_hired } }
@@ -1538,7 +1538,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Aristeidis_Basiakos_sec_sco_hired } }
@@ -1566,7 +1566,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Dimitrios_Psarros_sec_sde_hired } }
@@ -1594,7 +1594,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Kostas_Kotzias_sec_ade_hired } }
@@ -1639,7 +1639,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Konstantinos_Manetas_sec_ade_hired } }
@@ -1667,7 +1667,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Konstantinos_Maniadakis_sec_pau_hired } }
@@ -1695,7 +1695,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Panagiotis_Demestichas_sec_npo_hired } }
@@ -1723,7 +1723,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Nikolaos_Kalyvas_sec_val_hired } }
@@ -1751,7 +1751,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Vasilis_Nefeloudis_sec_lib_hired } }
@@ -1779,7 +1779,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Markos_Vafiadis_sec_col_hired } }
@@ -1807,7 +1807,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			can_be_fired = no
 			available = {
 				hidden_trigger = { GRE = { has_country_flag = GRE_Dimitris_Koutsogiannis_sec_van_hired } }

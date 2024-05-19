@@ -294,7 +294,7 @@ characters = {
 		}
     advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
 			}
@@ -640,7 +640,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
 			}
@@ -667,7 +667,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Asadullah_Seraj_Khan_sec_sco_hired }
 			}
@@ -697,7 +697,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
 			}
@@ -740,7 +740,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
 			}
@@ -767,7 +767,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
 			}

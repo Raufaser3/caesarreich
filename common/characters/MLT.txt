@@ -11,7 +11,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = monsoc_subtype
+			ideology = utopian_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -27,7 +27,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socdem_democratic_socialism_subtype
+			ideology = social_democrat_subtype
 			traits = { }
 		}
 	}
@@ -51,7 +51,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrist_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 	}
@@ -75,7 +75,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_govt_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -97,7 +97,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = theocracy_subtype 
+			ideology = paternal_autocrat_subtype 
 			traits = { }
 		}
 	}
@@ -145,7 +145,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = MLT_Eric_Cole_sec_ade_hired }
 			}

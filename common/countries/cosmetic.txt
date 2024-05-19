@@ -271,8 +271,12 @@ ENG_USA = {
 	color_ui = rgb { 213 0 0 }
 }
 PHI_ENG = {
-	color = rgb { 20 30 116 }
-	color_ui = rgb { 20 30 116 }
+	color = rgb { 214 0 0 }
+	color_ui = rgb { 214 0 0 }
+}
+ENG_NGA = {
+	color = rgb { 214 0 0 }
+	color_ui = rgb { 214 0 0 }
 }
 IMP_CAN = {
 	color = rgb { 186 0 0 }

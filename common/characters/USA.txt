@@ -119,7 +119,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socdem_longism_subtype
+			ideology = social_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -235,7 +235,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrist_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1510,7 +1510,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_John_Abt_sec_lib_hired }
 			}
@@ -1537,7 +1537,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Elmer_Austin_Benson_sec_sde_hired }
 			}
@@ -1564,7 +1564,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Konrad_Knute_Solberg_sec_sde_hired }
 			}
@@ -1591,7 +1591,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Douglas_Jackson_sec_sli_hired }
 			}
@@ -1618,7 +1618,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Evans_Hughes_Sr_sec_sli_hired }
 			}
@@ -1645,7 +1645,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Robert_Ferdinand_Wagner_I_sec_mli_hired }
 			}
@@ -1672,7 +1672,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Martin_Dies_Jr_sec_sco_hired }
 			}
@@ -1699,7 +1699,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Joel_Bennett_Clark_sec_pau_hired }
 			}
@@ -1726,7 +1726,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = USA_William_Randolph_Hearst_Sr_sec_pau_hired }
 			}

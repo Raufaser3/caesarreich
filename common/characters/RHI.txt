@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -362,7 +362,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Albert_Tanant_sec_hired }
 			}
@@ -791,7 +791,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Georg_Buch_sec_sde_hired }
 			}
@@ -818,7 +818,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Wilhelm_Rombach_sec_sco_hired }
 			}
@@ -845,7 +845,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Karl_von_Starck_sec_ade_hired }
 			}
@@ -875,7 +875,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Walther_Lichtschlag_sec_npo_hired }
 			}
@@ -913,7 +913,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Franz_Pfeffer_von_Salomon_sec_val_hired }
 			}

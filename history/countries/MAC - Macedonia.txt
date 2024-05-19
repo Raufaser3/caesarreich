@@ -240,6 +240,3 @@ set_popularities = {
   ultranationalist = 0
   esoteric_nationalist = 0
 }
-
-
-recruit_character = MAC_Alexander_The_Great

@@ -22,13 +22,13 @@ characters = {
 			ideology = liberal_subtype
 		}
 		country_leader = {
-			ideology = soccon_colonial_govt_subtype
+			ideology = social_conservative_subtype
 		}
 		country_leader = {
 			ideology = authoritarian_democrat_subtype
 		}
 		country_leader = {
-			ideology = autocratic_colonial_govt_subtype
+			ideology = paternal_autocrat_subtype
 		}
 		country_leader = {
 			ideology = ultranationalist_subtype

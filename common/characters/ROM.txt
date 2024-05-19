@@ -81,7 +81,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = val_legionarism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -645,7 +645,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Horia_Sima_sec_npo_hired }
 			}
@@ -1205,7 +1205,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Teohari_Georgescu_sec_van_hired }
 			}
@@ -1232,7 +1232,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Pantelimon_Halippa_sec_sde_hired }
 			}
@@ -1259,7 +1259,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Victor_Iamandi_sec_mli_hired }
 			}
@@ -1286,7 +1286,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Richard_Franasovici_sec_mli_hired }
 			}
@@ -1313,7 +1313,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Mihail_Ghelmegeanu_sec_sco_hired }
 			}
@@ -1340,7 +1340,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Aurel_Aldea_sec_sco_hired }
 			}
@@ -1367,7 +1367,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ion_Belgea_sec_val_hired }
 			}

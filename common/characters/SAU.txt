@@ -11,7 +11,7 @@ characters = {
 			}
 		}
 		country_leader = {
-      ideology = oligarchy_subtype
+      ideology = authoritarian_democrat_subtype
       traits = {}
     }
     country_leader = {
@@ -557,7 +557,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Bandar_bin_Abdulaziz_Al_Saud_sec_pau_hired }
 			}			
@@ -584,7 +584,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Jahjah_bin_Bajad_bin_Humaid_al_Otaibi_sec_ade_hired }
 			}			
@@ -611,7 +611,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
 			}			

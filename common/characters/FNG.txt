@@ -47,7 +47,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authdem_warlordism_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -128,7 +128,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Cao_Rulin_sec_npo_hired }
 			}
@@ -221,7 +221,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Ma_Zhanshan_sec_pau_hired }
 			}
@@ -483,7 +483,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Yang_Yuting_sec_mli_hired }
 			}
@@ -543,7 +543,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Liang_Shiyi_sec_sco_hired }
 			}
@@ -675,7 +675,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Jin_Yunpeng_sec_ade_hired }
 			}
@@ -925,7 +925,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Li_Shaogeng_sec_sco_hired }
 			}
@@ -1021,7 +1021,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Tang_Yulin_sec_pau_hired }
 			}
@@ -1065,7 +1065,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Yuan_Jinkai_sec_pau_hired }
 			}
@@ -1091,7 +1091,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FNG_Ding_Jianxiu_sec_sde_hired }
 			}

@@ -175,7 +175,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socdem_left_nationalism_subtype
+			ideology = social_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1003,7 +1003,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Georgi_Atarbekov_sec_van_hired }
 			}
@@ -1030,7 +1030,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mikhail_Givishiani_sec_van_hired }
 			}
@@ -1057,7 +1057,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Vlasa_Mgeladze_sec_lib_hired }
 			}
@@ -1084,7 +1084,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ruben_Ter_Minasian_sec_sde_hired }
 			}
@@ -1111,7 +1111,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Aslan_Beg_Abashidze_sec_sde_hired }
 			}
@@ -1138,7 +1138,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ioseb_Gedevanishvili_sec_sli_hired }
 			}
@@ -1165,7 +1165,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Leo_Kereselidze_sec_sco_hired }
 			}
@@ -1192,7 +1192,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Shalva_Maglakelidze_sec_ade_hired }
 			}

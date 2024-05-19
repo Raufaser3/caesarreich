@@ -1662,7 +1662,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Ferenc_Erdei_sec_van_hired }
 			}
@@ -1689,7 +1689,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Mihaly_Farkas_sec_van_hired }
 			}
@@ -1716,7 +1716,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Bela_Vago_sec_col_hired }
 			}
@@ -1743,7 +1743,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jozsef_Revai_sec_col_hired }
 			}
@@ -1770,7 +1770,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Karoly_Peyer_sec_sde_hired }
 			}
@@ -1797,7 +1797,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Oszkar_Jaszi_sec_sli_hired }
 			}
@@ -1824,7 +1824,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gabor_Ugron_sec_mli_hired }
 			}
@@ -1851,7 +1851,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jozsef_Szell_sec_sco_hired }
 			}
@@ -1878,7 +1878,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Bonczos_sec_sco_hired }
 			}
@@ -1905,7 +1905,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Laszlo_Baky_sec_ade_hired }
 			}
@@ -1932,7 +1932,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Banffy_sec_ade_hired }
 			}
@@ -1959,7 +1959,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Kalman_Szell_sec_pau_hired }
 			}
@@ -1986,7 +1986,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Kozma_sec_pau_hired }
 			}
@@ -2013,7 +2013,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Andor_Jaross_sec_npo_hired }
 			}
@@ -2040,7 +2040,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gabor_Vajna_sec_npo_hired }
 			}

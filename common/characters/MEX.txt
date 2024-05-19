@@ -433,7 +433,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = caudillo_populism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1253,7 +1253,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Jose_Manuel_Puig_Casauranc_sec_van_hired }
 			}
@@ -1280,7 +1280,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Elisa_Acuna_sec_col_hired }
 			}
@@ -1307,7 +1307,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Ricardo_Flores_Magon_sec_col_hired }
 			}
@@ -1334,7 +1334,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Rafael_Buelna_sec_lib_hired }
 			}
@@ -1361,7 +1361,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Rafael_Pascasio_Gamboa_sec_lib_hired }
 			}
@@ -1388,7 +1388,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Genaro_Estrada_sec_sde_hired }
 			}
@@ -1415,7 +1415,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Roque_Estrada_Reynoso_sec_sde_hired }
 			}
@@ -1442,7 +1442,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Efrain_Gonzalez_Luna_sec_ade_hired }
 			}
@@ -1469,7 +1469,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Jose_Reyes_Vega_sec_pau_hired }
 			}
@@ -1496,7 +1496,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Daniel_Cosio_Villegas_sec_npo_hired }
 			}
@@ -1523,7 +1523,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = MEX_Victoriano_Ramirez_sec_val_hired }
 			}

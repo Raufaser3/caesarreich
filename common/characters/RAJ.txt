@@ -9,12 +9,12 @@ characters = {
     }
     country_leader = {
       desc = POLITICS_LORD_LINLITHGOW_DESC
-      ideology = colonial_govt_subtype
+      ideology = authoritarian_democrat_subtype
       traits = { }
     }
     country_leader = {
       desc = POLITICS_LORD_LINLITHGOW_DESC
-      ideology = autocratic_colonial_govt_subtype
+      ideology = paternal_autocrat_subtype
       traits = { }
     }
 	}
@@ -58,7 +58,7 @@ characters = {
     }
 		advisor = {
       cost = 150
-      slot = security_minister
+      slot = interior_minister
       available = { 
         hidden_trigger = { has_country_flag = RAJ_Ganga_Singh_sec_hired }
       }
@@ -699,7 +699,7 @@ characters = {
     }
 		advisor = {
       cost = 150
-      slot = security_minister
+      slot = interior_minister
       available = { 
         hidden_trigger = { has_country_flag = RAJ_Balasaheb_Gangadhar_Kher_sec_sli_hired }
       }
@@ -726,7 +726,7 @@ characters = {
     }
 		advisor = {
       cost = 150
-      slot = security_minister
+      slot = interior_minister
       available = { 
         hidden_trigger = { has_country_flag = RAJ_Ramaswami_Iyer_sec_mli_hired }
       }
@@ -753,7 +753,7 @@ characters = {
     }
 		advisor = {
       cost = 150
-      slot = security_minister
+      slot = interior_minister
       available = { 
         hidden_trigger = { has_country_flag = RAJ_Khengarji_III_Sawai_Bahadur_sec_van_hired }
       }
@@ -780,7 +780,7 @@ characters = {
     }
 		advisor = {
       cost = 150
-      slot = security_minister
+      slot = interior_minister
       available = { 
         hidden_trigger = { has_country_flag = RAJ_Pratap_Singh_Rao_Gaekwad_sec_ade_hired }
       }

@@ -35,12 +35,12 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_CHIANG_KAI_SHEK_DESC
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { KMT_generalissimo_chiang }
 		}
 		country_leader = {
 			desc = POLITICS_CHIANG_KAI_SHEK_DESC
-			ideology = pataut_warlordism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { KMT_generalissimo_chiang }
 		}
 		field_marshal = {
@@ -264,7 +264,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = KMT_Du_Yuming_sec_sco_hired }
 			}
@@ -757,7 +757,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = KMT_Dai_Chunfeng_sec_npo_hired }
 			}

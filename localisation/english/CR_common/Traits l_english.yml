@@ -31,7 +31,19 @@ grand_protector: "The Grand Protector"
 head_of_government: "Head of Government"
 foreign_minister: "Foreign Minister"
 economy_minister: "Economic Minister"
-security_minister: "Security Minister"
+interior_minister: "Security Minister"
+other_minister: "Other Minister"
+
+### Other Minister ###
+health_minister: "Minister of Health"
+intel_minister: "Minister of Intel"
+education_minister: "Minister of Education"
+culture_minister: "Minister of Culture"
+agriculture_minister: "Minister of Agriculture"
+defence_minister: "Minister of Defence"
+labor_minister: "Minister of Labor"
+transport_minister: "Minister of Transports & Infrastracture"
+territory_minister: "Minister of Territory"
 
 ### Head of Government ###
 hog_field_marshal_baron: "The Field Marshal Baron"

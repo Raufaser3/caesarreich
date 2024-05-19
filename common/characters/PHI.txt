@@ -7,7 +7,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = junta_subtype
+      ideology = paternal_autocrat_subtype
 			traits = { }
     }
   }
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = hardliner_bolshevism_subtype
+			ideology = vanguardist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -144,7 +144,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrist_subtype
+			ideology = liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -229,7 +229,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-			ideology = filipino_nationalism_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -322,7 +322,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_BASILIO_J_VALDEZ_DESC
-			ideology = junta_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { PHI_the_surgeon }
 		}
 		field_marshal = {
@@ -359,7 +359,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Basilio_J_Valdez_sec_sco_hired }
 			}
@@ -403,7 +403,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_EMILIO_AGUINALDO_DESC"
-			ideology = authdem_national_conservative_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -427,7 +427,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Emilio_Aguinaldo_sec_npo_hired }
 			}
@@ -454,7 +454,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = val_filipino_nationalism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -630,7 +630,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Rafael_Jalandoni_sec_pau_hired }
 			}
@@ -1067,7 +1067,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Benigno_Aquino_Sr_sec_ade_hired }
 			}
@@ -1521,7 +1521,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = integralism_subtype
+			ideology = ultranationalist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1710,7 +1710,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Guillermo_Capadocia_sec_col_hired }
 			}
@@ -1737,7 +1737,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Mariano_Balgos_sec_lib_hired }
 			}
@@ -1764,7 +1764,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Jose_M_Crisol_sec_sde_hired }
 			}
@@ -1791,7 +1791,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Pardo_de_Tavera_sec_sde_hired }
 			}
@@ -1818,7 +1818,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Alberto_Ramos_sec_sli_hired }
 			}
@@ -1845,7 +1845,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Leoncio_S_Tan_sec_sli_hired }
 			}
@@ -1872,7 +1872,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Roman_Apolinario_sec_mli_hired }
 			}
@@ -1899,7 +1899,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Teofisto_Sison_sec_sco_hired }
 			}
@@ -1926,7 +1926,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Tirano_Craveza_sec_sco_hired }
 			}
@@ -1953,7 +1953,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Jose_Yulo_sec_sco_hired }
 			}
@@ -1980,7 +1980,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Jose_G_Lukban_sec_val_hired }
 			}
@@ -2202,7 +2202,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PHI_Jesus_Lava_sec_col_hired }
 			}
@@ -2229,7 +2229,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = PHI_Jose_Zulueta_sec_mli_hired }
 			}

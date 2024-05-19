@@ -307,7 +307,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			desc = POLTICS_SUKARNO_DESC
 			traits = { }
 		}
@@ -1220,7 +1220,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Suparna_Sastra_Diredja_sec_col_hired }
 			}			
@@ -1247,7 +1247,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Albert_M_Sipahoetar_sec_lib_hired }
 			}			
@@ -1274,7 +1274,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Maria_Ulfah_Santoso_sec_sde_hired }
 			}			
@@ -1301,7 +1301,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Teuku_Muhammad_Hasan_sec_sde_hired }
 			}			
@@ -1328,7 +1328,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Halibno_Tjokroaminoto_sec_sco_hired }
 			}			
@@ -1355,7 +1355,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Sahardjo_sec_ade_hired }
 			}			
@@ -1387,7 +1387,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Daud_Beureueh_sec_npo_hired }
 			}			
@@ -1414,7 +1414,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ki_Bagus_Hadikusumo_sec_pau_hired }
 			}			
@@ -1441,7 +1441,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Paku_Alam_VIII_sec_pau_hired }
 			}			
@@ -1468,7 +1468,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = {
 				hidden_trigger = { has_country_flag = INS_Tirto_Adhi_Suryo_sec_pau_hired }
 			}			

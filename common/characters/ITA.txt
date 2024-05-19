@@ -401,7 +401,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_govt_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1156,7 +1156,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Ruggiero_Grieco_sec_van_hired }
 			}
@@ -1183,7 +1183,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Vittorio_Vidali_sec_col_hired }
 			}
@@ -1210,7 +1210,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
 			}
@@ -1237,7 +1237,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Enrico_Mole_sec_sde_hired }
 			}
@@ -1264,7 +1264,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Pietro_Mastino_sec_sli_hired }
 			}
@@ -1291,7 +1291,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giovanni_Uberti_sec_sco_hired }
 			}
@@ -1318,7 +1318,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giacomo_Carboni_sec_ade_hired }
 			}
@@ -1345,7 +1345,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Luigi_Arborio_Mella_di_Sant_Elia_sec_pau_hired }
 			}
@@ -1372,7 +1372,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Alessandro_Pavolini_sec_npo_hired }
 			}
@@ -1399,7 +1399,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = security_minister
+			slot = interior_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Luigi_Razza_sec_val_hired }
 			}
