@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = ukrainian_nationalism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {

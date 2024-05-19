@@ -194,7 +194,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolution_nationale_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		field_marshal = {

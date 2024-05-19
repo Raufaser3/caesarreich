@@ -433,7 +433,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = caudillo_populism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {

@@ -15,11 +15,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_govt_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = autocratic_colonial_govt_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 	}
