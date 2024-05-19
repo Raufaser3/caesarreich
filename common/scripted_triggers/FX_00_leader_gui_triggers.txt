@@ -13,10 +13,10 @@ uses_leader_gui = {
 }
 
 AUS_has_leader_gui = {
-  original_tag = AUS
-  OR = {
-    has_idea = AUS_Wilhelm_Miklas_hog_sco
-  }
+	original_tag = AUS
+	OR = {
+		has_idea = AUS_Wilhelm_Miklas_hog_sco
+	}
 }
 
 CAN_has_leader_GUI = {
