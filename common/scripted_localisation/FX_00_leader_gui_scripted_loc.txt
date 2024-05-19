@@ -100,22 +100,17 @@ defined_text = {
 					tag = IRQ
 					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
 				}
-				AND = {
-					tag = JAP
-					has_idea = JAP_great_council_of_state_idea
-				}
 			}
 		}
 		localization_key = GUIHOGNAME
 	}
-	text = {
-		trigger = {
-			OR = {
-				has_idea = JAP_great_council_of_state_idea
-			}
-		}
-		localization_key = GUIHOGNAMETRAIT
-	}
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			has_idea = JAP_great_council_of_state_idea
+	# 		}
+	# 	}
+	# 	localization_key = GUIHOGNAMETRAIT
 }
 
 # defined_text = {
@@ -152,31 +147,38 @@ defined_text = {
 # 	# }
 # }
 
-defined_text = {
-	name = GetHOGTrait
-	text = {
-		trigger = {
-			has_idea = JAP_great_council_of_state_idea
-		}
-		localization_key = DAIJO_DAIJIN_TRAIT
-	}
-	text = { #Not by Minister Ideas
-		trigger = {
-			AND = {
-				OR = {
-					has_government = authoritarian_democrat
-					has_government = paternal_autocrat
-				}
-				has_idea = JAP_great_council_of_state_idea
-			}
-		}
-		localization_key = DAIJO_DAIJIN_TRAIT
-	}
-}
+# defined_text = {
+# 	name = GetHOGTrait
+# 	text = {
+# 		trigger = {
+# 			has_idea = JAP_great_council_of_state_idea
+# 		}
+# 		localization_key = DAIJO_DAIJIN_TRAIT
+# 	}
+# 	text = { #Not by Minister Ideas
+# 		trigger = {
+# 			AND = {
+# 				OR = {
+# 					has_government = authoritarian_democrat
+# 					has_government = paternal_autocrat
+# 				}
+# 				has_idea = JAP_great_council_of_state_idea
+# 			}
+# 		}
+# 		localization_key = DAIJO_DAIJIN_TRAIT
+# 	}
+# }
 
 
 defined_text = {
 	name = GetHOGTitle
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_socialist_government = no
+		}
+		localization_key = AUS_ARC_OR_KAN
+	}
 	text = {
 		trigger = {
 			original_tag = ENG
@@ -334,6 +336,13 @@ defined_text = {
 
 defined_text = {
 	name = GetFORHOGTitle
+	text = {
+		trigger = {
+			original_tag = AUS
+			has_socialist_government = no
+		}
+		localization_key = KZ_OR_LEADER2
+	}
 	text = {
 		trigger = {
 			original_tag = ENG
