@@ -106,6 +106,8 @@ recruit_character = AUS_Fritz_Stockinger
 recruit_character = AUS_Hans_Kelsen
 recruit_character = AUS_Heinrich_Klang
 
+recruit_character = AUS_Peter_Revertera_Salandra
+recruit_character = AUS_Emmerich_Czermak
 recruit_character = AUS_Florian_Fodermayr
 recruit_character = AUS_Eduard_Heinl
 

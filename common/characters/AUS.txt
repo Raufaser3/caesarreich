@@ -386,6 +386,40 @@ characters = {
 ################################################################################################
 ################################################################################################
 ################################################################################################
+	AUS_Peter_Revertera_Salandra = {
+		name = "Peter Revertera-Salandra"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Peter_Revertera_Salandra.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Peter_Revertera_Salandra_oth_sco
+			traits = {
+				social_conservative
+				intel_minister
+			}
+		}
+	}
+	AUS_Emmerich_Czermak = {
+		name = "Emmerich Czermak"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Emmerich_Czermak.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Emmerich_Czermak_oth_sco
+			traits = {
+				social_conservative
+				education_minister
+			}
+		}
+	}
 	AUS_Florian_Fodermayr = {
 		name = "Florian Födermayr"
 		portraits = {
