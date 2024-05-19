@@ -5,9 +5,10 @@ state={
 	state_category = two
 
 	history={
-		owner = ENG
+		owner = NGA
 		add_core_of = GHA
 		add_claim_by = ENG
+		add_core_of = NGA
 		victory_points = {
 			10862 1 
 		}

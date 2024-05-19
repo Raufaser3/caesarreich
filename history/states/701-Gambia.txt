@@ -5,9 +5,10 @@ state={
 	
 	state_category = enclave
 	history={
-		add_core_of = GAM
 		add_claim_by = ENG
-		owner = ENG
+		owner = NGA
+		add_core_of = GAM
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 3
 			4989 = {
