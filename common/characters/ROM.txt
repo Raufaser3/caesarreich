@@ -81,7 +81,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = val_legionarism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}
 		advisor = {

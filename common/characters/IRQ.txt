@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socdem_left_nationalism_subtype
+			ideology = social_democrat_subtype
 			traits = { }
 		}
 		country_leader = {

@@ -10,7 +10,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchy_subtype
+			ideology = authoritarian_democrat_subtype
 		}
 		country_leader = {
 			ideology = absolute_mon_subtype

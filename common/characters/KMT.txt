@@ -35,7 +35,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_CHIANG_KAI_SHEK_DESC
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { KMT_generalissimo_chiang }
 		}
 		country_leader = {

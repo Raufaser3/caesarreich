@@ -571,7 +571,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = mercourism_subtype
+			ideology = esoteric_nationalist_subtype
 			traits = { }
 		}	
 		advisor = {

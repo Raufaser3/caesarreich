@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = controlled_democracy_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 	}

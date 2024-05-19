@@ -722,7 +722,7 @@ country_event = { # Fate of Philippines
 					character = PHI_Jose_P_Laurel
 					promote_leader = yes
 					country_leader = {
-						ideology = controlled_democracy_subtype
+						ideology = authoritarian_democrat_subtype
 					}
 				}
 			}
