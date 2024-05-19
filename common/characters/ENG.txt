@@ -33,7 +33,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = toryism_subtype
+			ideology = social_conservative_subtype
 			traits = { george_windsor }
 		}
 		country_leader = {

@@ -40,7 +40,7 @@ characters = {
 		}
 		country_leader = {
 			desc = POLITICS_CHIANG_KAI_SHEK_DESC
-			ideology = pataut_warlordism_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { KMT_generalissimo_chiang }
 		}
 		field_marshal = {

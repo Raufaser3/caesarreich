@@ -581,7 +581,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = toryism_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		advisor = {
@@ -2147,7 +2147,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = toryism_subtype
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		country_leader = {

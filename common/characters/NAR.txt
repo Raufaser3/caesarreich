@@ -60,7 +60,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = corporatocracy_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		advisor = {

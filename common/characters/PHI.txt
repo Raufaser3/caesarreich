@@ -7,8 +7,8 @@ characters = {
       }
     }
     country_leader = {
-      ideology = junta_subtype
-			traits = { }
+        ideology = paternal_autocrat_subtype
+		traits = { }
     }
   }
 	PHI_Luis_Taruc = {
@@ -322,7 +322,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_BASILIO_J_VALDEZ_DESC
-			ideology = junta_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { PHI_the_surgeon }
 		}
 		field_marshal = {

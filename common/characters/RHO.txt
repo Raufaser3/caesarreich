@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = soccon_colonial_govt_subtype
+			ideology = social_conservative_subtype
 			traits = {
 				
 			}
