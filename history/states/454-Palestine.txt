@@ -7,7 +7,7 @@ state={
 	state_category = five
 
 	history={
-		owner = TUR
+		owner = HEJ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -23,7 +23,7 @@ state={
 		victory_points = {
 			4206 3 
 		}
-		add_core_of = TUR
+		add_core_of = HEJ
 	}
 
 	provinces={
