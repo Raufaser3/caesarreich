@@ -1,9 +1,9 @@
 characters = {
-	COG_Pierre_Ryckmans = {
-		name = "Pierre Ryckmans"
+	COG_Henry_Ford = {
+		name = "Henry Ford"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/COG/Pierre_Ryckmans.png"
+				large = "gfx/leaders/COG/Portrait_COG_Henry_Ford.png"
 			}
 		}
     	country_leader = {

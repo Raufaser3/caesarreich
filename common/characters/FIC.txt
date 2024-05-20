@@ -1,76 +1,38 @@
 characters = {
-	FIC_Eugene_Louis_Rene_Robin = {
-		name = "Eugene Louis Rene Robin"
+	FIC_Joseph_Stilwell = {
+		name = "Joseph_StilWell"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/FIC/Portrait_FIC_Eugene_Louis_Rene_Robin.png"
+				large = "gfx/leaders/FIC/Portrait_FIC_Joseph_Stilwell.png"
 			}
 		}
-	}
-	FIC_Maurice_Graffeuil = {
-		name = "Maurice Graffeuil"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/FIC/Portrait_FIC_Maurice_Graffeuil.png"
-			}
+    	country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 		country_leader = {
 			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
-	}
-	FIC_Edgard_de_Larminat = {
-		name = "Edgard de Larminat"
-		portraits = {
-			army = {
-				large = "gfx/leaders/FIC/Portrait_FIC_Edgard_de_Larminat.png"
-			}
-		}
-		field_marshal = {
+		country_leader = {
+			ideology = ultranationalist_subtype
 			traits = { }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
 		}
-	}
-	FIC_Camille_Gabriel_Sabattier = {
-		name = "Camille Gabriel Sabattier"
-		portraits = {
-			army = {
-				large = "gfx/leaders/FIC/Portrait_FIC_Camille_Gabriel_Sabattier.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				organizer
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
-	}
-	FIC_Jean_Decoux = {
-		name = "Jean Decoux"
-		portraits = {
-			navy = {
-				large = "gfx/leaders/FIC/Portrait_FIC_Jean_Decoux.png"
-			}
-		}
-		navy_leader = {
+		country_leader = {
+			ideology = esoteric_nationalist_subtype
 			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
 		}
 	}
 }

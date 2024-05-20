@@ -79,6 +79,7 @@ set_popularities = {
 add_coalition_liberal = yes
 add_coalition_liberal = yes 
 
+recruit_character = PHI_Ray_Lyman_Wilbur
 recruit_character = PHI_Armed_Forces_Command
 recruit_character = PHI_Luis_Taruc
 recruit_character = PHI_Pedro_Abad_Santos

@@ -145,6 +145,7 @@ add_to_faction = USA
 add_to_faction = CAN
 add_to_faction = QUE
 add_to_faction = LIB
+add_to_faction = PHI
 add_to_faction = NGA
 add_to_faction = COG
 add_to_faction = FIC
@@ -161,7 +162,10 @@ set_autonomy = {
 	target = FIC
 	autonomous_state = autonomy_colony
 }
-
+set_autonomy = {
+	target = PHI
+	autonomous_state = autonomy_colony
+}
 add_ai_strategy = {
 	type = ignore_claim
 	id = "NEE"

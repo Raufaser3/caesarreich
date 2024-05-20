@@ -31,6 +31,7 @@ set_popularities = {
 	esoteric_nationalist = 0
 }
 
+recruit_character = FIC_Joseph_Stilwell
 recruit_character = FIC_Eugene_Louis_Rene_Robin
 recruit_character = FIC_Maurice_Graffeuil
 recruit_character = FIC_Edgard_de_Larminat

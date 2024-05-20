@@ -3,7 +3,7 @@
 oob = "COG"
 set_cosmetic_tag = USA_COG
 
-recruit_character = COG_Pierre_Ryckmans
+recruit_character = COG_Henry_Ford
 
 # Starting tech
 set_technology = {

@@ -1182,7 +1182,7 @@ characters = {
 		}
 	}
 	USA_John_Davison_Rockefeller_Jr = {
-		name = "John Davison Rockefeller Jr."
+		name = "John D. Rockefeller Jr."
 		portraits = {
 			civilian = {
 				small = "gfx/interface/ministers/USA/USA_John_Davison_Rockefeller_Jr.png"
@@ -1191,7 +1191,8 @@ characters = {
 		}
 		country_leader = {
 			ideology = authoritarian_democrat_subtype
-			traits = { }
+			traits = {dictator}
+			desc = POLITICS_JOHN_DAVISON_ROCKEFELLER_JR_DESC
 		}	
 		advisor = {
 			cost = 150
