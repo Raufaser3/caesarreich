@@ -4,10 +4,13 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/BEL/Portrait_BEL_Paul_Hoornaert.png"
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
+			}
+			country_leader = {
+				ideology = paternal_autocrat_subtype
+				traits = { }
+			}
 		}
+	}
 lbert_van_Belgie = {
 		name = "Albert I"
 		portraits = {
