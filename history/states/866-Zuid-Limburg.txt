@@ -3,15 +3,13 @@ state={
 	name="STATE_866"
 
 	history={
-		owner = BEL
+		owner = HOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		
-		add_core_of = BEL
-		add_claim_by = HOL
-		add_claim_by = KNE
+		add_core_of = HOL
 	}
 
 	provinces={

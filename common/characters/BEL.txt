@@ -1,14 +1,17 @@
 characters = {
-	BEL_Albert_van_Belgie = {
-		name = "Albert I"
+	BEL_Paul_Hoornaert = {
+		name = "Paul Hoornaert"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/BEL/Portrait_BEL_Paul_Hoornaert.png"
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
+			}
 		}
-lbert_van_Belgie = {
+		country_leader = {
+				ideology = paternal_autocrat_subtype
+				traits = { }
+		}
+	}
+	BEL_Albert_van_Belgie = {
 		name = "Albert I"
 		portraits = {
 			civilian = {
