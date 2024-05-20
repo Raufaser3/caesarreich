@@ -116,22 +116,22 @@ set_stability = 0.56
 set_war_support = 0.34
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-  vanguardist = 1
-  utopian_socialist = 2
-  revolutionary_socialist = 3
-  social_democrat = 4
+  vanguardist = 7
+  utopian_socialist = 5
+  revolutionary_socialist = 13
+  social_democrat = 30
   liberal = 5
-  social_conservative = 0
-  authoritarian_democrat = 85
-  paternal_autocrat = 0
-  ultranationalist = 0
+  social_conservative = 5
+  authoritarian_democrat = 25
+  paternal_autocrat = 4
+  ultranationalist = 6
   esoteric_nationalist = 0
 }
 
