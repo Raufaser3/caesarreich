@@ -32,6 +32,7 @@ add_each_ideology_to_array = {
 	# Authoritarian Democrats
 	add_to_array = { global.subideologies_array = token:authoritarian_democrat_subtype }
 	add_to_array = { global.subideologies_array = token:prussian_constitutionalism_subtype }
+	add_to_array = { global.subideologies_array = token:oligarchism_subtype }
 
 	# Paternal
 	add_to_array = { global.subideologies_array = token:paternal_autocrat_subtype }
@@ -102,7 +103,7 @@ character_becomes_leader_of_ruling_party_effect_tooltip = {
 					promote_leader = yes
 				}
 			}
-			IDEOLOGY = "[PREV.PREV.GetRulingIdeologySubtype]"
+			IDEOLOGY = "[PREV.PREV.GetIdeologyGroup]"
 		}
 	}
 }
