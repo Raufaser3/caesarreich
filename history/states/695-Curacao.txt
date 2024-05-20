@@ -7,7 +7,7 @@ state={
 
 	history={
 		add_core_of = CRC
-		owner = KNE
+		owner = HOL
 		buildings = {
 			infrastructure = 3
 			153 = {

@@ -1,4 +1,19 @@
 characters = {
+
+	ITA_Arturo_Reghini = {
+		name = "Arturo Reghini"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Arturo_Reghini.png"
+			}
+		}
+		country_leader = {
+			desc = ITA_arturo_reghini_leader_desc
+			ideology = esoteric_nationalist_subtype
+		}
+
+	}
+	
 	ITA_Palmiro_Togliatti = {
 		name = "Palmiro Togliatti"
 		portraits = {
