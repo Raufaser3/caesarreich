@@ -11,7 +11,7 @@ characters = {
 			}
 		}
 	}
-lbert_van_Belgie = {
+	lbert_van_Belgie = {
 		name = "Albert I"
 		portraits = {
 			civilian = {
