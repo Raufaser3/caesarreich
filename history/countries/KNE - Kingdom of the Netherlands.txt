@@ -4,13 +4,7 @@ oob = "KNE"
 
 set_research_slots = 3
 
-if = {
-	limit = { has_dlc_mtg = yes }
-	set_naval_oob = "KNE_naval_mtg"
-	else = {
-		set_naval_oob = "KNE_naval_legacy"
-	}
-}
+
 
 set_politics = {		
 	ruling_party = social_democrat
@@ -42,7 +36,6 @@ add_ideas = {
 	constitutional_monarchy
 }
 
-recruit_character = KNE_Queen_Wilhelmina
 recruit_character = KNE_Herni_Winkelman
 recruit_character = KNE_Jan_van_Andel
 recruit_character = KNE_Gustave_Statius_Muller

@@ -1,7 +1,13 @@
 capital = 7
 
 oob = "HOL"
-
+if = {
+	limit = { has_dlc_mtg = yes }
+	set_naval_oob = "KNE_naval_mtg"
+	else = {
+		set_naval_oob = "KNE_naval_legacy"
+	}
+}
 set_stability = 0.81
 set_war_support = 0.74
 set_research_slots = 3
@@ -21,6 +27,7 @@ set_technology = {
 
 add_ideas = {
 	neutral_harbour_of_europe
+	constitutional_monarchy
 }
 
 set_politics = {	
