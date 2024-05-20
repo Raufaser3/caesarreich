@@ -7,8 +7,8 @@ characters = {
       }
     }
     country_leader = {
-      ideology = paternal_autocrat_subtype
-			traits = { }
+        ideology = paternal_autocrat_subtype
+		traits = { }
     }
   }
 	PHI_Luis_Taruc = {
