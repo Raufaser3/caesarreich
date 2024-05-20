@@ -1186,24 +1186,29 @@ characters = {
 		portraits = {
 			civilian = {
 				small = "gfx/interface/ministers/USA/USA_John_Davison_Rockefeller_Jr.png"
+				large = "gfx/leaders/USA/Portrait_USA_John_D_Rockefeller_Jr.png"
 			}
 		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}	
 		advisor = {
 			cost = 150
-			slot = foreign_minister
+			slot = head_of_government
 			available = { 
-				hidden_trigger = { has_country_flag = USA_John_Davison_Rockefeller_Jr_for_pau_hired }
+				hidden_trigger = { has_country_flag = USA_John_Davison_Rockefeller_Jr_hog_mil_hired }
 			}
-			idea_token = USA_John_Davison_Rockefeller_Jr_for_pau
+			idea_token = USA_John_Davison_Rockefeller_Jr_hog_mil
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = USA_John_Davison_Rockefeller_Jr_for_pau_hired }
+				ROOT = { set_country_flag = USA_John_Davison_Rockefeller_Jr_hog_mil_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = USA_John_Davison_Rockefeller_Jr_for_pau_hired }
+				ROOT = { clr_country_flag = USA_John_Davison_Rockefeller_Jr_hog_mil_hired }
 			}
 			traits = {
-				paternal_autocrat
+				authoritarian_democrat
 				for_general_staffer
 			}
 		}
