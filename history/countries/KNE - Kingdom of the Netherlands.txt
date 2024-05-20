@@ -36,15 +36,4 @@ add_ideas = {
 	constitutional_monarchy
 }
 
-recruit_character = KNE_Herni_Winkelman
-recruit_character = KNE_Jan_van_Andel
-recruit_character = KNE_Gustave_Statius_Muller
-recruit_character = KNE_Gerardus_Johannes_Berenschot
-recruit_character = KNE_Petrus_Wilhelmus_Best
-recruit_character = KNE_Murk_Boerstra
-recruit_character = KNE_Willem_Hackstroh
-recruit_character = KNE_Jakob_Harberts
-recruit_character = KNE_Jan_van_Dulm
-recruit_character = KNE_Maarten_van_Dulm
-recruit_character = KNE_Willem_Jan_Kruys
-recruit_character = KNE_Albertus_Samuel_Pinke
+

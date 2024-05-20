@@ -56,8 +56,6 @@ HOL_add_armour_variants = yes
 HOL_add_ship_variants = yes
 
 
-recruit_character = KNE_Queen_Wilhelmina
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -127,3 +125,60 @@ if = {
 		}
 	}
 }
+
+
+recruit_character = KNE_Queen_Wilhelmina
+recruit_character = KNE_Herni_Winkelman
+recruit_character = KNE_Jan_van_Andel
+recruit_character = KNE_Gustave_Statius_Muller
+recruit_character = KNE_Gerardus_Johannes_Berenschot
+recruit_character = KNE_Petrus_Wilhelmus_Best
+recruit_character = KNE_Murk_Boerstra
+recruit_character = KNE_Willem_Hackstroh
+recruit_character = KNE_Jakob_Harberts
+recruit_character = KNE_Jan_van_Dulm
+recruit_character = KNE_Maarten_van_Dulm
+recruit_character = KNE_Willem_Jan_Kruys
+recruit_character = KNE_Albertus_Samuel_Pinke
+recruit_character = HOL_Izaak_Reynders
+recruit_character = HOL_Cornelis_van_Geelkerken
+recruit_character = HOL_Jan_Baars
+recruit_character = HOL_Willem_Bernard_Engelbrecht
+recruit_character = HOL_Henri_Johannes_ter_Hal
+recruit_character = HOL_Alfred_Haighton
+recruit_character = HOL_Gerrit_van_Burink
+recruit_character = HOL_Frederik_Carel_Gerretson
+recruit_character = HOL_Johannes_Linthorst_Homan
+recruit_character = HOL_AJ_van_der_Hoeven
+recruit_character = HOL_Gerhardus_Dieters
+recruit_character = HOL_Hendrik_Seyffardt
+recruit_character = HOL_Godfried_van_Voorst_tot_Voorst
+recruit_character = HOL_Herman_van_Voorst_tot_Voorst
+recruit_character = HOL_Adrianus_Zondervan
+recruit_character = HOL_Johan_Furstner
+recruit_character = HOL_Pieter_Koenraad
+recruit_character = HOL_Julius_Zegers
+recruit_character = HOL_Willem_Drees
+recruit_character = HOL_Bernhard_of_the_Netherlands
+recruit_character = HOL_Jan_Beelaerts_van_Blokland
+recruit_character = HOL_Kees_van_Eendenburg
+recruit_character = HOL_Conrad_Helfrich
+recruit_character = HOL_Alfred_de_Booy
+recruit_character = HOL_Karel_Doorman
+recruit_character = HOL_David_Wijnkoop
+recruit_character = HOL_Anton_Pannekoek
+recruit_character = HOL_Harm_Kolthek
+recruit_character = HOL_Henk_Sneevliet
+recruit_character = HOL_Piet_Johannes_Schmidt
+recruit_character = HOL_Paul_de_Groot
+recruit_character = HOL_Nicolaas_Beuzemaker
+recruit_character = HOL_Benjamin_Boers
+recruit_character = HOL_Louis_de_Visser
+recruit_character = HOL_Abraham_Verduin
+recruit_character = HOL_Jacques_de_Kadt
+recruit_character = HOL_Jan_Tinbergen
+recruit_character = HOL_Bernhard_Coltof
+recruit_character = HOL_Daniel_Goulooze
+recruit_character = HOL_Henriette_Roland_Holst
+recruit_character = HOL_Abraham_Menist
+recruit_character = HOL_Fokke_Bosman
