@@ -1,8 +1,11 @@
 ﻿l_english:
 
-FIC: "Indochinese Federation"
+FIC: "Indochina"
 FIC_ADJ: "Indochinese"
-FIC_DEF: "the Indochinese Federation"
+FIC_DEF: "Indochina"
+USA_FIC: "Indochinese Federation"
+USA_FIC_ADJ: "Indochinese"
+USA_FIC_DEF: "the Indochinese Federation"
 
 FIC_vanguardist_party: "Viet Minh"
 FIC_vanguardist_party_long: "Viet Minh"
