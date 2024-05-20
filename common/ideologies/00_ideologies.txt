@@ -213,6 +213,7 @@ ideologies = {
 		types = {
 			authoritarian_democrat_subtype = {}
 			prussian_constitutionalism_subtype = { can_be_randomly_selected = no }
+			oligarchism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"

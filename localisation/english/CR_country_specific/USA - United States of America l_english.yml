@@ -1,7 +1,7 @@
 ﻿l_english:
 
 ### Description
-USA_CAESSAREICH_DESC: "Participating in the Great War on both the Mexican and European fronts, Theodore Roosevelt left the tables at Versailles angered at the stringent and demanding treaty. A nation now in political isolation, the country has descended into deep economic troubles. In the midst, several of the nation's holdings declared their own independence, including their Mexican client state. Now, with few friends and a couple powerful enemies, America stands divided as another great conflict looms on the horizon."
+USA_CAESSAREICH_DESC: "Twenty years ago, the United States, under the leadership of President James Beauchamp Clark, joined the Great War on the side of the Central Powers and swiftly fulfilled his dream of having the Stars and Stripes flying “over every square foot of British North America up to the North Pole." Along with the additional spoils, including former Entente colonies. \n\nIn 1936, the United States is a Corporate Oligarchy led by John D. Rockefeller Jr. With issues such as a rising leftist opposition in elections, the Dust Bowl, and Canadian Resistance, only time will tell about the fate of the American Republic."
 
 ### Country Names
 USA: "United States of America"
@@ -19,7 +19,7 @@ POLITICS_JOHN_DAVISON_ROCKEFELLER_JR_DESC: "John Davison Rockefeller Jr. was bor
 ### Parties
 USA_vanguardist_party: "SPA (C)"
 USA_vanguardist_party_long: "Socialist Party of America (Centralists)"
-USA_utopian_socialist_party: "KOL"
+USA_utopian_socialist_party: "K of L"
 USA_utopian_socialist_party_long: "Knights of Labor"
 USA_revolutionary_socialist_party: "SPA (R)"
 USA_revolutionary_socialist_party_long: "Socialist Party of America (Radicals)"
@@ -33,8 +33,8 @@ USA_authoritarian_democrat_party: "NSC"
 USA_authoritarian_democrat_party_long: "National Security Committee"
 USA_paternal_autocrat_party: "NSC (M)"
 USA_paternal_autocrat_party_long: "National Security Committee (Militarists)"
-USA_ultranationalist_party: "SPA (L-T)"
-USA_ultranationalist_party_long: "Socialist Party of America (London Tendency)"
+USA_ultranationalist_party: "SPA (L)"
+USA_ultranationalist_party_long: "Socialist Party of America (Londonite)"
 USA_esoteric_nationalist_party: "Bonus Army"
 USA_esoteric_nationalist_party_long: "Bonus Army"
 

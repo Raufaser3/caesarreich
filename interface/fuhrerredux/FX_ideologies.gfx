@@ -125,7 +125,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/centrist_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_oligarchy_subtype"
+		name = "GFX_ideology_oligarchism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/oligarchy_group.png"
 	}
 	spriteType = {
