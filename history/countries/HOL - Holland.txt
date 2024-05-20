@@ -43,6 +43,12 @@ set_popularities = {
   esoteric_nationalist = 0
 }
 
+
+HOL_add_aircraft_variants = yes
+HOL_add_armour_variants = yes
+HOL_add_ship_variants = yes
+
+
 recruit_character = KNE_Queen_Wilhelmina
 
 if = {
