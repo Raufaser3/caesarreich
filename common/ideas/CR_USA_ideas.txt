@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		USA_the_iron_heel = {
+			available = { original_tag = USA }
+			on_add = { log = "[GetLogIdeaInfo] USA_the_iron_heel" }
+			modifier = {
+				authoritarian_democrat_drift = -0.1
+				stability_factor = 0.25
+				stability_weekly = -0.01
+				political_power_gain = -0.5
+			}
+		}
+		USA_reaping_the_whirlwind = {
+			available = { original_tag = USA }
+			on_add = { log = "[GetLogIdeaInfo] USA_reaping_the_whirlwind" }
+			modifier = {
+				consumer_goods_factor = 0.4
+				stability_factor = -0.45
+				}
+			}
+		USA_the_bleeding_north = {
+			available = { original_tag = USA }
+			on_add = { log = "[GetLogIdeaInfo] USA_the_bleeding_north" }
+			modifier = {
+				weekly_manpower = -2500
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.2
+				war_support_factor = -0.25
+			}
+		}
+	}
+}

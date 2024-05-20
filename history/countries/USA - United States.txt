@@ -138,6 +138,10 @@ set_popularities = {
 add_ideas = {
 	limited_conscription
 	presidential_republic
+
+	USA_The_Bleeding_North
+	USA_Reaping_the_Whirlwind
+	USA_The_Iron_Heel
 }
 
 create_faction = monroe_pact

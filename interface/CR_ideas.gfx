@@ -1,5 +1,19 @@
 spriteTypes = {
-	###ITA
+	###USA
+    spriteType = {
+        name = "GFX_idea_USA_the_iron_heel"
+        textureFile = "gfx/interface/ideas/USA/USA_the_iron_heel.png"
+    }
+    spriteType = {
+        name = "GFX_idea_USA_the_bleeding_north"
+        textureFile = "gfx/interface/ideas/USA/USA_the_bleeding_north.png"
+    }
+    spriteType = {
+        name = "GFX_idea_USA_reaping_the_whirlwind"
+        textureFile = "gfx/interface/ideas/USA/USA_reaping_the_whirlwind.png"
+    }
+
+    ###ITA
     spriteType = {
         name = "GFX_idea_ITA_national_reawakening"
         textureFile = "gfx/interface/ideas/ITA/ITA_order_of_national_reawakening.png"
