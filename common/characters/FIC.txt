@@ -1,6 +1,6 @@
 characters = {
 	FIC_Joseph_Stilwell = {
-		name = "Joseph_StilWell"
+		name = "Joseph Stilwell"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/FIC/Portrait_FIC_Joseph_Stilwell.png"

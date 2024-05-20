@@ -64,11 +64,11 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	LIB_Harvey_S_Firestone = {
-		name = "Harvey S. Firestone"
+	LIB_Harvey_S_Firestone_Jr = {
+		name = "Harvey S. Firestone Jr."
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/LIB/Portrait_LIB_Harvey_S_Firestone.png"
+				large = "gfx/leaders/LIB/Portrait_LIB_Harvey_S_Firestone_Jr.png"
 			}
 		}
 		country_leader = {

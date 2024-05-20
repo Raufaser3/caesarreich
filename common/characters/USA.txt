@@ -1191,7 +1191,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = authoritarian_democrat_subtype
-			traits = {dictator}
+			traits = { }
 			desc = POLITICS_JOHN_DAVISON_ROCKEFELLER_JR_DESC
 		}	
 		advisor = {

@@ -374,9 +374,21 @@ HAN_kingdom = {
 	color = rgb { 220 220 73 }
 	color_ui = rgb { 242 255 73 }
 }
-USA_COG	 = { 
+USA_COG = { 
 	color = rgb { 55 124 168 }
 	color_ui = rgb { 55 124 168 }
+}
+USA_PHI = {
+	color = rgb { 55 124 168 }
+	color_ui =rgb { 55 124 168 }
+}
+USA_FIC = {
+	color = rgb { 55 124 168 }
+	color_ui =rgb { 55 124 168 }
+}
+USA_LIB = {
+	color = rgb { 55 124 168 }
+	color_ui =rgb { 55 124 168 }
 }
 HUN_kingdom = {
 	color = rgb { 194 198 215 }
