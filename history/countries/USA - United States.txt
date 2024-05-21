@@ -123,15 +123,15 @@ set_politics = {
 }
 
 set_popularities = {
-  vanguardist = 7
-  utopian_socialist = 5
-  revolutionary_socialist = 13
-  social_democrat = 30
+  vanguardist = 4
+  utopian_socialist = 3
+  revolutionary_socialist = 8
+  social_democrat = 20
   liberal = 5
   social_conservative = 5
-  authoritarian_democrat = 25
-  paternal_autocrat = 4
-  ultranationalist = 6
+  authoritarian_democrat = 50
+  paternal_autocrat = 2
+  ultranationalist = 3
   esoteric_nationalist = 0
 }
 
