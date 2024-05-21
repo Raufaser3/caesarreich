@@ -13,14 +13,19 @@ guiTypes = {
 		# Austria
 
 		iconType = {
-			name = "Wilhelm_Miklas"
+			name = "Karl_Renner"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_AUS_Wilhelm_Miklas
+			spriteType = GFX_Portrait_AUS_Karl_Renner
 		}
 		iconType = {
-			name = "Franz_Dinghofer"
+			name = "Friedrich_Hayek"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_AUS_Franz_Dinghofer
+			spriteType = GFX_Portrait_AUS_Friedrich_Hayek
+		}
+		iconType = {
+			name = "Fritz_Stockinger"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Fritz_Stockinger
 		}
 		iconType = {
 			name = "Karl_Hartleb"
@@ -28,9 +33,14 @@ guiTypes = {
 			spriteType = GFX_Portrait_AUS_Karl_Hartleb
 		}
 		iconType = {
-			name = "Friedrich_Hayek"
+			name = "Franz_Dinghofer"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_AUS_Friedrich_Hayek
+			spriteType = GFX_Portrait_AUS_Franz_Dinghofer
+		}
+		iconType = {
+			name = "Wilhelm_Miklas"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Wilhelm_Miklas
 		}
 		
 		#############################################

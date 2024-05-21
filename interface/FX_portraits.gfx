@@ -7,25 +7,30 @@ spriteTypes = {
 	
 	#############################################
 	# Austria
-
-	spriteType = {
-		name = "GFX_Portrait_AUS_Wilhelm_Miklas"
-		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
-	}
 	
 	spriteType = {
-		name = "GFX_Portrait_AUS_Franz_Dinghofer"
-		texturefile = "gfx/leaders/AUS/Portrait_AUS_Franz_Dinghofer.png"
+		name = "GFX_Portrait_AUS_Karl_Renner"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
 	}
-	
+	spriteType = {
+		name = "GFX_Portrait_AUS_Friedrich_Hayek"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Friedrich_Hayek.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_AUS_Fritz_Stockinger"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Fritz_Stockinger.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_AUS_Karl_Hartleb"
 		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Hartleb.png"
 	}
-	
 	spriteType = {
-		name = "GFX_Portrait_AUS_Friedrich_Hayek"
-		texturefile = "gfx/leaders/AUS/Portrait_AUS_Friedrich_Hayek.png"
+		name = "GFX_Portrait_AUS_Franz_Dinghofer"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Franz_Dinghofer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_AUS_Wilhelm_Miklas"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
 	}
 	
 	#############################################

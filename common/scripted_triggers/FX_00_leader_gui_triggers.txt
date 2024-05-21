@@ -15,10 +15,12 @@ uses_leader_gui = {
 AUS_has_leader_gui = {
 	original_tag = AUS
 	OR = {
-		has_idea = AUS_Wilhelm_Miklas_hog_sco
-		has_idea = AUS_Franz_Dinghofer_hog_mli
-		has_idea = AUS_Karl_Hartleb_hog_mli
+		has_idea = AUS_Karl_Renner_hog_sde
 		has_idea = AUS_Friedrich_Hayek_hog_sli
+		has_idea = AUS_Fritz_Stockinger_hog_sli
+		has_idea = AUS_Karl_Hartleb_hog_mli
+		has_idea = AUS_Franz_Dinghofer_hog_mli
+		has_idea = AUS_Wilhelm_Miklas_hog_sco	
 	}
 }
 

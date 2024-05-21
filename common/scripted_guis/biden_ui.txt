@@ -20,16 +20,22 @@ scripted_gui = {
 			#############################################
 			# Austria
 			
-			Wilhelm_Miklas_visible = {
+			Karl_Renner_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = AUS_Wilhelm_Miklas_hog_sco
+					has_idea = AUS_Karl_Renner_hog_sde
 				}
 			}
-			Franz_Dinghofer_visible = {
+			Friedrich_Hayek_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = AUS_Franz_Dinghofer_hog_mli
+					has_idea = AUS_Friedrich_Hayek_hog_sli
+				}
+			}
+			Fritz_Stockinger_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Fritz_Stockinger_hog_sli
 				}
 			}
 			Karl_Hartleb_visible = {
@@ -38,10 +44,16 @@ scripted_gui = {
 					has_idea = AUS_Karl_Hartleb_hog_mli
 				}
 			}
-			Friedrich_Hayek_visible = {
+			Franz_Dinghofer_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = AUS_Friedrich_Hayek_hog_sli
+					has_idea = AUS_Franz_Dinghofer_hog_mli
+				}
+			}
+			Wilhelm_Miklas_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Wilhelm_Miklas_hog_sco
 				}
 			}
 			

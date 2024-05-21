@@ -68,224 +68,162 @@ characters = {
 ################################################################################################
 ################################################################################################
 ################################################################################################
-	AUS_Wilhelm_Miklas = {
-		name = AUS_Wilhelm_Miklas
+	AUS_Karl_Renner = {
+		name = AUS_Karl_Renner
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
-				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Miklas.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			can_be_fired = no
-			idea_token = AUS_Wilhelm_Miklas_hog_sco
-			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
-            		}
-            		on_add = {
-                		ROOT = { set_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
-            		}
-            		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
-            		}
-			traits = {
-				social_conservative
-				hog_pragmatic_statesman
-			}
-		}
-
-	}
-	AUS_Viktor_Kienbock = {
-		name = "Viktor Kienböck"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Viktor_Kienbock.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = economy_minister
-			can_be_fired = no	
-			idea_token = AUS_Viktor_Kienbock_eco_sco
-			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
-            		}
-            		on_add = {
-                		ROOT = { set_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
-            		}
-            		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
-            		}
-			traits = {
-				social_conservative
-				eco_bank_president
-			}
-		}
-	}
-	AUS_Karl_Buresch = {
-		name = "Karl Buresch"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Karl_Buresch.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = foreign_minister
-			can_be_fired = no		
-			idea_token = AUS_Karl_Buresch_for_sco
-			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Karl_Buresch_for_sco_hired }
-            		}
-            		on_add = {
-                		ROOT = { set_country_flag = AUS_Karl_Buresch_for_sco_hired }
-            		}
-            		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Karl_Buresch_for_sco_hired }
-            		}
-			traits = {
-				social_conservative
-				for_great_compromiser
-			}
-		}
-	}
-	AUS_Robert_Winterstein = {
-		name = "Robert Winterstein"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Robert_Winterstein.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = interior_minister
-			can_be_fired = no		
-			idea_token = AUS_Robert_Winterstein_sec_sco
-			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
-            		}
-            		on_add = {
-                		ROOT = { set_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
-            		}
-            		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
-            		}
-			traits = {
-				social_conservative
-				sec_compassionate_gentleman
-			}
-		}
-	}
-################################################################################################
-	AUS_Franz_Dinghofer = {
-		name = AUS_Franz_Dinghofer
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Franz_Dinghofer.png"
-				small = "gfx/interface/ministers/AUS/AUS_Franz_Dinghofer.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
+				small = "gfx/interface/ministers/AUS/AUS_Karl_Renner.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = head_of_government
 			can_be_fired = no		
-			idea_token = AUS_Franz_Dinghofer_hog_mli
+			idea_token = AUS_Karl_Renner_hog_sde
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Karl_Renner_hog_sde_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
+                		ROOT = { set_country_flag = AUS_Karl_Renner_hog_sde_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
+                		ROOT = { clr_country_flag = AUS_Karl_Renner_hog_sde_hired }
             		}
 			traits = {
-				liberal
+				social_democrat
 				hog_naive_optimist
 			}
 		}
-
 	}
-	AUS_Hans_Schurff = {
-		name = "Hans Schürff"
+	
+################################################################################################
+	AUS_Friedrich_Hayek = {
+		name = AUS_Friedrich_Hayek
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Hans_Schurff.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Friedrich_Hayek.png"
+				small = "gfx/interface/ministers/AUS/AUS_Friedrich_Hayek.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Friedrich_Hayek_hog_sli
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+            		}
+			traits = {
+				liberal
+				hog_happy_amateur
+			}
+		}
+	}
+	AUS_Fritz_Stockinger = {
+		name = AUS_Fritz_Stockinger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Fritz_Stockinger.png"
+				small = "gfx/interface/ministers/AUS/AUS_Fritz_Stockinger.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = economy_minister
 			can_be_fired = no	
-			idea_token = AUS_Hans_Schurff_eco_mli
+			idea_token = AUS_Fritz_Stockinger_eco_sli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Hans_Schurff_eco_mli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Hans_Schurff_eco_mli_hired }
+                		ROOT = { set_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Hans_Schurff_eco_mli_hired }
+                		ROOT = { clr_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
             		}
 			traits = {
 				liberal
-				eco_national_liberal
+				eco_balanced_budget_economy
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no		
+			idea_token = AUS_Fritz_Stockinger_hog_sli
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Fritz_Stockinger_hog_sli_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Fritz_Stockinger_hog_sli_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Fritz_Stockinger_hog_sli_hired }
+            		}
+			traits = {
+				liberal
+				hog_corporate_suit
 			}
 		}
 	}
-	AUS_Felix_Frank = {
-		name = "Felix Frank"
+	AUS_Hans_Kelsen = {
+		name = "Hans Kelsen"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Felix_Frank.png"
+				small = "gfx/interface/ministers/AUS/AUS_Hans_Kelsen.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = foreign_minister
 			can_be_fired = no		
-			idea_token = AUS_Felix_Frank_for_mli
+			idea_token = AUS_Hans_Kelsen_for_sli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Felix_Frank_for_mli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Hans_Kelsen_for_sli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Felix_Frank_for_mli_hired }
+                		ROOT = { set_country_flag = AUS_Hans_Kelsen_for_sli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Felix_Frank_for_mli_hired }
+                		ROOT = { clr_country_flag = AUS_Hans_Kelsen_for_sli_hired }
             		}
 			traits = {
 				liberal
-				for_great_compromiser
+				for_relations_expert
 			}
 		}
 	}
-	AUS_Leopold_Waber = {
-		name = "Leopold Waber"
+	AUS_Heinrich_Klang = {
+		name = "Heinrich Klang"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Leopold_Waber.png"
+				small = "gfx/interface/ministers/AUS/AUS_Heinrich_Klang.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = interior_minister
 			can_be_fired = no		
-			idea_token = AUS_Leopold_Waber_sec_mli
+			idea_token = AUS_Heinrich_Klang_sec_sli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Leopold_Waber_sec_mli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Leopold_Waber_sec_mli_hired }
+                		ROOT = { set_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Leopold_Waber_sec_mli_hired }
+                		ROOT = { clr_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
             		}
 			traits = {
 				liberal
-				sec_crime_fighter
+				sec_silent_lawyer
 			}
 		}
 	}
@@ -401,125 +339,228 @@ characters = {
 		}
 	}
 ################################################################################################
-	AUS_Friedrich_Hayek = {
-		name = AUS_Friedrich_Hayek
+	AUS_Franz_Dinghofer = {
+		name = AUS_Franz_Dinghofer
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Friedrich_Hayek.png"
-				small = "gfx/interface/ministers/AUS/AUS_Friedrich_Hayek.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Franz_Dinghofer.png"
+				small = "gfx/interface/ministers/AUS/AUS_Franz_Dinghofer.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = head_of_government
 			can_be_fired = no		
-			idea_token = AUS_Friedrich_Hayek_hog_sli
+			idea_token = AUS_Franz_Dinghofer_hog_mli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+                		ROOT = { set_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Friedrich_Hayek_hog_sli_hired }
+                		ROOT = { clr_country_flag = AUS_Franz_Dinghofer_hog_mli_hired }
             		}
 			traits = {
 				liberal
-				hog_happy_amateur
+				hog_naive_optimist
 			}
 		}
 
 	}
-	AUS_Fritz_Stockinger = {
-		name = "Fritz Stockinger"
+	AUS_Hans_Schurff = {
+		name = "Hans Schürff"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Fritz_Stockinger.png"
+				small = "gfx/interface/ministers/AUS/AUS_Hans_Schurff.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = economy_minister
 			can_be_fired = no	
-			idea_token = AUS_Fritz_Stockinger_eco_sli
+			idea_token = AUS_Hans_Schurff_eco_mli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Hans_Schurff_eco_mli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
+                		ROOT = { set_country_flag = AUS_Hans_Schurff_eco_mli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Fritz_Stockinger_eco_sli_hired }
+                		ROOT = { clr_country_flag = AUS_Hans_Schurff_eco_mli_hired }
             		}
 			traits = {
 				liberal
-				eco_balanced_budget_economy
+				eco_national_liberal
 			}
 		}
 	}
-	AUS_Hans_Kelsen = {
-		name = "Hans Kelsen"
+	AUS_Felix_Frank = {
+		name = "Felix Frank"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Hans_Kelsen.png"
+				small = "gfx/interface/ministers/AUS/AUS_Felix_Frank.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = foreign_minister
 			can_be_fired = no		
-			idea_token = AUS_Hans_Kelsen_for_sli
+			idea_token = AUS_Felix_Frank_for_mli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Hans_Kelsen_for_sli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Felix_Frank_for_mli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Hans_Kelsen_for_sli_hired }
+                		ROOT = { set_country_flag = AUS_Felix_Frank_for_mli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Hans_Kelsen_for_sli_hired }
+                		ROOT = { clr_country_flag = AUS_Felix_Frank_for_mli_hired }
             		}
 			traits = {
 				liberal
-				for_relations_expert
+				for_great_compromiser
 			}
 		}
 	}
-	AUS_Heinrich_Klang = {
-		name = "Heinrich Klang"
+	AUS_Leopold_Waber = {
+		name = "Leopold Waber"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Heinrich_Klang.png"
+				small = "gfx/interface/ministers/AUS/AUS_Leopold_Waber.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = interior_minister
 			can_be_fired = no		
-			idea_token = AUS_Heinrich_Klang_sec_sli
+			idea_token = AUS_Leopold_Waber_sec_mli
 			available = { 
-                		hidden_trigger = { has_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
+                		hidden_trigger = { has_country_flag = AUS_Leopold_Waber_sec_mli_hired }
             		}
             		on_add = {
-                		ROOT = { set_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
+                		ROOT = { set_country_flag = AUS_Leopold_Waber_sec_mli_hired }
             		}
             		on_remove = {
-                		ROOT = { clr_country_flag = AUS_Heinrich_Klang_sec_sli_hired }
+                		ROOT = { clr_country_flag = AUS_Leopold_Waber_sec_mli_hired }
             		}
 			traits = {
 				liberal
-				sec_silent_lawyer
+				sec_crime_fighter
 			}
 		}
 	}
 ################################################################################################
-	AUS_Karl_Renner = {
-		name = "Karl Renner"
+	AUS_Wilhelm_Miklas = {
+		name = AUS_Wilhelm_Miklas
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Miklas.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no
+			idea_token = AUS_Wilhelm_Miklas_hog_sco
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Wilhelm_Miklas_hog_sco_hired }
+            		}
+			traits = {
+				social_conservative
+				hog_pragmatic_statesman
+			}
+		}
+
+	}
+	AUS_Viktor_Kienbock = {
+		name = "Viktor Kienböck"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Viktor_Kienbock.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Viktor_Kienbock_eco_sco
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Viktor_Kienbock_eco_sco_hired }
+            		}
+			traits = {
+				social_conservative
+				eco_bank_president
 			}
 		}
 	}
+	AUS_Karl_Buresch = {
+		name = "Karl Buresch"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Karl_Buresch.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Karl_Buresch_for_sco
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Karl_Buresch_for_sco_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Karl_Buresch_for_sco_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Karl_Buresch_for_sco_hired }
+            		}
+			traits = {
+				social_conservative
+				for_great_compromiser
+			}
+		}
+	}
+	AUS_Robert_Winterstein = {
+		name = "Robert Winterstein"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Robert_Winterstein.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Robert_Winterstein_sec_sco
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Robert_Winterstein_sec_sco_hired }
+            		}
+			traits = {
+				social_conservative
+				sec_compassionate_gentleman
+			}
+		}
+	}
+################################################################################################
 	AUS_Richard_Steidle = {
 		name = "Richard Steidle"
 		portraits = {
