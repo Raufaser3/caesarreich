@@ -198,6 +198,8 @@ if = {
 	}	
 }
 
+	
+recruit_character = CAN_Cornelius_Vanderbilt_III 
 recruit_character = CAN_Lord_Tweedsmuir
 recruit_character = CAN_Tim_Buck
 recruit_character = CAN_JS_Salsburg
