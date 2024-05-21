@@ -96,7 +96,87 @@ characters = {
 			}
 		}
 	}
-	
+	AUS_Adolf_Scharf = {
+		name = "Adolf Schärf"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Adolf_Scharf.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Adolf_Scharf_eco_sde
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Adolf_Scharf_eco_sde_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Adolf_Scharf_eco_sde_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Adolf_Scharf_eco_sde_hired }
+            		}
+			traits = {
+				social_democrat
+				eco_industrialiser
+			}
+		}
+	}
+	AUS_Karl_Seitz = {
+		name = "Karl Seitz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Karl_Seitz.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Karl_Seitz_for_sde
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Karl_Seitz_for_sde_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Karl_Seitz_for_sde_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Karl_Seitz_for_sde_hired }
+            		}
+			traits = {
+				social_democrat
+				for_biased_intellectual
+			}
+		}
+	}
+	AUS_Josef_Afritsch = {
+		name = "Josef Afritsch"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Josef_Afritsch.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Josef_Afritsch_sec_sde
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Josef_Afritsch_sec_sde_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Josef_Afritsch_sec_sde_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Josef_Afritsch_sec_sde_hired }
+            		}
+			traits = {
+				social_democrat
+				sec_great_soul
+			}
+		}
+	}
 ################################################################################################
 	AUS_Friedrich_Hayek = {
 		name = AUS_Friedrich_Hayek
