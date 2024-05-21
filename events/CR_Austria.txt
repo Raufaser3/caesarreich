@@ -29,6 +29,20 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
+		name = "Legitimists"
+		set_politics = {
+			ruling_party = paternal_autocrat
+		}
+		add_popularity = {
+			ideology = paternal_autocrat
+			popularity = 0.075
+		}
+		activate_advisor = AUS_Ernst_Rudiger_Stahremberg_hog_pau
+		activate_advisor = AUS_Eduard_Baar_Baarenfels_eco_pau
+		activate_advisor = AUS_Egon_Berger_Waldenegg_for_pau
+		activate_advisor = AUS_Kurt_Schuschnigg_sec_pau
+	}
+	option = {
 		name = "NB"
 		set_politics = {
 			ruling_party = authoritarian_democrat

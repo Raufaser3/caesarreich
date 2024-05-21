@@ -641,15 +641,122 @@ characters = {
 		}
 	}
 ################################################################################################
-	AUS_Richard_Steidle = {
-		name = "Richard Steidle"
+	AUS_Ernst_Rudiger_Stahremberg = {
+		name = AUS_Ernst_Rudiger_Stahremberg
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Richard_Steidle.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Ernst_Rudiger_Stahremberg.png"
+				small = "gfx/interface/ministers/AUS/AUS_Ernst_Rudiger_Stahremberg.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no
+			idea_token = AUS_Ernst_Rudiger_Stahremberg_hog_pau
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Ernst_Rudiger_Stahremberg_hog_pau_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Ernst_Rudiger_Stahremberg_hog_pau_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Ernst_Rudiger_Stahremberg_hog_pau_hired }
+            		}
+			traits = {
+				paternal_autocrat
+				hog_flamboyant_tough_guy
+			}
+		}
+
+	}
+	AUS_Eduard_Baar_Baarenfels = {
+		name = "Eduard Baar-Baarenfels"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Eduard_Baar_Baarenfels.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Eduard_Baar_Baarenfels_eco_pau
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Eduard_Baar_Baarenfels_eco_pau_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Eduard_Baar_Baarenfels_eco_pau_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Eduard_Baar_Baarenfels_eco_pau_hired }
+            		}
+			traits = {
+				paternal_autocrat
+				eco_administrative_genius
 			}
 		}
 	}
-	# Other Ministers
+	AUS_Egon_Berger_Waldenegg = {
+		name = "Egon Berger-Waldenegg"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Egon_Berger_Waldenegg.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Egon_Berger_Waldenegg_for_pau
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Egon_Berger_Waldenegg_for_pau_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Egon_Berger_Waldenegg_for_pau_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Egon_Berger_Waldenegg_for_pau_hired }
+            		}
+			traits = {
+				paternal_autocrat
+				for_biased_intellectual
+			}
+		}
+	}
+	AUS_Kurt_Schuschnigg = {
+		name = "Kurt Schuschnigg"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Kurt_Schuschnigg.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Kurt_Schuschnigg_sec_pau
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Kurt_Schuschnigg_sec_pau_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Kurt_Schuschnigg_sec_pau_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Kurt_Schuschnigg_sec_pau_hired }
+            		}
+			traits = {
+				paternal_autocrat
+				sec_silent_lawyer
+			}
+		}
+	}
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+# Other Ministers
 	AUS_Peter_Revertera_Salandra = {
 		name = "Peter Revertera-Salandra"
 		portraits = {

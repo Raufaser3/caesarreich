@@ -97,6 +97,7 @@ recruit_character = AUS_Fritz_Stockinger
 recruit_character = AUS_Karl_Hartleb
 recruit_character = AUS_Franz_Dinghofer
 recruit_character = AUS_Wilhelm_Miklas
+recruit_character = AUS_Ernst_Rudiger_Stahremberg
 
 recruit_character = AUS_Richard_Steidle
 
@@ -120,6 +121,10 @@ recruit_character = AUS_Leopold_Waber
 recruit_character = AUS_Viktor_Kienbock
 recruit_character = AUS_Karl_Buresch
 recruit_character = AUS_Robert_Winterstein
+
+recruit_character = AUS_Eduard_Baar_Baarenfels
+recruit_character = AUS_Egon_Berger_Waldenegg
+recruit_character = AUS_Kurt_Schuschnigg
 
 
 
