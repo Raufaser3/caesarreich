@@ -387,7 +387,7 @@ characters = {
             		}
 			traits = {
 				liberal
-				for_apologetic_clerk
+				for_great_compromiser				
 			}
 		}
 	}
@@ -498,7 +498,7 @@ characters = {
             		}
 			traits = {
 				liberal
-				for_great_compromiser
+				for_apologetic_clerk
 			}
 		}
 	}

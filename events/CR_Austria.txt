@@ -1,0 +1,99 @@
+add_namespace = elections
+
+#BDP Leadership Election
+country_event = {
+	id = elections.1
+	title = elections.1.t
+	desc = elections.1.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hayek"
+		set_country_flag = AUS_Hayek_BDP
+	}
+	option = {
+		name = "Stockinger"
+		set_country_flag = AUS_Stockinger_BDP
+	}
+}
+
+#1936 Election
+country_event = {
+	id = elections.2
+	title = elections.2.t
+	desc = elections.2.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "NB"
+		set_politics = {
+			ruling_party = authoritarian_democrat
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.075
+		}
+		activate_advisor = AUS_Franz_Dinghofer_hog_mli
+		activate_advisor = AUS_Hans_Schurff_eco_mli
+		activate_advisor = AUS_Stephan_Tauschitz_for_mli
+		activate_advisor = AUS_Franz_Winkler_sec_mli
+	}
+	option = {
+		name = "CSP"
+		set_politics = {
+			ruling_party = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.075
+		}
+		activate_advisor = AUS_Wilhelm_Miklas_hog_sco
+		activate_advisor = AUS_Viktor_Kienbock_eco_sco
+		activate_advisor = AUS_Karl_Buresch_for_sco
+		activate_advisor = AUS_Robert_Winterstein_sec_sco
+	}
+	option = {
+		name = "BDP"
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = 0.15
+		}
+		if = {
+			limit = {
+				has_country_flag = AUS_Hayek_BDP
+			}
+			activate_advisor = AUS_Friedrich_Hayek_hog_sli
+		}
+		if = {
+			limit = {
+				has_country_flag = AUS_Stockinger_BDP
+			}
+			activate_advisor = AUS_Fritz_Stockinger_hog_sli
+		}
+		
+		activate_advisor = AUS_Fritz_Stockinger_eco_sli
+		activate_advisor = AUS_Hans_Kelsen_for_sli
+		activate_advisor = AUS_Heinrich_Klang_sec_sli
+	}
+	option = {
+		name = "SDAP"
+		set_politics = {
+			ruling_party = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.1
+		}
+		activate_advisor = AUS_Karl_Renner_hog_sde
+		activate_advisor = AUS_Adolf_Scharf_eco_sde
+		activate_advisor = AUS_Karl_Seitz_for_sde
+		activate_advisor = AUS_Josef_Afritsch_sec_sde
+	}
+}
