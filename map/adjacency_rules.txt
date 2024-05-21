@@ -369,3 +369,145 @@ adjacency_rule = {
 	icon = 2876
 	offset = { -3 0 -1 }
 }
+
+###Great Lakes 
+
+#St Lawrence
+adjacency_rule ={
+	name = "ST_LAWRENCE"
+
+	contested =	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 598 3602 3605 4270 4345 4417 6625 6778 7291 7345 7433 9601 10320 12149}
+
+	icon = 10320
+	offset = { 2 0 8 }
+}
+
+#Welland Canal
+adjacency_rule ={
+	name = "WELLAND_CANAL"
+
+	contested =	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =	{
+		army = yes
+		navy = yes
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 749 11654 }
+
+	icon = 749
+	offset = { 4 0 0 }
+}
+#Clinton–Kalamazoo Canal Updated
+adjacency_rule ={
+	name = "VANDERBILT_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6710 9667 9711 9724 }
+
+	icon = 13156
+	offset = { 3 0 7 }
+}
+
+#Soo/Sault Locks
+adjacency_rule ={
+	name = "SOO_LOCKS"
+
+	contested =	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = yes
+	}
+	enemy =	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 5205 12582 }
+
+	icon = 5205
+	offset = { 5 0 2 }
+}
