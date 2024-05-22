@@ -42,6 +42,16 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_AUS_Wilhelm_Miklas
 		}
+		iconType = {
+			name = "Ernst_Rudiger_Stahremberg"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Ernst_Rudiger_Stahremberg
+		}
+		iconType = {
+			name = "Richard_Steidle"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Richard_Steidle
+		}
 		
 		#############################################
 		# Canada

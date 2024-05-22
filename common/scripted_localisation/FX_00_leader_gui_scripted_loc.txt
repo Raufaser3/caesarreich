@@ -642,7 +642,19 @@ defined_text = {
 		}
 		localization_key = AUS_Wilhelm_Miklas
 	}
-	
+	text = {
+		trigger = {
+			has_idea = AUS_Ernst_Rudiger_Stahremberg_hog_pau
+		}
+		localization_key = AUS_Ernst_Rudiger_Stahremberg
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Richard_Steidle_hog_una
+		}
+		localization_key = AUS_Richard_Steidle
+	}
+	###############################################
 	text = {
 		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
@@ -1079,6 +1091,18 @@ defined_text = {
 			has_idea = AUS_Wilhelm_Miklas_hog_sco
 		}
 		localization_key = GFX_Portrait_AUS_Wilhelm_Miklas
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Ernst_Rudiger_Stahremberg_hog_pau
+		}
+		localization_key = GFX_Portrait_AUS_Ernst_Rudiger_Stahremberg
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Richard_Steidle_hog_una
+		}
+		localization_key = GFX_Portrait_AUS_Richard_Steidle
 	}
 	
 	### Greece ###

@@ -335,7 +335,6 @@ characters = {
 				hog_silent_workhorse
 			}
 		}
-
 	}
 	AUS_Vinzenz_Schumy = {
 		name = "Vinzenz Schumy"
@@ -446,7 +445,6 @@ characters = {
 				hog_naive_optimist
 			}
 		}
-
 	}
 	AUS_Hans_Schurff = {
 		name = "Hans Schürff"
@@ -557,7 +555,6 @@ characters = {
 				hog_pragmatic_statesman
 			}
 		}
-
 	}
 	AUS_Viktor_Kienbock = {
 		name = "Viktor Kienböck"
@@ -668,7 +665,6 @@ characters = {
 				hog_flamboyant_tough_guy
 			}
 		}
-
 	}
 	AUS_Eduard_Baar_Baarenfels = {
 		name = "Eduard Baar-Baarenfels"
@@ -748,6 +744,108 @@ characters = {
 			traits = {
 				paternal_autocrat
 				sec_silent_lawyer
+			}
+		}
+	}
+################################################################################################
+	AUS_Richard_Steidle = {
+		name = AUS_Richard_Steidle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Richard_Steidle.png"
+				small = "gfx/interface/ministers/AUS/AUS_Richard_Steidle.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			can_be_fired = no
+			idea_token = AUS_Richard_Steidle_hog_una
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Richard_Steidle_hog_una_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Richard_Steidle_hog_una_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Richard_Steidle_hog_una_hired }
+            		}
+			traits = {
+				ultranationalist
+				hog_local_tyrant
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = foreign_minister
+			can_be_fired = no		
+			idea_token = AUS_Richard_Steidle_for_una
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Richard_Steidle_for_una_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Richard_Steidle_for_una_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Richard_Steidle_for_una_hired }
+            		}
+			traits = {
+				ultranationalist
+				for_iron_fisted_brute
+			}
+		}
+	}
+	AUS_Walter_Pfrimer = {
+		name = "Walter Pfrimer"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Walter_Pfrimer.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = economy_minister
+			can_be_fired = no	
+			idea_token = AUS_Walter_Pfrimer_eco_una
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Walter_Pfrimer_eco_una_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Walter_Pfrimer_eco_una_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Walter_Pfrimer_eco_una_hired }
+            		}
+			traits = {
+				ultranationalist
+				eco_corrupt_kleptocrat
+			}
+		}
+	}
+	AUS_Emil_Fey = {
+		name = "Emil Fey"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Emil_Fey.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = interior_minister
+			can_be_fired = no		
+			idea_token = AUS_Emil_Fey_sec_una
+			available = { 
+                		hidden_trigger = { has_country_flag = AUS_Emil_Fey_sec_una_hired }
+            		}
+            		on_add = {
+                		ROOT = { set_country_flag = AUS_Emil_Fey_sec_una_hired }
+            		}
+            		on_remove = {
+                		ROOT = { clr_country_flag = AUS_Emil_Fey_sec_una_hired }
+            		}
+			traits = {
+				ultranationalist
+				sec_prince_of_terror
 			}
 		}
 	}

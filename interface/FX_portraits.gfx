@@ -32,6 +32,14 @@ spriteTypes = {
 		name = "GFX_Portrait_AUS_Wilhelm_Miklas"
 		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
 	}
+	spriteType = {
+		name = "GFX_Portrait_AUS_Ernst_Rudiger_Stahremberg"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ernst_Rudiger_Stahremberg.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_AUS_Richard_Steidle"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Richard_Steidle.png"
+	}
 	
 	#############################################
 	# Canada

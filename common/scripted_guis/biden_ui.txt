@@ -56,6 +56,18 @@ scripted_gui = {
 					has_idea = AUS_Wilhelm_Miklas_hog_sco
 				}
 			}
+			Ernst_Rudiger_Stahremberg_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Ernst_Rudiger_Stahremberg_hog_pau
+				}
+			}
+			Richard_Steidle_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Richard_Steidle_hog_una
+				}
+			}
 			
 			#############################################
 			# Japan

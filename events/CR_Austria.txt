@@ -29,6 +29,20 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
+		name = "Heimatfront"
+		set_politics = {
+			ruling_party = ultranationalist
+		}
+		add_popularity = {
+			ideology = ultranationalist
+			popularity = 0.075
+		}
+		activate_advisor = AUS_Richard_Steidle_hog_una
+		activate_advisor = AUS_Walter_Pfrimer_eco_una
+		activate_advisor = AUS_Richard_Steidle_for_una
+		activate_advisor = AUS_Emil_Fey_sec_una
+	}
+	option = {
 		name = "Legitimists"
 		set_politics = {
 			ruling_party = paternal_autocrat
