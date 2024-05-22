@@ -326,6 +326,19 @@ defined_text = {
 		}
 		localization_key = LEADER_OR_LSM
 	}
+	# DO NOT REMOTE - FALLBACKS
+	text = {
+		trigger = {
+			has_elected_government = yes
+		}
+		localization_key = PM_OR_PRESIDENT
+	}
+	text = {
+		trigger = {
+
+		}
+		localization_key = PM_OR_LEADER
+	}
 }
 
 defined_text = {
@@ -482,6 +495,12 @@ defined_text = {
 			}
 		}
 		localization_key = LEADER_OR_LSM2
+	}
+	# DO NOT REMOTE - FALLBACK
+	text = {
+		trigger = {
+		}
+		localization_key = PM_OR_LEADER2
 	}
 }
 

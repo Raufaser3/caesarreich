@@ -26,7 +26,6 @@ set_technology = {
 }
 
 add_ideas = {
-	neutral_harbour_of_europe
 	constitutional_monarchy
 }
 

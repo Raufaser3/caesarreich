@@ -7,6 +7,7 @@ set_research_slots = 4
 
 add_ideas = {
 	one_party_dictatorship
+	
 	ITA_order_of_national_reawakening
 	ITA_saint_peters_wrath
 	ITA_occult_imperium

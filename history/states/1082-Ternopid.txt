@@ -8,8 +8,23 @@ state={
 	history = {
 		owner = UKR
 		add_core_of = UKR
+		victory_points = {
+			3483 1
+		}
 		buildings = {
 			infrastructure = 3
+			438 = {
+				bunker = 1
+			}
+			3483 = {
+				bunker = 1
+			}
+			3562 = {
+				bunker = 1
+			}
+			9454 = {
+				bunker = 1
+			}
 		}
 	}
 	manpower=1691197

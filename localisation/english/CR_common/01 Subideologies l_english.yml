@@ -1,11 +1,11 @@
 ﻿l_english:
 
 NO_SUBIDEOLOGY_ACTIVE: "No Ideological Subtype"
-RulingIdeologySubtype: "§Y([?country_leader.GetIdeologyGroup])§!"
+RulingIdeologySubtype: "§Y([GetRulingIdeologySubtype])§!"
 
-DiploIdeologySubtype: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[?country_leader.GetIdeologyGroup]§!§L\n--------------------\n§!§L[GetDiploIdeologySubtypeDesc]§!"
+DiploIdeologySubtype: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[GetDiploRulingPartySubtype]§!§L\n--------------------\n§!§L[GetDiploIdeologySubtypeDesc]§!"
 
-RulingIdeologySubtypeDesc: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[?country_leader.GetIdeologyGroup]§!§L\n--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
+RulingIdeologySubtypeDesc: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[GetRulingIdeologySubtype]§!§L\n--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
 
 # dont do anything, experiments
 

@@ -1,5 +1,243 @@
 defined_text = {
 	#here only subideologies should be added
+	name = GetRulingIdeologySubtype
+	text = {
+		trigger = {
+			has_country_leader_ideology = socdem_christian_democracy_subtype
+		}
+		localization_key = socdem_christian_democracy_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = absolute_mon_subtype
+		}
+		localization_key = absolute_mon_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarcho_syndicalism_subtype
+		}
+		localization_key = anarcho_syndicalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_democracy_subtype
+		}
+		localization_key = christian_democracy_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = agrarian_socialism_subtype
+		}
+		localization_key = agrarian_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = prussian_constitutionalism_subtype
+		}
+		localization_key = prussian_constitutionalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = legionarism_subtype
+		}
+		localization_key = legionarism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_liberalism_subtype
+		}
+		localization_key = radical_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = venizelism_subtype
+		}
+		localization_key = venizelism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarchism_subtype
+		}
+		localization_key = anarchism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = falangism_subtype
+		}
+		localization_key = falangism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = socdem_christian_socialism_subtype
+		}
+		localization_key = socdem_christian_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = metaxism_subtype
+		}
+		localization_key = metaxism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = oligarchism_subtype
+		}
+		localization_key = oligarchism_subtype
+	}
+}
+
+defined_text = {
+	# both subideologies and normal ideologies
+	name = GetDiploRulingPartySubtype
+	text = {
+		trigger = {
+			has_country_leader_ideology = vanguardist_subtype
+		}
+		localization_key = vanguardist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = utopian_socialist_subtype
+		}
+		localization_key = utopian_socialist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_socialist_subtype
+		}
+		localization_key = revolutionary_socialist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_democrat_subtype
+		}
+		localization_key = social_democrat
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = liberal_subtype
+		}
+		localization_key = liberal
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_conservative_subtype
+		}
+		localization_key = social_conservative
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = authoritarian_democrat_subtype
+		}
+		localization_key = authoritarian_democrat
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = paternal_autocrat_subtype
+		}
+		localization_key = paternal_autocrat
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ultranationalist_subtype
+		}
+		localization_key = ultranationalist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = esoteric_nationalist_subtype
+		}
+		localization_key = esoteric_nationalist
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = absolute_mon_subtype
+		}
+		localization_key = absolute_mon_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarcho_syndicalism_subtype
+		}
+		localization_key = anarcho_syndicalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_democracy_subtype
+		}
+		localization_key = christian_democracy_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = agrarian_socialism_subtype
+		}
+		localization_key = agrarian_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = prussian_constitutionalism_subtype
+		}
+		localization_key = prussian_constitutionalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = legionarism_subtype
+		}
+		localization_key = legionarism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_liberalism_subtype
+		}
+		localization_key = radical_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = venizelism_subtype
+		}
+		localization_key = venizelism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarchism_subtype
+		}
+		localization_key = anarchism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = falangism_subtype
+		}
+		localization_key = falangism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = socdem_christian_socialism_subtype
+		}
+		localization_key = socdem_christian_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = metaxism_subtype
+		}
+		localization_key = 	metaxism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = socdem_christian_democracy_subtype
+		}
+		localization_key = socdem_christian_democracy_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = oligarchism_subtype
+		}
+		localization_key = oligarchism_subtype
+	}
+}
+
+defined_text = {
+	#here only subideologies should be added
 	name = GetRulingIdeologySubtypeDesc
 	text = {
 		trigger = {

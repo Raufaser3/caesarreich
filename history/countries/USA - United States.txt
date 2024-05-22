@@ -137,7 +137,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	presidential_republic
+	republican_dictatorship #prob should be changed -thanasislanaras
 
 	USA_The_Bleeding_North
 	USA_Reaping_the_Whirlwind

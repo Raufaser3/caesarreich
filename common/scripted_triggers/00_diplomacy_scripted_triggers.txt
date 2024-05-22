@@ -464,47 +464,57 @@ DIPLOMACY_REQUEST_INTERNATIONAL_MARKET_ACCESS_RIGHTS_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
-	else_if = {
-		limit = {
-			FROM = {
-				OR = {
-					has_idea = GEN_entente_member
-					has_idea = FRA_entente_leader
-					has_idea = ITA_entente_leader
-					is_in_faction_with = FRA
-				}
-			}
-			OR = {
-				has_idea = GEN_entente_member
-				has_idea = FRA_entente_leader
-				has_idea = ITA_entente_leader
-				is_in_faction_with = FRA
-			}
-		}
-		always = yes
-	}
+	# else_if = { #should be adjusted for CR factions
+	# 	limit = {
+	# 		FROM = {
+	# 			OR = {
+	# 				has_idea = GEN_entente_member
+	# 				has_idea = FRA_entente_leader
+	# 				has_idea = ITA_entente_leader
+	# 				is_in_faction_with = FRA
+	# 			}
+	# 		}
+	# 		OR = {
+	# 			has_idea = GEN_entente_member
+	# 			has_idea = FRA_entente_leader
+	# 			has_idea = ITA_entente_leader
+	# 			is_in_faction_with = FRA
+	# 		}
+	# 	}
+	# 	always = yes
+	# }
 	else = {
 		always = yes
 	}
 }
 
 DIPLOMACY_REVOKE_INTERNATIONAL_MARKET_ACCESS_RIGHTS_ENABLE_TRIGGER = {
+	# if = { # should be adjusted for CR factions
+	# 	limit = {
+	# 		FROM = {
+	# 			OR = {
+	# 				has_idea = GEN_entente_member
+	# 				has_idea = FRA_entente_leader
+	# 				has_idea = ITA_entente_leader
+	# 				is_in_faction_with = FRA
+	# 			}
+	# 		}
+	# 		OR = {
+	# 			has_idea = GEN_entente_member
+	# 			has_idea = FRA_entente_leader
+	# 			has_idea = ITA_entente_leader
+	# 			is_in_faction_with = FRA
+	# 		}
+	# 	}
+	# 	custom_trigger_tooltip = {
+	# 		tooltip = FX_CANT_CANCEL_MARKET_ACCESS_ENTENTE
+	# 		always = no
+	# 	}
+	# }
 	if = {
 		limit = {
-			FROM = {
-				OR = {
-					has_idea = GEN_entente_member
-					has_idea = FRA_entente_leader
-					has_idea = ITA_entente_leader
-					is_in_faction_with = FRA
-				}
-			}
-			OR = {
-				has_idea = GEN_entente_member
-				has_idea = FRA_entente_leader
-				has_idea = ITA_entente_leader
-				is_in_faction_with = FRA
-			}
+			is_in_faction_with = USA # monroe pact
+			# TODO: add flag that is added when monroe pact falls so this isnt true for all factions
 		}
 		custom_trigger_tooltip = {
 			tooltip = FX_CANT_CANCEL_MARKET_ACCESS_ENTENTE

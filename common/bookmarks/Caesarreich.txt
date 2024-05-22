@@ -11,15 +11,17 @@ bookmarks = {
     }
     "USA" = {
       history = "USA_CAESSAREICH_DESC"
-      ideology = liberal
+      ideology = authoritarian_democrat
       ideas = {
-
+        USA_The_Bleeding_North
+        USA_Reaping_the_Whirlwind
+        USA_The_Iron_Heel
       }
       focuses = {
 
       }
     }
-    "SOV" = {
+    "RUS" = {
       history = "SOV_CAESSAREICH_DESC"
       ideology = utopian_socialist
       ideas = {
@@ -33,7 +35,7 @@ bookmarks = {
       history = "GER_CAESSAREICH_DESC"
       ideology = esoteric_nationalist
       ideas = {
- 
+
       }
       focuses = {
 
@@ -51,9 +53,11 @@ bookmarks = {
     }
     "ITA" = {
       history = "ITA_CAESSAREICH_DESC"
-      ideology = social_democrat
+      ideology = esoteric_nationalist
       ideas = {
-
+        ITA_order_of_national_reawakening
+        ITA_saint_peters_wrath
+        ITA_occult_imperium
       }
       focuses = {
 
@@ -71,9 +75,11 @@ bookmarks = {
     }
     "HUN" = {
       history = "HUN_CAESSAREICH_DESC"
-      ideology = social_conservative
+      ideology = utopian_socialist
       ideas = {
-
+        HUN_bastion_of_socialism
+        HUN_rural_unrest
+        HUN_red_militias
       }
       focuses = {
 

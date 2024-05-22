@@ -5103,7 +5103,7 @@ guiTypes = {
 			name = "subideology_name_diplo"
 			position = { x = 0 y = 2 }
 			font = "hoi_16mbs"
-			text = "[?country_leader.GetIdeologyGroup]"
+			text = "[GetDiploRulingPartySubtype]"
 			pdx_tooltip = "DiploIdeologySubtype"
 			maxWidth = 260
 			maxHeight = 20

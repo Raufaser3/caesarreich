@@ -15,6 +15,7 @@ GRE_EM_OR_LEADER: "Click to switch between §GAftokrátor§! and §CArchigós§!
 GRE_KING_OR_PM: "Click to switch between §GVasiléfs§! and §CProthypourgós§! view"
 GRE_EM_OR_PM: "Click to switch between §GAftokrátor§! and §CProthypourgós§! view"
 
+PM_OR_PRESIDENT: "Click to switch between §GPresident§! and §CPrime Minister§! view"
 PM_OR_LEADER: "Click to switch between §GKing§! and §CPrime Minister§! view"
 KZ_OR_LEADER: "Click to switch between §GKaiser§! and §CKanzler§! view"
 VZ_OR_LEADER: "Click to switch between §GTsar§! and §CVozhd§! view"
