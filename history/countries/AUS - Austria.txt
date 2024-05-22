@@ -132,8 +132,13 @@ recruit_character = AUS_Emil_Fey
 
 recruit_character = AUS_Peter_Revertera_Salandra
 recruit_character = AUS_Emmerich_Czermak
+recruit_character = AUS_Anton_Rintelen
 recruit_character = AUS_Florian_Fodermayr
+recruit_character = AUS_Wilhelm_Zehner
 recruit_character = AUS_Eduard_Heinl
+
+recruit_character = AUS_Peter_Mandorfer
+recruit_character = AUS_Theodor_Znidaric
 
 
 

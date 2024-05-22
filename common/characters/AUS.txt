@@ -889,6 +889,23 @@ characters = {
 			}
 		}
 	}
+	AUS_Anton_Rintelen = {
+		name = "Anton Rintelen"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Anton_Rintelen.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Anton_Rintelen_oth_sco
+			traits = {
+				social_conservative
+				culture_minister
+			}
+		}
+	}
 	AUS_Florian_Fodermayr = {
 		name = "Florian Födermayr"
 		portraits = {
@@ -903,6 +920,23 @@ characters = {
 			traits = {
 				social_conservative
 				agriculture_minister
+			}
+		}
+	}
+	AUS_Wilhelm_Zehner = {
+		name = "Wilhelm Zehner"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Zehner.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Wilhelm_Zehner_oth_sco
+			traits = {
+				social_conservative
+				defence_minister
 			}
 		}
 	}
@@ -924,7 +958,40 @@ characters = {
 		}
 	}
 ################################################################################################
-	
+	AUS_Peter_Mandorfer = {
+		name = "Peter Mandorfer"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Peter_Mandorfer.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Peter_Mandorfer_oth_sli
+			traits = {
+				liberal
+				agriculture_minister
+			}
+		}
+	}
+	AUS_Theodor_Znidaric = {
+		name = "Theodor Znidaric"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Theodor_Znidaric.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Theodor_Znidaric_oth_sli
+			traits = {
+				liberal
+				labor_minister
+			}
+		}
+	}
 ################################################################################################
 ################################################################################################
 ################################################################################################
