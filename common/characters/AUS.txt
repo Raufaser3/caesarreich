@@ -1048,6 +1048,25 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	AUS_Wilhelm_Gebauer = {
+		name = "Wilhelm Gebauer"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Gebauer.png"
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Gebauer.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
 	AUS_Ludwig_von_Eimannsberger = {
 		name = "Ludwig von Eimannsberger"
 		portraits = {

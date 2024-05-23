@@ -145,6 +145,7 @@ recruit_character = AUS_Theodor_Znidaric
 recruit_character = AUS_Theodor_Korner
 recruit_character = AUS_Ludwig_Hulgerth
 recruit_character = AUS_Karl_Eglseer
+recruit_character = AUS_Wilhelm_Gebauer
 recruit_character = AUS_Ludwig_von_Eimannsberger
 recruit_character = AUS_Erwin_von_Lahousen
 
