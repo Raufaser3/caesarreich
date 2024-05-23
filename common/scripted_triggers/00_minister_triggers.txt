@@ -1,5 +1,6 @@
 has_custom_ministers = {
 	OR = {
+		tag = AUS
 		tag = KMT
 		tag = AFG
 		tag = ARG

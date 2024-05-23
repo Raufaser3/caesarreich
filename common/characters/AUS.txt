@@ -855,6 +855,23 @@ characters = {
 ################################################################################################
 ################################################################################################
 # Other Ministers
+	AUS_Josef_Resch = {
+		name = "Josef Resch"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Josef_Resch.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister		
+			idea_token = AUS_Josef_Resch_oth_sco
+			traits = {
+				social_conservative
+				health_minister
+			}
+		}
+	}
 	AUS_Peter_Revertera_Salandra = {
 		name = "Peter Revertera-Salandra"
 		portraits = {
@@ -923,17 +940,17 @@ characters = {
 			}
 		}
 	}
-	AUS_Wilhelm_Zehner = {
-		name = "Wilhelm Zehner"
+	AUS_Carl_Vaugoin = {
+		name = "Carl Vaugoin"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Zehner.png"
+				small = "gfx/interface/ministers/AUS/AUS_Carl_Vaugoin.png"
 			}
 		}
 		advisor = {
 			cost = 150
 			slot = other_minister		
-			idea_token = AUS_Wilhelm_Zehner_oth_sco
+			idea_token = AUS_Carl_Vaugoin_oth_sco
 			traits = {
 				social_conservative
 				defence_minister
@@ -958,6 +975,57 @@ characters = {
 		}
 	}
 ################################################################################################
+	AUS_Josef_Dobretsberger = {
+		name = "Josef Dobretsberger"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Josef_Dobretsberger.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Josef_Dobretsberger_oth_sli
+			traits = {
+				liberal
+				health_minister
+			}
+		}
+	}
+	AUS_Ludwig_Adamovich = {
+		name = "Ludwig Adamovich"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Ludwig_Adamovich.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Ludwig_Adamovich_oth_sli
+			traits = {
+				liberal
+				education_minister
+			}
+		}
+	}
+	AUS_Robert_Kerber = {
+		name = "Robert Kerber"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Robert_Kerber.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Robert_Kerber_oth_sli
+			traits = {
+				liberal
+				culture_minister
+			}
+		}
+	}
 	AUS_Peter_Mandorfer = {
 		name = "Peter Mandorfer"
 		portraits = {
@@ -972,6 +1040,23 @@ characters = {
 			traits = {
 				liberal
 				agriculture_minister
+			}
+		}
+	}
+	AUS_Wilhelm_Taucher = {
+		name = "Wilhelm Taucher"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Taucher.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Wilhelm_Taucher_oth_sli
+			traits = {
+				liberal
+				defence_minister
 			}
 		}
 	}
@@ -992,60 +1077,126 @@ characters = {
 			}
 		}
 	}
-################################################################################################
-################################################################################################
-################################################################################################
-################################################################################################
-################################################################################################
-	AUS_Theodor_Korner = {
-		name = "Theodor Körner"
+	AUS_Sepp_Straffner = {
+		name = "Sepp Straffner"
 		portraits = {
-			army = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Theodor_Korner.png"
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Sepp_Straffner.png"
 			}
 		}
-		corps_commander = {
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Sepp_Straffner_oth_sli
 			traits = {
+				liberal
+				transport_minister
 			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 1
-			logistics_skill = 2
 		}
 	}
-	AUS_Ludwig_Hulgerth = {
-		name = "Ludwig Hülgerth"
+	AUS_Ludwig_Stepski_Doliwa = {
+		name = "Ludwig Stepski-Doliwa"
 		portraits = {
-			army = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Ludwig_Hulgerth.png"
+			civilian = {
+				small = "gfx/interface/ministers/AUS/AUS_Ludwig_Stepski_Doliwa.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = other_minister	
+			idea_token = AUS_Ludwig_Stepski_Doliwa_oth_sli
+			traits = {
+				liberal
+				territory_minister
+			}
+		}
+	}
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+	AUS_Alfred_Jansa = {
+		name = "Alfred Jansa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Alfred_Jansa.png"
+				small = "gfx/interface/ministers/AUS/AUS_Alfred_Jansa.png"
 			}
 		}
 		corps_commander = {
 			traits = {
+				media_personality
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = AUS_Alfred_Jansa_carm
+			traits = {
+				carm_elastic_defence_doctrine
+			}
+		}
+	}
+	AUS_Wilhelm_Zehner = {
+		name = "Wilhelm Zehner"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Zehner.png"
+				small = "gfx/interface/ministers/AUS/AUS_Wilhelm_Zehner.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				media_personality
 			}
 			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = AUS_Wilhelm_Zehner_carm
+			traits = {
+				carm_static_defence_doctrine
+			}
 		}
 	}
-	AUS_Karl_Eglseer = {
-		name = "Karl Eglseer"
+	AUS_Ludwig_von_Eimannsberger = {
+		name = "Ludwig von Eimannsberger"
 		portraits = {
 			army = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Eglseer.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Ludwig_von_Eimannsberger.png"
+				small = "gfx/interface/ministers/AUS/AUS_Ludwig_von_Eimannsberger.png"
 			}
 		}
 		corps_commander = {
 			traits = {
+				panzer_leader
+				panzer_expert
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 4
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = AUS_Ludwig_von_Eimannsberger_carm
+			traits = {
+				carm_armoured_spearhead_doctrine
+			}
 		}
 	}
 	AUS_Wilhelm_Gebauer = {
@@ -1066,36 +1217,172 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 5
 		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = AUS_Wilhelm_Gebauer_carm
+			traits = {
+				carm_guns_and_butter_doctrine
+			}
+		}
 	}
-	AUS_Ludwig_von_Eimannsberger = {
-		name = "Ludwig von Eimannsberger"
+	AUS_Franz_Rudolf = {
+		name = "Franz Rudolf"
 		portraits = {
 			army = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Ludwig_von_Eimannsberger.png"
+				small = "gfx/interface/ministers/AUS/AUS_Franz_Rudolf.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = AUS_Franz_Rudolf_cair
+			traits = {
+				cair_battlefield_support_doctrine
+			}
+		}
+	}
+	AUS_Sigismund_Schilhawsky = {
+		name = "Sigismund Schilhawsky"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Sigismund_Schilhawsky.png"
+				small = "gfx/interface/ministers/AUS/AUS_Sigismund_Schilhawsky.png"
 			}
 		}
 		corps_commander = {
 			traits = {
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = AUS_Sigismund_Schilhawsky_cos
+			traits = {
+				cos_school_of_grand_battleplan
+			}
+		}
+	}
+	AUS_Rudolf_Towarek = {
+		name = "Rudolf Towarek"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Rudolf_Towarek.png"
+				small = "gfx/interface/ministers/AUS/AUS_Rudolf_Towarek.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = AUS_Rudolf_Towarek_cos
+			traits = {
+				cos_school_of_psychology
+			}
+		}
+	}
+	AUS_Eduard_Barger = {
+		name = "Eduard Barger"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Eduard_Barger.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_mountaineer
+				hill_fighter
 			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	AUS_Karl_Eglseer = {
+		name = "Karl Eglseer"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Karl_Eglseer.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	AUS_Theodor_Brantner = {
+		name = "Theodor Brantner"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Theodor_Brantner.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
 		}
 	}
-	AUS_Erwin_von_Lahousen = {
-		name = "Erwin von Lahousen"
+	AUS_Camillo_Bregant = {
+		name = "Camillo Bregant"
 		portraits = {
 			army = {
-				large = "gfx/leaders/AUS/Portrait_AUS_Erwin_von_Lahousen.png"
+				large = "gfx/leaders/AUS/Portrait_AUS_Camillo_Bregant.png"
 			}
 		}
 		corps_commander = {
-			traits = { }
+			traits = {
+				cavalry_leader
+			}
 			skill = 2
 			attack_skill = 3
-			defense_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	AUS_Ludwig_Hulgerth = {
+		name = "Ludwig Hülgerth"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AUS/Portrait_AUS_Ludwig_Hulgerth.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 2
 		}

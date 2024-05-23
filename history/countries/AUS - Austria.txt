@@ -130,24 +130,39 @@ recruit_character = AUS_Emil_Fey
 
 
 
+
+
+recruit_character = AUS_Josef_Resch
 recruit_character = AUS_Peter_Revertera_Salandra
 recruit_character = AUS_Emmerich_Czermak
 recruit_character = AUS_Anton_Rintelen
 recruit_character = AUS_Florian_Fodermayr
-recruit_character = AUS_Wilhelm_Zehner
+recruit_character = AUS_Carl_Vaugoin
 recruit_character = AUS_Eduard_Heinl
 
+recruit_character = AUS_Josef_Dobretsberger
+recruit_character = AUS_Ludwig_Adamovich
+recruit_character = AUS_Robert_Kerber
 recruit_character = AUS_Peter_Mandorfer
+recruit_character = AUS_Wilhelm_Taucher
 recruit_character = AUS_Theodor_Znidaric
+recruit_character = AUS_Sepp_Straffner
+recruit_character = AUS_Ludwig_Stepski_Doliwa
 
 
 
-recruit_character = AUS_Theodor_Korner
-recruit_character = AUS_Ludwig_Hulgerth
-recruit_character = AUS_Karl_Eglseer
-recruit_character = AUS_Wilhelm_Gebauer
+recruit_character = AUS_Alfred_Jansa
+recruit_character = AUS_Wilhelm_Zehner
 recruit_character = AUS_Ludwig_von_Eimannsberger
-recruit_character = AUS_Erwin_von_Lahousen
+recruit_character = AUS_Wilhelm_Gebauer
+recruit_character = AUS_Franz_Rudolf
+recruit_character = AUS_Sigismund_Schilhawsky
+recruit_character = AUS_Rudolf_Towarek
+recruit_character = AUS_Eduard_Barger
+recruit_character = AUS_Karl_Eglseer
+recruit_character = AUS_Theodor_Brantner
+recruit_character = AUS_Camillo_Bregant
+recruit_character = AUS_Ludwig_Hulgerth
 
 
 
