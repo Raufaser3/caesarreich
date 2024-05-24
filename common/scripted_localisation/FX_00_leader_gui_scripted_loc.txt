@@ -626,6 +626,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = AUS_Ludwig_Strobl_hog_sli
+		}
+		localization_key = AUS_Ludwig_Strobl
+	}
+	text = {
+		trigger = {
 			has_idea = AUS_Karl_Hartleb_hog_mli
 		}
 		localization_key = AUS_Karl_Hartleb
@@ -1073,6 +1079,12 @@ defined_text = {
 			has_idea = AUS_Fritz_Stockinger_hog_sli
 		}
 		localization_key = GFX_Portrait_AUS_Fritz_Stockinger
+	}
+	text = {
+		trigger = {
+			has_idea = AUS_Ludwig_Strobl_hog_sli
+		}
+		localization_key = GFX_Portrait_AUS_Ludwig_Strobl
 	}
 	text = {
 		trigger = {

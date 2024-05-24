@@ -21,6 +21,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AUS/Portrait_AUS_Fritz_Stockinger.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_AUS_Ludwig_Strobl"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ludwig_Strobl.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_AUS_Karl_Hartleb"
 		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Hartleb.png"
 	}

@@ -94,6 +94,7 @@ recruit_character = AUS_Otto_Bauer
 recruit_character = AUS_Karl_Renner
 recruit_character = AUS_Friedrich_Hayek
 recruit_character = AUS_Fritz_Stockinger
+recruit_character = AUS_Ludwig_Strobl
 recruit_character = AUS_Karl_Hartleb
 recruit_character = AUS_Franz_Dinghofer
 recruit_character = AUS_Wilhelm_Miklas

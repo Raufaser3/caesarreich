@@ -38,6 +38,12 @@ scripted_gui = {
 					has_idea = AUS_Fritz_Stockinger_hog_sli
 				}
 			}
+			Ludwig_Strobl_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = AUS_Ludwig_Strobl_hog_sli
+				}
+			}
 			Karl_Hartleb_visible = {
 				AND = {
 					has_country_flag = HOG_veiw

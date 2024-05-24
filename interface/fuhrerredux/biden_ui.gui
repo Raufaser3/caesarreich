@@ -28,6 +28,11 @@ guiTypes = {
 			spriteType = GFX_Portrait_AUS_Fritz_Stockinger
 		}
 		iconType = {
+			name = "Ludwig_Strobl"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_AUS_Ludwig_Strobl
+		}
+		iconType = {
 			name = "Karl_Hartleb"
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_AUS_Karl_Hartleb
