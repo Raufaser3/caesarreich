@@ -1,0 +1,110 @@
+
+vanguardist_allowed = {
+	OR = {
+		has_government = vanguardist
+		has_government = utopian_socialist
+		has_government = revolutionary_socialist
+	}
+}
+
+utopian_socialist_allowed = {
+	OR = {
+		has_government = vanguardist
+		has_government = utopian_socialist
+		has_government = revolutionary_socialist
+		has_government = social_democrat
+	}
+}
+
+revolutionary_socialist_allowed = {
+	OR = {
+		has_government = vanguardist
+		has_government = utopian_socialist
+		has_government = revolutionary_socialist
+		has_government = social_democrat
+		has_government = liberal
+	}
+}
+
+social_democrat_allowed = {
+	OR = {
+		has_government = utopian_socialist
+		has_government = revolutionary_socialist
+		has_government = social_democrat
+		has_government = liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+	}
+}
+
+liberal_allowed = {
+	OR = {
+		has_government = revolutionary_socialist
+		has_government = social_democrat
+		has_government = liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+	}
+}
+
+liberal_allowed = {
+	OR = {
+		has_government = social_democrat
+		has_government = liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+	}
+}
+
+social_conservative_allowed = {
+	OR = {
+		has_government = social_democrat
+		has_government = liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = ultranationalist
+		has_government = esoteric_nationalist
+	}
+}
+
+authoritarian_democrat_allowed = {
+	OR = {
+		has_government = liberal
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = ultranationalist
+		has_government = esoteric_nationalist
+	}
+}
+
+paternal_autocrat_allowed = {
+	OR = {
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = ultranationalist
+		has_government = esoteric_nationalist
+	}
+}
+
+ultranationalist_allowed = {
+	OR = {
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = ultranationalist
+		has_government = esoteric_nationalist
+	}
+}
+
+esoteric_nationalist_allowed = {
+	OR = {
+		has_government = authoritarian_democrat
+		has_government = paternal_autocrat
+		has_government = ultranationalist
+		has_government = esoteric_nationalist
+	}
+}
