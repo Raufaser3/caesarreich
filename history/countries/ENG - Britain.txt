@@ -125,8 +125,10 @@ set_technology = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	constitutional_monarchy
+	ENG_the_american_yoke
+	ENG_a_very_british_tyranny
+	ENG_the_third_empire
+	ENG_the_grand_reform
 }
 
 set_convoys = 800
