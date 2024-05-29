@@ -201,7 +201,7 @@ create_import = {
 add_to_tech_sharing_group = commonwealth_research
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = ultranationalist
 	last_election = "1935.8.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -214,10 +214,10 @@ set_popularities = {
   social_democrat = 30
   liberal = 3
   liberal = 10
-  social_conservative = 40
+  social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 2
-  ultranationalist = 0
+  ultranationalist = 40
   esoteric_nationalist = 0
 }
 
