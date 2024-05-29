@@ -10,6 +10,10 @@ state={
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 5
+			3763 = {
+				naval_base = 8
+
+			}
 
 		}
 		add_core_of = CAN
