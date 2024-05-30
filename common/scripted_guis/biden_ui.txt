@@ -236,6 +236,16 @@ scripted_gui = {
 					has_idea = ITA_Italo_Balbo_hog_npo
 				}
 			}
+			
+			#############################################
+			# Netherlands
+            
+			Piet_Aalberse_Sr_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+				}
+			}
 
 			pm_name_visible = {
 				has_country_flag = HOG_veiw

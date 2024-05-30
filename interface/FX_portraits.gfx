@@ -164,4 +164,13 @@ spriteTypes = {
 		name = "GFX_Portrait_GRE_Ioannis_Michail_Metaxas"
 		textureFile = "gfx/leaders/GRE/Portrait_GRE_Ioannis_Michail_Metaxas.png"
 	}
+
+	#############################################
+	# Netherlands
+
+	spriteType = {
+		name = "GFX_Portrait_HOL_Piet_Aalberse_Sr"
+		texturefile = "gfx/leaders/HOL/Portrait_HOL_Piet_Aalberse_Sr.png"
+	}
+
 }
