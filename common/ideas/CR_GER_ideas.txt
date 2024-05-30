@@ -1,0 +1,35 @@
+# GER
+
+ideas = {
+	country = {
+		GER_corporals_cabal = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_corporals_cabal" }
+			modifier = {
+
+			}
+		}
+		GER_prussian_bulwark = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_prussian_bulwark" }
+			modifier = {
+
+				}
+			}
+		}
+		GER_long_arm_rome = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_long_arm_rome" }
+			modifier = {
+
+			}
+		}
+		GER_spd_republic = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_spd_republic" }
+			modifier = {
+
+			}
+		}
+	}
+}

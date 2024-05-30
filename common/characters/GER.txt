@@ -1,4 +1,16 @@
 characters = {
+	GER_Wilhelm_Marx = {
+		name = "Wilhelm Marx"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Portrait_GER_Wilhelm_Marx.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
 	GER_Wilhelm_Pieck = {
 		name = "Wilhelm Pieck"
 		portraits = {
@@ -1516,33 +1528,6 @@ characters = {
 			traits = {
 				liberal
 				hog_corporate_suit
-			}
-		}
-	}
-	GER_Wilhelm_Marx = {
-		name = "Wilhelm Marx"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/GER/GER_Wilhelm_Marx.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			idea_token = GER_Wilhelm_Marx_hog_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			traits = {
-				social_conservative
-				hog_silent_workhorse
 			}
 		}
 	}
