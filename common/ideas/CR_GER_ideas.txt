@@ -14,7 +14,7 @@ ideas = {
 			on_add = { log = "[GetLogIdeaInfo] GER_prussian_bulwark" }
 			modifier = {
 
-				}
+				
 			}
 		}
 		GER_long_arm_rome = {
@@ -32,4 +32,3 @@ ideas = {
 			}
 		}
 	}
-}

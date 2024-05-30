@@ -116,6 +116,7 @@ if = {
 }
 
 add_ideas = {
+	semi_presidential_republic
 	GER_corporals_cabal
 	GER_prussian_bulwark
 	GER_long_arm_rome
