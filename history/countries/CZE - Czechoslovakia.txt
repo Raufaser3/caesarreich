@@ -56,14 +56,17 @@ if = {
 }
 
 add_ideas = {
-	military_junta
+	CZE_reactionary_afterthought
+	CZE_banned_opposition_parties
+	CZE_the_last_bohemian
+	CZE_religious_revival_movement
 }	
 set_research_slots = 3
 set_stability = 0.50
 set_war_support = 0.50
 
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1934.6.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -76,9 +79,9 @@ set_popularities = {
     social_democrat = 13
     liberal = 11
     liberal = 8
-    social_conservative = 9
+    social_conservative = 39
     authoritarian_democrat = 9
-    paternal_autocrat = 39
+    paternal_autocrat = 9
     ultranationalist = 2
     esoteric_nationalist = 0
 }
