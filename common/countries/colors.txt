@@ -190,6 +190,10 @@ GRE = {
 	color = rgb { 93 181 227 } #old colors are 93 181 227 ( 66 133 185)
 	color_ui = rgb { 121 235 255 }
 }
+CRE = {
+	color = rgb { 63 133 185 } #old colors are 93 181 227 ( 66 133 185)
+	color_ui = rgb { 121 235 255 }
+}
 ALB = {
 	color = rgb { 154 50 107 }
 	color_ui = rgb { 194 59 133 }

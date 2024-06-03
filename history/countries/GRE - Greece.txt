@@ -12,14 +12,14 @@ if = {
 
 
 set_research_slots = 3
-set_stability = 0.9
+set_stability = 0.7
 set_war_support = 0.25
 set_convoys = 150
 give_guarantee = BUL
 
 add_ideas = {
 	limited_conscription
-	parliamentary_republic
+	constitutional_monarchy
 }
 
 set_technology = {
@@ -38,24 +38,23 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = liberal
-	last_election = "1933.3.5"
+	ruling_party = paternal_autocrat
+	last_election = "1935.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	vanguardist = 0 #KAKE
-	utopian_socialist = 9 #Communist Party of Greece
-	revolutionary_socialist = 10 #Communist Party of Greece
-	social_democrat = 1  #Progressives
-	liberal = 20 #liberal party
-	liberal = 15 # GLRE
-	social_conservative = 20 #People's Party
-	authoritarian_democrat = 0 #MEK
-	paternal_autocrat = 11 #FREETHINKERS
-	ultranationalist = 7 #EEE
-	esoteric_nationalist = 7 #GOLDEN DAWN
+	vanguardist = 0 #KAKE - banned
+	utopian_socialist = 0 #Communist Party of Greece - banned
+	revolutionary_socialist = 0 #Communist Party of Greece - banned
+	social_democrat = 0  #Progressives - banned
+	liberal = 0 #liberal party - banned
+	social_conservative = 10 #People's Party
+	authoritarian_democrat = 8 #MEK
+	paternal_autocrat = 66 #FREETHINKERS
+	ultranationalist = 11 #EEE TBD
+	esoteric_nationalist = 5 #GOLDEN DAWN TBD
 }
 
 if = {
@@ -74,29 +73,18 @@ if = {
 GRE_add_technologies = yes
 GRE_add_variants = yes
 
-set_rule = { can_join_factions = no }
-
-TUR = { embargo_ROOT = yes }
-
-recruit_character = GRE_Alexandros_Zaimis # Starting HOS - Dies later
-recruit_character = GRE_Georgios_Athanasiadis_Novas #HOS - Moderate Democrat
+recruit_character = GRE_Konstantinos_I
 recruit_character = GRE_Ioannis_Rallis #HOS - Paternal Conservative
-recruit_character = GRE_Dimitris_Glinos #HOS - Socialist
-recruit_character = GRE_Nikos_Zachariadis #HOS - LibSocs, Colls
-recruit_character = GRE_Dimitris_Giotopoulos #HOS - Vangs
 recruit_character = GRE_Ioannis_Michail_Metaxas #HOS - PatAut
 recruit_character = GRE_Georgios_Kosmidis #HOS - NatPops
 recruit_character = GRE_Georgios_Spyridon_Merkouris #HOS - esoteric_nationalists
-recruit_character = GRE_Eleftherios_Kyriakou_Venizelos # Starting HOG
+# recruit_character = GRE_Eleftherios_Kyriakou_Venizelos # Starting HOG
 
-recruit_character = GRE_Alexandros_Papanastasiou
+# TODO: Characters
 recruit_character = GRE_Konstantinos_Tsaldaris
 recruit_character = GRE_Panagiotis_Kanellopoulos
-recruit_character = GRE_Georgios_Papandreou 
 recruit_character = GRE_Benjamin_I
 recruit_character = GRE_Georgios_II
-recruit_character = GRE_Themistoklis_Sofoulis
-recruit_character = GRE_Sofoklis_Venizelos
 recruit_character = GRE_Georgios_Kondylis
 recruit_character = GRE_Ioannis_Theotokis
 recruit_character = GRE_Georgios_Kafantaris
@@ -118,7 +106,6 @@ recruit_character = GRE_Kostas_Speras
 recruit_character = GRE_Xenofon_Giosmas
 # recruit_character = GRE_Sitsa_Karaiskaki_Nikolaou
 recruit_character = GRE_Stelios_Sklavainas
-recruit_character = GRE_Andreas_Michalakopoulos
 recruit_character = GRE_Dimitrios_Maximos
 recruit_character = GRE_Konstantinos_Logothetopoulos
 recruit_character = GRE_Anastasios_Tavoularis
@@ -126,7 +113,6 @@ recruit_character = GRE_Dimitrios_Delivanis
 recruit_character = GRE_Andreas_Tzimas
 recruit_character = GRE_Petros_Rousos
 recruit_character = GRE_Serafeim_Maximos
-recruit_character = GRE_Alexandros_Diomidis
 recruit_character = GRE_Kyriakos_Varvaresos
 recruit_character = GRE_Georgios_Kartalis
 recruit_character = GRE_Georgios_Pesmazoglou
@@ -138,7 +124,6 @@ recruit_character = GRE_Georgios_Simitis
 recruit_character = GRE_Kostas_Theos
 recruit_character = GRE_Vasilis_Bartziotas
 recruit_character = GRE_Olga_Bakola
-recruit_character = GRE_Georgios_Maris
 recruit_character = GRE_Ioannis_Tsirimokos
 recruit_character = GRE_Dimitrios_Stefanopoulos
 recruit_character = GRE_Aristeidis_Basiakos
@@ -196,11 +181,7 @@ recruit_character = GRE_Lucas_Karreris
 recruit_character = GRE_Dimitrios_Partsalidis
 recruit_character = GRE_Monarchist_Comitee
 
-# Starting Advisors
-activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
-activate_advisor = GRE_Georgios_Maris_sec_sli
-activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
-activate_advisor = GRE_Alexandros_Diomidis_eco_sli
+activate_advisor = GRE_Ioannis_Michail_Metaxas_hog_pau
 
 add_to_array = { GRE.hog_characters = token:GRE_Eleftherios_Kyriakou_Venizelos }
 add_to_array = { GRE.hog_characters = token:GRE_Themistoklis_Sofoulis }

@@ -71,6 +71,7 @@ ALB = "countries/EastEuropean.txt" # Albania
 BUL = "countries/EastEuropean.txt" # Bulgaria
 MNT = "countries/EastEuropean.txt" # Montenegro
 GRE = "countries/EastEuropean.txt" # Greece
+CRE = "countries/EastEuropean.txt" # Crete
 BLR = "countries/EastEuropean.txt" # Belarus
 TRA = "countries/EastEuropean.txt" # Transylvania
 CEN = "countries/EastEuropean.txt" # Centroslavia

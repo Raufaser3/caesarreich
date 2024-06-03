@@ -1,0 +1,12 @@
+# GRE CRE
+
+ideas = {
+	country = {
+		GRE_metaxas_dictatorship = {
+			on_add = { log = "[GetLogIdeaInfo] GRE_metaxas_dictatorship" }
+			modifier = {
+				
+			}
+		}
+	}
+}	

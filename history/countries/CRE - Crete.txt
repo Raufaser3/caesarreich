@@ -1,0 +1,83 @@
+capital = 182
+
+#TODO: OOBs
+oob = "GRE"
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GRE_1936_naval_mtg"
+	else = {
+		set_naval_oob = "GRE_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.5
+set_convoys = 50
+
+add_ideas = {
+	limited_conscription
+	parliamentary_republic
+}
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	trench_warfare = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+}
+
+set_politics = {	
+	ruling_party = liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	vanguardist = 5 #KAKE
+	utopian_socialist = 5 #Communist Party of Greece
+	revolutionary_socialist = 10 # SEKE
+	social_democrat = 26  #Progressives
+	liberal = 44 #liberal party
+	social_conservative = 10 #People's Party
+	authoritarian_democrat = 8 #
+	paternal_autocrat = 0 #
+	ultranationalist = 0 #
+	esoteric_nationalist = 0 #
+}
+
+GRE_add_technologies = yes
+GRE_add_variants = yes
+
+recruit_character = GRE_Alexandros_Zaimis # Starting HOS - Dies later
+recruit_character = GRE_Georgios_Athanasiadis_Novas #HOS - Moderate Democrat
+recruit_character = GRE_Dimitris_Glinos #HOS - Socialist
+
+
+recruit_character = GRE_Eleftherios_Kyriakou_Venizelos
+recruit_character = GRE_Alexandros_Papanastasiou
+recruit_character = GRE_Nikos_Zachariadis #HOS - LibSocs, Colls
+recruit_character = GRE_Dimitris_Giotopoulos #HOS - Vangs
+recruit_character = GRE_Georgios_Papandreou
+recruit_character = GRE_Themistoklis_Sofoulis
+recruit_character = GRE_Sofoklis_Venizelos
+
+recruit_character = GRE_Georgios_Maris
+recruit_character = GRE_Andreas_Michalakopoulos
+recruit_character = GRE_Alexandros_Diomidis
+
+# Starting Advisors
+activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
+activate_advisor = GRE_Georgios_Maris_sec_sli
+activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
+activate_advisor = GRE_Alexandros_Diomidis_eco_sli
