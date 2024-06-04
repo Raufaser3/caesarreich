@@ -223,7 +223,7 @@ set_popularities = {
   esoteric_nationalist = 17
 }
 
-create_faction = imperial_protection_alliance
+create_faction = westminster_pact
 add_to_faction = RAJ 
 add_to_faction = ENG
 add_to_faction = AST
