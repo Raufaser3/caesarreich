@@ -415,10 +415,6 @@ characters = {
 				small = "gfx/interface/ministers/ITA/ITA_Italo_Balbo.png"
 			}
 		}
-		country_leader = {
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
 		advisor = {
 			cost = 150
 			slot = head_of_government

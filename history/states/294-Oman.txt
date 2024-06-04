@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = OMA
     add_claim_by = ENG
 		buildings = {
 			infrastructure = 2

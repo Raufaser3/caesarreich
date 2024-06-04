@@ -14,10 +14,9 @@ set_stability = 0.60
 set_war_support = 0.20
 
 
-set_cosmetic_tag = LBA_ITA
 add_ideas = {
 	limited_conscription
-	colonial_government
+	constitutional_monarchy
 }		
 
 

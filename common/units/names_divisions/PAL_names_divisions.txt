@@ -1,0 +1,499 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+PAL_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { PAL }
+
+	can_use = {	always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_GAR_01 }
+
+	fallback_name = "%dth Palestinian Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Infantry Division" }
+		2 = { "%dnd Palestinian Infantry Division" }
+		3 = { "%drd Palestinian Infantry Division" }
+		4 = { "%dth Palestinian Infantry Division" }
+		5 = { "%dth Palestinian Infantry Division" }
+		6 = { "%dth Palestinian Infantry Division" }
+		7 = { "%dth Palestinian Infantry Division" }
+		8 = { "%dth Palestinian Infantry Division" }
+		9 = { "%dth Palestinian Infantry Division" }
+		10 = { "%dth Palestinian Infantry Division" }
+		11 = { "%dth Palestinian Infantry Division" }
+		12 = { "%dth Palestinian Infantry Division" }
+		13 = { "%dth Palestinian Infantry Division" }
+		14 = { "%dth Palestinian Infantry Division" }
+		15 = { "%dth Palestinian Infantry Division" }
+		16 = { "%dth Palestinian Infantry Division" }
+		17 = { "%dth Palestinian Infantry Division" }
+		18 = { "%dth Palestinian Infantry Division" }
+		19 = { "%dth Palestinian Infantry Division" }
+		20 = { "%dth Palestinian Infantry Division" }
+		21 = { "%dst Palestinian Infantry Division" }
+		22 = { "%dnd Palestinian Infantry Division" }
+		23 = { "%drd Palestinian Infantry Division" }
+		24 = { "%dth Palestinian Infantry Division" }
+		25 = { "%dth Palestinian Infantry Division" }
+		26 = { "%dth Palestinian Infantry Division" }
+		27 = { "%dth Palestinian Infantry Division" }
+		28 = { "%dth Palestinian Infantry Division" }
+		29 = { "%dth Palestinian Infantry Division" }
+		30 = { "%dth Palestinian Infantry Division" }
+		31 = { "%dst Palestinian Infantry Division" }
+		32 = { "%dnd Palestinian Infantry Division" }
+		33 = { "%drd Palestinian Infantry Division" }
+		34 = { "%dth Palestinian Infantry Division" }
+		35 = { "%dth Palestinian Infantry Division" }
+		36 = { "%dth Palestinian Infantry Division" }
+		37 = { "%dth Palestinian Infantry Division" }
+		38 = { "%dth Palestinian Infantry Division" }
+		39 = { "%dth Palestinian Infantry Division" }
+		40 = { "%dth Palestinian Infantry Division" }
+		41 = { "%dst Palestinian Infantry Division" }
+		42 = { "%dnd Palestinian Infantry Division" }
+		43 = { "%drd Palestinian Infantry Division" }
+		44 = { "%dth Palestinian Infantry Division" }
+		45 = { "%dth Palestinian Infantry Division" }
+		46 = { "%dth Palestinian Infantry Division" }
+		47 = { "%dth Palestinian Infantry Division" }
+		48 = { "%dth Palestinian Infantry Division" }
+		49 = { "%dth Palestinian Infantry Division" }
+		50 = { "%dth Palestinian Infantry Division" }
+		51 = { "%dst Palestinian Infantry Division" }
+		52 = { "%dnd Palestinian Infantry Division" }
+		53 = { "%drd Palestinian Infantry Division" }
+
+	}
+}
+
+PAL_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Cavalry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Cavalry Division" }
+		2 = { "%dnd Palestinian Cavalry Division" }
+		3 = { "%drd Palestinian Cavalry Division" }
+		4 = { "%dth Palestinian Cavalry Division" }
+		5 = { "%dth Palestinian Cavalry Division" }
+		6 = { "%dth Palestinian Cavalry Division" }
+		7 = { "%dth Palestinian Cavalry Division" }
+		8 = { "%dth Palestinian Cavalry Division" }
+		9 = { "%dth Palestinian Cavalry Division" }
+		10 = { "%dth Palestinian Cavalry Division" }
+		11 = { "%dth Palestinian Cavalry Division" }
+		12 = { "%dth Palestinian Cavalry Division" }
+		13 = { "%dth Palestinian Cavalry Division" }
+		14 = { "%dth Palestinian Cavalry Division" }
+		15 = { "%dth Palestinian Cavalry Division" }
+		16 = { "%dth Palestinian Cavalry Division" }
+		17 = { "%dth Palestinian Cavalry Division" }
+		18 = { "%dth Palestinian Cavalry Division" }
+		19 = { "%dth Palestinian Cavalry Division" }
+		20 = { "%dth Palestinian Cavalry Division" }
+		21 = { "%dst Palestinian Cavalry Division" }
+		22 = { "%dnd Palestinian Cavalry Division" }
+		23 = { "%drd Palestinian Cavalry Division" }
+		24 = { "%dth Palestinian Cavalry Division" }
+		25 = { "%dth Palestinian Cavalry Division" }
+		26 = { "%dth Palestinian Cavalry Division" }
+		27 = { "%dth Palestinian Cavalry Division" }
+		28 = { "%dth Palestinian Cavalry Division" }
+		29 = { "%dth Palestinian Cavalry Division" }
+		30 = { "%dth Palestinian Cavalry Division" }
+		31 = { "%dst Palestinian Cavalry Division" }
+		32 = { "%dnd Palestinian Cavalry Division" }
+		33 = { "%drd Palestinian Cavalry Division" }
+		34 = { "%dth Palestinian Cavalry Division" }
+		35 = { "%dth Palestinian Cavalry Division" }
+		36 = { "%dth Palestinian Cavalry Division" }
+		37 = { "%dth Palestinian Cavalry Division" }
+		38 = { "%dth Palestinian Cavalry Division" }
+		39 = { "%dth Palestinian Cavalry Division" }
+		40 = { "%dth Palestinian Cavalry Division" }
+		41 = { "%dst Palestinian Cavalry Division" }
+		42 = { "%dnd Palestinian Cavalry Division" }
+		43 = { "%drd Palestinian Cavalry Division" }
+		44 = { "%dth Palestinian Cavalry Division" }
+		45 = { "%dth Palestinian Cavalry Division" }
+		46 = { "%dth Palestinian Cavalry Division" }
+		47 = { "%dth Palestinian Cavalry Division" }
+		48 = { "%dth Palestinian Cavalry Division" }
+		49 = { "%dth Palestinian Cavalry Division" }
+		50 = { "%dth Palestinian Cavalry Division" }
+		51 = { "%dst Palestinian Cavalry Division" }
+		52 = { "%dnd Palestinian Cavalry Division" }
+		53 = { "%drd Palestinian Cavalry Division" }
+
+	}
+}
+
+PAL_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Infantry Division" }
+		2 = { "%dnd Palestinian Infantry Division" }
+		3 = { "%drd Palestinian Infantry Division" }
+		4 = { "%dth Palestinian Infantry Division" }
+		5 = { "%dth Palestinian Infantry Division" }
+		6 = { "%dth Palestinian Infantry Division" }
+		7 = { "%dth Palestinian Infantry Division" }
+		8 = { "%dth Palestinian Infantry Division" }
+		9 = { "%dth Palestinian Infantry Division" }
+		10 = { "%dth Palestinian Infantry Division" }
+		11 = { "%dth Palestinian Infantry Division" }
+		12 = { "%dth Palestinian Infantry Division" }
+		13 = { "%dth Palestinian Infantry Division" }
+		14 = { "%dth Palestinian Infantry Division" }
+		15 = { "%dth Palestinian Infantry Division" }
+		16 = { "%dth Palestinian Infantry Division" }
+		17 = { "%dth Palestinian Infantry Division" }
+		18 = { "%dth Palestinian Infantry Division" }
+		19 = { "%dth Palestinian Infantry Division" }
+		20 = { "%dth Palestinian Infantry Division" }
+		21 = { "%dst Palestinian Infantry Division" }
+		22 = { "%dnd Palestinian Infantry Division" }
+		23 = { "%drd Palestinian Infantry Division" }
+
+	}
+}
+
+PAL_ARM_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Armored Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Armored Division" }
+		2 = { "%dnd Palestinian Armored Division" }
+		3 = { "%drd Palestinian Armored Division" }
+		4 = { "%dth Palestinian Armored Division" }
+		5 = { "%dth Palestinian Armored Division" }
+		6 = { "%dth Palestinian Armored Division" }
+		7 = { "%dth Palestinian Armored Division" }
+		8 = { "%dth Palestinian Armored Division" }
+		9 = { "%dth Palestinian Armored Division" }
+		10 = { "%dth Palestinian Armored Division" }
+		11 = { "%dth Palestinian Armored Division" }
+		12 = { "%dth Palestinian Armored Division" }
+		13 = { "%dth Palestinian Armored Division" }
+		14 = { "%dth Palestinian Armored Division" }
+		15 = { "%dth Palestinian Armored Division" }
+		16 = { "%dth Palestinian Armored Division" }
+		17 = { "%dth Palestinian Armored Division" }
+		18 = { "%dth Palestinian Armored Division" }
+		19 = { "%dth Palestinian Armored Division" }
+		20 = { "%dth Palestinian Armored Division" }
+		21 = { "%dst Palestinian Armored Division" }
+		22 = { "%dnd Palestinian Armored Division" }
+		23 = { "%drd Palestinian Armored Division" }
+		36 = { "%dth Ga'ash Armored Division" }
+		162 = { "%dnd Ha-Plada Armored Division" }
+
+	}
+}
+
+PAL_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Infantry Division" }
+		2 = { "%dnd Palestinian Infantry Division" }
+		3 = { "%drd Palestinian Infantry Division" }
+		4 = { "%dth Palestinian Infantry Division" }
+		5 = { "%dth Palestinian Infantry Division" }
+		6 = { "%dth Palestinian Infantry Division" }
+		7 = { "%dth Palestinian Infantry Division" }
+		8 = { "%dth Palestinian Infantry Division" }
+		9 = { "%dth Palestinian Infantry Division" }
+		10 = { "%dth Palestinian Infantry Division" }
+		11 = { "%dth Palestinian Infantry Division" }
+		12 = { "%dth Palestinian Infantry Division" }
+		13 = { "%dth Palestinian Infantry Division" }
+		14 = { "%dth Palestinian Infantry Division" }
+		15 = { "%dth Palestinian Infantry Division" }
+		16 = { "%dth Palestinian Infantry Division" }
+		17 = { "%dth Palestinian Infantry Division" }
+		18 = { "%dth Palestinian Infantry Division" }
+		19 = { "%dth Palestinian Infantry Division" }
+		20 = { "%dth Palestinian Infantry Division" }
+		21 = { "%dst Palestinian Infantry Division" }
+		22 = { "%dnd Palestinian Infantry Division" }
+		23 = { "%drd Palestinian Infantry Division" }
+
+	}
+}
+
+PAL_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Garrison Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Garrison Division" }
+		2 = { "%dnd Palestinian Garrison Division" }
+		3 = { "%drd Palestinian Garrison Division" }
+		4 = { "%dth Palestinian Garrison Division" }
+		5 = { "%dth Palestinian Garrison Division" }
+		6 = { "%dth Palestinian Garrison Division" }
+		7 = { "%dth Palestinian Garrison Division" }
+		8 = { "%dth Palestinian Garrison Division" }
+		9 = { "%dth Palestinian Garrison Division" }
+		10 = { "%dth Palestinian Garrison Division" }
+		11 = { "%dth Palestinian Garrison Division" }
+		12 = { "%dth Palestinian Garrison Division" }
+		13 = { "%dth Palestinian Garrison Division" }
+		14 = { "%dth Palestinian Garrison Division" }
+		15 = { "%dth Palestinian Garrison Division" }
+		16 = { "%dth Palestinian Garrison Division" }
+		17 = { "%dth Palestinian Garrison Division" }
+		18 = { "%dth Palestinian Garrison Division" }
+		19 = { "%dth Palestinian Garrison Division" }
+		20 = { "%dth Palestinian Garrison Division" }
+		21 = { "%dst Palestinian Garrison Division" }
+		22 = { "%dnd Palestinian Garrison Division" }
+		23 = { "%drd Palestinian Garrison Division" }
+		24 = { "%dth Palestinian Garrison Division" }
+		25 = { "%dth Palestinian Garrison Division" }
+		26 = { "%dth Palestinian Garrison Division" }
+		27 = { "%dth Palestinian Garrison Division" }
+		28 = { "%dth Palestinian Garrison Division" }
+		29 = { "%dth Palestinian Garrison Division" }
+		30 = { "%dth Palestinian Garrison Division" }
+		31 = { "%dst Palestinian Garrison Division" }
+		32 = { "%dnd Palestinian Garrison Division" }
+		33 = { "%drd Palestinian Garrison Division" }
+		34 = { "%dth Palestinian Garrison Division" }
+		35 = { "%dth Palestinian Garrison Division" }
+		36 = { "%dth Palestinian Garrison Division" }
+		37 = { "%dth Palestinian Garrison Division" }
+		38 = { "%dth Palestinian Garrison Division" }
+		39 = { "%dth Palestinian Garrison Division" }
+		40 = { "%dth Palestinian Garrison Division" }
+		41 = { "%dst Palestinian Garrison Division" }
+		42 = { "%dnd Palestinian Garrison Division" }
+		43 = { "%drd Palestinian Garrison Division" }
+		44 = { "%dth Palestinian Garrison Division" }
+		45 = { "%dth Palestinian Garrison Division" }
+		46 = { "%dth Palestinian Garrison Division" }
+		47 = { "%dth Palestinian Garrison Division" }
+		48 = { "%dth Palestinian Garrison Division" }
+		49 = { "%dth Palestinian Garrison Division" }
+		50 = { "%dth Palestinian Garrison Division" }
+		51 = { "%dst Palestinian Garrison Division" }
+		52 = { "%dnd Palestinian Garrison Division" }
+		53 = { "%drd Palestinian Garrison Division" }
+
+	}
+}
+
+PAL_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Marine Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Marine Division" }
+		2 = { "%dnd Palestinian Marine Division" }
+		3 = { "%drd Palestinian Marine Division" }
+		4 = { "%dth Palestinian Marine Division" }
+		5 = { "%dth Palestinian Marine Division" }
+		6 = { "%dth Palestinian Marine Division" }
+		7 = { "%dth Palestinian Marine Division" }
+		8 = { "%dth Palestinian Marine Division" }
+		9 = { "%dth Palestinian Marine Division" }
+		10 = { "%dth Palestinian Marine Division" }
+
+	}
+}
+
+PAL_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Mountain Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Mountain Division" }
+		2 = { "%dnd Palestinian Mountain Division" }
+		3 = { "%drd Palestinian Mountain Division" }
+		4 = { "%dth Palestinian Mountain Division" }
+		5 = { "%dth Palestinian Mountain Division" }
+		6 = { "%dth Palestinian Mountain Division" }
+		7 = { "%dth Palestinian Mountain Division" }
+		8 = { "%dth Palestinian Mountain Division" }
+		9 = { "%dth Palestinian Mountain Division" }
+		10 = { "%dth Palestinian Mountain Division" }
+
+	}
+}
+
+PAL_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { PAL }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { PAL_INF_01 }
+
+	fallback_name = "%dth Palestinian Airborne Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Palestinian Airborne Division" }
+		2 = { "%dnd Palestinian Airborne Division" }
+		3 = { "%drd Palestinian Airborne Division" }
+		4 = { "%dth Palestinian Airborne Division" }
+		5 = { "%dth Palestinian Airborne Division" }
+		6 = { "%dth Palestinian Airborne Division" }
+		7 = { "%dth Palestinian Airborne Division" }
+		8 = { "%dth Palestinian Airborne Division" }
+		9 = { "%dth Palestinian Airborne Division" }
+		10 = { "%dth Palestinian Airborne Division" }
+
+	}
+}

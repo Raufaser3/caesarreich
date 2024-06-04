@@ -7,7 +7,9 @@ state={
 	}
 
 	history={
-		owner = TUR
+		add_core_of = IRQ
+		owner = IRQ
+		add_claim_by = KUR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,12 +20,11 @@ state={
 		victory_points = {
 			10811 1 
 		}
-		add_core_of = IRQ
 
 	}
 
 	provinces={
-		1600 1938 3795 10106 12372
+		1600 1938 3795 10106 10804 12372
 	}
 	manpower=1585989
 	buildings_max_level_factor=1.000

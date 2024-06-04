@@ -41,16 +41,6 @@ set_convoys = 20
 set_stability = 0.50
 set_war_support = 0.50
 
-
-ENG = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.5
-	}
-}
-set_cosmetic_tag = ENG_EGY
-
 set_popularities = {
   vanguardist = 2
   utopian_socialist = 8

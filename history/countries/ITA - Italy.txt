@@ -108,11 +108,6 @@ if = {
 
 give_guarantee = ALB
 
-set_autonomy = {
-	target = LBA
-	autonomous_state = autonomy_colony
-	freedom_level = 0.1
-}
 
 
 set_convoys = 200

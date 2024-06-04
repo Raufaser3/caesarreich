@@ -160,6 +160,7 @@ LEB = "countries/MiddleEastern.txt" # Lebanon
 EGY = "countries/MiddleEastern.txt" # Egypt
 LBA = "countries/MiddleEastern.txt" # Libya
 ISR = "countries/MiddleEastern.txt" # Israel
+PAL = "countries/MiddleEastern.txt" # Palestine
 KUR = "countries/MiddleEastern.txt" # Kurdestan
 ALG = "countries/MiddleEastern.txt" # Algeria
 MOR = "countries/MiddleEastern.txt" # Morocco

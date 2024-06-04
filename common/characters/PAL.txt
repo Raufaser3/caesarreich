@@ -1,0 +1,14 @@
+characters = {
+	PAL_Commission = {
+		name = "International Commission"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Commission.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+}

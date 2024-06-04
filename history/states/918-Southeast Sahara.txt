@@ -4,7 +4,7 @@ state={
 
 	history={
 		add_core_of = CHA
-		owner = NFA
+		owner = LBA
 		add_core_of = NFA
 		buildings = {
 			infrastructure = 0

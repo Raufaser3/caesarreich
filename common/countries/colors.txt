@@ -399,8 +399,8 @@ YEM = {
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 135 40 100 }
+	color_ui = rgb { 135 40 100 }
 }
 SLO = {
 	color = rgb { 161 104 162 }
@@ -1061,4 +1061,8 @@ ISC = {
 PAP = {
 	color = rgb { 242 242 142 }
 	color_ui = rgb { 242 242 142 }
+}
+PAL = {
+	color = rgb { 100 170 90 }
+	color_ui = rgb { 100 170 90 }
 }

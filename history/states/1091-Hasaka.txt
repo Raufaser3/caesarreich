@@ -1,0 +1,25 @@
+state={
+	id=1091
+	name="STATE_1091"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		add_core_of = KUR
+		add_claim_by = TUR
+
+	}	
+	
+	provinces={
+		1549 1578 1606 1634 6883
+	}
+	
+	manpower=49649
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}

@@ -48,19 +48,11 @@ if = {
 	}
 }
 
-set_cosmetic_tag = IRQ_mashriq
 
 add_ideas = {
 	constitutional_monarchy
 }
 
-ENG = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.5
-	}
-}
 
 HEJ = {
 	add_opinion_modifier = {

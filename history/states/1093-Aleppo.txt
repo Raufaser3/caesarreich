@@ -1,0 +1,38 @@
+state={
+	id=1093
+	name="STATE_1093"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		
+		victory_points = {
+			12473 3 
+		}
+		victory_points = {
+			12029 2 
+		}
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 3
+			12029 = {
+				naval_base = 2
+
+			}
+
+		}
+	}	
+	
+	provinces={
+		7671 12029 12473 
+	}
+	
+	manpower=119649
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=0.000
+}
