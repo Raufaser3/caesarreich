@@ -17,7 +17,28 @@ set_war_support = 0.50
 
 
 add_ideas = {
-	one_party_dictatorship
+  PAL_Illegal_Zionist_Immigration
+  PAL_Weak_Peacekeeping_Force
+	international_mandate
+}
+
+FRA={
+  give_guarantee = PAL
+}
+TUR={
+  give_guarantee = PAL
+}
+GER={
+  give_guarantee = PAL
+}
+HEJ={
+  give_guarantee = PAL
+}
+EGY={
+  give_guarantee = PAL
+}
+USA={
+  give_guarantee = PAL
 }
 
 
@@ -31,15 +52,21 @@ set_politics = {
 set_popularities = {
   vanguardist = 0
   utopian_socialist = 0
-  revolutionary_socialist = 0
+  revolutionary_socialist = 7
   social_democrat = 0
-  liberal = 0
-  liberal = 0
-  social_conservative = 0
-  authoritarian_democrat = 100
-  paternal_autocrat = 0
-  ultranationalist = 0
-  esoteric_nationalist = 0
+  liberal = 13
+  social_conservative = 10
+  authoritarian_democrat = 37
+  paternal_autocrat = 12
+  ultranationalist = 18
+  esoteric_nationalist = 3
 }
-
+recruit_character = PAL_Radwan_Hilu
+recruit_character = PAL_Jabra_Nicola
+recruit_character = PAL_Alami
+recruit_character = PAL_Nashashibi
+recruit_character = PAL_Arif_Al_Arif
 recruit_character = PAL_Commission
+recruit_character = PAL_Amin_Hussieni
+recruit_character = PAL_Abdulqadir_Hussieni
+recruit_character = PAL_Hasan_Salameh

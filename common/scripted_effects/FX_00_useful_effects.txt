@@ -326,6 +326,14 @@ copy_government_idea_of_ROOT = {
 	if = {
 		limit = {
 			ROOT = {
+				has_idea = international_mandate
+			}
+		}
+		add_ideas = international_mandate
+	}
+	if = {
+		limit = {
+			ROOT = {
 				has_idea = generic_government
 			}
 		}

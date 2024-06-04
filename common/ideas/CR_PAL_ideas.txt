@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		PAL_Illegal_Zionist_Immigration = {
+			available = { original_tag = PAL }
+			on_add = { log = "[GetLogIdeaInfo] PAL_Illegal_Zionist_Immigration" }
+			picture = PAL_Immigration_Stopped
+			modifier = {
+				weekly_manpower = 500
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.05
+				authoritarian_democrat_drift = -0.05
+			}
+		}
+		PAL_Weak_Peacekeeping_Force = {
+			available = { original_tag = PAL }
+			on_add = { log = "[GetLogIdeaInfo] PAL_Illegal_Zionist_Immigration" }
+			picture = por_colonial_army
+			modifier = {
+				military_leader_cost_factor = 1
+				land_doctrine_cost_factor = 0.2
+				army_org_factor = -0.1
+				army_attack_factor = -0.1
+				max_dig_in = -5
+			}
+		}
+	}
+}
