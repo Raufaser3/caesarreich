@@ -241,6 +241,9 @@ give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 
 
+add_coalition_esoteric_nationalist = yes
+add_coalition_utopian_socialist = yes
+
 CAN = {
 	add_opinion_modifier = {
 		target = ENG
