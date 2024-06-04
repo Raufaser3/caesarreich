@@ -179,8 +179,8 @@ TUN = {
 	color_ui = rgb { 146 134 57 }
 }
 TUR = {
-	color = rgb { 135 20 50 } #145 170 141
-	color_ui = rgb { 135 20 50 } #164 255 156
+	color = rgb { 130 0 20 } #145 170 141
+	color_ui = rgb { 130 0 20 } #164 255 156
 }
 # TRT = {
 # 	color = rgb { 164 255 156 }
