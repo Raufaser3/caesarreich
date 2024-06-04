@@ -98,7 +98,7 @@ defined_text = {
 				}
 				AND = {
 					tag = IRQ
-					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+					has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 				}
 			}
 		}
@@ -638,9 +638,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 		}
-		localization_key = IRQ_Kamil_Al_Chaderchi
+		localization_key = IRQ_Jafar_Abu_Timman
 	}
 	text = {
 		trigger = {
@@ -836,9 +836,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 		}
-		localization_key = IRQ_Kamil_Al_Chaderchi
+		localization_key = IRQ_Jafar_Abu_Timman
 	}
 	text = {
 		trigger = {
@@ -1147,9 +1147,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 		}
-		localization_key = GFX_Portrait_IRQ_Kamil_Al_Chaderchi
+		localization_key = GFX_Portrait_IRQ_Jafar_Abu_Timman
 	}
 	text = {
 		trigger = {

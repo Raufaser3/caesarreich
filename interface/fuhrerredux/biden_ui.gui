@@ -149,9 +149,9 @@ guiTypes = {
 		# Iraq
 
 		iconType = {
-			name = "Kamil_Al_Chaderchi"
+			name = "Jafar_Abu_Timman"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_IRQ_Kamil_Al_Chaderchi
+			spriteType = GFX_Portrait_IRQ_Jafar_Abu_Timman
 		}
 
 		#############################################

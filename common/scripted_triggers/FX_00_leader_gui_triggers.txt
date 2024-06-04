@@ -67,7 +67,7 @@ GRE_has_leader_GUI = {
 }
 
 IRQ_has_leader_GUI = {
-	has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+	has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 }
 
 ITA_has_leader_GUI = {
