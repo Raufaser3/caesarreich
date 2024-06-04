@@ -2,11 +2,12 @@
 
 ideas = {
 	country = {
-		GRE_metaxas_dictatorship = {
-			on_add = { log = "[GetLogIdeaInfo] GRE_metaxas_dictatorship" }
-			modifier = {
+		# TODO: (its in a stash) GRE, CRE, BUL, ROM nat spirits -thanasislanaras
+		# GRE_metaxas_dictatorship = {
+		# 	on_add = { log = "[GetLogIdeaInfo] GRE_metaxas_dictatorship" }
+		# 	modifier = {
 				
-			}
-		}
+		# 	}
+		# }
 	}
 }	
