@@ -38,7 +38,7 @@ ideas = {
 				non_core_manpower = 0.20
 				compliance_growth_on_our_occupied_states = 0.05
 				consumer_goods_factor = 0.1
-				monthly_population = -0.025
+				monthly_population = -0.25
 			}
 		}
 		ENG_the_grand_reform = {
