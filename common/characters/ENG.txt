@@ -48,11 +48,6 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = national_socialism_subtype
-			traits = { george_windsor }
-		}
-		country_leader = {
-      desc = "POLITICS_ENG_GEORGE_V_DESC"
 			ideology = esoteric_nationalist_subtype
 			traits = { george_windsor }
 		}
@@ -63,6 +58,11 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/ENG/Portrait_ENG_Henry_Williamson.png"
 			}
+		}
+		country_leader = {
+		desc = "POLITICS_ENG_HENRY_WILLIAMSON_DESC"
+			ideology = national_socialism_subtype
+			traits = { }
 		}
 		advisor = {
 			slot = head_of_government
