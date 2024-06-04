@@ -21,7 +21,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+ENG = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.5
+	}
+}
 set_popularities = {
   vanguardist = 0
   utopian_socialist = 0

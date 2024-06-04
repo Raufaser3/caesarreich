@@ -1,0 +1,14 @@
+characters = {
+	LEB_Emile_Edde = {
+		name = "Émile Eddé"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LEB/Portrait_LEB_Emile_Edde.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+}

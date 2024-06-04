@@ -2,8 +2,9 @@ state={
 	id=1032
 	name="STATE_1032"
   history = {
-    owner = HEJ
+    owner = SAU
     add_core_of = HEJ
+	add_claim_by = SAU
   }
 	provinces={
 		8004 10892 12813 10748 2090

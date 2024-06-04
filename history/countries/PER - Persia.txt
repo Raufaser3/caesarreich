@@ -58,7 +58,7 @@ set_stability = 0.58
 set_war_support = 0.48
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -69,18 +69,17 @@ set_popularities = {
   utopian_socialist = 8
   revolutionary_socialist = 5
   social_democrat = 19
-  liberal = 7
-  liberal = 4
+  liberal = 38
   social_conservative = 10
   authoritarian_democrat = 2
-  paternal_autocrat = 38
+  paternal_autocrat = 11
   ultranationalist = 4
   esoteric_nationalist = 3
 }
 
 add_ideas = {
 	free_trade
-	military_junta
+	parliamentary_republic
 }
 
 recruit_character = PER_The_Maraji_Council

@@ -1,0 +1,21 @@
+state={
+	id=1096
+	name="STATE_1096"
+	
+	
+	history = {
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HEJ
+		add_claim_by = SAU
+	}
+
+	provinces={
+		8030 10786 10870
+	}
+	manpower = 93850
+	buildings_max_level_factor=1.000
+	state_category=two
+}

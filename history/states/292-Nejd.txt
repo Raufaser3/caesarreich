@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = HEJ
+		owner = SAU
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -18,10 +18,11 @@ state={
 			12727 10 
 		}
 		add_core_of = HEJ
+		add_claim_by = SAU
 	}
 
 	provinces={
-		5024 5093 7995 8060 12727 12870 10786 5006 10870 8030
+		5024 5093 7995 8060 10850 10923 12727 12870 
 	}
 	manpower=1368000
 	buildings_max_level_factor=1.000

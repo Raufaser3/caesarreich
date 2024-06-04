@@ -34,9 +34,13 @@ autonomy_state = {
 
 	allowed = {
 		OR = {
+			tag = PAL
 			tag = ISR
+			tag = AHZ
+			tag = HAS
+			tag = OMA
 			tag = IRQ
-			tag = PHN
+			tag = LEB
 			tag = EGY
 		}
 	}

@@ -179,8 +179,8 @@ TUN = {
 	color_ui = rgb { 146 134 57 }
 }
 TUR = {
-	color = rgb { 145 170 141 } #145 170 141
-	color_ui = rgb { 145 170 141 } #164 255 156
+	color = rgb { 135 20 50 } #145 170 141
+	color_ui = rgb { 135 20 50 } #164 255 156
 }
 # TRT = {
 # 	color = rgb { 164 255 156 }
@@ -1065,4 +1065,12 @@ PAP = {
 PAL = {
 	color = rgb { 100 170 90 }
 	color_ui = rgb { 100 170 90 }
+}
+HAS = {
+	color = rgb { 50 70 100 }
+	color_ui = rgb { 50 70 100 }
+}
+AHZ = {
+	color = rgb { 100 50 50 }
+	color_ui = rgb { 100 50 50 }
 }
