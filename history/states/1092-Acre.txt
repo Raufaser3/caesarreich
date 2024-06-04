@@ -10,7 +10,8 @@ state={
 
 		}
 		add_core_of = HEJ
-
+		add_core_of = SYR
+		add_core_of = PAL
 	}	
 	
 	provinces={

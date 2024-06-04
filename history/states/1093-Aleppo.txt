@@ -17,6 +17,7 @@ state={
 			12029 2 
 		}
 		add_core_of = HEJ
+		add_core_of = SYR
 		buildings = {
 			infrastructure = 3
 			12029 = {
