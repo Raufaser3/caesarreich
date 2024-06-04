@@ -1,0 +1,60 @@
+# ENG
+
+ideas = {
+	country = {
+		ENG_the_american_yoke = {
+			available = {
+				original_tag = ENG
+			}
+			on_add = {
+				log = "[GetLogIdeaInfo] ENG_the_american_yoke"
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.15
+				war_support_factor = 0.1
+			}
+		}
+		ENG_a_very_british_tyranny = {
+			available = {
+				original_tag = ENG
+			}
+			on_add = {
+				log = "[GetLogIdeaInfo] ENG_a_very_british_tyranny"
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = 0.15
+			}
+		}
+		ENG_the_third_empire = {
+			available = {
+				original_tag = ENG
+			}
+			on_add = {
+				log = "[GetLogIdeaInfo] ENG_the_third_empire"
+			}
+			modifier = {
+				non_core_manpower = 0.20
+				compliance_growth_on_our_occupied_states = 0.05
+				consumer_goods_factor = 0.1
+				monthly_population = -0.25
+			}
+		}
+		ENG_the_grand_reform = {
+			available = {
+				original_tag = ENG
+			}
+			on_add = {
+				log = "[GetLogIdeaInfo] ENG_the_grand_reform"
+			}
+			modifier = {
+				training_time_army_factor = -0.25
+				consumer_goods_factor = 0.05
+				recruitable_population_factor = -0.35
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+	}
+}

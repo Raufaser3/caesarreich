@@ -32,13 +32,13 @@ if = {
 			sonar = 1
 			smoke_generator = 1
 			basic_depth_charges = 1
-		  early_ship_hull_cruiser = 1
+			early_ship_hull_cruiser = 1
 			basic_ship_hull_cruiser = 1
 			basic_cruiser_armor_scheme = 1
-	  	early_ship_hull_heavy = 1
+			early_ship_hull_heavy = 1
 			basic_ship_hull_heavy = 1
 			basic_heavy_armor_scheme = 1
-		  early_ship_hull_carrier = 1
+			early_ship_hull_carrier = 1
 			basic_ship_hull_carrier = 1
       early_ship_hull_submarine = 1
 
@@ -125,8 +125,11 @@ set_technology = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	constitutional_monarchy
+	one_party_dictatorship
+	ENG_the_american_yoke
+	ENG_a_very_british_tyranny
+	ENG_the_third_empire
+	ENG_the_grand_reform
 }
 
 set_convoys = 800
@@ -201,27 +204,26 @@ create_import = {
 add_to_tech_sharing_group = commonwealth_research
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = ultranationalist
 	last_election = "1935.8.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 2
-  utopian_socialist = 5
-  revolutionary_socialist = 8
-  social_democrat = 30
-  liberal = 3
-  liberal = 10
-  social_conservative = 40
-  authoritarian_democrat = 0
-  paternal_autocrat = 2
-  ultranationalist = 0
-  esoteric_nationalist = 0
+	utopian_socialist = 30
+  vanguardist = 0
+  revolutionary_socialist = 0
+  social_democrat = 0
+  liberal = 2
+  social_conservative = 3
+  authoritarian_democrat = 6
+  paternal_autocrat = 1
+  ultranationalist = 41
+  esoteric_nationalist = 17
 }
 
-create_faction = imperial_protection_alliance
+create_faction = westminster_pact
 add_to_faction = RAJ 
 add_to_faction = ENG
 add_to_faction = AST
@@ -238,6 +240,9 @@ add_to_faction = MLT
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 
+
+add_coalition_esoteric_nationalist = yes
+add_coalition_utopian_socialist = yes
 
 CAN = {
 	add_opinion_modifier = {
@@ -323,6 +328,7 @@ WLS = {
 }
 
 recruit_character = ENG_George_Frederick_Windsor
+recruit_character = ENG_Henry_Williamson
 recruit_character = ENG_Jock_Haston
 recruit_character = ENG_Arthur_MacManus
 recruit_character = ENG_Clement_Attlee
@@ -430,14 +436,14 @@ recruit_character = ENG_Bernard_Paget
 recruit_character = ENG_David_Stirling
 
 ### Starting Ministers
-activate_advisor = ENG_Samuel_Hoare_hog_sco
+activate_advisor = ENG_Henry_Williamson_hog_una
 activate_advisor = ENG_John_Colville_for_sco
 activate_advisor = ENG_George_Lane_Fox_eco_sco
 activate_advisor = ENG_Edward_Cavendish_sec_sco
 
 if = {
 	limit = { has_dlc_lar = yes }
-	create_intelligence_agency = yes
+	create_intelligence_agency = yes 
 	create_operative_leader = {
 		name = "Wilfred Dunderdale"
 		GFX = GFX_portrait_fx_wilfred_dunderdale
@@ -465,3 +471,5 @@ ENG_George_Frederick_Windsor = {
 	set_character_flag = ENG_british_king
 	set_variable = { ENG.ENG_british_king = THIS }
 }
+
+add_to_array = { ENG.hog_characters = token:ENG_Henry_Williamson }
