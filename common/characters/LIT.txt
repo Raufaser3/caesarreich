@@ -7,6 +7,18 @@ characters = {
 			}
 		}
 	}
+	LIT_Kazys_Grinius = {
+		name = "Kazys Grinius"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIT/Portrait_LIT_Kazys_Grinius.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
 	LIT_Stanisław_Narutowicz = {
 		name = "Stanisław Narutowicz"
 		portraits = {

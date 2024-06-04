@@ -138,8 +138,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10272;7423;sea;2876;-1;-1;-1;-1;;Tablas Strait
 12118;1224;sea;8751;-1;-1;-1;-1;;San Juanico Strait
 849;9887;sea;7678;-1;-1;-1;-1;;Dardanelles-Strait
-11735;13260;sea;5786;-1;-1;-1;-1;;Istria-Zara	
-13260;11901;sea;5786;-1;-1;-1;-1;;Istria-Zara	
+11735;13260;sea;5786;-1;-1;-1;-1;;Istria-Zara
+13260;11901;sea;5786;-1;-1;-1;-1;;Istria-Zara
 11755;3868;sea;5838;-1;-1;-1;-1;;Trogir Brac-Strait
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -228,4 +228,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 711;3728;impassable;-1;-1;-1;-1;-1;;Carpathians
 9704;13210;impassable;-1;-1;-1;-1;-1;;Carpathians
 13209;13210;impassable;-1;-1;-1;-1;-1;;Carpathians
+8642;13157;sea;7433;-1;-1;-1;-1;ST_LAWRENCE;St Lawrence
+13157;13154;sea;749;-1;-1;-1;-1;WELLAND_CANAL;Welland Canal
+13156;13199;sea;9724;-1;-1;-1;-1;VANDERBILT_CANAL;Vanderbilt Canal
+13201;13159;sea;12582;-1;-1;-1;-1;SOO_LOCKS;Soo Locks
 -1;-1;;-1;-1;-1;-1;-1;-1

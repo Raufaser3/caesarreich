@@ -79,6 +79,29 @@ LIT_puppet_esoteric_nationalist: "R.K. Litauen"
 LIT_puppet_esoteric_nationalist_ADJ: "Litauisch"
 LIT_puppet_esoteric_nationalist_DEF: "Das Protektorat Litauen"
 
+
+### Parties
+LIT_vanguardist_party: "LBKP"
+LIT_vanguardist_party_long: "Lietuvos ir Baltarusijos Komunistų Partija"
+LIT_utopian_socialist_party: "Aušrininkai"
+LIT_utopian_socialist_party_long: "Aušrininkai"
+LIT_revolutionary_socialist_party: "LSDP"
+LIT_revolutionary_socialist_party_long: "Lietuvos Socialdemokratų Partija"
+LIT_social_democrat_party: "LSDP"
+LIT_social_democrat_party_long: "Lietuvos Socialdemokratų Partija"
+LIT_liberal_party: "UP"
+LIT_liberal_party_long: "Ūkininkų Partija"
+LIT_social_conservative_party: "LKDP"
+LIT_social_conservative_party_long: "Lietuvos Krikščionių Demokratų Partija"
+LIT_authoritarian_democrat_party: "LVLS"
+LIT_authoritarian_democrat_party_long: "Lietuvos Valstiečių Liaudininkų Sąjunga"
+LIT_paternal_autocrat_party: "LTS"
+LIT_paternal_autocrat_party_long: "Lietuvių Tautininkų Sąjunga"
+LIT_ultranationalist_party: "GV"
+LIT_ultranationalist_party_long: "Geležinis Vilkas"
+LIT_esoteric_nationalist_party: "Vydūnism"
+LIT_esoteric_nationalist_party_long: "Vydūnism"
+
 #Decisions
 LIT_Augenis_Wetdream: "Augenis's Wetdream"
 LIT_Augenis_Wetdream_desc: "Speak Lithuanian"
@@ -88,6 +111,4 @@ LIT_Sigismund_Wetdream_desc: "Cores on everything"
 #Naval shit
 FLEET_NAME_LIT: "Karališkoji Lietuvos flotilė"
 
-### Parties
-LIT_paternal_autocrat_party: "TPP-N"
-LIT_paternal_autocrat_party_long: "Naujoji Tautos pažangos partija\n§gAs the extreme members of the Lithuanian Nationalist Union have seized control of the party, moderate members of the party from an older extraction have chosen to split, restoring what they describe as the more moderate and aristocratic roots of the party - the Party of National Progress. Though still ethnic Lithuanian nationalist, it holds more moderate stances.§!"
+
