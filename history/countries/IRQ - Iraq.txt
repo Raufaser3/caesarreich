@@ -11,6 +11,22 @@ set_technology = {
 	fuel_silos = 1
   basic_train = 1
 }
+give_resource_rights = {
+	receiver = GER
+	state = 1050
+}
+give_resource_rights = {
+	receiver = GER
+	state = 656
+}
+give_resource_rights = {
+	receiver = GER
+	state = 1047
+}
+give_resource_rights = {
+	receiver = GER
+	state = 291
+}
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
