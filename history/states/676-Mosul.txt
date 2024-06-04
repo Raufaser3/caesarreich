@@ -2,9 +2,6 @@
 state={
 	id=676
 	name="STATE_676"
-	resources={
-		oil=8.000
-	}
 
 	history={
 		add_core_of = IRQ
@@ -13,6 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+			air_base = 1
 		}
 		victory_points = {
 			10106 4 

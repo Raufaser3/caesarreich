@@ -5,7 +5,7 @@ state={
 		5005 7953 10774
 	}
 	resources = {
-		oil = 10
+		oil = 28
 	}
 	history = {
 		owner = AHZ

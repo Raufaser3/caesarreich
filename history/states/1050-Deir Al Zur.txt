@@ -6,6 +6,13 @@ state={
 		add_core_of = IRQ
 		owner = IRQ
 		add_claim_by = KUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	resources={
+		oil=11.000
 	}
 	provinces={
 		901 2013 10882 13320 13321
