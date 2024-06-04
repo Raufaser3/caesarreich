@@ -135,7 +135,6 @@ set_popularities = {
 
 create_faction = continental_entente
 add_to_faction = FRA
-add_to_faction = PHN
 
 FRA = { #fucking wewlad
 	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
@@ -156,15 +155,6 @@ RHI = {
 	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
 }
 
-PHN = {
-	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = AST modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = NFL modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = RAJ modifier = heavy_tariffs }
-	reverse_add_opinion_modifier = { target = ISR modifier = heavy_tariffs }
-}
 MOR = {
 	reverse_add_opinion_modifier = { target = ENG modifier = heavy_tariffs }
 	reverse_add_opinion_modifier = { target = CAN modifier = heavy_tariffs }
@@ -206,11 +196,6 @@ set_autonomy = {
 	target = RHI
 	autonomous_state = autonomy_colony
 	freedom_level = 0.8
-}
-set_autonomy = {
-	target = PHN
-	autonomous_state = autonomy_protectorate
-	freedom_level = 0.5
 }
 set_autonomy = {
 	target = MOR

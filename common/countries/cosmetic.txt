@@ -118,10 +118,6 @@ GEO_CAU_MON = {
 	color = rgb { 118 150 138 }
 	color_ui = rgb { 118 150 138 }
 }
-PHN_FRA = {
- 	color = rgb { 0 50 160 } #15 90 240
- 	color_ui = rgb { 15 90 240 }
-}
 VIN_FRA = {
  	color = rgb { 0 50 160 } #0 146 167
  	color_ui = rgb { 0 50 160 }

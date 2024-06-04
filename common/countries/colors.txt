@@ -562,10 +562,6 @@ TRA = {
 	color = rgb { 192 128 64 }
 	color_ui = rgb { 190 120 65 }
 }
-PHN = {
-	color = rgb { 15 90 240 }
-	color_ui = rgb { 15  90  240 }
-}
 COR = {
 	color = rgb { 220 220 220 }
 	color_ui = rgb { 220 220 220 }

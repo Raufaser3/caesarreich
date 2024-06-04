@@ -184,7 +184,7 @@ is_middle_eastern_tag = {
 		tag = PER
 		tag = SYR
 		tag = JOR
-		tag = PHN
+		tag = LEB
 		tag = TRU
 		tag = RAS
 	}
