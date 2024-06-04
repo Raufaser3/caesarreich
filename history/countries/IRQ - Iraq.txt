@@ -11,6 +11,22 @@ set_technology = {
 	fuel_silos = 1
   basic_train = 1
 }
+give_resource_rights = {
+	receiver = GER
+	state = 1050
+}
+give_resource_rights = {
+	receiver = GER
+	state = 656
+}
+give_resource_rights = {
+	receiver = GER
+	state = 1047
+}
+give_resource_rights = {
+	receiver = GER
+	state = 291
+}
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -48,32 +64,11 @@ if = {
 	}
 }
 
-set_cosmetic_tag = IRQ_mashriq
 
 add_ideas = {
-	constitutional_monarchy
+	presidential_republic
 }
 
-ENG = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.5
-	}
-}
-
-HEJ = {
-	add_opinion_modifier = {
-		target = IRQ
-		modifier = IRQ_the_hashmite_dynasty_HEJ
-	}
-}
-TUR = {
-	add_opinion_modifier = {
-		target = IRQ
-		modifier = IRQ_the_hashmite_dynasty_TUR
-	}
-}
 
 set_temp_variable = {
 	coalition_partner_var = token:social_democrat
@@ -89,38 +84,37 @@ set_stability = 0.47
 set_war_support = 0.72
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = liberal
 	last_election = "1935.08.04"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-  vanguardist = 12
+  vanguardist = 10
   utopian_socialist = 0
   revolutionary_socialist = 0
-  social_democrat = 34
-  liberal = 0
-  liberal = 0
-  social_conservative = 26
+  social_democrat = 8
+  liberal = 33
+  social_conservative = 24
   authoritarian_democrat = 0
-  paternal_autocrat = 18
-  ultranationalist = 7
-  esoteric_nationalist = 3
+  paternal_autocrat = 0
+  ultranationalist = 15
+  esoteric_nationalist = 0
 }
 
-recruit_character = IRQ_Faisal_I
+recruit_character = IRQ_Ajami_Al_Sadoon
 
 recruit_character = IRQ_Arshad_al_Umari
 recruit_character = IRQ_Yusuf_Salman_Yusuf
 recruit_character = IRQ_Rashid_Ali_al_Gaylani
-recruit_character = IRQ_Kamil_Al_Chaderchi
+recruit_character = IRQ_Jafar_Abu_Timman
 recruit_character = IRQ_Saeed_Qazaz
 recruit_character = IRQ_Dhia_Jafar
 recruit_character = IRQ_Musa_Al_Shabander
 
 ### Starting Ministers
-activate_advisor = IRQ_Kamil_Al_Chaderchi_hog_sde
+activate_advisor = IRQ_Jafar_Abu_Timman_hog_sli
 activate_advisor = IRQ_Musa_Al_Shabander_for_sde
 activate_advisor = IRQ_Dhia_Jafar_eco_sde
 activate_advisor = IRQ_Saeed_Qazaz_sec_sde

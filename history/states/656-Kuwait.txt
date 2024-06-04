@@ -5,10 +5,13 @@ state={
 	
 	state_category = one
 	
+	resources={
+		oil=8.000
+	}
 	history={
+		add_core_of = IRQ
+		owner = IRQ
 		add_claim_by = KUW
-		owner = TUR
-		add_claim_by = TUR
 		victory_points = {
 			8085 1 
 		}

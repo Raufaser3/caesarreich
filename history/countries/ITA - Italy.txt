@@ -108,12 +108,10 @@ if = {
 
 give_guarantee = ALB
 
-set_autonomy = {
+declare_war_on = {
 	target = LBA
-	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	type = annex_everything
 }
-
 
 set_convoys = 200
 set_stability = 0.41

@@ -1,9 +1,9 @@
 characters = {
-	PHN_Emile_Edde = {
+	LEB_Emile_Edde = {
 		name = "Émile Eddé"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PHN/Portrait_PHN_Emile_Edde.png"
+				large = "gfx/leaders/LEB/Portrait_LEB_Emile_Edde.png"
 			}
 		}
 		country_leader = {

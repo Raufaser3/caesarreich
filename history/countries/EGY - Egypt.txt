@@ -41,23 +41,12 @@ set_convoys = 20
 set_stability = 0.50
 set_war_support = 0.50
 
-
-ENG = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.5
-	}
-}
-set_cosmetic_tag = ENG_EGY
-
 set_popularities = {
   vanguardist = 2
   utopian_socialist = 8
   revolutionary_socialist = 5
   social_democrat = 13
-  liberal = 3
-  liberal = 22
+  liberal = 25
   social_conservative = 18
   authoritarian_democrat = 17
   paternal_autocrat = 7
@@ -65,7 +54,7 @@ set_popularities = {
   esoteric_nationalist = 0
 }
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = liberal
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,13 +64,12 @@ add_ideas = {
 	constitutional_monarchy
 }
 
-recruit_character = EGY_Fuad_i
+recruit_character = EGY_Abbas_II
+recruit_character = EGY_Moneim_I
 recruit_character = EGY_Farouk_i
 recruit_character = EGY_Shuhdi_Atiya
 recruit_character = EGY_Salama_Moussa
 recruit_character = EGY_Ahmed_Hussien
-recruit_character = EGY_Aleister_Crowley
-recruit_character = EGY_Gamal_Abdel_Nasser
 recruit_character = EGY_Ahmad_Mahir
 recruit_character = EGY_Ibrahim_Abdel_Hady
 recruit_character = EGY_Mohammed_Naguib

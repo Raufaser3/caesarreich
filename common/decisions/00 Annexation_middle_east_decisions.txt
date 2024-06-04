@@ -53,7 +53,7 @@ annexation_decisions = {
 			factor = 100
 		}
 	}
-	annexation_PHN_CONQ = {
+	annexation_LEB_CONQ = {
 		icon = generic_form_nation
 		selectable_mission = yes
 		days_mission_timeout = @annexation_days_mission_timeout
@@ -65,15 +65,15 @@ annexation_decisions = {
 			553 = { is_valid_annexation_state = no }
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PHN_CONQ"
+			log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LEB_CONQ"
 			block_annexation_mission_selection = yes
 			country_event = annex.3003
 		}
 		timeout_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PHN_CONQ"
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LEB_CONQ"
 			block_annexation_mission_selection = yes
 			occupy_small_country = yes
-			set_country_flag = PHN_CONQ
+			set_country_flag = LEB_CONQ
 		}
 		ai_will_do = {
 			factor = 100

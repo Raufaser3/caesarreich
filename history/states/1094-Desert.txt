@@ -1,0 +1,24 @@
+
+state={
+	id=1094
+	name="STATE_1094"
+
+	impassable = yes
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1060 10869 10907 12733 12764
+	}
+	manpower=2492
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

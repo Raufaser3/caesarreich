@@ -208,10 +208,10 @@ scripted_gui = {
 			#############################################
 			# Iraq
 
-			Kamil_Al_Chaderchi_visible = {
+			Jafar_Abu_Timman_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+					has_idea = IRQ_Jafar_Abu_Timman_hog_sli
 				}
 			}
 

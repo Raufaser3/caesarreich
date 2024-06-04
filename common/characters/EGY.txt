@@ -1,9 +1,45 @@
 characters = {
-	EGY_Fuad_I = {
-		name = "Fuad I"
+	EGY_Abbas_II = {
+		name = "Abbas Hilmi II"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EGY/Portrait_EGY_Fuad_I.png"
+				large = "gfx/leaders/EGY/Portrait_EGY_Abbas_II.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = prussian_constitutionalism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = esoteric_nationalist_subtype
+			traits = { }
+		}
+	}
+	EGY_Moneim_I = {
+		name = "Mohammed Abdulmoneim I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/Portrait_EGY_Moneim.png"
 			}
 		}
 		country_leader = {
@@ -71,18 +107,6 @@ characters = {
 			traits = { }
 		}
 	}
-	EGY_Aleister_Crowley = {
-		name = "Aleister Crowley"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Generic/European/Portrait_Europe_Generic_new_17.png"
-			}
-		}
-		country_leader = {
-			ideology = esoteric_nationalist_subtype
-			traits = { }
-		}
-	}
 	EGY_Shuhdi_Atiya = {
 		name = "Shudi Atiyah"
 		portraits = {
@@ -117,33 +141,6 @@ characters = {
 		country_leader = {
 			ideology = revolutionary_socialist_subtype
 			traits = { }
-		}
-	}
-	EGY_Gamal_Abdel_Nasser = {
-		name = "Gamal Abdel Nasser"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/EGY/EGY_Gamal_Abdel_Nasser.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = EGY_Gamal_Abdel_Nasser_hog_sde_hired }
-			}
-			idea_token = EGY_Gamal_Abdel_Nasser_hog_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = EGY_Gamal_Abdel_Nasser_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = EGY_Gamal_Abdel_Nasser_hog_sde_hired }
-			}
-			traits = {
-				social_democrat
-				hog_reformist_soldier
-			}
 		}
 	}
 	EGY_Ahmad_Mahir = {

@@ -28,33 +28,32 @@ set_war_support = 0.50
 set_research_slots = 2
 
 add_ideas = {
-	absolute_monarchy
+	constitutional_monarchy
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-  vanguardist = 0
+  vanguardist = 4
   utopian_socialist = 0
-  revolutionary_socialist = 2
-  social_democrat = 8
-  liberal = 2
-  liberal = 14
-  social_conservative = 16
-  authoritarian_democrat = 8
-  paternal_autocrat = 50
-  ultranationalist = 0
+  revolutionary_socialist = 1
+  social_democrat = 10
+  liberal = 0
+  social_conservative = 34
+  authoritarian_democrat = 11
+  paternal_autocrat = 19
+  ultranationalist = 21
   esoteric_nationalist = 0
 }
 
 give_military_access = ENG
 save_global_event_target_as = unified_arabia
-
+recruit_character = HEJ_Faisal_I
 recruit_character = HEJ_Abd_al_Ilah
 recruit_character = HEJ_Zeid_bin_Hussein_al_Hashmid
 recruit_character = HEJ_Abdul_Qadir_Pasha_el_Jundi

@@ -854,7 +854,7 @@ TUN = {
 	}
 }
 
-PHN = {
+LEB = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_new_4"

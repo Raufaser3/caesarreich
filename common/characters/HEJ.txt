@@ -1,38 +1,56 @@
 characters = {
+	HEJ_Faisal_I = {
+		name = "Faisal I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HEJ/Portrait_HEJ_Faisal_I.png"
+			}
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = esoteric_nationalist_subtype
+			traits = { }
+		}
+	}
 	HEJ_Abd_al_Ilah = {
 		name = "Abd al-Ilah"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/HEJ/Portrait_HEJ_Abd_al_Ilah.png"
-        small = "gfx/interface/ministers/HEJ/HEJ_Abd_al_Ilah.png"
+                small = "gfx/interface/ministers/HEJ/HEJ_Abd_al_Ilah.png"
 			}
 		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = liberal_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = social_conservative_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = absolute_mon_subtype
-			traits = { }
-		}
-    advisor = {
+        advisor = {
 			cost = 150
 			slot = head_of_government
 			available = {
