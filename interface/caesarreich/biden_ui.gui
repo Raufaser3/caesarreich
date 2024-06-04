@@ -61,6 +61,11 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_ENG_Samuel_Hoare
 		}
+		iconType = {
+			name = "Henry_Williamson"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_ENG_Henry_Williamson
+		}
 
 		#############################################
 		# Egypt
