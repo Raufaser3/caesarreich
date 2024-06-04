@@ -6,7 +6,6 @@ characters = {
 				large = "gfx/leaders/LBA/Portrait_LBA_Idris_Senussi.png"
 			}
 		}
-		
 		country_leader = {
 			ideology = paternal_autocrat_subtype
 			traits = { }

@@ -423,8 +423,8 @@ CRO = {
 	color_ui = rgb { 130 75 182 }
 }
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 0 40 50 }
+	color_ui = rgb { 0 40 50 }
 }
 LEB = {
 	color = rgb { 130  150  60 }
