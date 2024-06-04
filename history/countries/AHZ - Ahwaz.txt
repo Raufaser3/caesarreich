@@ -24,7 +24,7 @@ if = {
 		}
 	}
 }
-IRQ = {
+ENG = {
 	set_autonomy = {
 		target = PREV
 		autonomous_state = autonomy_protectorate
