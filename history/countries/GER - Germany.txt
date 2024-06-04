@@ -117,14 +117,23 @@ if = {
 
 add_ideas = {
 	low_economic_mobilisation 
-	limited_exports
+	export_focus
 	
 	one_party_dictatorship
 }
 
-create_faction = stahlpakt
+create_faction = europabund
 add_to_faction = GER
-add_to_faction = HOL
+add_to_faction = AUS
+add_to_faction = CZE
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = LIT
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = BEL
+add_to_faction = BLR
+add_to_faction = KRL
 
 
 set_research_slots = 4

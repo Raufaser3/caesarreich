@@ -62,6 +62,7 @@ POL = "countries/EastEuropean.txt" # Poland
 CZE = "countries/EastEuropean.txt" # Czechoslovakia
 LIT = "countries/EastEuropean.txt" # Lithuania
 LAT = "countries/EastEuropean.txt" # Latvia
+KRL = "countries/EastEuropean.txt" # Courland
 EST = "countries/EastEuropean.txt" # Estonia
 ROM = "countries/EastEuropean.txt" # Romania
 ROR = "countries/EastEuropean.txt" # Romanian Revolt

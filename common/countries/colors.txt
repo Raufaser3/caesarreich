@@ -2,6 +2,10 @@ GER = {
 	color = rgb { 137 137 137 } #We could always use a KR-esque color. Perhaps 77 93 83?
 	color_ui = rgb { 80 90 100 } #Formerly 77 88 99. Rounded it up.
 }
+KRL = {
+	color = rgb { 87 93 83 } 
+	color_ui = rgb { 75 85 95 }
+}
 WGR = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 115 115 115 }
