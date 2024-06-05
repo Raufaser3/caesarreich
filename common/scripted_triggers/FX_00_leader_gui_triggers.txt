@@ -23,17 +23,21 @@ CAN_has_leader_GUI = {
 }
 
 ENG_has_leader_GUI = {
-	has_idea = constitutional_monarchy
+	# has_idea = constitutional_monarchy
 	OR = {
 		has_idea = ENG_Arthur_Greenwood_hog_sde
 		has_idea = ENG_Samuel_Hoare_hog_sco
 		has_idea = ENG_Anthony_Eden_hog_sco
 		has_idea = ENG_Jack_Churchill_hog_ade
+		has_idea = ENG_Henry_Williamson_hog_una
 	}
 }
 
 EGY_has_leader_GUI = {
-	has_idea = EGY_Aly_Maher_hog_ade
+	OR={
+		has_idea = EGY_Aly_Maher_hog_ade
+		has_idea = EGY_Mostafa_El_Nahas_hog_sli
+	}
 }
 
 GRE_has_leader_GUI = {

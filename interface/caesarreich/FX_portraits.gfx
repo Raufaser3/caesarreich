@@ -41,6 +41,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Samuel_Hoare.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_ENG_Henry_Williamson"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Henry_Williamson.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_ENG_Arthur_Greenwood"
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Arthur_Greenwood.png"
 	}
@@ -56,7 +60,10 @@ spriteTypes = {
 		name = "GFX_Portrait_EGY_Aly_Maher"
 		texturefile = "gfx/leaders/EGY/Portrait_EGY_Aly_Maher.png"
 	}
-
+	spriteType = {
+		name = "GFX_Portrait_EGY_Mostafa_El_Nahas"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Mostafa_El_Nahas.png"
+	}
 	#############################################
 	# Iraq
 

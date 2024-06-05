@@ -48,13 +48,39 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = ultranationalist_subtype
-			traits = { george_windsor }
-		}
-		country_leader = {
-      desc = "POLITICS_ENG_GEORGE_V_DESC"
 			ideology = esoteric_nationalist_subtype
 			traits = { george_windsor }
+		}
+	}
+	ENG_Henry_Williamson = {
+		name = ENG_Henry_Williamson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/Portrait_ENG_Henry_Williamson.png"
+			}
+		}
+		country_leader = {
+		desc = "POLITICS_ENG_HENRY_WILLIAMSON_DESC"
+			ideology = national_socialism_subtype
+			traits = { }
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = ENG_Henry_Williamson_hog_una
+			available = { 
+				hidden_trigger = { has_country_flag = ENG_Henry_Williamson_hog_una_hired }
+			}
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = ENG_Henry_Williamson_hog_una_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = ENG_Henry_Williamson_hog_una_hired }
+			}
+			traits = {
+				ultranationalist
+			}
+			cost = 150
 		}
 	}
 	ENG_Jock_Haston = {

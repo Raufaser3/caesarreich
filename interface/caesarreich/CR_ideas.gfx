@@ -40,4 +40,22 @@ spriteTypes = {
         name = "GFX_idea_HUN_rural_unrest"
         textureFile = "gfx/interface/ideas/HUN/HUN_rural_unrest.png"
     }
+
+    ###ENG
+    spriteType = {
+        name = "GFX_idea_ENG_the_grand_reform"
+        textureFile = "gfx/interface/ideas/ENG/ENG_the_grand_reform.png"
+    }
+    spriteType = {
+        name = "GFX_idea_ENG_the_american_yoke"
+        textureFile = "gfx/interface/ideas/ENG/ENG_the_american_yoke.png"
+    }
+    spriteType = {
+        name = "GFX_idea_ENG_the_third_empire"
+        textureFile = "gfx/interface/ideas/ENG/ENG_the_third_empire.png"
+    }
+    spriteType = {
+        name = "GFX_idea_ENG_a_very_british_tyranny"
+        textureFile = "gfx/interface/ideas/ENG/ENG_a_very_british_tyranny.png"
+    }
 }

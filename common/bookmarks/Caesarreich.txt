@@ -67,7 +67,10 @@ bookmarks = {
       history = "ENG_CAESSAREICH_DESC"
       ideology = social_conservative
       ideas = {
-
+        ENG_the_american_yoke
+        ENG_a_very_british_tyranny
+        ENG_the_third_empire
+        ENG_the_grand_reform
       }
       focuses = {
 

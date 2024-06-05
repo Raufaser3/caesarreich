@@ -11,6 +11,10 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
 			ideology = social_democrat_subtype
 			traits = { }
 		}

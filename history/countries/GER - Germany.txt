@@ -117,14 +117,23 @@ if = {
 
 add_ideas = {
 	low_economic_mobilisation 
-	limited_exports
+	export_focus
 	
 	one_party_dictatorship
 }
 
-create_faction = stahlpakt
+create_faction = europabund
 add_to_faction = GER
-add_to_faction = HOL
+add_to_faction = AUS
+add_to_faction = CZE
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = LIT
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = BEL
+add_to_faction = BLR
+add_to_faction = KRL
 
 
 set_research_slots = 4
@@ -133,7 +142,7 @@ set_stability = 0.44
 set_war_support = 0.49
 
 set_politics = {	
-	ruling_party = esoteric_nationalist
+	ruling_party = social_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -141,17 +150,16 @@ set_politics = {
 }
 
 set_popularities = {
-	vanguardist = 0
-	utopian_socialist = 8
-	revolutionary_socialist = 1
-	social_democrat = 1
-	liberal = 1
-	liberal = 6
-	social_conservative = 15
-	authoritarian_democrat = 14
-	paternal_autocrat = 1
-	ultranationalist = 13
-	esoteric_nationalist = 40
+	vanguardist = 11
+	utopian_socialist = 2
+	revolutionary_socialist = 3
+	social_democrat = 30
+	liberal = 14
+	social_conservative = 13
+	authoritarian_democrat = 4
+	paternal_autocrat = 12
+	ultranationalist = 5
+	esoteric_nationalist = 6
 }
 
 GER_add_armour_variants = yes
@@ -189,10 +197,11 @@ EPR = {
 	GER_add_ship_variants = yes
 }
 
+
+recruit_character = GER_Wilhelm_Marx
 recruit_character = GER_Wilhelm_Pieck
 recruit_character = GER_Ernst_Thalmann
 recruit_character = GER_Walter_Ulbricht
-recruit_character = GER_Otto_Wels
 recruit_character = GER_Theodor_Heuss
 recruit_character = GER_Gustav_Stresemann
 recruit_character = GER_Heinrich_Bruning
@@ -263,7 +272,6 @@ recruit_character = GER_Otto_Grotewohl
 recruit_character = GER_Otto_Braun
 recruit_character = GER_Erich_Koch_Weser
 recruit_character = GER_Hans_von_Raumer
-recruit_character = GER_Wilhelm_Marx
 recruit_character = GER_Max_von_Baden
 recruit_character = GER_Oskar_von_Hindenburg
 recruit_character = GER_Hans_Juergen_Graf_von_Blumenthal

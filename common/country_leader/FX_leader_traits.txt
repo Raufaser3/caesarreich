@@ -383,4 +383,18 @@ leader_traits = {
 		command_power_gain = 0.15
 		experience_gain_factor = 0.1
 	}
+
+	king_constantine_i_of_the_hellenes = {
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.1
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		experience_gain_factor = 0.1
+		command_power_gain = 0.1
+		offence = 0.05
+		defence = 0.05
+
+		ai_will_do = { factor = 1 }
+	}
 }

@@ -55,20 +55,12 @@ characters = {
 			traits = { }
 		}
 	}
-	TUR_Abdulmecid_II = {
-		name = "Abdülmecid II"
+	TUR_Djemal_Pasha = {
+		name = "Djemal Pasha"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TUR/Portrait_TUR_Abdulmecid_II.png"
+				large = "gfx/leaders/TUR/Portrait_TUR_Djemal_Pasha.png"
 			}
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = liberal_subtype
-			traits = { }
 		}
 		country_leader = {
 			ideology = social_conservative_subtype
@@ -78,12 +70,16 @@ characters = {
 			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
+	}
+	TUR_Abdulmecid_II = {
+		name = "Abdülmecid II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/Portrait_TUR_Abdulmecid_II.png"
+			}
 		}
 		country_leader = {
-			ideology = ultranationalist_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 	}
