@@ -1,9 +1,45 @@
 characters = {
-	IRQ_Ajami_Al_Sadoon = {
-		name = "Ajami Al Sadoon"
+	IRQ_Arshad_al_Umari = {
+		name = "Arshad al-Umari"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/IRQ/Portrait_IRQ_Ajami_Al_Sadoon.png"
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	IRQ_Arshad_al_Umari = {
+		name = "Arshad al-Umari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
 			}
 		}
 		country_leader = {
