@@ -48,6 +48,13 @@ scripted_gui = {
 			#############################################
 			# United Kingdom
 
+			# HOG is shown first instead of HOS
+			Henry_Williamson_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = ENG_Henry_Williamson_hog_una
+				}
+			}
 			Samuel_Hoare_visible = {
 				AND = {
 					has_country_flag = HOG_veiw

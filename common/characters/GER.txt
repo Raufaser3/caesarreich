@@ -1,4 +1,6 @@
 characters = {
+
+
 	GER_Wilhelm_Pieck = {
 		name = "Wilhelm Pieck"
 		portraits = {
@@ -35,14 +37,15 @@ characters = {
 			traits = { }
 		}
 	}
-	GER_Otto_Wels = {
-		name = "Otto Wels"
+	GER_Wilhelm_Marx = {
+		name = "Wilhelm Marx"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/Portrait_GER_Otto_Wels.png"
+				large = "gfx/leaders/GER/Portrait_GER_Wilhelm_Marx_cr.png"
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_WILHELM_MARX_DESC"
 			ideology = social_democrat_subtype
 			traits = { }
 		}
@@ -1519,33 +1522,33 @@ characters = {
 			}
 		}
 	}
-	GER_Wilhelm_Marx = {
-		name = "Wilhelm Marx"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/GER/GER_Wilhelm_Marx.png"
-			}
-		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			idea_token = GER_Wilhelm_Marx_hog_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
-			}
-			traits = {
-				social_conservative
-				hog_silent_workhorse
-			}
-		}
-	}
+	#GER_Wilhelm_Marx = {
+	#	name = "Wilhelm Marx"
+	#	portraits = {
+	#		civilian = {
+	#			small = "gfx/interface/ministers/GER/GER_Wilhelm_Marx.png"
+	#		}
+	#	}
+	#	advisor = {
+	#		cost = 150
+	#		slot = head_of_government
+	#		available = { 
+	#			hidden_trigger = { has_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
+	#		}
+	#		idea_token = GER_Wilhelm_Marx_hog_sco
+	#		can_be_fired = no
+	#		on_add = {
+	#			ROOT = { set_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
+	#		}
+	#		on_remove = {
+	#			ROOT = { clr_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
+	#		}
+	#		traits = {
+	#			social_conservative
+	#			hog_silent_workhorse
+	#		}
+	#	}
+	#}
 	GER_Max_von_Baden = {
 		name = "Max von Baden"
 		portraits = {

@@ -86,19 +86,19 @@ defined_text = {
 				}
 				AND = {
 					tag = ENG
-					has_idea = ENG_Arthur_Greenwood_hog_sde
-				}
-				AND = {
-					tag = ENG
-					has_idea = ENG_Jack_Churchill_hog_ade
-				}
-				AND = {
-					tag = ENG
-					has_idea = ENG_Anthony_Eden_hog_sco
-				}
-				AND = {
-					tag = ENG
-					has_idea = ENG_Samuel_Hoare_hog_sco
+					any_of = {
+						array = ENG.hog_characters
+						value = v
+						meta_trigger = {
+							text = {
+								[scope] = {
+									is_hired_as_advisor = yes
+									not_already_hired_except_as = head_of_government
+								}
+							}
+							scope = "[?v.GetTokenKey]"
+						}
+					}
 				}
 				AND = {
 					tag = IRQ
@@ -618,6 +618,12 @@ defined_text = {
 	name = GetPrimeMinister
 	text = {
 		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = ENG_Henry_Williamson
+	}
+	text = {
+		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
 		}
 		localization_key = ENG_Arthur_Greenwood
@@ -820,6 +826,12 @@ defined_text = {
 
 defined_text = {
 	name = GetPrimeMinisterName
+	text = {
+		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = ENG_Henry_Williamson
+	}
 	text = {
 		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
@@ -1178,6 +1190,12 @@ defined_text = {
 			has_idea = EGY_Mostafa_El_Nahas_hog_sli
 		}
 		localization_key = GFX_Portrait_EGY_Mostafa_El_Nahas
+	}
+	text = {
+		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = GFX_Portrait_ENG_Henry_Williamson
 	}
 	text = {
 		trigger = {

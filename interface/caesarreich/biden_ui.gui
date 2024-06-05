@@ -61,6 +61,11 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_ENG_Samuel_Hoare
 		}
+		iconType = {
+			name = "Henry_Williamson"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_ENG_Henry_Williamson
+		}
 
 		#############################################
 		# Egypt
@@ -213,7 +218,7 @@ guiTypes = {
 		buttonType = {
 			name = "leader_button"
 			quadTextureSprite ="GFX_HOS_button"
-			position = { x = 135 y = 255 }
+			position = { x = 140 y = 267 }
 			pdx_tooltip = "HOS_OR_HOG"
 		}
 

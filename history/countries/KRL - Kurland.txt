@@ -1,4 +1,4 @@
-capital = 757
+capital = 190
 
 oob = "LAT"
 
@@ -46,23 +46,23 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = social_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1931.10.3"
 	election_frequency = 108
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 6
-  utopian_socialist = 1
-  revolutionary_socialist = 9
-  social_democrat = 20
-  liberal = 10
-  social_conservative = 15
-  authoritarian_democrat = 17
-  paternal_autocrat = 7
-  ultranationalist = 2
-  esoteric_nationalist = 13
+  vanguardist = 8
+  utopian_socialist = 2
+  revolutionary_socialist = 4
+  social_democrat = 8
+  liberal = 4
+  social_conservative = 20
+  authoritarian_democrat = 25
+  paternal_autocrat = 17
+  ultranationalist = 3
+  esoteric_nationalist = 9
 }
 
 add_ideas = {
@@ -104,5 +104,4 @@ if = {
 	}
 }
 
-recruit_character = LAT_Gustavs_Celmins
-recruit_character = LAT_Pauls_Kalnins
+recruit_character = KRL_Josef_Bischoff

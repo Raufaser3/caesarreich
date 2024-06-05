@@ -85,6 +85,12 @@ defined_text = {
 		}
 		localization_key = oligarchism_subtype
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_socialism_subtype
+		}
+		localization_key = national_socialism_subtype
+	}
 }
 
 defined_text = {
@@ -234,6 +240,12 @@ defined_text = {
 		}
 		localization_key = oligarchism_subtype
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_socialism_subtype
+		}
+		localization_key = national_socialism_subtype
+	}
 }
 
 defined_text = {
@@ -322,6 +334,12 @@ defined_text = {
 			has_country_leader_ideology = oligarchism_subtype
 		}
 		localization_key = oligarchism_subtype_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_socialism_subtype
+		}
+		localization_key = national_socialism_subtype_desc
 	}
 }
 
@@ -478,6 +496,12 @@ defined_text = {
 		}
 		localization_key = oligarchism_subtype_desc
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_socialism_subtype
+		}
+		localization_key = national_socialism_subtype_desc
+	}
 }
 
 defined_text = {
@@ -563,6 +587,7 @@ defined_text = {
 				has_country_leader_ideology = ultranationalist_subtype
 				has_country_leader_ideology = legionarism_subtype
 				has_country_leader_ideology = metaxism_subtype
+				has_country_leader_ideology = national_socialism_subtype
 			}
 		}
 		localization_key = ultranationalist_color

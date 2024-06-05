@@ -1,4 +1,18 @@
 characters = {
+
+	EST_Johan_Pitkacivilian = {
+		name = "Johan Pitka"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EST/Portrait_EST_Johan_Pitka_civilian.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+
 	EST_Karl_Sare = {
 		name = "Karl Säre"
 		portraits = {
@@ -87,10 +101,7 @@ characters = {
 				small = "gfx/interface/ministers/EST/EST_Konstantin_Pats.png"
 			}
 		}
-		country_leader = {
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
+
 		country_leader = {
 			ideology = social_conservative_subtype
 			traits = { }
@@ -235,11 +246,11 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	EST_Johan_Pitka = {
+	EST_Johan_Pitkanaval = {
 		name = "Johan Pitka"
 		portraits = {
 			navy = {
-				large = "gfx/leaders/EST/Portrait_EST_Johan_Pitka.png"
+				large = "gfx/leaders/EST/Portrait_EST_Johan_Pitka_naval.png"
 			}
 		}
 		navy_leader = {
