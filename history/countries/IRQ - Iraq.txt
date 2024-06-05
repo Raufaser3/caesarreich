@@ -104,17 +104,21 @@ set_popularities = {
 }
 
 recruit_character = IRQ_Ajami_Al_Sadoon
-
+recruit_character = IRQ_Taha_al_Hashimi
 recruit_character = IRQ_Arshad_al_Umari
 recruit_character = IRQ_Yusuf_Salman_Yusuf
+recruit_character = IRQ_Nuri_Al_Said
 recruit_character = IRQ_Rashid_Ali_al_Gaylani
+recruit_character = IRQ_Muhammad_Jamali
 recruit_character = IRQ_Jafar_Abu_Timman
+recruit_character = IRQ_Hussien_Rahal
+recruit_character = IRQ_Salih_Jabr
 recruit_character = IRQ_Saeed_Qazaz
 recruit_character = IRQ_Dhia_Jafar
 recruit_character = IRQ_Musa_Al_Shabander
 
 ### Starting Ministers
-activate_advisor = IRQ_Jafar_Abu_Timman_hog_sli
+activate_advisor = IRQ_Muhammad_Jamali_hog_sli
 activate_advisor = IRQ_Musa_Al_Shabander_for_sde
 activate_advisor = IRQ_Dhia_Jafar_eco_sde
 activate_advisor = IRQ_Saeed_Qazaz_sec_sde

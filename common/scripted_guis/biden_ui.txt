@@ -221,13 +221,23 @@ scripted_gui = {
 			#############################################
 			# Iraq
 
-			Jafar_Abu_Timman_visible = {
+			Muhammad_Jamali_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+					has_idea = IRQ_Muhammad_Jamali_hog_sli
 				}
 			}
 
+			#############################################
+			# Arabia
+
+			Saadullah_Al_Jabari_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+				}
+			}
+			
 			#############################################
 			# Italy
 

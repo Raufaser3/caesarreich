@@ -102,7 +102,11 @@ defined_text = {
 				}
 				AND = {
 					tag = IRQ
-					has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+					has_idea = IRQ_Muhammad_Jamali_hog_sli
+				}
+				AND = {
+					tag = HEJ
+					has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
 				}
 			}
 		}
@@ -187,6 +191,13 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = IRQ
+			has_socialist_government = no
+		}
+		localization_key = PM_OR_PRESIDENT
+	}
+	text = {
+		trigger = {
+			original_tag = HEJ
 			has_socialist_government = no
 		}
 		localization_key = PM_OR_LEADER
@@ -648,9 +659,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = IRQ_Jafar_Abu_Timman
+		localization_key = IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = HEJ_Saadullah_Al_Jabari
 	}
 	text = {
 		trigger = {
@@ -858,9 +875,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = IRQ_Jafar_Abu_Timman
+		localization_key = IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = HEJ_Saadullah_Al_Jabari
 	}
 	text = {
 		trigger = {
@@ -1175,9 +1198,15 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = GFX_Portrait_IRQ_Jafar_Abu_Timman
+		localization_key = GFX_Portrait_IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = GFX_Portrait_HEJ_Saadullah_Al_Jabari
 	}
 	text = {
 		trigger = {

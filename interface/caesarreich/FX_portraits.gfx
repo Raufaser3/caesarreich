@@ -68,10 +68,14 @@ spriteTypes = {
 	# Iraq
 
 	spriteType = {
-		name = "GFX_Portrait_IRQ_Jafar_Abu_Timman"
-		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Jafar_Abu_Timman.png"
+		name = "GFX_Portrait_IRQ_Muhammad_Jamali"
+		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Muhammad_Jamali.png"
 	}
 
+	spriteType = {
+		name = "GFX_Portrait_HEJ_Saadullah_Al_Jabari"
+		texturefile = "gfx/leaders/HEJ/Portrait_HEJ_Saadullah_Al_Jabari.png"
+	}
 	#############################################
 	# Italy
 

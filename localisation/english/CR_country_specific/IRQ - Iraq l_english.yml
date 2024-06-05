@@ -49,15 +49,15 @@ IRQ_social_conservative_party: "HT"
 IRQ_social_conservative_party_long: "Hizb Al Taqadum"
 IRQ_authoritarian_democrat_party: "HAW"
 IRQ_authoritarian_democrat_party_long: "Hizb Al Akha'a Al Watani"
-IRQ_paternal_autocrat_party: "Al Sadoon"
-IRQ_paternal_autocrat_party_long: "Al Sadoon"
+IRQ_paternal_autocrat_party: "Armed Forces"
+IRQ_paternal_autocrat_party_long: "Armed Forces"
 IRQ_ultranationalist_party: "HAA" 
 IRQ_ultranationalist_party_long: "Hizb Al Ahd Al Arabi"
 IRQ_esoteric_nationalist_party: "Hizb Assur"
 IRQ_esoteric_nationalist_party_long: "Hizb Assur (Assyria Party)"
 
 ### Characters
-IRQ_Jafar_Abu_Timman: "Jafar Abu Al Timman"
+IRQ_Muhammad_Jamali: "Muhammad Al Jamali"
 
 
 

@@ -5,6 +5,7 @@ uses_leader_gui = {
 		EGY_has_leader_GUI = yes
 		GRE_has_leader_GUI = yes
 		IRQ_has_leader_GUI = yes
+		HEJ_has_leader_GUI = yes
 		ITA_has_leader_GUI = yes
 		JAP_has_leader_GUI = yes
 		has_country_flag = LEADER_GUI_VISIBLE
@@ -71,9 +72,11 @@ GRE_has_leader_GUI = {
 }
 
 IRQ_has_leader_GUI = {
-	has_idea = IRQ_Jafar_Abu_Timman_hog_sli
+	has_idea = IRQ_Muhammad_Jamali_hog_sli
 }
-
+HEJ_has_leader_GUI = {
+	has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+}
 ITA_has_leader_GUI = {
 	OR = {
 		has_idea = ITA_Alcide_De_Gasperi_hog_sco

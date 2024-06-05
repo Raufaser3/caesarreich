@@ -1,76 +1,4 @@
 characters = {
-	IRQ_Arshad_al_Umari = {
-		name = "Arshad al-Umari"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
-			}
-		}
-		country_leader = {
-			ideology = revolutionary_socialist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = revolutionary_socialist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-		 	ideology = social_conservative_subtype
-		 	traits = { }
-		}
-		country_leader = {
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
-		}
-	}
-	IRQ_Arshad_al_Umari = {
-		name = "Arshad al-Umari"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
-			}
-		}
-		country_leader = {
-			ideology = revolutionary_socialist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = revolutionary_socialist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-		 	ideology = social_conservative_subtype
-		 	traits = { }
-		}
-		country_leader = {
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
-		}
-	}
 	IRQ_Yusuf_Salman_Yusuf = {
 		name = "Yusuf Salman Yusuf"
 		portraits = {
@@ -82,8 +10,76 @@ characters = {
 			ideology = vanguardist_subtype
 			traits = { }
 		}
+	}
+	IRQ_Hussien_Rahal = {
+		name = "Hussien Al Rahal"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Hussien_Rahal.png"
+			}
+		}
 		country_leader = {
 			ideology = utopian_socialist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Salih_Jabr = {
+		name = "Salih Jabr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Salih_Jabr.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Nuri_Al_Said = {
+		name = "Nuri Al Said"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Nuri_Al_Said.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+	}
+	IRQ_Ajami_Al_Sadoon = {
+		name = "Nuri Al Said"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Ajami_Al_Sadoon.png"
+			}
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+	}
+	IRQ_Arshad_al_Umari = {
+		name = "Arshad al-Umari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Arshad_al_Umari.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+	IRQ_Taha_al_Hashimi = {
+		name = "Rashid Ali al-Gaylani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Taha_al_Hashimi.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 	}
@@ -100,6 +96,34 @@ characters = {
 		}
 	}
 	# Advisors 
+	IRQ_Muhammad_Jamali = {
+		name = "Muhammad Fadhel Al Jamali"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Portrait_IRQ_Muhammad_Jamali.png"
+				small = "gfx/interface/ministers/IRQ/IRQ_jafar_abu_al_timman.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = IRQ_Muhammad_Jamali_hog_sli_hired }
+			}
+			idea_token = IRQ_Muhammad_Jamali_hog_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = IRQ_Muhammad_Jamali_hog_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = IRQ_Muhammad_Jamali_hog_sli_hired }
+			}
+			traits = {
+				liberal
+				hog_state_secularist
+			}
+		}
+	}
 	IRQ_Jafar_Abu_Timman = {
 		name = "Jafar Abu Al Timman"
 		portraits = {
@@ -108,24 +132,13 @@ characters = {
 				small = "gfx/interface/ministers/IRQ/IRQ_jafar_abu_al_timman.png"
 			}
 		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = IRQ_Jafar_Abu_Timman_hog_sli_hired }
-			}
-			idea_token = IRQ_Jafar_Abu_Timman_hog_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = IRQ_Jafar_Abu_Timman_hog_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = IRQ_Jafar_Abu_Timman_hog_sli_hired }
-			}
-			traits = {
-				liberal
-				hog_state_secularist
-			}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
 		}
 	}
 	IRQ_Saeed_Qazaz = {

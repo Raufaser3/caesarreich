@@ -81,14 +81,10 @@ recruit_character = HEJ_Salem_Al_Mubarak_Al_Sabah
 recruit_character = HEJ_Jamil_al_Madafi
 recruit_character = HEJ_Nada_bin_Nuhair
 recruit_character = HEJ_Calouste_Gulbenkian
-recruit_character = HEJ_Nuri_al_Said
-recruit_character = HEJ_Francis_Humphrys
-recruit_character = HEJ_John_Cadman
-recruit_character = HEJ_Percy_Cox
-recruit_character = HEJ_Yasin_al_Hashimi
+recruit_character = HEJ_Saadullah_Al_Jabari
 
 ### Starting Ministers
-activate_advisor = HEJ_Abd_al_Ilah_hog_pau
+activate_advisor = HEJ_Saadullah_Al_Jabari_hog_sco
 activate_advisor = HEJ_Sabah_al_Salem_al_Sabah_for_ade
 activate_advisor = HEJ_Mohammed_bin_Awad_bin_Laden_eco_ade
 activate_advisor = HEJ_Salem_Al_Mubarak_Al_Sabah_sec_ade

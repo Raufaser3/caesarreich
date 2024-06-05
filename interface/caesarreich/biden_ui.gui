@@ -158,9 +158,18 @@ guiTypes = {
 		# Iraq
 
 		iconType = {
-			name = "Jafar_Abu_Timman"
+			name = "Muhammad_Jamali"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_IRQ_Jafar_Abu_Timman
+			spriteType = GFX_Portrait_IRQ_Muhammad_Jamali
+		}
+ 
+		#############################################
+		# Arabia
+
+		iconType = {
+			name = "Saadullah_Al_Jabari"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_HEJ_Saadullah_Al_Jabari
 		}
 
 		#############################################
