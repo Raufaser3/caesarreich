@@ -1095,3 +1095,6 @@
  STATE_1094: "Egyptian Desert"
  STATE_1095: "Hammah"
  STATE_1096: "Najran"
+ STATE_1097: "Desert" 
+ STATE_1098: "North Sudan"
+ STATE_1099: "North Darfur"
