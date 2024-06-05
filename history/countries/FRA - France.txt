@@ -110,27 +110,32 @@ set_technology = {
   basic_train = 1
 }
 
-add_coalition_liberal = yes 
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = ultranationalist
 	last_election = "1932.8.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	vanguardist = 4
-	utopian_socialist = 6
-	revolutionary_socialist = 1
-	social_democrat = 16
-	liberal = 15
-	liberal = 21
-	social_conservative = 28
-	authoritarian_democrat = 7
-	paternal_autocrat = 1
-	ultranationalist = 1
+	vanguardist = 5
+	utopian_socialist = 0
+	revolutionary_socialist = 5
+	social_democrat = 10
+	liberal = 10
+	social_conservative = 5
+	authoritarian_democrat = 0
+	paternal_autocrat = 20
+	ultranationalist = 45
 	esoteric_nationalist = 0
+}
+
+add_ideas = {
+    one_party_dictatorship
+	FRA_the_shadow_of_the_gun
+	FRA_the_party_of_chaos
+	FRA_blue_terror
 }
 
 create_faction = continental_entente
@@ -234,10 +239,6 @@ set_autonomy = {
 }
 
 
-add_ideas = {	
-	parliamentary_republic
-}
-
 FRA_add_aircraft_variants = yes
 FRA_add_armour_variants = yes
 FRA_add_ship_variants = yes
@@ -255,6 +256,7 @@ FIC = {
 	FRA_add_ship_variants = yes
 }
 
+recruit_character = FRA_Louis_Ferdinand_Celine
 recruit_character = FRA_Lionel_Groulx
 recruit_character = FRA_Joseph_Laniel
 recruit_character = FRA_Felix_Gouin
