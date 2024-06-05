@@ -96,7 +96,7 @@ set_popularities = {
   authoritarian_democrat = 25
   paternal_autocrat = 5
   ultranationalist = 2
-  esoteric_nationalist = 1
+  esoteric_nationalist = 2
 }
 
 ### VARIANTS ###
