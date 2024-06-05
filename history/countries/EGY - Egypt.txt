@@ -116,7 +116,7 @@ recruit_character = EGY_Mohammed_Sidqi
 recruit_character = EGY_Victor_Hubert_Tait
 
 ### Starting Ministers
-activate_advisor = EGY_Aly_Maher_hog_ade
+activate_advisor = EGY_Mostafa_El_Nahas_hog_sli
 activate_advisor = EGY_Aziz_Ezzat_for_pau
 activate_advisor = EGY_Makram_Ebeid_eco_sli
 activate_advisor = EGY_Mohammed_Naguib_sec_sde

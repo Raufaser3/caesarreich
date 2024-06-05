@@ -56,7 +56,10 @@ spriteTypes = {
 		name = "GFX_Portrait_EGY_Aly_Maher"
 		texturefile = "gfx/leaders/EGY/Portrait_EGY_Aly_Maher.png"
 	}
-
+	spriteType = {
+		name = "GFX_Portrait_EGY_Mostafa_El_Nahas"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Mostafa_El_Nahas.png"
+	}
 	#############################################
 	# Iraq
 

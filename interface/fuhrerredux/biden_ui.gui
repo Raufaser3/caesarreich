@@ -70,7 +70,11 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_EGY_Aly_Maher
 		}
-		
+		iconType = {
+			name = "Mostafa_El_Nahas"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_EGY_Mostafa_El_Nahas
+		}
 		#############################################
 		# Greece
 
