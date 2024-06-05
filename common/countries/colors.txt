@@ -271,8 +271,8 @@ NFL = {
     color_ui = rgb { 195 11 78 } #SocDem Gang: The color. 160 10 105
 }
 RUS = {
-	color = rgb { 96 131 80 } #67 127 73, 35 145 5, 0 127 14
-	color_ui = rgb { 107 170 77 }
+	color = rgb { 0 100 20 } #67 127 73, 35 145 5, 0 127 14
+	color_ui = rgb { 0 100 20 }
 }
 RHO = {
     color = rgb { 25 25 150 }

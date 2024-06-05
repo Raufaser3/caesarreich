@@ -1,11 +1,11 @@
-capital = 563
+capital = 219
 
 oob = "RUS"
 
 add_ideas = {
 	extensive_conscription
 	partial_economic_mobilisation
-	parliamentary_republic
+	republican_dictatorship
 }
 
 set_technology = {
@@ -105,7 +105,7 @@ set_stability = 0.56
 set_war_support = 0.61
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1922.12.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -114,19 +114,18 @@ set_politics = {
 set_popularities = {
 	vanguardist = 0
 	utopian_socialist = 0
-	revolutionary_socialist = 0
-	social_democrat = 5
-	liberal = 11
-	liberal = 12
-	social_conservative = 16
-	authoritarian_democrat = 30
-	paternal_autocrat = 5
-	ultranationalist = 6
-	esoteric_nationalist = 15
+	revolutionary_socialist = 5
+	social_democrat = 10
+	liberal = 20
+	social_conservative = 15
+	authoritarian_democrat = 0
+	paternal_autocrat = 40
+	ultranationalist = 10
+	esoteric_nationalist = 0
 }
-SOV = { embargo_ROOT = yes }
-
+recruit_character = RUS_Igor_Stravinsky
 recruit_character = RUS_Grigory_Semyonov
+recruit_character = RUS_Nikolai_Ustryalov
 recruit_character = RUS_Michael_Alexandrovich_Georgievsky
 recruit_character = RUS_Alexandr_Danilovich_Allfyorov
 recruit_character = RUS_Lavr_Kornilov
@@ -280,7 +279,7 @@ recruit_character = RUS_Kyril_Romanov
 recruit_character = RUS_Vladimir_Romanov
 
 ### Starting Ministers
-activate_advisor = RUS_Vasily_Kanin_hog_ade
+activate_advisor = RUS_Nikolai_Ustryalov_hog_pau
 activate_advisor = RUS_Mikhail_A_Taube_for_ade
 activate_advisor = RUS_Vladimir_N_Kokovtsov_eco_ade
 activate_advisor = RUS_Sergei_P_Melgunov_sec_ade

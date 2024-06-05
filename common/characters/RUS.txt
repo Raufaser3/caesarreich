@@ -1,4 +1,44 @@
 characters = {
+	RUS_Igor_Stravinsky = {
+		name = "Igor Stravinsky"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Igor_Stravinsky.png"
+			}
+		}
+		
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	RUS_Nikolai_Ustryalov = {
+		name = "Nikolai Ustryalov"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/RUS/RUS_Nikolai_Ustryalov.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = RUS_Nikolai_Ustryalov_hog_pau_hired }
+			}
+			idea_token = RUS_Nikolai_Ustryalov_hog_pau
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = RUS_Nikolai_Ustryalov_hog_pau_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = RUS_Nikolai_Ustryalov_hog_pau_hired }
+			}
+			traits = {
+				paternal_autocrat
+				hog_silent_workhorse
+			}
+		}
+	}
 	RUS_Grigory_Semyonov = {
 		name = "Grigory Semyonov"
 		portraits = {
@@ -153,10 +193,6 @@ characters = {
 			army = {
 				large = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel.png"
 			}
-		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
 		}
 		field_marshal = {
 			traits = {
