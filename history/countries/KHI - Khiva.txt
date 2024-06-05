@@ -1,0 +1,35 @@
+﻿capital = 584
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+set_politics = {	
+	ruling_party = revolutionary_socialist
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_popularities = {
+  social_democrat = 0
+  liberal = 0
+  revolutionary_socialist = 100
+  vanguardist = 0
+  liberal = 0
+  social_conservative = 0
+  ultranationalist = 0
+  esoteric_nationalist = 0
+  paternal_autocrat = 0
+  utopian_socialist = 0
+  authoritarian_democrat = 0
+}
+
+add_ideas = {
+	one_party_dictatorship
+}
+recruit_character = KHI_balysh_ovezov

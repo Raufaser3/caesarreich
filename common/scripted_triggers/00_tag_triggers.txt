@@ -158,7 +158,7 @@ is_central_asian_tag = {
 		tag = TAJ
 		tag = KYR
 		tag = DAG
-		tag = TMS
+		tag = KHI
 	}
 }
 

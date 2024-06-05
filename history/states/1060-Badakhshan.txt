@@ -5,9 +5,10 @@ state={
 		7224 8027 10417 12218 12805 
 	}
 	history={
-		owner = TRK
+		owner = AFG
 		add_core_of = AFG
 		add_claim_by = RUS
+		add_core_of = TAJ
 		add_core_of = TRK
 		buildings = {
 			infrastructure = 3

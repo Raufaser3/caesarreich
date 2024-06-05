@@ -141,15 +141,15 @@ CRU = "countries/SouthAmerican.txt" # Cruzoob
 CRC = "countries/SouthAmerican.txt" # Curacao
 
 ### Central Asia
-KAZ = "countries/MiddleEastern.txt" # Kazakhstan
-TRK = "countries/MiddleEastern.txt" # Turkestan
+KAZ = "countries/Asian.txt" # Kazakhstan
+TRK = "countries/Asian.txt" # Turkestan
 AZR = "countries/MiddleEastern.txt" # Azerbaijan
-ARM = "countries/MiddleEastern.txt" # Armenia
-UZB = "countries/MiddleEastern.txt" # Uzbekistan
-TAJ = "countries/MiddleEastern.txt" # Tajikistan
-KYR = "countries/MiddleEastern.txt" # Kyrgyzstan
+ARM = "countries/Asian.txt" # Armenia
+UZB = "countries/Asian.txt" # Uzbekistan
+TAJ = "countries/Asian.txt" # Tajikistan
+KYR = "countries/Asian.txt" # Kyrgyzstan
 DAG = "countries/MiddleEastern.txt" # Dagestan
-TMS = "countries/MiddleEastern.txt" # Turkmenistan
+KHI = "countries/Asian.txt" # Khiva
 
 ### Middle East
 TUR = "countries/MiddleEastern.txt" # Turkey

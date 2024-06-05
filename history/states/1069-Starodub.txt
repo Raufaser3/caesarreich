@@ -5,7 +5,7 @@ state={
 		11298 11325 315 11229 371 343
 	}
 	history = {
-		owner = UKR
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -14,6 +14,7 @@ state={
 			315 1
 		}
 		add_core_of = UKR
+		add_core_of = RUS
 	}
 	manpower=251019
 	state_category=two

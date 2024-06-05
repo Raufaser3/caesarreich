@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = GOR
+		owner = RUS
 		victory_points = {
 			6689 5 
 		}

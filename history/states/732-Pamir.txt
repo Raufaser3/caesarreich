@@ -5,12 +5,13 @@ state={
 
 	history={
 		add_core_of = KYR
-		owner = RUS
+		owner = TRK
+		add_claim_by = RUS
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = RUS
+		add_core_of = TRK
 
 	}
 

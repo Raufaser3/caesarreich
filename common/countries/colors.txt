@@ -1070,3 +1070,19 @@ PAP = {
 	color = rgb { 242 242 142 }
 	color_ui = rgb { 242 242 142 }
 }
+KHI={
+	color = rgb { 175 150 75 }
+	color_ui = rgb { 175 150 75 }
+}
+UZB={
+	color = rgb { 175 150 75 }
+	color_ui = rgb { 175 150 75 }
+}
+TAJ={
+	color = rgb { 175 150 75 }
+	color_ui = rgb { 175 150 75 }
+}
+KYR={
+	color = rgb { 175 150 75 }
+	color_ui = rgb { 175 150 75 }
+}

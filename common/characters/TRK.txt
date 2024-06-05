@@ -11,4 +11,16 @@ characters = {
       traits = {}
     }
   }
+  KHI_balysh_ovezov = {
+    name = "balysh Ovezov"
+    portraits = {
+      civilian = {
+        large = "gfx/leaders/TRK/KHI_balysh_ovezov.png"
+      }
+    }
+    country_leader = {
+      ideology = revolutionary_socialist_subtype
+      traits = {}
+    }
+  }
 }
