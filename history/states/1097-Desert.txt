@@ -1,7 +1,7 @@
 
 state={
-	id=1094
-	name="STATE_1094"
+	id=1097
+	name="STATE_1097"
 
 	impassable = yes
 
@@ -12,11 +12,11 @@ state={
 
 		}
 		add_core_of = LBA
-		add_core_of = EGY
+		add_core_of = SUD
 	}
 
 	provinces={
-		1060 10869 10907 12733 12764
+		13324
 	}
 	manpower=2492
 	buildings_max_level_factor=1.000
