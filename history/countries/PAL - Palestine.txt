@@ -17,8 +17,8 @@ set_war_support = 0.50
 
 
 add_ideas = {
-  PAL_Illegal_Zionist_Immigration
   PAL_Weak_Peacekeeping_Force
+  PAL_Illegal_Zionist_Immigration
 	international_mandate
 }
 

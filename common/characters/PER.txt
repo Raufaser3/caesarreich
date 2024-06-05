@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_democrat_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = { }
 		}
 	}
@@ -154,10 +154,10 @@ characters = {
 				large = "gfx/leaders/PER/Portrait_PER_Mostafa_Fateh.png"
 			}
 		}
-		country_leader = {
-			ideology = revolutionary_socialist_subtype
-			traits = { }
-		}
+		#country_leader = {
+		#	ideology = revolutionary_socialist_subtype
+		#	traits = { }
+		#}
 	}
 	PER_Iraj_Eskandari = {
 		name = "Iraj Eskandari"
@@ -392,8 +392,13 @@ characters = {
 		name = "Sayyed Hasan Taqizādeh"
 		portraits = {
 			civilian = {
+				large = "gfx/leaders/PER/Portrait_Persia_Sayyed_Hasan_Taqizadeh.png"
 				small = "gfx/interface/ministers/PER/PER_Sayyed_Hasan_Taqizādeh.png"
 			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			#desc = PER
 		}
 		advisor = {
 			cost = 150

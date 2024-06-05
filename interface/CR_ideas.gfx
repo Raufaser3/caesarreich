@@ -40,4 +40,10 @@ spriteTypes = {
         name = "GFX_idea_HUN_rural_unrest"
         textureFile = "gfx/interface/ideas/HUN/HUN_rural_unrest.png"
     }
+
+    ###PAL
+    spriteType = {
+        name = "GFX_idea_PAL_Illegal_Zionist_Immigration"
+        texturefile = "gfx/interface/ideas/PAL/PAL_Illegal_Zionist_Immigration.png"
+    }
 }

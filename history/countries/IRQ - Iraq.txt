@@ -1,4 +1,4 @@
-capital = 554
+capital = 291
 
 oob = "IRQ"
 
@@ -94,7 +94,7 @@ set_popularities = {
   vanguardist = 10
   utopian_socialist = 0
   revolutionary_socialist = 0
-  social_democrat = 8
+  social_democrat = 18
   liberal = 33
   social_conservative = 24
   authoritarian_democrat = 0

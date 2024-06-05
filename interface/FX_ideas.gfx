@@ -2255,8 +2255,4 @@ spriteTypes = {
         name = "GFX_idea_ZHI_tiger"
         texturefile = "gfx/interface/ideas/ZHI/ZHI_tiger.png"
     }
-    spriteType = {
-        name = "GFX_idea_PAL_Immigration_Stopped"
-        texturefile = "gfx/interface/ideas/OTT/PAL_Immigration_Stopped.png"
-    }
 }

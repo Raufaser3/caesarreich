@@ -2,8 +2,8 @@ ideas = {
 	country = {
 		PAL_Illegal_Zionist_Immigration = {
 			available = { original_tag = PAL }
-			on_add = { log = "[GetLogIdeaInfo] PAL_Illegal_Zionist_Immigration" }
-			picture = PAL_Immigration_Stopped
+			on_add = { log = "[GetLogIdeaInfo] PAL_Weak_Peacekeeping_Force" }
+			picture = GRE_economic_withering
 			modifier = {
 				weekly_manpower = 500
 				industrial_capacity_factory = -0.05
@@ -13,7 +13,7 @@ ideas = {
 		}
 		PAL_Weak_Peacekeeping_Force = {
 			available = { original_tag = PAL }
-			on_add = { log = "[GetLogIdeaInfo] PAL_Illegal_Zionist_Immigration" }
+			on_add = { log = "[GetLogIdeaInfo] PAL_Weak_Peacekeeping_Force" }
 			picture = por_colonial_army
 			modifier = {
 				military_leader_cost_factor = 1
