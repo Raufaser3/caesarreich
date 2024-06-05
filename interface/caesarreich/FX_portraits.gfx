@@ -72,10 +72,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Muhammad_Jamali.png"
 	}
 
+	#############################################
+	# Arabia
 	spriteType = {
 		name = "GFX_Portrait_HEJ_Saadullah_Al_Jabari"
 		texturefile = "gfx/leaders/HEJ/Portrait_HEJ_Saadullah_Al_Jabari.png"
 	}
+
+	#############################################
+	# Arabia
+	spriteType = {
+		name = "GFX_Portrait_SAU_Saud_bin_Abdulaziz"
+		texturefile = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
+	}
+
 	#############################################
 	# Italy
 

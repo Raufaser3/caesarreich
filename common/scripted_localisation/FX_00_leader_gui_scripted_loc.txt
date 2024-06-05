@@ -108,6 +108,10 @@ defined_text = {
 					tag = HEJ
 					has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
 				}
+				AND = {
+					tag = SAU
+					has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+				}
 			}
 		}
 		localization_key = GUIHOGNAME
@@ -201,6 +205,13 @@ defined_text = {
 			has_socialist_government = no
 		}
 		localization_key = PM_OR_LEADER
+	}
+	text = {
+		trigger = {
+			original_tag = SAU
+			has_socialist_government = no
+		}
+		localization_key = EM_OR_EM
 	}
 	text = {
 		trigger = {
@@ -671,6 +682,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = SAU_Saud_bin_Abdulaziz
+	}
+	text = {
+		trigger = {
 			has_idea = EGY_Aly_Maher_hog_ade
 		}
 		localization_key = EGY_Aly_Maher
@@ -884,6 +901,12 @@ defined_text = {
 			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
 		}
 		localization_key = HEJ_Saadullah_Al_Jabari
+	}
+	text = {
+		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = SAU_Saud_bin_Abdulaziz
 	}
 	text = {
 		trigger = {
@@ -1207,6 +1230,12 @@ defined_text = {
 			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
 		}
 		localization_key = GFX_Portrait_HEJ_Saadullah_Al_Jabari
+	}
+	text = {
+		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = GFX_Portrait_SAU_Saud_bin_Abdulazi
 	}
 	text = {
 		trigger = {

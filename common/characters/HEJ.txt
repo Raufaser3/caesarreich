@@ -813,7 +813,7 @@ characters = {
 		}
 	}
 	HEJ_Saadullah_Al_Jabari = {
-		name = "Muhammad Fadhel Al Jamali"
+		name = "Saadullah Al Jabari"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/HEJ/Portrait_HEJ_Saadullah_Al_Jabari.png"

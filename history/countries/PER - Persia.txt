@@ -79,7 +79,7 @@ set_popularities = {
 
 add_ideas = {
 	free_trade
-	parliamentary_republic
+	semi_presidential_republic
 }
 
 recruit_character = PER_The_Maraji_Council

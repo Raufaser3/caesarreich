@@ -59,15 +59,15 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-  SAU_Saud_bin_Abdulaziz_al_Saud = {
+  SAU_Saud_bin_Abdulaziz = {
 		name = "Saud bin Abdulaziz al-Saud"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz_Al_Saud.png"
+				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
         small = "gfx/interface/ministers/SAU/SAU_Saud_bin_Abdulaziz.png"
 			}
 			army = {
-				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz_Al_Saud.png"
+				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
 			}
 		}
 		corps_commander = {

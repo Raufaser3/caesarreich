@@ -173,6 +173,15 @@ guiTypes = {
 		}
 
 		#############################################
+		# Saudis
+
+		iconType = {
+			name = "Saud_bin_Abdulaziz"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_SAU_Saud_bin_Abdulaziz
+		}
+
+		#############################################
 		# Italy
 
 		iconType = {
