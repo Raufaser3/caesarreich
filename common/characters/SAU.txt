@@ -24,7 +24,7 @@ characters = {
 		}
 	}
 	SAU_Muhammad_bin_Abdul_Rahman_al_Saud = {
-		name = "Muhammad bin Abdul Rahman al-Saud"
+		name = "Muhammad bin Abdul Rahman Al Saud"
 		portraits = {
 			army = {
 				large = "gfx/leaders/SAU/Portrait_SAU_Abdallah_bin_Abdul_Rahman_al_Saud.png"

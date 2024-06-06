@@ -94,6 +94,7 @@ LEADER_OR_SHK2: "Emperor of [FROM.GetNameWithFlag]"
 LEADER_OR_LSM2: "Emperor of [FROM.GetNameWithFlag]"
 GRE_KING_OR_PM2: "Vasiléfs of [FROM.GetNameWithFlag]"
 GRE_EM_OR_PM2: "Aftokrátor of [FROM.GetNameWithFlag]"
+EM_OR_EM2: "Wali Ahd of [FROM.GetNameWithFlag]"
 
 LEADER_OR_SHG: "Click to switch between §GEmperor§! and §CSei-i Taishogun§! view"
 LEADER_OR_CMS: "Click to switch between §GEmperor§! and §CEdo Commissioner§! view"

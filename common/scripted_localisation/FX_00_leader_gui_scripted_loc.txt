@@ -385,10 +385,24 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			original_tag = HEJ
+			has_socialist_government = no
+		}
+		localization_key = PM_OR_LEADER2
+	}
+	text = {
+		trigger = {
 			original_tag = EGY
 			has_socialist_government = no
 		}
 		localization_key = SUL_OR_PM2
+	}
+	text = {
+		trigger = {
+			original_tag = SAU
+			has_socialist_government = no
+		}
+		localization_key = EM_OR_EM2
 	}
 	text = {
 		trigger = {
@@ -1235,7 +1249,7 @@ defined_text = {
 		trigger = {
 			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
 		}
-		localization_key = GFX_Portrait_SAU_Saud_bin_Abdulazi
+		localization_key = GFX_Portrait_SAU_Saud_bin_Abdulaziz
 	}
 	text = {
 		trigger = {
