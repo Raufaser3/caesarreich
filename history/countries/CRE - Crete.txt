@@ -44,13 +44,13 @@ set_politics = {
 }
 
 set_popularities = {
-	vanguardist = 5 #KAKE
-	utopian_socialist = 5 #Communist Party of Greece
-	revolutionary_socialist = 10 # SEKE
-	social_democrat = 26  #Progressives
-	liberal = 44 #liberal party
-	social_conservative = 10 #People's Party
-	authoritarian_democrat = 8 #
+	vanguardist = 0 #KAKE
+	utopian_socialist = 0 #Communist Party of Greece
+	revolutionary_socialist = 0 # SEKE
+	social_democrat = 0  #Progressives
+	liberal = 100 #liberal party
+	social_conservative = 0 #People's Party
+	authoritarian_democrat = 0 #
 	paternal_autocrat = 0 #
 	ultranationalist = 0 #
 	esoteric_nationalist = 0 #

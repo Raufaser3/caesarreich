@@ -26,7 +26,12 @@ set_technology = {
 	fuel_silos = 1
 	basic_train = 1
 }
-
+set_province_controller = 1149
+set_province_controller = 1130
+set_province_controller = 7209
+set_province_controller = 12039
+set_province_controller = 7082
+set_province_controller = 11954
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_air_oob = "ITA_air_bba"
