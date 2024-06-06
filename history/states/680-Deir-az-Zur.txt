@@ -7,10 +7,6 @@ state={
 		owner = HEJ
 		buildings = {
 			infrastructure = 2
-			1072 = {
-				bunker = 1
-
-			}
 
 		}
 		add_core_of = HEJ
