@@ -6,6 +6,7 @@ uses_leader_gui = {
 		GRE_has_leader_GUI = yes
 		IRQ_has_leader_GUI = yes
 		ITA_has_leader_GUI = yes
+		RUS_has_leader_GUI = yes
 		JAP_has_leader_GUI = yes
 		has_country_flag = LEADER_GUI_VISIBLE
 	}
@@ -78,7 +79,9 @@ ITA_has_leader_GUI = {
 		has_idea = ITA_Italo_Balbo_hog_npo
 	}
 }
-
+RUS_has_leader_GUI = {
+	has_idea = RUS_Nikolai_Ustryalov_hog_pau
+}
 JAP_has_leader_GUI = {
 	OR = {
 		has_country_flag = JAP_Tri_Edo_Commissioner

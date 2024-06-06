@@ -86,6 +86,14 @@ spriteTypes = {
 	}
 
 	#############################################
+	# Russia
+
+	spriteType = {
+		name = "GFX_Portrait_RUS_Nikolai_Ustryalov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Ustryalov.png"
+	}
+
+	#############################################
 	# Japan
 
 	spriteType = {

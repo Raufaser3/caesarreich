@@ -100,6 +100,10 @@ defined_text = {
 					tag = IRQ
 					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
 				}
+				AND = {
+					tag = RUS
+					has_idea = RUS_Nikolai_Ustryalov_hog_pau
+				}
 			}
 		}
 		localization_key = GUIHOGNAME
@@ -193,6 +197,13 @@ defined_text = {
 			has_socialist_government = no
 		}
 		localization_key = SUL_OR_PM
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+			has_socialist_government = no
+		}
+		localization_key = PM_OR_PRESIDENT
 	}
 	text = {
 		trigger = {
@@ -371,6 +382,13 @@ defined_text = {
 			has_socialist_government = no
 		}
 		localization_key = GG_OR_LEADER2
+	}
+	text = {
+		trigger = {
+			original_tag = RUS
+			has_socialist_government = no
+		}
+		localization_key = PM_OR_GG2
 	}
 	text = {
 		trigger = {
@@ -674,6 +692,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = RUS_Nikolai_Ustryalov_hog_pau
+		}
+		localization_key = RUS_Nikolai_Ustryalov
+	}
+	text = {
+		trigger = {
 			has_idea = CAN_RB_Bennett_hog_sco
 		}
 		localization_key = CAN_RB_Bennett
@@ -875,6 +899,12 @@ defined_text = {
 			has_idea = ITA_Italo_Balbo_hog_npo
 		}
 		localization_key = ITA_Italo_Balbo
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_Nikolai_Ustryalov_hog_pau
+		}
+		localization_key = RUS_Nikolai_Ustryalov
 	}
 	text = {
 		trigger = {
@@ -1198,6 +1228,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = GFX_Portrait_ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = RUS_Nikolai_Ustryalov_hog_pau
+		}
+		localization_key = GFX_Portrait_RUS_Nikolai_Ustryalov
 	}
 	text = {
 		trigger = {

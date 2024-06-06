@@ -177,7 +177,14 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_ITA_Italo_Balbo
 		}
-		
+		#############################################
+		# Russia
+
+		iconType = {
+			name = "Nikolai_Ustryalov"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_RUS_Nikolai_Ustryalov
+		}
 		#############################################
 		# Japan
 

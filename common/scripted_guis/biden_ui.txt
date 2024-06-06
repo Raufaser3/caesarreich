@@ -244,6 +244,16 @@ scripted_gui = {
 				}
 			}
 
+			#############################################
+			# RUS
+
+			Nikolai_Ustryalov_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = RUS_Nikolai_Ustryalov_hog_pau
+				}
+			}
+
 			pm_name_visible = {
 				has_country_flag = HOG_veiw
 			}
