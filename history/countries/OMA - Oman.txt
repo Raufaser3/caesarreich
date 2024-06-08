@@ -34,5 +34,11 @@ set_popularities = {
   ultranationalist = 0
   esoteric_nationalist = 0
 }
-
+ENG = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.5
+	}
+}
 recruit_character = OMA_Said_bin_Taimur

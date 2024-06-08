@@ -24,12 +24,14 @@ if = {
 		}
 	}
 }
-ENG = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.5
-	}
+GER = {
+	give_guarantee = HAS
+}
+give_military_access = GER
+give_market_access = GER
+give_resource_rights = {
+	receiver = GER
+	state = 744
 }
 recruit_character = HAS_Naif_Al_Urayir
 recruit_character = HAS_Muhammad_Baqir_Al_Shakhs
