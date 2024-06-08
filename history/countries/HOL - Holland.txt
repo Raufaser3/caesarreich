@@ -27,6 +27,8 @@ set_technology = {
 
 add_ideas = {
 	constitutional_monarchy
+	HOL_neutral_harbour_of_europe
+	HOL_Looming_Giants
 }
 
 set_politics = {	
@@ -37,16 +39,16 @@ set_politics = {
 }
 
 set_popularities = {
-  vanguardist = 0
+  vanguardist = 4
   utopian_socialist = 0
-  revolutionary_socialist = 0
-  social_democrat = 0
-  liberal = 0
-  social_conservative = 100
-  authoritarian_democrat = 0
-  paternal_autocrat = 0
-  ultranationalist = 0
-  esoteric_nationalist = 0
+  revolutionary_socialist = 2
+  social_democrat = 28
+  liberal = 5
+  social_conservative = 31
+  authoritarian_democrat = 21
+  paternal_autocrat = 2
+  ultranationalist = 6
+  esoteric_nationalist = 1
 }
 
 
@@ -181,3 +183,7 @@ recruit_character = HOL_Daniel_Goulooze
 recruit_character = HOL_Henriette_Roland_Holst
 recruit_character = HOL_Abraham_Menist
 recruit_character = HOL_Fokke_Bosman
+recruit_character = HOL_Piet_Aalberse_Sr
+
+### Starting Ministers
+activate_advisor = HOL_Piet_Aalberse_Sr_hog_sco

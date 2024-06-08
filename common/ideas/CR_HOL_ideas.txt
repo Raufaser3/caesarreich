@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+    
+	    HOL_neutral_harbour_of_europe = {
+		
+		    allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    trade_opinion_factor = 0.25
+				consumer_goods_factor = -0.1
+				production_factory_start_efficiency_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			
+			rule = {
+				can_join_factions = no
+			}
+			
+		}
+		
+		HOL_Looming_Giants = {
+		
+		    allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.1
+				political_power_cost = 0.1
+				army_core_defence_factor = 0.1
+			}
+		
+		}
+		
+	}
+	
+}

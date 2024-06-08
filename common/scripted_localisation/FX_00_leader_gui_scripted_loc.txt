@@ -97,6 +97,10 @@ defined_text = {
 					}
 				}
 				AND = {
+					tag = HOL
+					has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+				}
+				AND = {
 					tag = IRQ
 					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
 				}
@@ -656,6 +660,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = "Piet Aalberse Sr."
+	}
+	text = {
+		trigger = {
 			has_idea = ITA_Don_Luigi_Sturzo_hog_sde
 		}
 		localization_key = ITA_Don_Luigi_Sturzo
@@ -857,6 +867,12 @@ defined_text = {
 			has_idea = EGY_Aly_Maher_hog_ade
 		}
 		localization_key = EGY_Aly_Maher
+	}
+	text = {
+		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = "Piet Aalberse Sr."
 	}
 	text = {
 		trigger = {
@@ -1198,6 +1214,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = GFX_Portrait_ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = GFX_Portrait_HOL_Piet_Aalberse_Sr
 	}
 	text = {
 		trigger = {

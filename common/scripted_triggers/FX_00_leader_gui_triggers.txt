@@ -4,6 +4,7 @@ uses_leader_gui = {
 		ENG_has_leader_GUI = yes
 		EGY_has_leader_GUI = yes
 		GRE_has_leader_GUI = yes
+		HOL_has_leader_GUI = yes
 		IRQ_has_leader_GUI = yes
 		ITA_has_leader_GUI = yes
 		JAP_has_leader_GUI = yes
@@ -64,6 +65,13 @@ GRE_has_leader_GUI = {
 		has_idea = GRE_Georgios_Poulos_hog_npo
 		has_idea = GRE_Manolis_Manoleas_hog_val
 		has_idea = GRE_Ioannis_Michail_Metaxas_hog_pau
+	}
+}
+
+HOL_has_leader_GUI = {
+	has_idea = constitutional_monarchy
+	OR = {
+		has_idea = HOL_Piet_Aalberse_Sr_hog_sco
 	}
 }
 
