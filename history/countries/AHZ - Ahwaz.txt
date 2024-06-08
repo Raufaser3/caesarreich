@@ -24,10 +24,10 @@ if = {
 		}
 	}
 }
-ENG = {
+IRQ = {
 	set_autonomy = {
 		target = PREV
-		autonomous_state = autonomy_protectorate
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.5
 	}
 }
