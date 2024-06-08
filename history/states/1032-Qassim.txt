@@ -4,7 +4,7 @@ state={
   history = {
     owner = SAU
     add_core_of = HEJ
-	add_claim_by = SAU
+	add_core_of = SAU
   }
 	provinces={
 		8004 10892 12813 10748 2090

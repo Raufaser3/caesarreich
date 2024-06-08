@@ -1078,3 +1078,7 @@ AHZ = {
 	color = rgb { 100 50 50 }
 	color_ui = rgb { 100 50 50 }
 }
+ASI = {
+	color = rgb { 180 160 110 }
+	color_ui = rgb { 180 160 110 }
+}
