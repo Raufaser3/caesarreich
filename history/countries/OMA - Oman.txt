@@ -37,7 +37,7 @@ set_popularities = {
 ENG = {
 	set_autonomy = {
 		target = PREV
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_puppet
 		freedom_level = 0.5
 	}
 }

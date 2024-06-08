@@ -28,7 +28,6 @@ GER = {
 	give_guarantee = HAS
 }
 give_military_access = GER
-give_market_access = GER
 give_resource_rights = {
 	receiver = GER
 	state = 744

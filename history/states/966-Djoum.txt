@@ -7,6 +7,7 @@ state={
 		owner = GER
 		add_core_of = CMR
 		add_core_of = NFQ
+		add_claim_by = GER
 		buildings = {
 			infrastructure = 1
 		}
