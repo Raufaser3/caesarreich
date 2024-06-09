@@ -1,14 +1,13 @@
 characters = {
-	BRA_Borges_de_Medeiros = {
-		name = "Isaías de Noronha"
+	BRA_Arthur_Bernardes = {
+		name = "Arthur Bernardes"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BRA/Portrait_BRA_Borges_de_Medeiros.png"
+				large = "gfx/leaders/BRA/Portrait_BRA_Arthur_Bernardes.png"
 			}
 		}
 		country_leader = {
 			ideology = authoritarian_democrat_subtype
-			traits = { }
 		}
 	}
 }

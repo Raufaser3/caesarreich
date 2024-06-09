@@ -167,14 +167,4 @@ if = {
 	}
 }
 
-recruit_character = BRA_Joao_Mangabeira
-recruit_character = BRA_Julio_Prestes
-recruit_character = BRA_Armando_Salles
-recruit_character = BRA_Otavio_Mangabeira
-recruit_character = BRA_Getulio_Vargas
-recruit_character = BRA_Gustavo_Dodt_Barroso
-recruit_character = BRA_Eurico_Gaspar_Dutra
-recruit_character = BRA_Euclides_Figueiredo
-recruit_character = BRA_Palimercio_de_Rezende
-recruit_character = BRA_Mascarenhas_de_Morais
-recruit_character = BRA_Isaias_de_Noronha
+recruit_character = BRA_Arthur_Bernardes
