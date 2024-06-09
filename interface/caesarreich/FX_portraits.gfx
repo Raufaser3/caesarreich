@@ -53,6 +53,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Jack_Churchill.png"
 	}
 
+	############################################
+	# Germany
+	spriteType = {
+		name = "GFX_Portrait_GER_Karl_Severing"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Karl_Severing.png"
+	}
 	#############################################
 	# Egypt
 

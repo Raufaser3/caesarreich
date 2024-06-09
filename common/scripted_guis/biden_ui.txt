@@ -79,7 +79,14 @@ scripted_gui = {
 					has_idea = ENG_Anthony_Eden_hog_sco
 				}
 			}
-			
+			#############################################
+			# Germany
+			Karl_Severing_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = GER_Karl_Severing_hog_sde
+				}
+			}
 			#############################################
 			# Greece
 

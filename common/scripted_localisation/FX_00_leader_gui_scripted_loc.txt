@@ -186,6 +186,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			original_tag = GER
+		}
+		localization_key = RK_OR_PRESIDENT
+	}
+	text = {
+		trigger = {
 			original_tag = IRQ
 			has_socialist_government = no
 		}
@@ -353,6 +359,13 @@ defined_text = {
 			has_socialist_government = no
 		}
 		localization_key = PM_OR_LEADER2
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			has_socialist_government = no
+		}
+		localization_key = RK_OR_PRESIDENT2
 	}
 	text = {
 		trigger = {
@@ -648,6 +661,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = GER_Karl_Severing_hog_sde
+		}
+		localization_key = GER_Karl_Severing
+	}
+	text = {
+		trigger = {
 			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
 		}
 		localization_key = IRQ_Kamil_Al_Chaderchi
@@ -855,6 +874,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = GER_Karl_Severing_hog_sde
+		}
+		localization_key = GER_Karl_Severing
 	}
 	text = {
 		trigger = {
@@ -1214,6 +1239,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = GFX_Portrait_ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = GER_Karl_Severing_hog_sde
+		}
+		localization_key = GFX_Portrait_GER_Karl_Severing
 	}
 	text = {
 		trigger = {

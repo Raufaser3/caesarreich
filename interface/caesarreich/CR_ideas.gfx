@@ -58,4 +58,21 @@ spriteTypes = {
         name = "GFX_idea_ENG_a_very_british_tyranny"
         textureFile = "gfx/interface/ideas/ENG/ENG_a_very_british_tyranny.png"
     }
+     ###GER
+     spriteType = {
+        name = "GFX_idea_GER_corporals_cabal"
+        textureFile = "gfx/interface/ideas/GER/GER_corporals_cabal.png"
+    }
+    spriteType = {
+        name = "GFX_idea_GER_prussian_bulwark"
+        textureFile = "gfx/interface/ideas/GER/GER_prussian_bulwark.png"
+    }
+    spriteType = {
+        name = "GFX_idea_GER_long_arm_rome"
+        textureFile = "gfx/interface/ideas/GER/GER_long_arm_rome.png"
+    }
+    spriteType = {
+        name = "GFX_idea_GER_spd_republic"
+        textureFile = "gfx/interface/ideas/GER/GER_spd_republic.png"
+    }
 }

@@ -2,6 +2,7 @@ uses_leader_gui = {
 	OR = {
 		CAN_has_leader_GUI = yes
 		ENG_has_leader_GUI = yes
+		GER_has_leader_GUI = yes
 		EGY_has_leader_GUI = yes
 		GRE_has_leader_GUI = yes
 		HOL_has_leader_GUI = yes
@@ -33,7 +34,9 @@ ENG_has_leader_GUI = {
 		has_idea = ENG_Henry_Williamson_hog_una
 	}
 }
-
+GER_has_leader_GUI = {
+	has_idea = GER_Karl_Severing_hog_sde
+}
 EGY_has_leader_GUI = {
 	has_idea = EGY_Aly_Maher_hog_ade
 }
