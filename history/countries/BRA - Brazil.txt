@@ -73,7 +73,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -81,12 +81,12 @@ set_politics = {
 
 set_popularities = {
     social_conservative = 10
-    liberal = 30
-    paternal_autocrat = 20
+    liberal = 10
+    paternal_autocrat = 10
     esoteric_nationalist = 5
     utopian_socialist = 25
     revolutionary_socialist = 5
-    authoritarian_democrat = 5
+    authoritarian_democrat = 35
 }
 
 add_ideas = {
