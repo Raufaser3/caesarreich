@@ -4,6 +4,7 @@ state={
 
 	history={
 		add_core_of = CMR
+		add_claim_by = GER
 		owner = GER
 		buildings = {
 			infrastructure = 2

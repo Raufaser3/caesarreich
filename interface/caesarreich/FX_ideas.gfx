@@ -2255,5 +2255,4 @@ spriteTypes = {
         name = "GFX_idea_ZHI_tiger"
         texturefile = "gfx/interface/ideas/ZHI/ZHI_tiger.png"
     }
-
 }

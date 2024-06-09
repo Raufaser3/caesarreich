@@ -15,7 +15,7 @@ state={
 		victory_points = { 9503 10 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
+			industrial_complex = 1
 			549 = {
 				bunker = 5
 			}
@@ -28,8 +28,8 @@ state={
 			9503 = {
 				bunker = 5
 			}
-			anti_air_building = 5
-			air_base = 5
+			anti_air_building = 2
+			air_base = 2
 		}
 		add_core_of = FRA
 		add_claim_by = GER

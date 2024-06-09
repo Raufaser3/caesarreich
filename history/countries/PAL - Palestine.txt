@@ -1,0 +1,72 @@
+capital = 454
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	fuel_silos = 1
+  basic_train = 1
+}
+
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.50
+set_war_support = 0.50
+
+
+add_ideas = {
+  PAL_Weak_Peacekeeping_Force
+  PAL_Illegal_Zionist_Immigration
+	international_mandate
+}
+
+FRA={
+  give_guarantee = PAL
+}
+TUR={
+  give_guarantee = PAL
+}
+GER={
+  give_guarantee = PAL
+}
+HEJ={
+  give_guarantee = PAL
+}
+EGY={
+  give_guarantee = PAL
+}
+USA={
+  give_guarantee = PAL
+}
+
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+  vanguardist = 0
+  utopian_socialist = 0
+  revolutionary_socialist = 7
+  social_democrat = 0
+  liberal = 13
+  social_conservative = 10
+  authoritarian_democrat = 37
+  paternal_autocrat = 12
+  ultranationalist = 18
+  esoteric_nationalist = 3
+}
+recruit_character = PAL_Radwan_Hilu
+recruit_character = PAL_Jabra_Nicola
+recruit_character = PAL_Alami
+recruit_character = PAL_Nashashibi
+recruit_character = PAL_Arif_Al_Arif
+recruit_character = PAL_Commission
+recruit_character = PAL_Amin_Hussieni
+recruit_character = PAL_Abdulqadir_Hussieni
+recruit_character = PAL_Hasan_Salameh

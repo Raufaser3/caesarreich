@@ -1,38 +1,56 @@
 characters = {
+	HEJ_Faisal_I = {
+		name = "Faisal I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HEJ/Portrait_HEJ_Faisal_I.png"
+			}
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+            desc = POLITICS_FAISAL_I_DESC
+			ideology = esoteric_nationalist_subtype
+			traits = { }
+		}
+	}
 	HEJ_Abd_al_Ilah = {
 		name = "Abd al-Ilah"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/HEJ/Portrait_HEJ_Abd_al_Ilah.png"
-        small = "gfx/interface/ministers/HEJ/HEJ_Abd_al_Ilah.png"
+                small = "gfx/interface/ministers/HEJ/HEJ_Abd_al_Ilah.png"
 			}
 		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = liberal_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = social_conservative_subtype
-			traits = { }
-		}
-    country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-      desc = POLITICS_HEJ_ADB_AL_ILAH_DESC
-			ideology = absolute_mon_subtype
-			traits = { }
-		}
-    advisor = {
+        advisor = {
 			cost = 150
 			slot = head_of_government
 			available = {
@@ -794,112 +812,32 @@ characters = {
 			}
 		}
 	}
-  HEJ_Nuri_al_Said = {
-    name = "Nuri al-Said"
-    portraits = {
-      civilian = {
-        small = "gfx/interface/ministers/HEJ/HEJ_Nuri_al_Said.png"
-      }
-    }
-    advisor = {
+	HEJ_Saadullah_Al_Jabari = {
+		name = "Saadullah Al Jabari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HEJ/Portrait_HEJ_Saadullah_Al_Jabari.png"
+				small = "gfx/interface/ministers/HEJ/HEJ_Saadullah_Al_Jabari.png"
+			}
+		}
+		advisor = {
 			cost = 150
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = HEJ_Nuri_al_Said_hog_mli_hired }
-			}			
-			idea_token = HEJ_Nuri_al_Said_hog_mli
+			available = { 
+				hidden_trigger = { has_country_flag = HEJ_Saadullah_Al_Jabari_hog_sco_hired }
+			}
+			idea_token = HEJ_Saadullah_Al_Jabari_hog_sco
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = HEJ_Nuri_al_Said_hog_mli_hired }
+				ROOT = { set_country_flag = HEJ_Saadullah_Al_Jabari_hog_sco_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = HEJ_Nuri_al_Said_hog_mli_hired }
+				ROOT = { clr_country_flag = HEJ_Saadullah_Al_Jabari_hog_sco_hired }
 			}
 			traits = {
-				liberal
-				hog_corporate_suit
+				social_conservative
+				hog_state_secularist
 			}
 		}
-  }
-  HEJ_Francis_Humphrys = {
-    name = "Francis Humphrys"
-    portraits = {
-      civilian = {
-        small = "gfx/interface/ministers/HEJ/HEJ_Francis_Humphrys.png"
-      }
-    }
-    advisor = {
-			cost = 150
-			slot = foreign_minister
-			available = {
-				hidden_trigger = { has_country_flag = HEJ_Francis_Humphrys_for_mli_hired }
-			}			
-			idea_token = HEJ_Francis_Humphrys_for_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = HEJ_Francis_Humphrys_for_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = HEJ_Francis_Humphrys_for_mli_hired }
-			}
-			traits = {
-				liberal
-				for_great_compromiser
-			}
-		}
-  }
-  HEJ_John_Cadman = {
-    name = "John Cadman"
-    portraits = {
-      civilian = {
-        small = "gfx/interface/ministers/HEJ/HEJ_John_Cadman.png"
-      }
-    }
-    advisor = {
-			cost = 150
-			slot = economy_minister
-			available = {
-				hidden_trigger = { has_country_flag = HEJ_John_Cadman_eco_mli_hired }
-			}			
-			idea_token = HEJ_John_Cadman_eco_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = HEJ_John_Cadman_eco_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = HEJ_John_Cadman_eco_mli_hired }
-			}
-			traits = {
-				liberal
-				eco_resource_industrialist
-			}
-		}
-  }
-  HEJ_Percy_Cox = {
-    name = "Percy Cox"
-    portraits = {
-      civilian = {
-        small = "gfx/interface/ministers/HEJ/HEJ_Percy_Cox.png"
-      }
-    }
-    advisor = {
-			cost = 150
-			slot = interior_minister
-			available = {
-				hidden_trigger = { has_country_flag = HEJ_Percy_Cox_sec_mli_hired }
-			}			
-			idea_token = HEJ_Percy_Cox_sec_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = HEJ_Percy_Cox_sec_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = HEJ_Percy_Cox_sec_mli_hired }
-			}
-			traits = {
-				liberal
-				sec_efficient_sociopath
-			}
-		}
-  }
+	}
 }

@@ -8,7 +8,9 @@ state={
 		add_core_of = IRQ
 
 	}
-
+	resources = {
+		oil = 30
+	}
 	provinces={
 		6826 8123 10793 
 	}

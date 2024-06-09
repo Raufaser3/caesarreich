@@ -1,0 +1,33 @@
+capital = 831
+
+oob = "00_default_template"
+
+set_research_slots = 1
+set_stability = 0.75
+set_war_support = 0.80
+
+add_ideas = {
+	absolute_monarchy
+}
+
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardist = 0
+	utopian_socialist = 0
+	revolutionary_socialist = 0
+	social_democrat = 0
+	liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 40
+	paternal_autocrat = 60
+	ultranationalist = 0
+	esoteric_nationalist = 0
+}
+recruit_character = ASI_Sayyid_Hassan_Al_Idrisi
+recruit_character = ASI_Hassan_Bin_Ali_Al_Ayd

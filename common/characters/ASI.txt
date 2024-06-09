@@ -1,0 +1,26 @@
+characters = {
+	ASI_Sayyid_Hassan_Al_Idrisi = {
+		name = "Sayyid Al Hasan bin Ali Al Idrisi Al Hasan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ASI/ASI_Sayyid_Hasan.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	ASI_Hassan_Bin_Ali_Al_Ayd = {
+		name = "Hasan Bin Ali Al Ayd"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ASI/ASI_Hassan_Bin_Ali_Al_Ayd.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+}

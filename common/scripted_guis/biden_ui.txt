@@ -211,14 +211,40 @@ scripted_gui = {
 					has_idea = EGY_Aly_Maher_hog_ade
 				}
 			}
+			Mostafa_El_Nahas_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = EGY_Mostafa_El_Nahas_hog_sli
+				}
+			}
 
 			#############################################
 			# Iraq
 
-			Kamil_Al_Chaderchi_visible = {
+			Muhammad_Jamali_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+					has_idea = IRQ_Muhammad_Jamali_hog_sli
+				}
+			}
+
+			#############################################
+			# Arabia
+
+			Saadullah_Al_Jabari_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+				}
+			}
+			
+			#############################################
+			# Saudis
+
+			Saud_bin_Abdulaziz_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
 				}
 			}
 

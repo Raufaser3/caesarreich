@@ -9,6 +9,7 @@ state={
 		add_core_of = GHA
 		add_core_of = TOG
 		add_core_of = NGA
+		add_claim_by = GER
     add_claim_by = ENG
 		buildings = {
 			infrastructure = 1

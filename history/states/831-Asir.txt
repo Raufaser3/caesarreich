@@ -3,10 +3,12 @@ state={
 	name="STATE_831"
 
 	history = {
-		owner = HEJ
+		owner = ASI
 		buildings = {
 			infrastructure = 2
 		}
+		add_core_of = ASI
+		add_claim_by = SAU
 		add_core_of = HEJ
 		victory_points = {
 			8073 2 
@@ -14,7 +16,7 @@ state={
 	}
 
 	provinces={
-		1923 8073
+		1923 5006 8073 13322
 	}
 	manpower = 293850
 	buildings_max_level_factor=1.000

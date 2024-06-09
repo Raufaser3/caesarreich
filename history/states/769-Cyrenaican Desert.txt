@@ -6,7 +6,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = EGY
+		owner = LBA
 		buildings = {
 			infrastructure = 0
 
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		1057 1140 4191 10754 10785 
+		1057 1140 1994 4191 10754 10785 
 	}
 	manpower=2492
 	buildings_max_level_factor=1.000

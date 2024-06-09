@@ -229,9 +229,9 @@ country_event = { # Fate of Lebanon
 
 	immediate = {
 		hidden_effect = {
-			add_to_temp_array = { core_removal_array = PHN }
+			add_to_temp_array = { core_removal_array = LEB }
 			remove_all_cores_and_claims_of_tags = yes
-			PHN = {
+			LEB = {
 				add_state_core = 553
 				add_state_core = 677
 				drop_cosmetic_tag = yes
@@ -245,7 +245,7 @@ country_event = { # Fate of Lebanon
 		ai_chance = {
 			base = 100
 		}
-		set_temp_variable = { tag_to_release = PHN }
+		set_temp_variable = { tag_to_release = LEB }
 		release_targeted_tag = yes
 	}
 
@@ -255,7 +255,7 @@ country_event = { # Fate of Lebanon
 		ai_chance = {
 			base = 0
 		}
-		set_country_flag = PHN_CONQ
+		set_country_flag = LEB_CONQ
 		occupy_small_country = yes
 	}
 }

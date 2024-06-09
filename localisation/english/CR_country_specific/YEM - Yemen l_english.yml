@@ -58,3 +58,21 @@ YEM_ultranationalist_party: "YAR"
 YEM_ultranationalist_party_long: "Yemen Arab Republic"
 YEM_esoteric_nationalist_party: "YAR"
 YEM_esoteric_nationalist_party_long: "Yemen Arab Republic"
+
+############################################################################
+##################### ASIR
+############################################################################
+ASI: "Asir"
+ASI_DEF: "Asir"
+ASI_ADJ: "Asiri"
+ASI_paternal_autocrat: "Idrisid Emirate of Asir"
+ASI_paternal_autocrat_DEF: "the Idrisid Emirate of Asir"
+ASI_ADJ_paternal_autocrat: "Asiri"
+ASI_authoritarian_democrat: "Ayd Emirate of Asir"
+ASI_authoritarian_democrat_DEF: "Ayd Emirate of Asir"
+ASI_ADJ_authoritarian_democrat: "Asiri"
+
+ASI_authoritarian_democrat_party: "Al Ayd"
+ASI_authoritarian_democrat_party_long: "Al Ayd"
+ASI_paternal_autocrat_party: "Al Idrisids"
+ASI_paternal_autocrat_party_long: "Al Idrisids"

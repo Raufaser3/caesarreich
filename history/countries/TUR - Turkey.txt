@@ -8,7 +8,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	volunteer_only
-	constitutional_monarchy
+	presidential_republic
 }
 
 set_technology = {
@@ -71,7 +71,7 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -82,10 +82,9 @@ set_popularities = {
   utopian_socialist = 3
   revolutionary_socialist = 0
   social_democrat = 3
-  liberal = 42
-  liberal = 1
-  social_conservative = 12
-  authoritarian_democrat = 22
+  liberal = 12
+  social_conservative = 22
+  authoritarian_democrat = 43
   paternal_autocrat = 5
   ultranationalist = 10
   esoteric_nationalist = 2
@@ -244,13 +243,8 @@ if = {
 		}
 	}
 }
-
+recruit_character = TUR_Djemal_Pasha
 recruit_character = TUR_Abdulmecid_II
 recruit_character = TUR_Sefik_Husnu_Bey
 recruit_character = TUR_Hikmet_Bey
 recruit_character = TUR_Resad_Fuad_Bey
-
-set_country_flag = SUR_CONQ
-set_country_flag = IRQ_CONQ
-set_country_flag = ARB_CONQ
-set_country_flag = TUR_is_ott

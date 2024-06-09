@@ -666,8 +666,8 @@ can_release_phoenicia = {
 	NOT = { is_claimed_by = ROOT }
 	ROOT = {
 		NOT = {
-			country_exists = PHN
-			has_country_flag = PHN_CONQ
+			country_exists = LEB
+			has_country_flag = LEB_CONQ
 		}
 	}
 }

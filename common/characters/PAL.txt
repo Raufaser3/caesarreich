@@ -1,0 +1,114 @@
+characters = {
+	PAL_Radwan_Hilu = {
+		name = "Radwan Al Hilu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Radwan.png"
+			}
+		}
+		country_leader = {
+			ideology = utopian_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+	}
+	PAL_Jabra_Nicola = {
+		name = "Jabra Nicola"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Jabra_Nicola.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = { }
+		}
+	}
+	PAL_Alami = {
+		name = "Musa Alami"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Alami.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	PAL_Nashashibi = {
+		name = "Raghib Al Nashashibi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Nashashibi.png"
+			}
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+	}
+	PAL_Arif_Al_Arif = {
+		name = "Arif Al Arif"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Arif_Al_Arif.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	PAL_Commission = {
+		name = "International Commission"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Commission.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+	PAL_Amin_Hussieni = {
+		name = "Amin Al Hussieni"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_The_Mufti.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	PAL_Abdulqadir_Hussieni = {
+		name = "Abdul Qadir Al Hussieni"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_al_Husayni.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+	}
+	PAL_Hasan_Salameh = {
+		name = "Hasan Salameh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAL/Portrait_PAL_Hasan_Salama.png"
+			}
+		}
+		country_leader = {
+			ideology = esoteric_nationalist_subtype
+			traits = { }
+		}
+	}
+}

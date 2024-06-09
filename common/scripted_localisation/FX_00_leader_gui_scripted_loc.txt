@@ -81,6 +81,10 @@ defined_text = {
 					has_idea = EGY_Aly_Maher_hog_ade
 				}
 				AND = {
+					tag = EGY
+					has_idea = EGY_Mostafa_El_Nahas_hog_sli
+				}
+				AND = {
 					tag = ENG
 					any_of = {
 						array = ENG.hog_characters
@@ -102,7 +106,15 @@ defined_text = {
 				}
 				AND = {
 					tag = IRQ
-					has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+					has_idea = IRQ_Muhammad_Jamali_hog_sli
+				}
+				AND = {
+					tag = HEJ
+					has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+				}
+				AND = {
+					tag = SAU
+					has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
 				}
 			}
 		}
@@ -189,7 +201,21 @@ defined_text = {
 			original_tag = IRQ
 			has_socialist_government = no
 		}
+		localization_key = PM_OR_PRESIDENT
+	}
+	text = {
+		trigger = {
+			original_tag = HEJ
+			has_socialist_government = no
+		}
 		localization_key = PM_OR_LEADER
+	}
+	text = {
+		trigger = {
+			original_tag = SAU
+			has_socialist_government = no
+		}
+		localization_key = EM_OR_EM
 	}
 	text = {
 		trigger = {
@@ -363,10 +389,24 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			original_tag = HEJ
+			has_socialist_government = no
+		}
+		localization_key = PM_OR_LEADER2
+	}
+	text = {
+		trigger = {
 			original_tag = EGY
 			has_socialist_government = no
 		}
 		localization_key = SUL_OR_PM2
+	}
+	text = {
+		trigger = {
+			original_tag = SAU
+			has_socialist_government = no
+		}
+		localization_key = EM_OR_EM2
 	}
 	text = {
 		trigger = {
@@ -648,9 +688,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = IRQ_Kamil_Al_Chaderchi
+		localization_key = IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = HEJ_Saadullah_Al_Jabari
+	}
+	text = {
+		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = SAU_Saud_bin_Abdulaziz
 	}
 	text = {
 		trigger = {
@@ -660,9 +712,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+			has_idea = EGY_Mostafa_El_Nahas_hog_sli
 		}
-		localization_key = "Piet Aalberse Sr."
+		localization_key = EGY_Mostafa_El_Nahas
 	}
 	text = {
 		trigger = {
@@ -858,9 +910,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = IRQ_Kamil_Al_Chaderchi
+		localization_key = IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = HEJ_Saadullah_Al_Jabari
+	}
+	text = {
+		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = SAU_Saud_bin_Abdulaziz
 	}
 	text = {
 		trigger = {
@@ -870,9 +934,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+			has_idea = EGY_Mostafa_El_Nahas_hog_sli
 		}
-		localization_key = "Piet Aalberse Sr."
+		localization_key = EGY_Mostafa_El_Nahas
 	}
 	text = {
 		trigger = {
@@ -1175,15 +1239,33 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
-		localization_key = GFX_Portrait_IRQ_Kamil_Al_Chaderchi
+		localization_key = GFX_Portrait_IRQ_Muhammad_Jamali
+	}
+	text = {
+		trigger = {
+			has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+		}
+		localization_key = GFX_Portrait_HEJ_Saadullah_Al_Jabari
+	}
+	text = {
+		trigger = {
+			has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+		}
+		localization_key = GFX_Portrait_SAU_Saud_bin_Abdulaziz
 	}
 	text = {
 		trigger = {
 			has_idea = EGY_Aly_Maher_hog_ade
 		}
 		localization_key = GFX_Portrait_EGY_Aly_Maher
+	}
+	text = {
+		trigger = {
+			has_idea = EGY_Mostafa_El_Nahas_hog_sli
+		}
+		localization_key = GFX_Portrait_EGY_Mostafa_El_Nahas
 	}
 	text = {
 		trigger = {
