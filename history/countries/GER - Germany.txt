@@ -116,12 +116,25 @@ if = {
 }
 
 add_ideas = {
-	semi_presidential_republic
-	GER_corporals_cabal
-	GER_prussian_bulwark
-	GER_long_arm_rome
-	GER_spd_republic
+	low_economic_mobilisation 
+	export_focus
+	
+	one_party_dictatorship
 }
+
+create_faction = europabund
+add_to_faction = GER
+add_to_faction = AUS
+add_to_faction = CZE
+add_to_faction = POL
+add_to_faction = UKR
+add_to_faction = LIT
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = BEL
+add_to_faction = BLR
+add_to_faction = KRL
+
 
 set_research_slots = 4
 set_convoys = 200
@@ -142,7 +155,6 @@ set_popularities = {
 	revolutionary_socialist = 3
 	social_democrat = 30
 	liberal = 14
-	liberal = 0
 	social_conservative = 13
 	authoritarian_democrat = 4
 	paternal_autocrat = 12
@@ -185,12 +197,11 @@ EPR = {
 	GER_add_ship_variants = yes
 }
 
-recruit_character = GER_Wilhelm_Marx
 
+recruit_character = GER_Wilhelm_Marx
 recruit_character = GER_Wilhelm_Pieck
 recruit_character = GER_Ernst_Thalmann
 recruit_character = GER_Walter_Ulbricht
-recruit_character = GER_Otto_Wels
 recruit_character = GER_Theodor_Heuss
 recruit_character = GER_Gustav_Stresemann
 recruit_character = GER_Heinrich_Bruning
@@ -331,6 +342,12 @@ recruit_character = GER_Werner_von_Blomberg
 recruit_character = GER_Wilhelm_Keitel
 recruit_character = GER_Eduard_Dietl
 recruit_character = GER_Manfred_Freiherr_von_Richthofen
+
+### Starting Ministers
+activate_advisor = GER_Anton_Arco_auf_Valley_hog_val
+activate_advisor = GER_Alfred_Rosenburg_for_val
+activate_advisor = GER_Adolf_Hitler_eco_val
+activate_advisor = GER_Hermann_Ehrhardt_sec_val
 
 if = {
   limit = { has_dlc = "La Resistance" }

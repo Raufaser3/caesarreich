@@ -1,0 +1,14 @@
+characters = {
+	KRL_Josef_Bischoff = {
+		name = "Josef Bischoff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KRL/Portrait_KRL_Josef_Bischoff.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+}

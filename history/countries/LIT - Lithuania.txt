@@ -80,24 +80,23 @@ set_stability = 0.1
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 16
-  utopian_socialist = 0
-  revolutionary_socialist = 4
-  social_democrat = 0
-  liberal = 8
-  liberal = 0
-  social_conservative = 5
-  authoritarian_democrat = 0
-  paternal_autocrat = 49
-  ultranationalist = 18
-  esoteric_nationalist = 0
+  vanguardist = 2
+  utopian_socialist = 5
+  revolutionary_socialist = 14
+  social_democrat = 22
+  liberal = 11
+  social_conservative = 12
+  authoritarian_democrat = 25
+  paternal_autocrat = 5
+  ultranationalist = 2
+  esoteric_nationalist = 2
 }
 
 ### VARIANTS ###
@@ -158,7 +157,8 @@ if = {
 	}
 }
 
-recruit_character = LIT_Stanisław_Narutowicz
+
+recruit_character = LIT_Kazys_Grinius
 recruit_character = LIT_Augustinas_Voldemaras
 recruit_character = LIT_Antanas_Kaskelis
 recruit_character = LIT_Vytautas_II

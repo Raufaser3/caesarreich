@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+	
+	    BEL_Between_the_Giants = {
+		
+		    allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.1
+				political_power_cost = 0.1
+				army_core_defence_factor = 0.1
+			}
+		
+		}
+		
+		BEL_Spirit_of_Lion_and_Rooster = {
+		
+		    allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.1
+				mobilization_laws_cost_factor = 0.1
+				conscription = -0.01
+			}
+		
+		}
+		
+		BEL_Anti_Socialist_Laws = {
+		
+		    allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.15
+				political_power_gain = -0.2
+				liberal_drift = 0.1
+				revolutionary_socialist_drift = 0.1
+				social_democrat_drift = 0.1
+				training_time_army_factor = -0.1
+				mobilization_laws_cost_factor = -0.1
+			}
+		
+		}
+	
+	}
+
+}

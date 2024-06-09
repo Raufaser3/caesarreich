@@ -1,6 +1,6 @@
-@faction_name_pos_x = 7
+@faction_name_pos_x = 4
 @faction_name_pos_y = 49
-@faction_name_max_width = 150
+@faction_name_max_width = 125
 @faction_name_max_height = 55
 
 guiTypes = {

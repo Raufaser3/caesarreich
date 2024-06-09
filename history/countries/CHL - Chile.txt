@@ -260,7 +260,6 @@ recruit_character = CHL_Luis_Alberto_Corvalan_Lepe
 recruit_character = CHL_Luis_Emilio_Recabarren
 recruit_character = CHL_Oscar_Schnake
 recruit_character = CHL_Salvador_Allende
-recruit_character = CHL_Marmaduke_Grove
 recruit_character = CHL_Jeronimo_Mendez_Arancibia
 recruit_character = CHL_Juan_Antonio_Rios
 recruit_character = CHL_Juan_Esteban_Montero

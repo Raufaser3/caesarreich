@@ -1096,4 +1096,32 @@ characters = {
 			}
 		}
 	}
+	HOL_Piet_Aalberse_Sr = {
+		name = "Piet Aalberse Sr."
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/Portrait_HOL_Piet_Aalberse_Sr.png"
+				small = "gfx/interface/ministers/HOL/HOL_Piet_Aalberse_Sr.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = HOL_Piet_Aalberse_Sr_hog_sco_hired }
+			}			
+			idea_token = HOL_Piet_Aalberse_Sr_hog_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = HOL_Piet_Aalberse_Sr_hog_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = HOL_Piet_Aalberse_Sr_hog_sco_hired }
+			}
+			traits = {
+			    social_conservative
+				hog_pragmatic_statesman
+			}
+		}
+	}
 }

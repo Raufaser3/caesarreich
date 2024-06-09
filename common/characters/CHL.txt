@@ -212,38 +212,6 @@ characters = {
 			}
 		}
 	}
-	CHL_Marmaduke_Grove = {
-		name = "Marmaduke Grove"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/CHL/Portrait_CHL_Marmaduke_Grove.png"
-				small = "gfx/interface/ministers/CHL/CHL_Marmaduke_Grove.png"
-			}
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-		advisor = {
-			cost = 150
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = CHL_Marmaduke_Grove_hog_sde_hired }
-			}
-			idea_token = CHL_Marmaduke_Grove_hog_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = CHL_Marmaduke_Grove_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = CHL_Marmaduke_Grove_hog_sde_hired }
-			}
-			traits = {
-				social_democrat
-				hog_silent_workhorse
-			}
-		}
-	}
 	CHL_Jeronimo_Mendez_Arancibia = {
 		name = "Jeronimo Mendez Arancíbia"
 		portraits = {

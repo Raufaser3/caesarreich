@@ -82,19 +82,23 @@ defined_text = {
 				}
 				AND = {
 					tag = ENG
-					has_idea = ENG_Arthur_Greenwood_hog_sde
+					any_of = {
+						array = ENG.hog_characters
+						value = v
+						meta_trigger = {
+							text = {
+								[scope] = {
+									is_hired_as_advisor = yes
+									not_already_hired_except_as = head_of_government
+								}
+							}
+							scope = "[?v.GetTokenKey]"
+						}
+					}
 				}
 				AND = {
-					tag = ENG
-					has_idea = ENG_Jack_Churchill_hog_ade
-				}
-				AND = {
-					tag = ENG
-					has_idea = ENG_Anthony_Eden_hog_sco
-				}
-				AND = {
-					tag = ENG
-					has_idea = ENG_Samuel_Hoare_hog_sco
+					tag = HOL
+					has_idea = HOL_Piet_Aalberse_Sr_hog_sco
 				}
 				AND = {
 					tag = IRQ
@@ -614,6 +618,12 @@ defined_text = {
 	name = GetPrimeMinister
 	text = {
 		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = ENG_Henry_Williamson
+	}
+	text = {
+		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
 		}
 		localization_key = ENG_Arthur_Greenwood
@@ -647,6 +657,12 @@ defined_text = {
 			has_idea = EGY_Aly_Maher_hog_ade
 		}
 		localization_key = EGY_Aly_Maher
+	}
+	text = {
+		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = "Piet Aalberse Sr."
 	}
 	text = {
 		trigger = {
@@ -812,6 +828,12 @@ defined_text = {
 	name = GetPrimeMinisterName
 	text = {
 		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = ENG_Henry_Williamson
+	}
+	text = {
+		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
 		}
 		localization_key = ENG_Arthur_Greenwood
@@ -845,6 +867,12 @@ defined_text = {
 			has_idea = EGY_Aly_Maher_hog_ade
 		}
 		localization_key = EGY_Aly_Maher
+	}
+	text = {
+		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = "Piet Aalberse Sr."
 	}
 	text = {
 		trigger = {
@@ -1159,6 +1187,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = ENG_Henry_Williamson_hog_una
+		}
+		localization_key = GFX_Portrait_ENG_Henry_Williamson
+	}
+	text = {
+		trigger = {
 			has_idea = ENG_Arthur_Greenwood_hog_sde
 		}
 		localization_key = GFX_Portrait_ENG_Arthur_Greenwood
@@ -1180,6 +1214,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = GFX_Portrait_ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = HOL_Piet_Aalberse_Sr_hog_sco
+		}
+		localization_key = GFX_Portrait_HOL_Piet_Aalberse_Sr
 	}
 	text = {
 		trigger = {

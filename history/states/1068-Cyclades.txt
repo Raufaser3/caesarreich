@@ -5,8 +5,8 @@ state={
 		3401 
 	}
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		owner = CRE
+		add_core_of = CRE
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

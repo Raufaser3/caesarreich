@@ -25,6 +25,12 @@ if = {
   }
 }
 
+add_ideas = {
+	military_junta
+	BEL_Between_the_Giants
+	BEL_Spirit_of_Lion_and_Rooster
+	BEL_Anti_Socialist_Laws
+}
 
 set_politics = {	
 	ruling_party = paternal_autocrat

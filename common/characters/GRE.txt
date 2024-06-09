@@ -1,4 +1,17 @@
 characters = {
+	GRE_Konstantinos_I = {
+		name = "Vasiléus Konstantínos I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/Portrait_GRE_Constantine.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { king_constantine_i_of_the_hellenes }
+
+		}
+	}
 	GRE_Alexandros_Papanastasiou = {
 		name = "Aléxandros Papanastasíou"
 		portraits = {
