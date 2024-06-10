@@ -183,8 +183,8 @@ TUN = {
 	color_ui = rgb { 146 134 57 }
 }
 TUR = {
-	color = rgb { 145 170 141 } #145 170 141
-	color_ui = rgb { 145 170 141 } #164 255 156
+	color = rgb { 130 0 20 } #145 170 141
+	color_ui = rgb { 130 0 20 } #164 255 156
 }
 # TRT = {
 # 	color = rgb { 164 255 156 }
@@ -407,8 +407,8 @@ YEM = {
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 135 40 100 }
+	color_ui = rgb { 135 40 100 }
 }
 SLO = {
 	color = rgb { 161 104 162 }
@@ -431,8 +431,8 @@ CRO = {
 	color_ui = rgb { 130 75 182 }
 }
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 0 40 50 }
+	color_ui = rgb { 0 40 50 }
 }
 LEB = {
 	color = rgb { 130  150  60 }
@@ -569,10 +569,6 @@ ISR = {
 TRA = {
 	color = rgb { 192 128 64 }
 	color_ui = rgb { 190 120 65 }
-}
-PHN = {
-	color = rgb { 15 90 240 }
-	color_ui = rgb { 15  90  240 }
 }
 COR = {
 	color = rgb { 220 220 220 }
@@ -1069,4 +1065,20 @@ ISC = {
 PAP = {
 	color = rgb { 242 242 142 }
 	color_ui = rgb { 242 242 142 }
+}
+PAL = {
+	color = rgb { 100 170 90 }
+	color_ui = rgb { 100 170 90 }
+}
+HAS = {
+	color = rgb { 50 70 100 }
+	color_ui = rgb { 50 70 100 }
+}
+AHZ = {
+	color = rgb { 100 50 50 }
+	color_ui = rgb { 100 50 50 }
+}
+ASI = {
+	color = rgb { 180 160 110 }
+	color_ui = rgb { 180 160 110 }
 }

@@ -20,7 +20,8 @@ state={
 		}
 		add_core_of = ZIM
 		add_claim_by = SAF
-   		# add_claim_by = ENG
+		add_claim_by = ENG
+		add_claim_by = GER
 		add_core_of = RHO
 	}
 

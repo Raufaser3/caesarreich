@@ -66,13 +66,30 @@ spriteTypes = {
 		name = "GFX_Portrait_EGY_Aly_Maher"
 		texturefile = "gfx/leaders/EGY/Portrait_EGY_Aly_Maher.png"
 	}
-
+	spriteType = {
+		name = "GFX_Portrait_EGY_Mostafa_El_Nahas"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Mostafa_El_Nahas.png"
+	}
 	#############################################
 	# Iraq
 
 	spriteType = {
-		name = "GFX_Portrait_IRQ_Kamil_Al_Chaderchi"
-		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Kamil_Al_Chaderchi.png"
+		name = "GFX_Portrait_IRQ_Muhammad_Jamali"
+		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Muhammad_Jamali.png"
+	}
+
+	#############################################
+	# Arabia
+	spriteType = {
+		name = "GFX_Portrait_HEJ_Saadullah_Al_Jabari"
+		texturefile = "gfx/leaders/HEJ/Portrait_HEJ_Saadullah_Al_Jabari.png"
+	}
+
+	#############################################
+	# Arabia
+	spriteType = {
+		name = "GFX_Portrait_SAU_Saud_bin_Abdulaziz"
+		texturefile = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
 	}
 
 	#############################################

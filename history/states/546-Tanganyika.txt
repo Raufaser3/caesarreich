@@ -9,8 +9,9 @@ state={
 	history={
 		add_core_of = TZN
 		owner = GER
-		add_core_of = KEN
-    add_claim_by = ENG
+		add_claim_by = ENG
+		add_claim_by = GER
+
 		victory_points = {
 			2196 3 
 		}

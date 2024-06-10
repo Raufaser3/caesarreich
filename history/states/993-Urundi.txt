@@ -7,6 +7,8 @@ state={
 		add_core_of = BRD
 		owner = GER
 		add_core_of = COG
+		add_claim_by = ENG
+		add_claim_by = GER
 		buildings = {
 			infrastructure = 2
 		}

@@ -756,7 +756,7 @@ check_potential_annexations_middle_east = {
 	}
 	else_if = {
 		limit = { can_release_phoenicia = yes }
-		ROOT = { activate_mission = annexation_PHN_CONQ }
+		ROOT = { activate_mission = annexation_LEB_CONQ }
 	}
 	else_if = {
 		limit = { can_release_hashimete_arabia = yes }

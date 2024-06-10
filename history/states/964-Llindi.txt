@@ -9,6 +9,8 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = TZN
+		add_claim_by = ENG
+		add_claim_by = GER
 	}
 
 	provinces={

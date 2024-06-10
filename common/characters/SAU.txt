@@ -1,24 +1,76 @@
 characters = {
-  SAU_Saud_bin_Abdulaziz_al_Saud = {
+	SAU_peoples_council = {
+		name = "Majlis Al Sha'ab"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAU/Portrait_SAU_Majlis.png"
+			}
+		} 
+		country_leader = {
+			ideology = utopian_socialist_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = {}
+		}
+	}
+	SAU_Muhammad_bin_Abdul_Rahman_al_Saud = {
+		name = "Muhammad bin Abdul Rahman Al Saud"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAU/Portrait_SAU_Abdallah_bin_Abdul_Rahman_al_Saud.png"
+			}
+		} 
+		country_leader = {
+			ideology = liberal_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = absolute_mon_subtype
+			traits = {}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = {}
+		}
+		field_marshal = {
+			traits = { politically_connected old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+  SAU_Saud_bin_Abdulaziz = {
 		name = "Saud bin Abdulaziz al-Saud"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz_Al_Saud.png"
+				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
         small = "gfx/interface/ministers/SAU/SAU_Saud_bin_Abdulaziz.png"
 			}
 			army = {
-				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz_Al_Saud.png"
+				large = "gfx/leaders/SAU/Portrait_SAU_Saud_bin_Abdulaziz.png"
 			}
 		}
-		country_leader = {
-      ideology = authoritarian_democrat_subtype
-      traits = {}
-    }
-    country_leader = {
-      ideology = absolute_mon_subtype
-      traits = {}
-    }
-		field_marshal = {
+		corps_commander = {
 			traits = { politically_connected offensive_doctrine }
 			skill = 2
 			attack_skill = 1
@@ -46,7 +98,7 @@ characters = {
 			}
 		}
 	}
-  SAU_Rashid_bin_Abdulaziz_bin_Saud_bin_Mohammed_al_Saud = {
+    SAU_Rashid_bin_Abdulaziz_bin_Saud_bin_Mohammed_al_Saud = {
 		name = "Rashid bin Abdul-Aziz bin Saud bin Mohammed al-Saud"
 		portraits = {
 			army = {
@@ -58,22 +110,6 @@ characters = {
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SAU_Abdallah_bin_Abdul_Rahman_al_Saud = {
-		name = "Abdallah bin Abdul Rahman al-Saud"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SAU/Portrait_SAU_Abdallah_bin_Abdul_Rahman_al_Saud.png"
-			}
-		}
-		corps_commander = {
-			traits = { politically_connected old_guard }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
 		}
@@ -200,10 +236,10 @@ characters = {
 				large = "gfx/leaders/SAU/Portrait_SAU_Faisal_al_Duwaish.png"
 			}
 		}
-    country_leader = {
-      ideology = ultranationalist_subtype
-      traits = { }
-    }
+		country_leader = {
+			ideology = esoteric_nationalist_subtype
+			traits = { }
+		}
 		corps_commander = {
 			traits = { desert_fox inflexible_strategist old_guard }
 			skill = 3

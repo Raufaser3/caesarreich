@@ -1,0 +1,19 @@
+state={
+	id=1102
+	name="STATE_1102" # Herat
+	manpower = 532860
+	
+	state_category = two
+
+	history={
+		owner = KEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SUD
+	}
+
+	provinces={
+		1953 2096 4033 7996 10764 10859 10877 10908
+	}
+}

@@ -153,7 +153,7 @@ TMS = "countries/MiddleEastern.txt" # Turkmenistan
 
 ### Middle East
 TUR = "countries/MiddleEastern.txt" # Turkey
-# TRT = "countries/MiddleEastern.txt" # Turkish Revolt
+ASI = "countries/MiddleEastern.txt" # Asir
 AFG = "countries/MiddleEastern.txt" # Afghanistan
 YEM = "countries/MiddleEastern.txt" # Yemen
 OMA = "countries/MiddleEastern.txt" # Oman
@@ -162,6 +162,7 @@ LEB = "countries/MiddleEastern.txt" # Lebanon
 EGY = "countries/MiddleEastern.txt" # Egypt
 LBA = "countries/MiddleEastern.txt" # Libya
 ISR = "countries/MiddleEastern.txt" # Israel
+PAL = "countries/MiddleEastern.txt" # Palestine
 KUR = "countries/MiddleEastern.txt" # Kurdestan
 ALG = "countries/MiddleEastern.txt" # Algeria
 MOR = "countries/MiddleEastern.txt" # Morocco
@@ -173,8 +174,9 @@ IRQ = "countries/MiddleEastern.txt" # Iraq
 PER = "countries/MiddleEastern.txt" # Persia
 SYR = "countries/MiddleEastern.txt" # Syria
 JOR = "countries/MiddleEastern.txt" # Jordan
-PHN = "countries/MiddleEastern.txt" # Phoenicia
 TRU = "countries/MiddleEastern.txt" # Trucial States
+HAS = "countries/MiddleEastern.txt" # Ihsa'a
+AHZ = "countries/MiddleEastern.txt" # Ahwaz
 RAS = "countries/MiddleEastern.txt" # Rashidi Arabia
 
 ### Asia

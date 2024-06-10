@@ -3,9 +3,13 @@ state={
 	id=1047
 	name="STATE_1047"
 	state_category = five
+	
+	resources={
+		oil=3.000
+	}
 	history={
-		owner = TUR
 		add_core_of = IRQ
+		owner = IRQ
 		victory_points = {
 			2089 3 
 		}

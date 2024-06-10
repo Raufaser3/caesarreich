@@ -81,7 +81,11 @@ guiTypes = {
 			position = { x = 8 y = 25 }
 			spriteType = GFX_Portrait_EGY_Aly_Maher
 		}
-		
+		iconType = {
+			name = "Mostafa_El_Nahas"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_EGY_Mostafa_El_Nahas
+		}
 		#############################################
 		# Greece
 
@@ -160,9 +164,27 @@ guiTypes = {
 		# Iraq
 
 		iconType = {
-			name = "Kamil_Al_Chaderchi"
+			name = "Muhammad_Jamali"
 			position = { x = 8 y = 25 }
-			spriteType = GFX_Portrait_IRQ_Kamil_Al_Chaderchi
+			spriteType = GFX_Portrait_IRQ_Muhammad_Jamali
+		}
+ 
+		#############################################
+		# Arabia
+
+		iconType = {
+			name = "Saadullah_Al_Jabari"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_HEJ_Saadullah_Al_Jabari
+		}
+
+		#############################################
+		# Saudis
+
+		iconType = {
+			name = "Saud_bin_Abdulaziz"
+			position = { x = 8 y = 25 }
+			spriteType = GFX_Portrait_SAU_Saud_bin_Abdulaziz
 		}
 
 		#############################################

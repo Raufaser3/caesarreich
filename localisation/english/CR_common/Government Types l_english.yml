@@ -50,6 +50,8 @@
  revolutionary_movement: "Revolutionary Movement"
  revolutionary_movement_desc: "A grassroots social movement that seeks, as minimum, to overthrow the government or state. These movements may rise up in times of extreme political repression when other means of social reform cease to exist."
  #
+ international_mandate: "International Mandate"
+ international_mandate_desc: "International Mandates are bureaucratic entities governing mandates for the benefit of multiple foreign powers.\n"
  failed_state: "Failing State"
  failed_state_desc: "A government that has disintegrated to a point where basic conditions and responsibilities of a sovereign state no longer function properly. A state may fail if the government loses its legitimacy even if it is performing its functions properly. For a stable state it is necessary for the government to enjoy both effectiveness and legitimacy.\n"
  #

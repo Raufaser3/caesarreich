@@ -8,11 +8,12 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = HEJ
+		add_claim_by = SAU
 
 	}
 
 	provinces={
-		8101 10901 10815 13274 13277 2057 4974
+		8101 10901 10815 13274 13277 4974 4440
 	}
 	manpower= 56185
 	buildings_max_level_factor=1.000

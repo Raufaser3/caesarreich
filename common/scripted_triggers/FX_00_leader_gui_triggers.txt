@@ -7,6 +7,8 @@ uses_leader_gui = {
 		GRE_has_leader_GUI = yes
 		HOL_has_leader_GUI = yes
 		IRQ_has_leader_GUI = yes
+		HEJ_has_leader_GUI = yes
+		SAU_has_leader_GUI = yes
 		ITA_has_leader_GUI = yes
 		JAP_has_leader_GUI = yes
 		has_country_flag = LEADER_GUI_VISIBLE
@@ -38,7 +40,10 @@ GER_has_leader_GUI = {
 	has_idea = GER_Karl_Severing_hog_sde
 }
 EGY_has_leader_GUI = {
-	has_idea = EGY_Aly_Maher_hog_ade
+	OR={
+		has_idea = EGY_Aly_Maher_hog_ade
+		has_idea = EGY_Mostafa_El_Nahas_hog_sli
+	}
 }
 
 GRE_has_leader_GUI = {
@@ -79,9 +84,14 @@ HOL_has_leader_GUI = {
 }
 
 IRQ_has_leader_GUI = {
-	has_idea = IRQ_Kamil_Al_Chaderchi_hog_sde
+	has_idea = IRQ_Muhammad_Jamali_hog_sli
 }
-
+HEJ_has_leader_GUI = {
+	has_idea = HEJ_Saadullah_Al_Jabari_hog_sco
+}
+SAU_has_leader_GUI = {
+	has_idea = SAU_Saud_bin_Abdulaziz_hog_pau
+}
 ITA_has_leader_GUI = {
 	OR = {
 		has_idea = ITA_Alcide_De_Gasperi_hog_sco

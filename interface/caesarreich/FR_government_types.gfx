@@ -73,6 +73,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/government_types/generic_failed_state.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_international_mandate"
+		texturefile = "gfx/interface/government_types/generic_international_mandate.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_government"
 		texturefile = "gfx/interface/government_types/generic_republic.dds"
 	}	

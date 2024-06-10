@@ -20,10 +20,11 @@ state={
 			}
 		}
 		add_core_of = HEJ
+		add_claim_by = SAU
 	}
 
 	provinces={
-		4981 5037 12883
+		4981 5037 12883 13323 13328
 	}
 	manpower=1511000
 	buildings_max_level_factor=1.000

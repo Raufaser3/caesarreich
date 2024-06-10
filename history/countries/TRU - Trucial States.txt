@@ -26,9 +26,16 @@ if = {
 }
 
 set_war_support = 0.4
-
+ENG = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = autonomy_pro
+		freedom_level = 0.5
+	}
+}
+recruit_character = TRU_Trucial_Council
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no

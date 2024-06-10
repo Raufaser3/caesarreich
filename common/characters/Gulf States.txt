@@ -1,0 +1,127 @@
+characters = {
+	HAS_Naif_Al_Urayir = {
+		name = "Naif Al Urayir"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GULF/Portrait_HAS_Naif_Al_Urayir.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	AHZ_Khazal = {
+		name = "Khazal Al Ka'abi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GULF/Portrait_AHZ_Khazal.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	TRU_Trucial_Council = {
+		name = "Trucial Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GULF/TRU_Trucial_Council.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+		 	ideology = social_conservative_subtype
+		 	traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	# Advisors 
+	HAS_Muhammad_Baqir_Al_Shakhs = { #محمد باقر الشخص
+		name = "Muhammad Baqir Al Shakhs"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GULF/Portrait_HAS_Muhammad_Baqir_Al_Shakhs.png"
+				small = "gfx/interface/ministers/GULF/HAS_Muhammad_Baqir_Al_Shakhs.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = HAS_Muhammad_Baqir_Al_Shakhs_hog_sli_hired }
+			}
+			idea_token = HAS_Muhammad_Baqir_Al_Shakhs_hog_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = HAS_Muhammad_Baqir_Al_Shakhs_hog_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = HAS_Muhammad_Baqir_Al_Shakhs_hog_sli_hired }
+			}
+			traits = {
+				liberal
+				hog_state_secularist
+			}
+		}
+	}
+}

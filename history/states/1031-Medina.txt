@@ -1,9 +1,13 @@
 state={
 	id=1031
 	name="STATE_1031"
+	resources = {
+		oil = 5
+	}
   history = {
     owner = HEJ
     add_core_of = HEJ
+	add_claim_by = SAU
     victory_points = {
 			12758 5 
 		}
@@ -13,7 +17,7 @@ state={
 		}
   }
 	provinces={
-		1033 2027 2033 2095 7934 8092 10835 12758 5099 12455 7970 5027
+		1033 2027 2033 2095 7934 8092 10835 12758 5099 12455 7970
 	}
 	manpower=234510
 	buildings_max_level_factor=1.000
