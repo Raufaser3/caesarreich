@@ -1,3 +1,5 @@
+recruit_character = BRA_Arthur_Bernardes
+
 capital = 500
 
 oob = "BRA"
@@ -81,10 +83,10 @@ set_politics = {
 
 set_popularities = {
     social_conservative = 10
-    liberal = 10
-    paternal_autocrat = 10
+    liberal = 20
+    paternal_autocrat = 20
     esoteric_nationalist = 5
-    utopian_socialist = 25
+    utopian_socialist = 5
     revolutionary_socialist = 5
     authoritarian_democrat = 35
 }
@@ -167,4 +169,3 @@ if = {
 	}
 }
 
-recruit_character = BRA_Arthur_Bernardes
