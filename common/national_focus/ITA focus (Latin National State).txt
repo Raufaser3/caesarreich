@@ -1,0 +1,672 @@
+###########################
+# Republic of Italy Focus Tree
+# By Herkles
+###########################
+
+focus_tree = {
+	id = italian_reghini_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 60 y = 1600 }
+
+### Republic of Italy ###
+	focus = {# l'Risveglio Latino - The Latin Awakening
+		id = ITA_risveglio_latino
+		icon = GFX_goal_WIP
+		cost = 5
+
+		x = 8
+		y = 0
+
+		available = {
+		}
+		bypass = {
+			has_country_flag = ITA_the_general_election_has_occurred
+			OR = {
+				has_elected_government = yes
+				has_government = paternal_autocrat
+			}
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = hide_trees_from_now
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_risveglio_latino"
+			custom_effect_tooltip = ITA_risveglio_latino_tooltip
+		}
+	}
+
+	focus = {# The Body of the State
+		id = ITA_body_of_the_state
+		icon = GFX_goal_WIP 
+		cost = 5
+
+		relative_position_id = ITA_risveglio_latino
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_risveglio_latino
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_body_of_the_state"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# The Soul of the State
+		id = ITA_soul_of_the_state
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_risveglio_latino
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_risveglio_latino
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_soul_of_the_state"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Sword of the State
+		id = ITA_sword_of_the_state
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_risveglio_latino
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_risveglio_latino
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_sword_of_the_state"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+
+	focus = {# The Dawn of Roman Traditionalism
+		id = ITA_dawn_of_roman_traditionalism
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_sword_of_the_state
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_sword_of_the_state
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_dawn_of_roman_traditionalism"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# Reconstitution of Italian Freemasonry
+		id = ITA_reconstitution_of_italian_freemasonry
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_sword_of_the_state
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_sword_of_the_state
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_reconstitution_of_italian_freemasonry"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# The Grupo di Ur
+		id = ITA_the_grupo_di_ur
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_dawn_of_roman_traditionalism
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_dawn_of_roman_traditionalism
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_grupo_di_ur"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Rite of Memphis-Misraim
+		id = ITA_rite_of_memphis_misraim
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_reconstitution_of_italian_freemasonry
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_reconstitution_of_italian_freemasonry
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_rite_of_memphis_misraim"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+
+	focus = {# The Inner Enemy
+		id = ITA_the_inner_enemy
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_reconstitution_of_italian_freemasonry
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_reconstitution_of_italian_freemasonry
+		}
+		prerequisite = {
+			focus = ITA_dawn_of_roman_traditionalism
+		}
+		#mutually_exclusive = { focus = GER_china_friend }
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_inner_enemy"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# The White General
+		id = ITA_the_white_general
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_inner_enemy
+		x = -3
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = {
+			focus = ITA_the_red_duce
+		}
+		prerequisite = {
+			focus = ITA_the_inner_enemy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_white_general"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	
+	focus = {# Curtail Royalist Influence
+		id = ITA_curtail_royalist_influence
+		icon = GFX_goal_WIP
+		cost = 1
+
+		relative_position_id = ITA_the_white_general
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_white_general
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_curtail_royalist_influence"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# A New Generation of Officers
+		id = ITA_a_new_generation_of_officers
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_curtail_royalist_influence
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_curtail_royalist_influence
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_curtail_royalist_influence"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# Honourary "Retirements"
+		id = ITA_honourary_retirements
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_a_new_generation_of_officers
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_a_new_generation_of_officers
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_honourary_retirements"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# In the Spirit of Garibaldi
+		id = ITA_in_the_spirit_of_garibaldi
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_curtail_royalist_influence
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_curtail_royalist_influence
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_in_the_spirit_of_garibaldi"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# Carrot and Stick
+		id = ITA_carrot_and_stick
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_in_the_spirit_of_garibaldi
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_in_the_spirit_of_garibaldi
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_carrot_and_stick"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The National Republican Army
+		id = ITA_national_republican_army
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_carrot_and_stick
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_carrot_and_stick
+		}
+		prerequisite = {
+			focus = ITA_honourary_retirements
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_national_republican_army"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Red Duce
+		id = ITA_the_red_duce
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_inner_enemy
+		x = 3
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = {
+			focus = ITA_the_white_general
+		}
+		prerequisite = {
+			focus = ITA_the_inner_enemy
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_red_duce"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# Break the Power of the Syndicates
+		id = ITA_break_power_of_syndicates
+		icon = GFX_goal_WIP
+		cost = 1
+
+		relative_position_id = ITA_the_red_duce
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_red_duce
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_power_of_syndicates"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+
+	focus = {# Break the National Confederation of Latin Syndicates
+		id = ITA_break_national_confederation_of_latin_syndicates
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_break_power_of_syndicates
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_break_power_of_syndicates
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_national_confederation_of_latin_syndicates"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# Favour Proprietary Corporations
+		id = ITA_favour_proprietary_corporations
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_break_national_confederation_of_latin_syndicates
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_break_national_confederation_of_latin_syndicates
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_favour_proprietary_corporations"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# Break Down Renegade Strikes
+		id = ITA_break_down_renegade_strikes
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_break_power_of_syndicates
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_break_power_of_syndicates
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_down_renegade_strikes"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# Reshuffle Positions
+		id = ITA_reshuffle_positions
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_break_down_renegade_strikes
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_break_down_renegade_strikes
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_reshuffle_positions"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Corporatist State
+		id = ITA_the_corporatist_state
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_reshuffle_positions
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_reshuffle_positions
+		}
+		prerequisite = {
+			focus = ITA_favour_proprietary_corporations
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_corporatist_state"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Pope's Pawn
+		id = ITA_the_popes_pawn
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_inner_enemy
+		x = 0
+		y = 2
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_inner_enemy
+		}
+		prerequisite = {
+			focus = ITA_the_white_general
+			focus = ITA_the_red_duce
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_popes_pawn"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	
+	focus = {# Infiltrate Their Ranks
+		id = ITA_infiltrate_their_ranks
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_popes_pawn
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_popes_pawn
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_infiltrate_their_ranks"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# Support Internal Factionalism
+		id = ITA_support_internal_factionalism
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_infiltrate_their_ranks
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_infiltrate_their_ranks
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_support_internal_factionalism"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# Sway the Conservative Elements
+		id = ITA_sway_the_conservative_elements
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_popes_pawn
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_popes_pawn
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_sway_the_conservative_elements"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+
+	focus = {# The Latin "Elections"
+		id = ITA_the_latin_elections
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_sway_the_conservative_elements
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_sway_the_conservative_elements
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_latin_elections"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+	focus = {# The Capitoline Senate
+		id = ITA_the_capitoline_senate
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_latin_elections
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_latin_elections
+		}
+		prerequisite = {
+			focus = ITA_support_internal_factionalism
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_corporatist_state"
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+	}
+	
+
+}
+
