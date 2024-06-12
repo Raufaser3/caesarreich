@@ -153,16 +153,16 @@ set_politics = {
 }
 
 set_popularities = {
-	vanguardist = 5
-	utopian_socialist = 0
-	revolutionary_socialist = 0
-	social_democrat = 38
-	liberal = 16
-	social_conservative = 27
-	authoritarian_democrat = 0
-	paternal_autocrat = 4
-	ultranationalist = 10
-	esoteric_nationalist = 0
+	vanguardist = 11
+	utopian_socialist = 2
+	revolutionary_socialist = 3
+	social_democrat = 30
+	liberal = 14
+	social_conservative = 13
+	authoritarian_democrat = 6
+	paternal_autocrat = 12
+	ultranationalist = 5
+	esoteric_nationalist = 4
 }
 
 GER_add_armour_variants = yes
