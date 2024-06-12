@@ -701,6 +701,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = GER_Karl_Severing_hog_sde
+		}
+		localization_key = GER_Karl_Severing
+	}
+	text = {
+		trigger = {
 			has_idea = IRQ_Muhammad_Jamali_hog_sli
 		}
 		localization_key = IRQ_Muhammad_Jamali
@@ -920,6 +926,12 @@ defined_text = {
 			has_idea = ENG_Jack_Churchill_hog_ade
 		}
 		localization_key = ENG_Jack_Churchill
+	}
+	text = {
+		trigger = {
+			has_idea = GER_Karl_Severing_hog_sde
+		}
+		localization_key = GER_Karl_Severing
 	}
 	text = {
 		trigger = {
