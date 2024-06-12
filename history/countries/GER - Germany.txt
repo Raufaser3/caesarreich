@@ -118,10 +118,10 @@ if = {
 add_ideas = {
 	low_economic_mobilisation 
 	export_focus
+		GER_spd_republic
 	GER_corporals_cabal
 	GER_prussian_bulwark
 	GER_long_arm_rome
-	GER_spd_republic
 	semi_presidential_republic
 }
 
