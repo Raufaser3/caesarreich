@@ -9,8 +9,8 @@ ideas = {
 			modifier = {
 				ultranationalist_drift = 0.01
 				esoteric_nationalist_drift = 0.01
-				army_org_factor = -0.05
-				training_time_army_factor = 0.05
+				army_org_factor = -0.10
+				training_time_army_factor = 0.15
 				political_power_gain = -0.2
 				war_support_factor = -0.2
 			}
