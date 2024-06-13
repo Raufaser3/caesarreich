@@ -1,6 +1,6 @@
 ###########################
-# Republic of Italy Focus Tree
-# By Herkles
+# Latin National Republic Focus Tree
+# By Whitehawk
 ###########################
 
 focus_tree = {
@@ -48,6 +48,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_risveglio_latino"
 			custom_effect_tooltip = ITA_risveglio_latino_tooltip
 		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# The Body of the State
@@ -68,7 +69,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_body_of_the_state"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# The Soul of the State
@@ -89,7 +90,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_soul_of_the_state"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Sword of the State
@@ -110,7 +111,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_sword_of_the_state"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 
@@ -128,11 +129,14 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_sword_of_the_state
 		}
+		prerequisite = {
+			focus = ITA_body_of_the_state
+		}
 		ai_will_do = { factor = 33 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_dawn_of_roman_traditionalism"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# Reconstitution of Italian Freemasonry
@@ -149,11 +153,14 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_sword_of_the_state
 		}
+		prerequisite = {
+			focus = ITA_soul_of_the_state
+		}
 		ai_will_do = { factor = 33 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_reconstitution_of_italian_freemasonry"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# The Grupo di Ur
@@ -174,7 +181,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_grupo_di_ur"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Rite of Memphis-Misraim
@@ -195,7 +202,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_rite_of_memphis_misraim"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 
@@ -216,12 +223,11 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_dawn_of_roman_traditionalism
 		}
-		#mutually_exclusive = { focus = GER_china_friend }
 		ai_will_do = { factor = 33 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_inner_enemy"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# The White General
@@ -245,7 +251,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_white_general"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	
@@ -267,7 +273,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_curtail_royalist_influence"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# A New Generation of Officers
@@ -286,9 +292,9 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 33 }
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ITA_curtail_royalist_influence"
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_a_new_generation_of_officers"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# Honourary "Retirements"
@@ -309,7 +315,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_honourary_retirements"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# In the Spirit of Garibaldi
@@ -330,7 +336,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_in_the_spirit_of_garibaldi"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# Carrot and Stick
@@ -351,7 +357,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_carrot_and_stick"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The National Republican Army
@@ -375,7 +381,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_national_republican_army"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Red Duce
@@ -400,7 +406,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_red_duce"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# Break the Power of the Syndicates
@@ -421,7 +427,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_power_of_syndicates"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 
@@ -443,7 +449,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_national_confederation_of_latin_syndicates"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# Favour Proprietary Corporations
@@ -464,7 +470,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_favour_proprietary_corporations"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# Break Down Renegade Strikes
@@ -485,7 +491,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_break_down_renegade_strikes"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# Reshuffle Positions
@@ -506,7 +512,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_reshuffle_positions"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Corporatist State
@@ -530,7 +536,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_corporatist_state"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Pope's Pawn
@@ -555,7 +561,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_popes_pawn"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	
@@ -577,7 +583,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_infiltrate_their_ranks"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# Support Internal Factionalism
@@ -598,7 +604,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_support_internal_factionalism"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# Sway the Conservative Elements
@@ -619,7 +625,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_sway_the_conservative_elements"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 
 	focus = {# The Latin "Elections"
@@ -640,7 +646,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_latin_elections"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 	focus = {# The Capitoline Senate
@@ -664,7 +670,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_corporatist_state"
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
 
