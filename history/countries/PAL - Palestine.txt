@@ -52,14 +52,14 @@ set_politics = {
 set_popularities = {
   vanguardist = 0
   utopian_socialist = 0
-  revolutionary_socialist = 7
+  revolutionary_socialist = 9
   social_democrat = 0
   liberal = 13
   social_conservative = 10
-  authoritarian_democrat = 37
+  authoritarian_democrat = 34
   paternal_autocrat = 12
   ultranationalist = 18
-  esoteric_nationalist = 3
+  esoteric_nationalist = 4
 }
 recruit_character = PAL_Radwan_Hilu
 recruit_character = PAL_Jabra_Nicola

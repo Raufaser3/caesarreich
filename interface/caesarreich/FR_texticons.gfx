@@ -30,5 +30,9 @@ spriteTypes = {
 		textureFile = "gfx/texticons/unit_level_five_icon_small.png"
 		legacy_lazy_load = no
 	}
-
+	spriteType = {
+		name = "GFX_PAL_Zionist_Congress_cat_texticon"
+		texturefile = "gfx/texticons/PAL_Zionist_Congress.png"
+		legacy_lazy_load = no
+	}
 }

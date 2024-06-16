@@ -469,6 +469,10 @@ spriteTypes = {
 		name = "GFX_news_event_EGY_Farouk_speech"
 		texturefile = "gfx/event_news_pictures/middle_east/news_event_EGY_Farouk_speech.png"
 	}
+	spriteType = {
+		name = "GFX_news_event_PAL_Zionists"
+		texturefile = "gfx/event_news_pictures/middle_east/news_event_PAL_Zionists.png"
+	}
 	### City Capture
 	# Europe
 	spriteType = {

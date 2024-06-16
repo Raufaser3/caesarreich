@@ -1,0 +1,20 @@
+PAL_Zionist_issue={
+	PAL_zionist_congress = {
+		icon = GFX_decision_SWI_no_elected_president
+		visible = {
+			tag = pal
+			NOT={
+				has_country_flag = PAL_Zionists_yeeted
+			}
+		}
+		days_mission_timeout = 69
+
+		fire_only_once = yes
+
+		is_good = no
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout PAL_zionist_congress"
+			
+		}
+	}
+}

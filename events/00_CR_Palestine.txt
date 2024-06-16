@@ -1,0 +1,73 @@
+﻿add_namespace = pal
+country_event = {
+	id = pal.100
+	title = pal.100.t
+	desc = pal.100.d
+
+	picture = GFX_report_event_PAL_Zionists2
+
+	is_triggered_only = yes
+
+	option = {
+		name = pal.100.a
+		news_event = {
+			id = pal.101
+			days = 10
+		}
+		hidden_effect = {
+			country_event = {
+				id = pal.102
+				days = 100
+			}
+		}
+	}
+}
+news_event = {
+	id = pal.101
+	title = pal.101.t
+	desc = pal.101.d
+
+	picture = GFX_news_event_PAL_Zionists
+
+	is_triggered_only = yes
+
+	option = {
+		name = pal.101.a
+		PAL={
+			hidden_effect = {
+				set_country_flag = PAL_Zionists_yeeted
+				remove_ideas = PAL_Illegal_Zionist_Immigration
+			}
+			add_timed_idea = {
+				idea = PAL_Illegal_Zionist_Immigration
+				days = 169
+			}
+		}
+	}
+}
+
+country_event = {
+	id = pal.102
+	title = pal.102.t
+	desc = pal.102.d
+
+	picture = GFX_report_event_PAL_Zionists
+
+	is_triggered_only = yes
+
+	option = {
+		name = pal.102.a
+	}
+	option = {
+		name = pal.102.b
+	}
+	option = {
+		name = pal.102.c
+	}
+	option = {
+		name = pal.102.f
+	}
+	option = {
+		name = pal.102.e
+	}
+}

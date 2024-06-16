@@ -51,9 +51,31 @@
  PAL_paternal_autocrat_party_long: "Mufti Clique"
  PAL_ultranationalist_party: "MTW"
  PAL_ultranationalist_party_long: "Monazamat Al Tahrir Al Watani" #Abdul Qadir Al Hussieni
- PAL_esoteric_nationalist_party: "RIF"
- PAL_esoteric_nationalist_party_long: "Al Rabitah Al Islamiyyah Al Fatat"
+ PAL_esoteric_nationalist_party: "Zionists"
+ PAL_esoteric_nationalist_party_long: "Zionists"
 
 #ideas
  PAL_Illegal_Zionist_Immigration: "Aliyah Bet"
+ PAL_Illegal_Zionist_Immigration_desc: "During the British occupation in the Great War, many Zionists were permitted to enter Palestine, forming a nascent political presence. As more Zionists sought refuge from anti-Semitism in Eastern Europe and France, they flocked to Palestine to secure their place in the envisioned future state of Israel. Many arrived in the mandate illegally, without permission through smuggling routes."
  PAL_Weak_Peacekeeping_Force: "Weak Peacekeeping Force"
+ PAL_Weak_Peacekeeping_Force_desc: "The international peacekeeping force tasked with protecting the rights of commission countries and their citizens is insufficiently strong, leaving the entire mandate dependent on Germany, Egypt, and Turkey to suppress revolts."
+
+ PAL_zionist_congress: "Upcoming Zionist Congress"
+ PAL_Zionist_issue: "Zionist Issue"
+ PAL_Zionist_issue_desc: "\n\n\n£GFX_PAL_Zionist_Congress_cat_texticon\n\n\n\n\n\n\nDuring the British occupation in the Great War, many §BZionists§! were allowed to enter Palestine, establishing a small political force initially supported by the §SBritish§! to disrupt the peace. However, after the independence of §mEgypt§!, the fall of the §ROttoman Empire§!, and the establishment of the Palestine International Mandate, the §BZionists§! were now protected by the §gGerman§! Lobby led by Count Johann Heinrich von Bernstorff and the remaining British lobbists.\n Despite §gGerman§! support, this effort was insufficient. §CAmericans§! lobbists don't really have a side but they lean on the most profitable side but the §LRussian§! and §3French§! lobbies prefers to support the §GArabs§! to gain their approval for business and tourism opportunities in §GArabia§!, §nIraq§!, and §mEgypt§! rather than support what they considered a noisy small unprofitable cause.\n\n§YCurrent Zionist Influence:§! [?PAL.party_popularity@esoteric_nationalist|%0]"
+
+ pal.100.t: "Zionist Congress Demand Aliyah" 
+ pal.100.d: "The Zionist Congress of 1936 was held in Jaffa, Palestine, to determine the shape of the future State of Israel. Some delegates proposed naming it Judea. Regardless of the state's name, the Zionists, led by Hans Herzl, son of Theodore Herzl, the founder of the Zionist Movement, demanded that the International Commission of Palestine legalize Aliyah and help lay the foundation for their state."
+ pal.100.a: "Their state?"
+
+ pal.101.t: "International Mandate Refuses" 
+ pal.101.d: "[This.GetNewspaperHeader]The recent Zionist Congress demanded that the International Commission of the Mandate of Palestine legalize Aliyah and allow more Zionist Jews to immigrate to the Holy Land to assist in establishing their state. However, this request was largely denied by most of the delegates, who perceived the mandate's primary objective as fostering a functional, multi-religious democracy in the Holy Land while safeguarding Christians and European influences in the Middle East. They objected to the notion of creating a single state owned by a minority group that pledged to protect European interests, potentially displacing the native population without adequate justification beyond vague concerns about future oppression. Furthermore, they contended against granting statehood in a region crucial to all three Abrahamic religions to a diverse group of European Zionists, fearing these settlers might prioritize their countries of origin over their new state or European overlords. They argued that if Western powers sought a robust, cohesive society to safeguard their interests, it would be more prudent to support the Arabs rather than European Zionists from various countries who might have divided loyalties."
+ pal.101.a: "The Holy Land is for All"
+
+ pal.102.t: "Where Should Israel Be?"
+ pal.102.d: "Following the devastating decision by the International Commission, which showed no regard for Jewish suffering worldwide, the ongoing congress is now considering a new proposal for establishing a Jewish State, potentially in a British colony or even in the Pacific."
+ pal.102.a: "Madagascar"
+ pal.102.b: "Australia"
+ pal.102.c: "Kenya-Uganada"
+ pal.102.e: "Guiana"
+ pal.102.f: "East Asia"

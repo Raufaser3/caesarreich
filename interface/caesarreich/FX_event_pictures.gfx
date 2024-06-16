@@ -229,6 +229,14 @@ spriteTypes = {
     texturefile = "gfx/event_pictures/Middle East/Arabia/HEJ_british_mandate.png"
   }
   spriteType = {
+    name = "GFX_report_event_PAL_Zionists2"
+    texturefile = "gfx/event_pictures/Middle East/Arabia/PAL_Zionists2.png"
+  }
+  spriteType = {
+    name = "GFX_report_event_PAL_Zionists"
+    texturefile = "gfx/event_pictures/Middle East/Arabia/PAL_Zionists.png"
+  }
+  spriteType = {
     name = "GFX_report_event_HEJ_king"
     texturefile = "gfx/event_pictures/Middle East/Arabia/HEJ_king.png"
   }
