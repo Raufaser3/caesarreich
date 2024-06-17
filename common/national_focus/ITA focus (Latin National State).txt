@@ -26,13 +26,6 @@ focus_tree = {
 
 		available = {
 		}
-		bypass = {
-			has_country_flag = ITA_the_general_election_has_occurred
-			OR = {
-				has_elected_government = yes
-				has_government = paternal_autocrat
-			}
-		}
 		allow_branch = {
 			if = {
 				limit = {
@@ -241,7 +234,7 @@ focus_tree = {
 
 		available = {
 		}
-		mutually_exclusive = {
+		mutually_exclusive = { 
 			focus = ITA_the_red_duce
 		}
 		prerequisite = {
@@ -360,8 +353,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
-	focus = {# The National Republican Army
-		id = ITA_national_republican_army
+	focus = {# A Truly National Army
+		id = ITA_a_truly_national_army
 		icon = GFX_goal_WIP
 		cost = 5
 
@@ -379,7 +372,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 33 }
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ITA_national_republican_army"
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_a_truly_national_army"
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -673,6 +666,2393 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
+	
+	
+	focus = {# Distribute the Eagle Standards
+		id = ITA_distribute_the_eagle_standards
+		icon = GFX_goal_WIP
+		cost = 5
 
+		x = 36
+		y = 0
+
+		available = {
+		}
+
+
+		allow_branch = {
+			if = {
+				limit = {
+					has_country_flag = hide_trees_from_now
+				}
+				OR = {
+					has_elected_government = yes
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_distribute_the_eagle_standards"
+			custom_effect_tooltip = ITA_risveglio_latino_tooltip
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {# Promote New Thinkers
+		id = ITA_promote_new_thinkers
+		icon = GFX_goal_WIP 
+		cost = 5
+
+		relative_position_id = ITA_distribute_the_eagle_standards
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_distribute_the_eagle_standards
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_promote_new_thinkers"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Aristocracy of the Trenches
+		id = ITA_aristocracy_of_the_trenches
+		icon = GFX_goal_WIP 
+		cost = 5
+
+		relative_position_id = ITA_promote_new_thinkers
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_promote_new_thinkers
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_aristocracy_of_the_trenches"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {# Appoint new Defense Minister
+		id = ITA_appoint_new_defense_minister
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_distribute_the_eagle_standards
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_distribute_the_eagle_standards
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appoint_new_defense_minister"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Marina Nazionale Repubblicana
+		id = ITA_the_national_republican_navy
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_new_defense_minister
+		x = -16
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_new_defense_minister
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_national_republican_navy"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Build the Marcello Class Submarines
+		id = ITA_build_marcello_submarines
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_navy
+		x = -4
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_navy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_build_marcello_submarines"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Modernize the Submarine Fleet
+		id = ITA_modernize_the_submarine_fleet
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_build_marcello_submarines
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_build_marcello_submarines
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_modernize_the_submarine_fleet"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund the Marconi Class Submarines
+		id = ITA_fund_marconi_class_submarines
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_build_marcello_submarines
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_build_marcello_submarines
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_marconi_class_submarines"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Torpedo Research
+		id = ITA_expand_torpedo_research
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_marconi_class_submarines
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_marconi_class_submarines
+		}
+		prerequisite = {
+			focus = ITA_modernize_the_submarine_fleet
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_torpedo_research"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the San-Marco regiment
+		id = ITA_expand_san_marco_regiment
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_navy
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_navy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_san_marco_regiment"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Naval Dockyards
+		id = ITA_expand_naval_dockyards
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_navy
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_navy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_naval_dockyards"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Programma Massimo
+		id = ITA_maximum_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_naval_dockyards
+		x = -1
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = {
+			focus = ITA_minimum_program
+		}
+		prerequisite = {
+			focus = ITA_expand_naval_dockyards
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_maximum_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Continue the Fleet Expansion Program
+		id = ITA_continue_the_fleet_expansion_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_maximum_program
+		x = -1
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = {
+			focus = ITA_maximum_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_continue_the_fleet_expansion_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Focus on the Battleship Program
+		id = ITA_focus_on_the_battleship_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_continue_the_fleet_expansion_program
+		x = 1
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = {
+			focus = ITA_continue_the_fleet_expansion_program
+		} 
+		prerequisite = {
+			focus = ITA_minimum_doctrine
+		} 
+		mutually_exclusive = { 
+			focus = ITA_focus_on_the_carrier_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_focus_on_the_battleship_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	
+	focus = {# Naval Anti Air Investments
+		id = ITA_naval_anti_air_investments
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_focus_on_the_battleship_program
+		x = 0
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = {
+			focus = ITA_focus_on_the_battleship_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_naval_anti_air_investments"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Ansaldo Contracts
+		id = ITA_expand_ansaldo_contracts
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_naval_anti_air_investments
+		x = 1
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = {
+			focus = ITA_naval_anti_air_investments
+		}
+		prerequisite = {
+			focus = ITA_modern_carrier_planes
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_ansaldo_contracts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Roma Class Battleship
+		id = ITA_the_roma_class_battleship
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_ansaldo_contracts
+		x = 0
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = {
+			focus = ITA_expand_ansaldo_contracts
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_roma_class_battleship"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Create a Sonar Program
+		id = ITA_create_a_sonar_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_continue_the_fleet_expansion_program
+		x = -1 
+		y = 1
+
+		available = {
+		}
+		prerequisite = { 
+			focus = ITA_continue_the_fleet_expansion_program
+		}
+		prerequisite = { 
+			focus = ITA_expand_torpedo_research
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_create_a_sonar_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund Ugo Tibero
+		id = ITA_fund_ugo_tibero
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_create_a_sonar_program
+		x = 0
+		y = 1
+
+		available = {
+		}
+
+		prerequisite = { 
+			focus = ITA_create_a_sonar_program
+		}
+		prerequisite = { 
+			focus = ITA_expand_torpedo_research
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_ugo_tibero"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Programma Minimo
+		id = ITA_minimum_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_naval_dockyards
+		x = 1
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = {
+			focus = ITA_maximum_program
+		}
+		prerequisite = {
+			focus = ITA_expand_naval_dockyards
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_minimum_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {# Minimo Doctrine
+		id = ITA_minimum_doctrine
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_minimum_program
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_minimum_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_minimum_doctrine"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {# Focus on the Carrier Program
+		id = ITA_focus_on_the_carrier_program
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_minimum_doctrine
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_minimum_doctrine
+		}
+		mutually_exclusive = {
+			focus = ITA_focus_on_the_battleship_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_focus_on_the_carrier_program"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Modern Carrier Planes
+		id = ITA_modern_carrier_planes
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_focus_on_the_carrier_program
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_focus_on_the_carrier_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_modern_carrier_planes"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Accademia Navale
+		id = ITA_expand_naval_academy
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_navy
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_navy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_naval_academy"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Develop Reconnissance Aircraft
+		id = ITA_develop_reconnissance_aircraft
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_naval_academy
+		x = 0
+		y = 2
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_naval_academy
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_develop_reconnissance_aircraft"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+
+	
+	focus = {# The Aeronautica Nazionale Repubblicana
+		id = ITA_the_national_republican_airforce
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_new_defense_minister
+		x = -8
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_new_defense_minister
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_national_republican_airforce"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund the Citta Dell'Aria
+		id = ITA_fund_the_city_of_the_air
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_airforce
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_airforce
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_the_city_of_the_air"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fate of the Aviazone Navale
+		id = ITA_naval_aviation
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_the_city_of_the_air
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_the_city_of_the_air
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_naval_aviation"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund the Velivoli e Natanti a Reazione
+		id = ITA_fund_aircraft_and_jet_boats
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_naval_aviation
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_naval_aviation
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_aircraft_and_jet_boats"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Develop the Caproni Campini N.1
+		id = ITA_develop_jet_aircraft
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_aircraft_and_jet_boats
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_aircraft_and_jet_boats
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_develop_jet_aircraft"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Favor Amadeo Mecozzi's Doctrine
+		id = ITA_favor_amadeo_mecozzis_doctrine
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_naval_aviation
+		x = 2
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = { 
+			focus = ITA_continue_douhets_ideas
+		}
+		prerequisite = {
+			focus = ITA_naval_aviation
+		}
+		prerequisite = {
+			focus = ITA_phase_out_outdated_planes
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_favor_amadeo_mecozzis_doctrine"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Increase Fighter Roles
+		id = ITA_increase_fighter_roles
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_favor_amadeo_mecozzis_doctrine
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_favor_amadeo_mecozzis_doctrine
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_increase_fighter_roles"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Paratrooper Corps
+		id = ITA_expand_the_paratrooper_corps
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_increase_fighter_roles
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_increase_fighter_roles
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_the_paratrooper_corps"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Theory of Assault Aviation
+		id = ITA_theory_of_assault_aviation
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_the_paratrooper_corps
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_further_engine_research
+		}
+		prerequisite = {
+			focus = ITA_expand_the_paratrooper_corps
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_theory_of_assault_aviation"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Develop Series 5 Airplanes
+		id = ITA_develop_series_5_airplanes
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_theory_of_assault_aviation
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_theory_of_assault_aviation
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_develop_series_5_airplanes"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Establish Torpedo Squadrons
+		id = ITA_establish_torpedo_squadrons
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_increase_fighter_roles
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_increase_fighter_roles
+		}
+		prerequisite = {
+			focus = ITA_focus_on_the_carrier_program
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_establish_torpedo_squadrons"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Pilot Training Programs
+		id = ITA_expand_pilot_training_programs
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_favor_amadeo_mecozzis_doctrine
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_favor_amadeo_mecozzis_doctrine
+			focus = ITA_continue_douhets_ideas
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_pilot_training_programs"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund Further Engine Research
+		id = ITA_fund_further_engine_research
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_pilot_training_programs
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_pilot_training_programs
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_further_engine_research"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Italo Balbo's Reforms
+		id = ITA_italo_balbos_reforms
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_the_city_of_the_air
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_the_city_of_the_air
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_italo_balbos_reforms"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Appoint General Valle
+		id = ITA_appoint_general_valle
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_airforce
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_airforce
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appoint_general_valle"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Phase Out Outdated Planes
+		id = ITA_phase_out_outdated_planes
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_general_valle
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_general_valle
+		}
+		prerequisite = {
+			focus = ITA_fund_the_city_of_the_air
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_phase_out_outdated_planes"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Continue Douhet's Ideas
+		id = ITA_continue_douhets_ideas
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_phase_out_outdated_planes
+		x = 2
+		y = 1
+
+		available = {
+		}
+		mutually_exclusive = { 
+			focus = ITA_favor_amadeo_mecozzis_doctrine
+		}
+		prerequisite = {
+			focus = ITA_phase_out_outdated_planes
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_continue_douhets_ideas"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Supremacy of the Bomber
+		id = ITA_supremacy_of_the_bomber
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_continue_douhets_ideas
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_continue_douhets_ideas
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_supremacy_of_the_bomber"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Develop Escort Aircraft
+		id = ITA_develop_escort_aircraft
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_continue_douhets_ideas
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_continue_douhets_ideas
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_develop_escort_aircraft"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Employ Terror Bombings
+		id = ITA_employ_terror_bombings
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_supremacy_of_the_bomber
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_supremacy_of_the_bomber
+		}
+		prerequisite = {
+			focus = ITA_develop_escort_aircraft
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_employ_terror_bombings"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Develop Long Range Bombers
+		id = ITA_develop_long_range_bombers
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_supremacy_of_the_bomber
+		x = 0
+		y = 2
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_supremacy_of_the_bomber
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_develop_long_range_bombers"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Pioneers of Aviation
+		id = ITA_pioneers_of_aviation
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_develop_long_range_bombers
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_develop_long_range_bombers
+		}
+		prerequisite = {
+			focus = ITA_fund_further_engine_research
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_pioneers_of_aviation"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Our Airfields
+		id = ITA_expand_our_airfields
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_national_republican_airforce
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_national_republican_airforce
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_our_airfields"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Cannone da 90/53
+		id = ITA_cannone_90_53_development
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_our_airfields
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_our_airfields
+		}
+		prerequisite = {
+			focus = ITA_appoint_general_valle
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_cannone_90_53_development"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Esercito Nazionale Repubblicano - > National Republican Army
+		id = ITA_national_republican_army
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_new_defense_minister
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_new_defense_minister
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_national_republican_army"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	
+	focus = {# Marshall Ugo Cavallero
+		id = ITA_marshall_ugo_cavallero
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_national_republican_army
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_national_republican_army
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_marshall_ugo_cavallero"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Marshall Ugo Cavallero
+		id = ITA_
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_marshall_ugo_cavallero
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_marshall_ugo_cavallero
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Doctrine for an Elitist Fighting Force
+		id = ITA_doctrine_for_elitist_fighting_force
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_marshall_ugo_cavallero
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_marshall_ugo_cavallero
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_doctrine_for_elitist_fighting_force"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Modern Equipment for a Modern Army
+		id = ITA_modern_equipment_for_modern_army
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_doctrine_for_elitist_fighting_force
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_doctrine_for_elitist_fighting_force
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_modern_equipment_for_modern_army"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund the National Research Council 
+		id = ITA_fund_national_research_council
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_marshall_ugo_cavallero
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_marshall_ugo_cavallero
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_national_research_council"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Economy of Force
+		id = ITA_economy_of_force
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_national_research_council
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_national_research_council
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_economy_of_force"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Giuseppe Francesco Ferrari's Reforms
+		id = ITA_giuseppe_francesco_ferraris_reforms
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_economy_of_force
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_economy_of_force
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_giuseppe_francesco_ferraris_reforms"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Start Mechanization Efforts 
+		id = ITA_start_mechanization_efforts
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_giuseppe_francesco_ferraris_reforms
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_giuseppe_francesco_ferraris_reforms
+		}
+		prerequisite = {
+			focus = ITA_modern_equipment_for_modern_army
+		} 
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_start_mechanization_efforts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# General Federico Baistrocchi 
+		id = ITA_general_federico_baistrocchi
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_start_mechanization_efforts
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_start_mechanization_efforts
+		}
+		prerequisite = {
+			focus = ITA_modern_artillery_corps
+		}
+		mutually_exclusive = { 
+			focus = ITA_general_alberto_pariani
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_general_federico_baistrocchi"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Merit Based Accelerated Promotions 
+		id = ITA_merit_based_accelerated_promotions
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_general_federico_baistrocchi
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_general_federico_baistrocchi
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_merit_based_accelerated_promotions"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Hand Out New Uniforms 
+		id = ITA_hand_out_new_uniforms
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_merit_based_accelerated_promotions
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_merit_based_accelerated_promotions
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_hand_out_new_uniforms"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Continue the Course 
+		id = ITA_continue_the_course
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_general_federico_baistrocchi
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_general_federico_baistrocchi
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_continue_the_course"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Joint Operations
+		id = ITA_expand_joint_operations
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_continue_the_course
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_continue_the_course
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_joint_operations"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Increase Support Roles
+		id = ITA_increase_support_roles
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_joint_operations
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_joint_operations
+		}
+		prerequisite = {
+			focus = ITA_hand_out_new_uniforms
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_increase_support_roles"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# A Well Equipped Elite Army
+		id = ITA_well_equipped_elite_army
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_increase_support_roles
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_increase_support_roles
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_well_equipped_elite_army"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	
+	focus = {# A Modern Artillery Corps
+		id = ITA_modern_artillery_corps
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_giuseppe_francesco_ferraris_reforms
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_giuseppe_francesco_ferraris_reforms
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_modern_artillery_corps"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Standardized Tank Production
+		id = ITA_standardized_tank_production
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_giuseppe_francesco_ferraris_reforms
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_giuseppe_francesco_ferraris_reforms
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_standardized_tank_production"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# General Alberto Pariani 
+		id = ITA_general_alberto_pariani
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_standardized_tank_production
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_standardized_tank_production
+		}
+		prerequisite = {
+			focus = ITA_modern_artillery_corps
+		}
+		mutually_exclusive = { 
+			focus = ITA_general_federico_baistrocchi
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_general_alberto_pariani"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand Commando Training
+		id = ITA_expand_commando_training
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_general_alberto_pariani
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_general_federico_baistrocchi
+			focus = ITA_general_alberto_pariani
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_commando_training"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Produce the Semoventes
+		id = ITA_produce_semoventes
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_commando_training
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_commando_training
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_produce_semoventes"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Ansaldo Pesante Projects
+		id = ITA_ansaldo_pesante_projects
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_produce_semoventes
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_produce_semoventes
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_ansaldo_pesante_projects"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# An Ideological Army
+		id = ITA_an_ideological_army
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_general_alberto_pariani
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_general_alberto_pariani
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_an_ideological_army"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Motorization Efforts
+		id = ITA_motorization_efforts
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_an_ideological_army
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_an_ideological_army
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_motorization_efforts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Introduce Binary Divisions
+		id = ITA_introduce_binary_divisions
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_general_alberto_pariani
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_general_alberto_pariani
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_introduce_binary_divisions"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	} 
+	
+	focus = {# Poco Un Pronto
+		id = ITA_poco_un_pronto
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_introduce_binary_divisions
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_introduce_binary_divisions
+		}
+
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_poco_un_pronto"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Increase Tank Production
+		id = ITA_increase_tank_production
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_poco_un_pronto
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_poco_un_pronto
+		}
+		prerequisite = {
+			focus = ITA_motorization_efforts
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_increase_tank_production"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Eight Million Bayonets
+		id = ITA_eight_million_bayonets
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_increase_tank_production
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_increase_tank_production
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_eight_million_bayonets"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Begin Reforms of the General Staff
+		id = ITA_begin_reforms_of_general_staff
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_marshall_ugo_cavallero
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_marshall_ugo_cavallero
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_begin_reforms_of_general_staff"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Establish the Comando Supreme
+		id = ITA_establish_high_command
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_begin_reforms_of_general_staff
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_begin_reforms_of_general_staff
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_establish_high_command"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	
+	focus = {# Industrial Militarisation Efforts
+		id = ITA_industrial_militarisation_efforts
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_distribute_the_eagle_standards
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_distribute_the_eagle_standards
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_industrial_militarisation_efforts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Azienda Generali Italiana Petroli
+		id = ITA_expand_agip
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_industrial_militarisation_efforts
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_industrial_militarisation_efforts
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_agip"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	
+	focus = {# The National Latin Guard
+		id = ITA_national_latin_guard
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_new_defense_minister
+		x = 10
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_new_defense_minister
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_industrial_militarisation_efforts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Create the Corpo di Polizia Repubblicano
+		id = ITA_republican_police_corps
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_national_latin_guard
+		x = -3
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_national_latin_guard
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_republican_police_corps"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Create the Ministero della Cultura Popolare
+		id = ITA_create_the_ministry_of_popular_culture
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_republican_police_corps
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_republican_police_corps
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_create_the_ministry_of_popular_culture"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Create the Opera per la Sicurezza Nazionale 
+		id = ITA_create_the_operation_for_national_security
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_create_the_ministry_of_popular_culture
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_create_the_ministry_of_popular_culture
+		}
+		prerequisite = {
+			focus = ITA_begin_reforms_of_general_staff
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_create_the_operation_for_national_security"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Power of the SIM
+		id = ITA_expand_the_power_of_the_sim
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_republican_police_corps
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_republican_police_corps
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_the_power_of_the_sim"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Merge Counter Intelligence Branches
+		id = ITA_merge_counter_intelligence_branches
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_the_power_of_the_sim
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_the_power_of_the_sim
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_merge_counter_intelligence_branches"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Appoint Alessandro Pavolini 
+		id = ITA_appoint_alessandro_pavolini
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_create_the_operation_for_national_security
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_create_the_operation_for_national_security
+		}
+		prerequisite = {
+			focus = ITA_merge_counter_intelligence_branches
+		}
+		mutually_exclusive = { 
+			focus = ITA_appoint_ettore_muti
+			focus = ITA_appoint_giuseppe_bottai
+		}
+		
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appoint_alessandro_pavolini"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Brigade Legionaries
+		id = ITA_brigade_legionaries
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_national_latin_guard
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_national_latin_guard
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_brigade_legionaries"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The New Warrior Caste
+		id = ITA_the_new_warrior_caste
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_brigade_legionaries
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_brigade_legionaries
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_new_warrior_caste"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Form Assault Battalions
+		id = ITA_form_assault_battalions
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_new_warrior_caste
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_new_warrior_caste
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_form_assault_battalions"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Heroic Idealism
+		id = ITA_heroic_idealism
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_the_new_warrior_caste
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_the_new_warrior_caste
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_heroic_idealism"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Appoint Ettore Muti 
+		id = ITA_appoint_ettore_muti
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_form_assault_battalions
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_form_assault_battalions
+		}
+		prerequisite = {
+			focus = ITA_heroic_idealism
+		}
+		mutually_exclusive = { 
+			focus = ITA_appoint_giuseppe_bottai
+			focus = ITA_appoint_alessandro_pavolini
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appoint_ettore_muti"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund the Military Labour Inspectorate
+		id = ITA_fund_the_military_labor_inspectorate
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_national_latin_guard
+		x = 3
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_national_latin_guard
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_the_military_labor_inspectorate"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fund Infrastructure Projects
+		id = ITA_fund_infrastructure_projects
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_the_military_labor_inspectorate
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_the_military_labor_inspectorate
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fund_infrastructure_projects"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Alpine Wall
+		id = ITA_expand_the_alpine_wall
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fund_the_military_labor_inspectorate
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_fund_the_military_labor_inspectorate
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_the_alpine_wall"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand RADAR Efforts
+		id = ITA_expand_radar_efforts
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_the_alpine_wall
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_the_alpine_wall
+		}
+		prerequisite = {
+			focus = ITA_fund_infrastructure_projects
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_radar_efforts"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Fortify The Islands
+		id = ITA_fortify_the_islands
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_expand_the_alpine_wall
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_the_alpine_wall
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_fortify_the_islands"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Appoint Giuseppe Bottai 
+		id = ITA_appoint_giuseppe_bottai
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_fortify_the_islands
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_expand_radar_efforts
+		}
+		prerequisite = {
+			focus = ITA_fortify_the_islands
+		}
+		mutually_exclusive = { 
+			focus = ITA_appoint_ettore_muti
+			focus = ITA_appoint_alessandro_pavolini
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_appoint_giuseppe_bottai"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Enforce Religious Laws
+		id = ITA_enforce_religious_laws
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_alessandro_pavolini
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_alessandro_pavolini
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_enforce_religious_laws"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Increase Secret Police Recruitment
+		id = ITA_increase_secret_police_recruitment
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_alessandro_pavolini
+		x = 2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_alessandro_pavolini
+			focus = ITA_appoint_ettore_muti
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_increase_secret_police_recruitment"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# The Black Heart of Europe
+		id = ITA_the_black_heart_of_europe
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_enforce_religious_laws
+		x = 1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_enforce_religious_laws
+		}
+		prerequisite = {
+			focus = ITA_increase_secret_police_recruitment
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_black_heart_of_europe"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# A Brotherhood of Warriors
+		id = ITA_a_brotherhood_of_warriors
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_ettore_muti
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_ettore_muti
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_a_brotherhood_of_warriors"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Order of Purity
+		id = ITA_order_of_purity
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_a_brotherhood_of_warriors
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_a_brotherhood_of_warriors
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_order_of_purity"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Expand the Role of Youth Organizations
+		id = ITA_expand_the_role_of_youth_organizations
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_giuseppe_bottai
+		x = -2
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_giuseppe_bottai
+			focus = ITA_appoint_ettore_muti
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_expand_the_role_of_youth_organizations"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Promote Militarism
+		id = ITA_promote_militarism
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_appoint_giuseppe_bottai
+		x = 0
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_appoint_giuseppe_bottai
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_promote_militarism"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {# Promote Militarism
+		id = ITA_promote_militarisma
+		icon = GFX_goal_WIP
+		cost = 5
+
+		relative_position_id = ITA_promote_militarism
+		x = -1
+		y = 1
+
+		available = {
+		}
+		prerequisite = {
+			focus = ITA_promote_militarism
+		}
+		prerequisite = {
+			focus = ITA_expand_the_role_of_youth_organizations
+		}
+		ai_will_do = { factor = 33 }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_promote_militarism"
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
 }
 
