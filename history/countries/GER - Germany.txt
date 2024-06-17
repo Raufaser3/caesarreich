@@ -118,8 +118,11 @@ if = {
 add_ideas = {
 	low_economic_mobilisation 
 	export_focus
-	
-	one_party_dictatorship
+		GER_spd_republic
+	GER_corporals_cabal
+	GER_prussian_bulwark
+	GER_long_arm_rome
+	semi_presidential_republic
 }
 
 create_faction = europabund
@@ -145,7 +148,7 @@ set_politics = {
 	ruling_party = social_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 
 }
 
@@ -156,10 +159,10 @@ set_popularities = {
 	social_democrat = 30
 	liberal = 14
 	social_conservative = 13
-	authoritarian_democrat = 4
+	authoritarian_democrat = 6
 	paternal_autocrat = 12
 	ultranationalist = 5
-	esoteric_nationalist = 6
+	esoteric_nationalist = 4
 }
 
 GER_add_armour_variants = yes
@@ -197,8 +200,8 @@ EPR = {
 	GER_add_ship_variants = yes
 }
 
-
 recruit_character = GER_Wilhelm_Marx
+recruit_character = GER_Karl_Severing
 recruit_character = GER_Wilhelm_Pieck
 recruit_character = GER_Ernst_Thalmann
 recruit_character = GER_Walter_Ulbricht
@@ -344,7 +347,7 @@ recruit_character = GER_Eduard_Dietl
 recruit_character = GER_Manfred_Freiherr_von_Richthofen
 
 ### Starting Ministers
-activate_advisor = GER_Anton_Arco_auf_Valley_hog_val
+activate_advisor = GER_Karl_Severing_hog_sde
 activate_advisor = GER_Alfred_Rosenburg_for_val
 activate_advisor = GER_Adolf_Hitler_eco_val
 activate_advisor = GER_Hermann_Ehrhardt_sec_val

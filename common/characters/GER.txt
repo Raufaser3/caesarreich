@@ -1441,6 +1441,34 @@ characters = {
 			}
 		}
 	}
+	GER_Karl_Severing = {
+		name = "Karl Severing"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Portrait_GER_Karl_Severing.png"
+				small = "gfx/interface/ministers/GER/GER_Karl_Severing.png"
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = GER_Karl_Severing_hog_sde_hired }
+			}
+			idea_token = GER_Karl_Severing_hog_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = GER_Karl_Severing_hog_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = GER_Karl_Severing_hog_sde_hired }
+			}
+			traits = {
+				social_democrat
+				hog_privileged_socialist
+			}
+		}
+	}
 	GER_Otto_Braun = {
 		name = "Otto Braun"
 		portraits = {

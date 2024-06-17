@@ -16,6 +16,7 @@ GRE_KING_OR_PM: "Click to switch between §GVasiléfs§! and §CProthypourgós§
 GRE_EM_OR_PM: "Click to switch between §GAftokrátor§! and §CProthypourgós§! view"
 
 PM_OR_PRESIDENT: "Click to switch between §GPresident§! and §CPrime Minister§! view"
+RK_OR_PRESIDENT: "Click to switch between §GReichspräsident§! and §CReichskanzler§! view"
 PM_OR_LEADER: "Click to switch between §GKing§! and §CPrime Minister§! view"
 KZ_OR_LEADER: "Click to switch between §GKaiser§! and §CKanzler§! view"
 VZ_OR_LEADER: "Click to switch between §GTsar§! and §CVozhd§! view"
@@ -53,6 +54,7 @@ IMP_OR_NAT: "Click to switch between §GNational Governor§! and §CImperial Gov
 SUL_OR_PM: "Click to switch between §GSultan§! and §CPrime Minister§! view"
 DI_OR_DI: "Click to switch between §GDiarchs§!"
 
+RK_OR_PRESIDENT2: "Reichskanzler of [FROM.GetNameWithFlag]"
 PM_OR_LEADER2: "Prime Minister of [FROM.GetNameWithFlag]"
 KZ_OR_LEADER2: "Kanzler of [FROM.GetNameWithFlag]"
 VZ_OR_LEADER2: "Vozhd of [FROM.GetNameWithFlag]"

@@ -1,0 +1,51 @@
+# GER
+
+ideas = {
+	country = {
+		GER_corporals_cabal = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_corporals_cabal" }
+			picture = GER_corporals_cabal
+			modifier = {
+				ultranationalist_drift = 0.01
+				esoteric_nationalist_drift = 0.01
+				army_org_factor = -0.10
+				training_time_army_factor = 0.15
+				political_power_gain = -0.2
+				war_support_factor = -0.2
+			}
+		}
+		GER_prussian_bulwark = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_prussian_bulwark" }
+			picture = GER_prussian_bulwark
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.15
+				army_core_defence_factor = 0.05
+				stability_weekly = 0.001
+			}
+		}
+		GER_long_arm_rome = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_long_arm_rome" }
+			picture = GER_long_arm_rome
+			modifier = {
+				authoritarian_democrat_drift = 0.01
+				political_power_gain = -0.1
+				stability_factor = -0.1
+			}
+		}
+		GER_spd_republic = {
+			available = { original_tag = GER }
+			on_add = { log = "[GetLogIdeaInfo] GER_spd_republic" }
+			picture = GER_spd_republic
+			modifier = {
+				social_democrat_drift = 0.01
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}
