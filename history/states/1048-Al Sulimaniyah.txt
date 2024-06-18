@@ -4,7 +4,7 @@ state={
 	name="STATE_1048"
 
 	history={
-		owner = TUR
+		owner = IRQ
 		add_core_of = IRQ
 
 	}
