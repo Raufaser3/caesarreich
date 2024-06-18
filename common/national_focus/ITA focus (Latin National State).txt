@@ -157,7 +157,7 @@ focus_tree = {
 	}
 
 	focus = {# The Grupo di Ur
-		id = ITA_the_grupo_di_ur
+		id = ITA_the_ur_group
 		icon = GFX_goal_WIP
 		cost = 5
 
@@ -172,7 +172,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 33 }
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_grupo_di_ur"
+			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_ur_group"
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -245,6 +245,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_the_white_general"
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		
 	}
 	
 	
@@ -3031,8 +3032,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	
-	focus = {# Promote Militarism
-		id = ITA_promote_militarisma
+	focus = {# The Aristocracy of Labor
+		id = ITA_the_aristocracy_of_labor
 		icon = GFX_goal_WIP
 		cost = 5
 

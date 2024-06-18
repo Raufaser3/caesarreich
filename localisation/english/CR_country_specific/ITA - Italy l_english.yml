@@ -1871,452 +1871,280 @@ italib.1.a: "Only a temporary set back"
 
 ### Focuses ###
 
-ITA_future_ppi: "The Future of The People's Party"
-ITA_future_ppi_desc: "The changing political landscape of Italy has forced all the major parties to adapt. The PPI, once the cornerstone of the Italian political scene, is now losing support as opponents promise radical reforms for our country. Internally the PPI is also divided between the Sturzo lead Progressives and Gasperi lead Catholics, both of whom argue over the direction of the party. Internal reforms will need to be made to overcome this dilemma."
-#
-ITA_conservative_ppi: "Gasperi Takes Control of The PPI"
-ITA_conservative_ppi_desc: "A decade of progressive rule over Italy has come to an end as former PPI chairmen Luigi Sturzo steps down in the wake of growing criticism of his leadership. Alcide de Gasperi has assumed his position and intends to lead the party towards a strong conservative stance."
-#
-ITA_expel_socialists: "Put Pressure On the Social Democrats"
-ITA_expel_socialists_desc: "To secure the PPI and it's coalition's place as the sensible conservative faction for the upcoming election Gasperi plans to force his Social Democrat allies to officially distance themselves from the moderate Socialists. Whether Giuseppe Saragat agrees to this will have to be seen."
-#
-ITA_capitalists_support: "Seek The Support The Capitalists"
-ITA_capitalists_support_desc: "As the upcoming election marches closer and closer it is clear that the PPI will require strong support from the upper classes of Italy. Our political campaign wont pay for itself."
-#
-ITA_progressive_ppi: "Sturzo Maintains His Leadership"
-ITA_progressive_ppi_desc: "Now that Gasperi and his conservatives have left the party the PPI can now adopt a unified progressive agenda for the upcoming election"
-#
-ITA_promise_reforms: "Promise Reforms"
-ITA_promise_reforms_desc: "As Italian society drifts back into a widening rift between the poor and the rich is is clear that the people desire political and economic reforms, a fact we should capitalize on."
-#
-ITA_modern_socialism: "Modern Socialism"
-ITA_modern_socialism_desc: "To many the term 'Socialism' is just a reminder of the violence and social upheaval of the Russian Revolution and Red Biennium, both of which caused the deaths of thousands. To truly help the average Italian social progress should be handled peacefully though democratic means. We must reject violence against our fellow man."
-#
-ITA_italian_election: "The [GetYear] General Election"
-ITA_italian_election_desc: ""
-#
-ITA_socialist_revolution: "The Socialist Coalition"
-ITA_socialist_revolution_desc: "As more of Italy's wealth continues to be controlled by an ever shrinking group of Bourgeoisie it seems that Italians are again in dire need of societal change. Together the socialists and communists will crush the forces of Capitalism, Imperialism and Fascism."
-#
-ITA_occupy_factories: "Encourage Local Collectivization"
-ITA_occupy_factories_desc: "Our electoral victory will mean nothing if our regional allies get dismantled by the forces of capitalism. To secure our Revolution we must support local unions and militias."
-#
-ITA_oust_nobility: "Fate of The Revolution"
-ITA_oust_nobility_desc: "As unions and socialist militias continue to grow in influence in Italy it seems like the perfect moment for our left wing coalition to turn it's theories into actual praxis. Despite the general optimism, cracks are appearing in the socialist Coalition. Hardline Communists and the more moderate Socialists continue to bicker over the future direction of Italy. It seems that if no policy can be agreed on soon we'll see another collapse of the left as had happened during the Biennio Rosso."
-#
-ITA_political_correctness: "Political Correctness"
-ITA_political_correctness_desc: "The time for party divide is over. If we seek to truly establish a communist society we must set aside our petty differences and follow the tried and true model as set by Lenin in the USSR."
-#
-ITA_state_atheism: "State Atheism"
-ITA_state_atheism_desc: "\"Religion... is the opiate of the masses.\" - Karl Marx\n\nFor too long the working classes of Italy have been blinded by the conservative voice of the Church, robbing them of any chance of achieving class consciousness. To liberate the workers we must expel this reactionary cornerstone from Italian society."
-#
-ITA_secret_police: "Secret Police"
-ITA_secret_police_desc: "Many reactionary voices from within Italy and abroad still threaten our Revolution's very survival. If we wish to secure our recent political gains it is imperative that we establish an organization to monitor any possible subversive actions that may undermine our state."
-#
-ITA_compromise_with_fascists: "Compromise With The Syndicalists"
-ITA_compromise_with_fascists_desc: "For years Communists and Socialists have been at odds with the National Syndicalists and their bastardized version of Class Struggle. Recently though the hard line communists, emboldened by their recent political victories, see fit to compromise with the leadership of the FISN in an attempt to find common ground. While breaking up FISN might be politically advantageous many socialists see it as an abandonment of Leftist ideals."
-#
-ITA_permanent_revolution: "Permanent Revolution"
-ITA_permanent_revolution_desc: "As long as Capitalism exists a true communist society can not be formed. Amadeo Bordiga, following in the foot steps of Leon Trotsky proposes that Italy should adopt a foreign policy of \"Permanent Revolution\" and actively attempt to spread socialism across the Mediterranean."
-#
-ITA_moscow_support: "Seek The Support of Moscow"
-ITA_moscow_support_desc: "As the first established Socialist state the USSR is the core of modern leftist theory and praxis. Our Revolution will not succeed without the support of Moscow."
-#
-ITA_communal_democracy: "Communal Democracy"
-ITA_communal_democracy_desc: "Liberation happens from the bottom up. We can't allow the Communists to centralize the state and undermine all the effort that has been made by the workers themselves. We must strengthen the political power of local communes and adopt a hands off approach of governing for Rome."
-#
-ITA_workers_councils: "Worker Councils"
-ITA_workers_councils_desc: "To better organize the regional communes we should establish Worker Councils to run them. Councils will be made of local citizens as voted for the workers themselves and will have the responsibility of handling local affairs."
-#
-ITA_women_revolution: "Women of The Revolution"
-ITA_women_revolution_desc: "Despite several gains, such as the right to vote, in the aftermath of the Great War, Women are still victims of much of Italy's patriarchal institutions. Liberation of the working class must include the participation and effort of women. To foster this we must promote Women to join historically Men dominated fields and industry. No longer shall women be reduced to only child bearers and home makers."
-#
-ITA_christian_socialism: "Christian Socialism"
-ITA_christian_socialism_desc: "For many Marxism and Christianity are polar opposites. This perception is not helped by the more hard line communists and their anti-clerical attitudes but a growing group of \"Christian Socialists\" seek to bridge the gap between socialist theory and Christian doctrine. Christianity is clearly an important facet of Italian culture and if we seek to establish a long standing socialist movement we will need to bridge these two world views."
-#
-ITA_nationalist_coalition: "The Nationalist Coalition"
-ITA_nationalist_coalition_desc: "The Italian demand for powerful leadership has lead to the Nationalist coalition of the FISN and ANI to gain a majority in the Italian election."
-#
-ITA_purge_socialists: "Purge The Socialists"
-ITA_purge_socialists_desc: "For decades the Italian Socialists have done nothing but undermine the unity of Italy. To secure our nation we must purge these dissidents."
-#
-ITA_abandon_france: "Abandon France"
-ITA_abandon_france_desc: "Italy shall no longer be the lesser partner to France or any of the Great Powers. Italy must control her own destiny."
-#
-ITA_empower_syndicates: "Corporatist Syndicalism"
-ITA_empower_syndicates_desc: "Socialists seek to weaken Italy by promoting hostility between societal classes. National Syndicalism calls for cooperation of these classes through an ideology of Corporatism, in which all members of a distinct economic sector are given equal authority over the operation of their corporate group. In a corporatist society both the labor and Capitalist classes will be given equal representation. To realize this goal we must encourage regional Syndicates to form Corporate groups."
-#
-ITA_proclaim_republic: "Proclaim The Italian Republic"
-ITA_proclaim_republic_desc: "As the progress of history pushes Italy slowly into modernity it is clear that our nation has outgrown the need for a King. Like the French during their Revolution or the Germans in the aftermath of the Great War it is now Italy's turn to remove the bonds that subdue our true potential."
-#
-ITA_roman_senate: "Reviving The Charter of Carnaro"
-ITA_roman_senate_desc: "The impact of Gabriele d'Annunzio's \"Fiume Endeavour\" has been constantly debated by historians and sociologists since it's collapse in 1921. While d'Annunzio's rule over Carnaro was short lived it did lead to the creation of the \"Charter of Carnaro\", the first National Syndicalist constitution ever made and a corner stone of the movement. The Corporatist society it established should become the new legal framework for Italy."
-#
-ITA_progressive_coalition: "The Progressive Coalition"
-ITA_progressive_coalition_desc: "Italy has many societal issues that must be tackled and to do this it seems the people want sensible reforms and regulations"
-#
-ITA_poor_protection: "Protections For The Poor"
-ITA_poor_protection_desc: "Italy is currently one of the poorest of the Great Powers. Many Italians barely make enough to support themselves let alone their families. To help alleviate these issues we must develop social safety nets to help protect Italians from abject poverty."
-#
-ITA_colonial_autonomy: "Colonial Autonomy"
-ITA_colonial_autonomy_desc: "Italy has not had the best relationship with her colonies. It is clear that Libyans, Turks, Somalis, Eritreans and all the other people that make up the Italian Empire would like to take more control of their local affairs. Rome should grant these regions more autonomy"
-#
-ITA_industrial_regulations: "Industrial Regulations"
-ITA_industrial_regulations_desc: "While many strides have been made to improve the rights of Italian workers, the capitalist class still exerts substantial control over their lives and safety. We must strive to improve working conditions in Italy and dismantle those capitalists who seek to game the system."
-#
-ITA_women_rights: "Expand Women's Rights"
-ITA_women_rights_desc: "While women gained several rights in the aftermath of the Red Biennium, such as the right to vote, They still are treated as second class citizens in many areas of Italian society. We must enact laws to give women protection from such discrimination in the public sector."
-#
-ITA_minority_rights: "Guarantee Minority Rights"
-ITA_minority_rights_desc: "The Great War has awarded Italy substantial territory across the Adriatic and into the Balkans. Many Germans, Slovenes, Croats, Serbs and Albanians now live within The [Root.GetName] but despite being citizens many of them face discrimination and pressure from their Italian neighbors. If we wish to truly integrate these communities we must respect their local traditions and culture."
-#
-ITA_liberal_reforms: "Liberal Reforms"
-ITA_liberal_reforms_desc: "For a Decade the Protectionist and State Interventionist policies of the PPI has halted Italy's Economic growth. Adopting a more hands off relationship with Italy's capitalist class will give them freedom needed to guide our economy into a bright future."
-#
-ITA_industrial_subsidies: "Industrial Subsidies"
-ITA_industrial_subsidies_desc: "To promote the development of Italian Industry it may be in our best interest to offer subsidies to potential developers."
-#
-ITA_free_trade_focus: "Push For Free Trade"
-ITA_free_trade_focus_desc: "In an ever increasingly unstable Europe trade seems to be the only aspect keeping nations at peace. We must strive to adopt Free Trade policies and break down the trade barriers that push nations apart."
-#
-ITA_conservative_coalition: "The Conservative Coalition"
-ITA_conservative_coalition_desc: "The Rise of Socialism and the stagnation of progressive parties has shown Italians that they need to return to policies that strengthen our nation's traditional values. In these chaotic times we must unify behind the Church and our King."
-#
-ITA_regional_autonomy: "Regional Autonomy"
-ITA_regional_autonomy_desc: "A nation as diverse as Italy must give autonomy to it's historically independent regions. An Italian in Rome has no idea of the needs of an Italian in Sicily or Venice."
-#
-ITA_dalmatia_migration: "Promote Migration To Dalmatia"
-ITA_dalmatia_migration_desc: "Millions of Italians died to regain our rightful territory from Austria-Hungary. The full potential of these territories shall allude us for as long as the local population resists integrating into Italian society. Lets truly capitalize on our victories and expand Italian settlements and culture in the region."
-#
-ITA_economic_protectionism: "Economic Protectionism"
-ITA_economic_protectionism_desc: "Many powers seek to undermine Italy take advantage of her weaker economy. We must protect our people from these hostile powers by implementing protectionist policies that benefit the interests of Italians, not the British, French or the Americans."
-#
-ITA_help_pope: "Lateran Pacts of [GetYear]"
-ITA_help_pope_desc: "Since 1870 the Roman Question has been in thorn in Italy's side and possibly her biggest diplomatic faux pas. In the 1920's attempts to solve the Roman Question failed as the left leaning coalition could not find common ground with the Vatican. If we wish to bring unity ans stability to Italy we should end our hostilities with the Pope and finally sign the Lateran Accords."
-#
-ITA_catholic_nation: "A Catholic Nation"
-ITA_catholic_nation_desc: "Since the fall of the Roman Empire the Italian Peninsula has been Catholic. Attempts to secularize our nation has only served to divide our people and undermine our culture. It's time to promote Catholicism as Italy's de-facto religion."
-#
-ITA_cement_the_movement: "Cementing The Movement"
-ITA_cement_the_movement_desc: "The alliance between the reactionary nationalists and the syndicalists was never destined to last. For Italy to take it's place as master of the Mediterranean one side of this coalition must take sole control and lead the nation."
-#
-ITA_corporate_allies: "Corporatism"
-ITA_corporate_allies_desc: "A strong nation requires explicit cooperation between capital and the state. The capitalists must serve the interests of the nation and the party or be replaced by those who will."
-#
-ITA_stregthen_king: "Strengthen The King"
-ITA_stregthen_king_desc: "For decades the socialists and progressives have done everything in their power to undermine the influence of [ITA.GetLeader]. [ITA.GetLeader] is a symbol of Italy's greatness and should be given more influence over our nation's government. With his support we can solidify Italy's spot as one of the Great Powers."
-#
-ITA_dio_patria_famiglia: "Dio, Patria e Famiglia"
-ITA_dio_patria_famiglia_desc: "\"God, Fatherland And Family\" are the core of the Italian's morals. With these values taken to heart we shall unify the people with the authority of the State."
-#
-ITA_planned_economy: "A Socialist Economy"
-ITA_planned_economy_desc: "The means of production must be owned by the workers themselves. Debate over how to implement this core Marxist concept though has haunted leftist groups for decades. The Italian Socialist party wishes to expand local democratic communes, industrializing from the bottom up, while the Italian Communist Party wishes to directly command the economy for the purpose of rapid Industrialization."
-#
-ITA_revolution_above: "Revolution From Above"
-ITA_revolution_above_desc: "The Revolution must be lead by the expertise of party Vanguards. The liberal notion of \"democracy\" means nothing if the reactionary powers of world snuff our movement and force Italians back into the bondage of capitalism. What will help strengthen the state will ultimately be what's best for the workers."
-#
-ITA_disloyal_unions: "Dismantle Disloyal Unions"
-ITA_disloyal_unions_desc: "While most unions have begun to fall in line with party policy some are still resisting centralization. We must dismantle these rebellious unions and replace their leaders with these who will follow the policies of Rome."
-#
-ITA_seize_privates: "Seize Private Property"
-ITA_seize_privates_desc: "While unions have been strengthening their control over local economies, Capitalists still own a massive portion of Italy's industry. The time has come to nationalize these industries and bring them under state control."
-#
-ITA_modern_farms: "State Farms"
-ITA_modern_farms_desc: "To help boost Italian agricultural production we should create state run farms managed directly by Rome."
-#
-ITA_collectivised_industry: "Command Economy"
-ITA_collectivised_industry_desc: "Now that the majority of Italian industry is under state control we have the means to implement a true command economy. Finally the needs of all Italian workers can be securely met by the state."
-#
-ITA_nationalization_decree: "Nationalization by Decree"
-ITA_nationalization_decree_desc: "In chaotic times like these it is paramount that the state has full control over the nation's resources and industry. When the reactionary forces of the world come to reverse the gains of our Revolution our nation must be properly organized and prepared."
-#
-ITA_rapid_industry: "Rapid Industrialization"
-ITA_rapid_industry_desc: "It is no secret that Italy's economy lags behind the likes of France and Germany. We must rectify this imbalance as soon as possible under any means necessary. The next Great War will be a war of Industry and resources and if we fail to catch up with out neighbors we will not survive."
-#
-ITA_secure_revolution: "Securing The Revolution"
-ITA_secure_revolution_desc: "Many forces from within Italy and abroad seek to undermine the workers and the Revolution. We must make sure that the workers are ready to defend the Revolution when the time comes."
-#
-ITA_military_expansion: "Military Expansion"
-ITA_military_expansion_desc: "Italy must have the industry to back her loyal soldiers and militiamen when the time comes to defend our Revolution. We must invest in expanding our military industry."
-#
-ITA_support_communes: "Support The Communes"
-ITA_support_communes_desc: "Local communes and cooperatives are the backbone of Italy's socialist movement. We must nurture these communes and expand collective ownership."
-#
-ITA_rural_south: "Socialism In The Mezzogiorno"
-ITA_rural_south_desc: "Southern Italy has been throughly under Corporatist control for years but now more than ever the region is open to adopting communal policies. We must promote worker lead collective ownership and the dismantling of unjust hierarchies within the Mezzogiorno."
-#
-ITA_collective_farms: "Cooperative Farming"
-ITA_collective_farms_desc: "Large private agricultural conglomerates dominate southern Italy. We must dismantle these unjust institutions and give the land to the workers who actually farm it. These farm coops shall be run independently by the farmers themselves with minimal interference from Rome."
-#
-ITA_agrarian_economy: "Agrarian Economy"
-ITA_agrarian_economy_desc: "Southern Italy's economy has been stunted by decades of protectionist policies that were intended to solely support the North's industrial economy. We must embrace Italy's agricultural core and end these harmful economic policies."
-#
-ITA_democratic_industry: "Democratized Industry"
-ITA_democratic_industry_desc: "A nation is built from the bottom up by the workers but despite this the capitalist class has for decades attempted to restrict their rights and freedoms. Now the workers have been given the opportunity to lead their own destiny free from the tyranny of the Bourgeoisie."
-#
-ITA_industrial_north: "Socialism In The Nord"
-ITA_industrial_north_desc: "The core of Italy's Socialist movement is made up of Industrial workers from our nation's Northern regions. We can not afford to ignore these workers. We must strengthen local unions and give the workers the tools, training and support needed to assume total control over the regions factories and infrastructure."
-#
-ITA_expand_universities: "Expand Universities"
-ITA_expand_universities_desc: "Unlike the rural south, Northern Italy's economy is based around skilled labor but many capable workers lack the means to acquire the skills needed for this economy. Expanding local universities and subsidizing the costs will allow more people to join this skilled workforce."
-#
-ITA_improve_railways: "Improve Rail lines"
-ITA_improve_railways_desc: "The Economy of northern Italy is dependent on a delicate system of interconnected infrastructure. Supplies and goods must come exactly when needed and any discrepancy may halt the system. Improving rail lines will significantly reduce the possibility of supplies failing to keep up with industrial schedules."
-#
-ITA_economic_development: "Economic Reforms"
-ITA_economic_development_desc: "Of all the Great Powers Italy is known for having the weakest and least industrialized economy amongst them. While the 20's was a decade of steady growth for our nation the London Stock Market Crash has shown that our nation is in much need of economic reforms. Many theories and arguments have been devised on how to most improve Italy's economy but until one party has the required public and political support needed to institute them little will actually be done."
-#
-ITA_regulated_economy: "A Regulated Economy"
-ITA_regulated_economy_desc: "Capitalism isn't perfect. While it rewards the most innovative members of society it tends to do little to help the poorest and most vulnerable. The state must do what it can to promote economic growth while also providing help and support to those who may need it."
-#
-ITA_unemployed_benefits: "Unemployment Benefits"
-ITA_unemployed_benefits_desc: "Much like the Red Biennium of the early 20's rising unemployment is once again creating unrest throughout the country. Workers want to provide for their families but if the Capitalist system can not provide opportunities on it's own they will look to more extreme solutions. We must make sure that even in recessions like this that no Italian becomes destitute."
-#
-ITA_public_housing: "Fund Public Housing"
-ITA_public_housing_desc: "With Italy's rising population the demand for housing has never been higher but the supply can not keep up. Shelter is a basic necessity for a decent life and as such we should fund public housing projects to provide living arrangements for those who may not be able to afford this need on their own."
-#
-ITA_compulsory_education: "Expand Compulsory Education"
-ITA_compulsory_education_desc: "In 1859 the \"Legge Casati\" established the first education system for Italy. This law still stands today, only mandating education from ages 6 to 9. While many families do send their children to Secondary Schools after age 9 many poorer families choose instead to have their children work in the family trade to help make ends meet. Italy lags behind the other Great Power's when it comes to literacy rates. We must counter this by expanding Compulsory Education from age 9 to age 14."
-#
-ITA_iri_formula: "Reviving The IRI"
-ITA_iri_formula_desc: " The concept behind The \"Istituto per la Ricostruzione Industriale\" has been floating around in some Socialist circles for years now as a way for the state to control Italian corporations. While we don't share the leftist desire to seize the means of production the IRI may still be useful in creating a mixed economy in which the state is given oversight to organize the economy in an efficient and conscientious manner while big business retains enough autonomy to innovate."
-#
-ITA_aid_faliures: "Support Failing Corporations"
-ITA_aid_faliures_desc: "Recent economic stagnation has put a toll on Italian corporations many of which are on the brink of bankruptcy. The rapid demise of several conglomerates at once is threatening to send our nation's economy into a death spiral. We must support these failing companies through subsidies or bail outs until our economy recovers."
-#
-ITA_nationalize_rails: "Expand The FFSS"
-ITA_nationalize_rails_desc: "The Ferrovie dello Stato is a state ran company created in 1905 as a way to help expand Italy's rail networks at a time when private rail companies were failing to keep up with the needs of our nation. While the FFSS was originally successful at it's duties the Great War put much strain on it's funding and destroyed much of it's infrastructure in Northern Italy. If a nation is an organism then railways are the veins that keep it alive. We must once again fund this vital infrastructure."
-#
-ITA_subsidies_farms: "Subsidies Italian Farmers"
-ITA_subsidies_farms_desc: "The agricultural market is known to be very volatile. People can easily go bankrupt with no fault of their own. We must protect farmers, the backbone of society, from such a cruel fate."
-#
-ITA_support_arms: "Support The Arms Industry"
-ITA_support_arms_desc: "In order for Italy to be a modern military power, we must support our arms industry."
-#
-ITA_nationalize_docks: "Nationalize Dockyards"
-ITA_nationalize_docks_desc: "As a naval power Italy's dockyards are key to protecting her interests across the Mediterranean and the globe. With such a vital role to our national security we must take direct control of these facilities."
-#
-ITA_nationalize_steel: "Nationalize Steel Mills"
-ITA_nationalize_steel_desc: "While there have been efforts to expand private steel mills in the past it clear that state owned mills are more efficient and are better suited to the growing needs of a nation like Italy."
-#
-ITA_welfare_state: "A Welfare State"
-ITA_welfare_state_desc: "While the socialist's critiques of capitalism are sometimes uncalled for, they are not totally without merit. Many of Italy's poor have been adversely effected by the worst aspects of capitalism. We must protect our people from poverty and destitution no matter what ideology is dominate in Italy."
-#
-ITA_free_market: "Free Market Economics"
-ITA_free_market_desc: "Decades of state ownership of much of Italy's key industries has stifled economic growth. To help promote economic development and bring much needed funds to our government it has been suggested that webegin to privatize these economic sectors."
-#
-ITA_capitalist_north: "Capitalism In The Nord"
-ITA_capitalist_north_desc: "Northern Italy has been the industrial core of the nation for decades. Many industries are based in the region. Despite strong socialist and unionist factions in the area the potential for industrial expansion lead by private ownership is there if we push for it."
-#
-ITA_create_austrada: "Privatizing the Austrada"
-ITA_create_austrada_desc: "The Austrada is a publicly owned series of motorways that connect North and South Italy. The expansion of this infrastructure has stalled in recent years do to lack of federal funds. It may be time to sell portions of this road way to private developers who are more willing and able to fund it."
-#
-ITA_auto_industry: "Promoting the Italian auto industry"
-ITA_auto_industry_desc: "Italian cars are some of the most respected and sought after in the entire world. This industry brings an immense amount capital into Italy and is kkey to our economic growth. We must do all we can to expand this industry."
-#
-ITA_expand_markets: "Expand to new markets"
-ITA_expand_markets_desc: "As the demand for new goods and services increases within Italy we must continue to look for new markets to trade with."
-#
-ITA_expand_docks: "Expand Dockyards"
-ITA_expand_docks_desc: "Italy's naval supremacy is paramount to her economic success. Italian shipping connects her to most of the world's trade. To help promote economic growth we must make sure our naval sector is able to cover gorwing demands."
-#
-ITA_merchant_marines: "Italian Merchant Marines"
-ITA_merchant_marines_desc: "Sea trade is the corner stone of the Italian economy. To help protect this vital service we must create the Italian Merchant Marines to protect our cargo and passenger ships from any threat."
-#
-ITA_lease_torres: "Lease [768.GetName]"
-ITA_lease_torres_desc: "As we look for new ways to fund our economic expansion we must be open to any idea. Some within Italy have suggested we could lease a strategic port to another nation as a way to quickly raise funds."
-#
-ITA_capitalist_south: "Capitalism In The Mezzogiorno"
-ITA_capitalist_south_desc: "Unlike the North, Southern Italy has seen little of progress towards industrialization. Despite the large pool of labor in the region few capitalists wish to invest. We must do what we can to bring the fruits of industrialization to the region."
-#
-ITA_modern_agriculture: "Modernize Agriculture"
-ITA_modern_agriculture_desc: "The Mezzogiorno has been the agricultural heartland of Italy since our nation's foundation but it has fallen into decline in recent years. Agricultural innovations in France and Russia have unfortunately made Italian grain uncompetitive on the global market. If we do not assist our farmers in implementing these innovations they'll never match modern standards."
-#
-ITA_farming_grants: "Farming grants"
-ITA_farming_grants_desc: "With how volatile the agricultural market is few Italians dare enter this economic sector and those who do often fall into debt just trying to make a living. We must offer grants to would be farmers to help get their livelihoods off the ground."
-#
-ITA_farming_auctions: "Promote farm auctions"
-ITA_farming_auctions_desc: "As the Italian agricultural sector becomes more competitive few can keep up. Large farming conglomerates has begun buying family owned farms in the hopes of modernizing them while taking a cut of the profits. While this is controversial with many farmers who make little to begin with it has brought much needed capital to the region."
-#
-ITA_end_tariffs: "End tariffs"
-ITA_end_tariffs_desc: "In the past Italian governments have attempted to promote local industry by creating tariffs that would make it more expensive to buy foreign goods. This is just a market inefficiency that only hurts hard working Italians. We must end these institutions if we wish to see economic growth."
-#
-ITA_resource_expansion: "Resource expansion"
-ITA_resource_expansion_desc: "Italy is a nation rich with resources but few capitalists have spent the effort needed to exploit this. We must promote the expansion of local mines and refineries."
-#
-ITA_protectionism: "Economic Protectionism"
-ITA_protectionism_desc: "The stronger economies of France and Britain have done their best to out compete against local Italian industry. We must protect our industry from this unfair foreign competition."
-#
-ITA_gaurantee_grain: "Guarantee Grain Prices"
-ITA_gaurantee_grain_desc: "With how volatile the agricultural market is few Italians dare enter this economic sector and those who do often fall into debt just trying to make a living. We must guarantee the price of grain so our farmers can make a living despite international competition."
-#
-ITA_sell_land: "Sell Colonial Land To Italians"
-ITA_sell_land_desc: "Italy's colonial empire has expanded rapidly in the last 20 years but few would be settlers have taken advantage of this. We must sell colonial lands to Italian settlers quickly to promote the integration of these regions and raise funds for our nation."
-#
-ITA_increase_tariffs: "Increase Tariffs"
-ITA_increase_tariffs_desc: "The Industries of France and Britain continue to out produce local competitors making them unprofitable. If we wish for capitalists to continue investing into local Industries we must subsidies the cost by increasing tariffs on foreign goods."
-#
-ITA_buy_italian: "\"Buy Italian!\""
-ITA_buy_italian_desc: "While tariffs are a good way to promote Italian business many will still seek out French or British goods despite their higher prices. We must promote the purchasing of local goods as a nationalistic movement. \"Buying Italian\" should be seen as almost a civic duty and bring pride to the hearts of all our citizens."
-#
-ITA_government_austerity: "Curtail Government Spending"
-ITA_government_austerity_desc: "Excessive government spending has cause Italian debt to sky rocket. We must curtail this over spending before our debts become too much to handle"
-#
-ITA_docking_fees: "Docking fees"
-ITA_docking_fees_desc: "To help bring foreign capital into Italy it has been suggested that we introduce docking fees to any foreign ship that docks within our nation."
-#
-ITA_war_for_italy: "The Italian Economic War"
-ITA_war_for_italy_desc: "Italy's economy lags greatly behind all the other Great Powers but little has been done to correct this. We must treat this situation like a grand campaign in which we are currently losing to our enemies. Many economic battles are still to be fought though and it will be up to the determination of our Italian citizens whether we win this war."
-#
-ITA_battle_grain: "The Battle for Grain"
-ITA_battle_grain_desc: "Italy is entirely dependent on her neighbors to help supplement her agricultural needs. This is unacceptable for a Great Power like ourselves. We must work tirelessly to increase domestic agricultural output and end our dependence on foreign handouts."
-#
-ITA_battle_lira: "The Battle for The Lira"
-ITA_battle_lira_desc: "In recent years the value of the Lira has declined while inflation continues to rise unimpeded. We must once again confirm the value of the Lira by bringing it's exchange rate to 90 lira to 1 British pound."
-#
-ITA_battle_land: "The Battle For Land"
-ITA_battle_land_desc: "Italy is a densely populated nation nearly overflowing with people. Despite this and the fact our country contains a vast amount of untouched land little has been done to exploit this. We must clear the Pontine marshes and bring thousands of hectares of fertile land into proper agricultural use."
-#
-ITA_battle_births: "The Battle For Births"
-ITA_battle_births_desc: "Italy's population growth has stagnated compared to much of Europe. If we are to assume our position as a Great Power we must have the manpower pool to back it up. We should offer tax incentives to couples who raise large families and penalize bachelors and others who choose to be less productive."
-#
-ITA_national_autarky: "National Autarky"
-ITA_national_autarky_desc: "Many hard battles were fought in the war to establish Italy's economic dominance but as the dust settles on the proverbially battlefields it seems Italy is on her way to winning the conflict. Our economy has seen rapid growth the likes of which has never seen before. Soon enough our nation will be fully self sufficient."
-#
-ITA_reforming_the_charter: "Reforming The Charter of Carnaro"
-ITA_reforming_the_charter_desc: "It is time to reform the Charter of Carnaro."
-#
-ITA_elitest_council: "Elitist Provvisori"
-ITA_elitest_council_desc: "While Senators are elected by the people themselves, The 60 Provvisori are elected by members of the 10 Corporations. While this seems fine on the surface the distribution of these delegates has been very controversial. Obviously the most successful members of society, the employers, technicians and public servants should be given the most Provvisori delegates."
-#
-ITA_peasent_council: "Commoner Provvisori"
-ITA_peasent_council_desc: "While Senators are elected by the people themselves, The 60 Provvisori are elected by members of the 10 Corporations. While this seems fine on the surface the distribution of these delegates has been very controversial. Obviously the heart of Italian society, the workers, farmers and teachers should be given the most Provvisori delegates."
-#
-ITA_centralized_army: "Centralized Armed Forces"
-ITA_centralized_army_desc: "In order for the republic to survive, we must centralize our forces."
-#
-ITA_communal_army: "Communal Armed Forces"
-ITA_communal_army_desc: "The best way for the millitary to succeed would be to have de-centralized communal armed forces."
-#
-ITA_promote_industry: "Promote Industrialists"
-ITA_promote_industry_desc: "We must support industry and the best way to do that must be by promoting industrialists."
-#
-ITA_promote_artists: "Promote Artists"
-ITA_promote_artists_desc: "Art is what makes our nation great, the state must support people with such tallents."
-#
-ITA_strong_commandant: "Strengthen The Commandant"
-ITA_strong_commandant_desc: "The National-Syndicalist goverment must have a strong leader. Without a strong leader, we are divided and weak."
-#
-ITA_weak_commandant: "Strengthen Parliament"
-ITA_weak_commandant_desc: "The republic must stay just that. A republic, if we allow the Commandant to take too much power, we will lose our values."
-#
-ITA_solidifying_canaro: "Solidifying The Charter"
-ITA_solidifying_canaro_desc: "It's time to solidify the charter."
-#
-ITA_forein_policy: "Italian Foreign Policy"
-ITA_forein_policy_desc: "The world is changing, and Italy must change with it."
-#
-ITA_france_conference: "Territorial Conference With The French"
-ITA_france_conference_desc: "The time as come to finally discuss our territorial disagreements with the French. We have many demands, but hopefully we can see eye to eye..."
-#
-ITA_france_exercise: "Military Exercise With France"
-ITA_france_exercise_desc: "With our negotiations with the French being a success, it is time to have millitary exercises witht the French."
-#
-ITA_france_revisionism: "Territorial Revisionism"
-ITA_france_revisionism_desc: "The French are fools, we don't have time for them, Italy will stand without them."
-#
-ITA_italians_in_france: "Support The Italian Minority in France"
-ITA_italians_in_france_desc: "The Italian minorities in France must have more autonomy."
-#
-ITA_take_french_colonies: "Anti-French Defenses In Africa"
-ITA_take_french_colonies_desc: "It is time to prepare for the worst, we must secure our possition in Africa."
-#
-ITA_challenge_britain: "Challenge The Lion"
-ITA_challenge_britain_desc: "The British think they rule the seas, our time has come to take our place in the sun."
-#
-ITA_anti_british_navy: "Anti British Naval Exercise"
-ITA_anti_british_navy_desc: "We must send our navy to start training for a possible conflict with the British, as well as flex a little Italin muscles"
-#
-ITA_demand_malta: "Offer To Purchase Malta"
-ITA_demand_malta_desc: "The British have no use for that small island, we can offer to buy it for a good price."
-#
-ITA_mediterranean_concessions: "Mediterranean Guarantee From London"
-ITA_mediterranean_concessions_desc: "We must gaurantee the Mediterranean states indepence and securty from the British."
-#
-ITA_british_africa: "Anti-British Defenses in Africa"
-ITA_british_africa_desc: "It is time to prepare for the worst, we must secure our possition in Africa from the British."
-#
-ITA_ally_britain: "Ally The British"
-ITA_ally_britain_desc: "The British could be usefull allies, especially in a future conflict with the French..."
-#
-ITA_britain_exercise: "Military Exercise With Britain"
-ITA_britain_exercise_desc: "Let us enance our relationship with the British by doing military exercises with them."
-#
-ITA_balkan_focus: "Italian Dominance In The Balkans"
-ITA_balkan_focus_desc: "Italy's place in the Balkans can not be disputed."
-#
-ITA_undermine_serbia: "Undermine Serbia"
-ITA_undermine_serbia_desc: "We must start to undermine the Serbian state. We will use ethnic and religious tensions in Croatia as our Casus Belli against Belgrade. The international community will see Italy as the liberators of the oppresed Croatian people. Even the most pacifistic of Catholics within Rome will turn a blind eye as we quickly subdue the expanding Serbo-Orthodox influence in the Balkans."
-#
-ITA_albanian_claims: "Push Albanian Claims"
-ITA_albanian_claims_desc: "The ethnically Albanian lands of Shkoder and Kosovo were granted to Serbia, under much objection, following the Great War. While Italy had once agreed to this border demarcation in the past under French pressure, It's clear that the French will no longer be an obstacle as they turn their focus towards Germany. Without French help the Serbs will have few options to counter our territorial ultimatum."
-#
-ITA_croation_terrorists: "Support Anti-Serbian Rebels"
-ITA_croation_terrorists_desc: "The Crotatian rebels are showing some promise, we should consider supporting them."
-#
-ITA_dissolve_serbia: "Dismantle Serbia"
-ITA_dissolve_serbia_desc: "The time has come to take apart the Serb state."
-#
-ITA_balkan_revisionism: "Balkan Revisionism"
-ITA_balkan_revisionism_desc: "In order for our place in the Balkans to be established, we must form a sort of 'Balkan Revisionism' with nations in the area."
-#
-ITA_support_hungary: "A Visit to Budapest"
-ITA_support_hungary_desc: "Hungary could prove to be a useful ally in the Balkans."
-#
-ITA_support_bulgaria: "Treaty of Sofia"
-ITA_support_bulgaria_desc: "Bulgaria could prove to be a useful ally in the Balkans."
-#
-ITA_pressure_romania: "Dismantle Romania"
-ITA_pressure_romania_desc: "Since the Great War, Roamania has seen itself as unfairly expanded, it's time to give those lands to whom they belong."
-#
-ITA_greek_relations: "Our Relationship With Greece"
-ITA_greek_relations_desc: "We must review our relationship with Greece."
-#
-ITA_dismantle_greece: "Spark Border Conflict With The Greeks"
-ITA_dismantle_greece_desc: "The time as come to take the Greeks over by force, if only we had some sort of justifcation..."
-#
-ITA_ally_greece: "Ally The Greeks"
-ITA_ally_greece_desc: "The Greeks could prove to be usefull allies."
-#
-ITA_invade_turkey: "Pressure The Turks"
-ITA_invade_turkey_desc: "Let us put pressure on the Turks."
-#
-ITA_annex_albania: "Annex Albania"
-ITA_annex_albania_desc: "Albania needs to be in our control, the time has come to take Albania."
-#
-ITA_mediterranean_light: "Mediterranean Light"
-ITA_mediterranean_light_desc: "Socalism will be spread to the Mediterranean. We are the bright beacon of socialism."
-#
-ITA_commie_decolonization: "Pressure For Decolonization"
-ITA_commie_decolonization_desc: "Colonization is a cruel and evil practice that must come to a end."
-#
-ITA_ally_spain: "Ally The [SPA.GetName]"
-ITA_ally_spain_desc: "[SPA.GetName] could prove to be a usefull ally."
-#
-ITA_ally_ussr: "Ally The USSR"
-ITA_ally_ussr_desc: "The Soviet Union is the motherland of socalism, we must ally ourselves with them."
-#
-ITA_pan_mediterranean: "Pan-Mediterranean Policy"
-ITA_pan_mediterranean_desc: "We must set up our policy on Pan-Mediterraneanism."
-#
-ITA_ally_falangist: "Ally [SPF.GetName]"
-ITA_ally_falangist_desc: "[SPF.GetName] could prove to be usefull..."
-#
-ITA_demand_baleric: "Demand Control Over [177.GetName]"
-ITA_demand_baleric_desc: "The [177.GetName] should be in our hands..."
-#
-ITA_expand_latin: "Unite The Mediterranean"
-ITA_expand_latin_desc: "The time has come to unite the Mediterranean."
+
+
+ITA_risveglio_latino: "l'Risveglio Latino"
+ITA_risveglio_latino_desc: ""
+ITA_body_of_the_state: "The Body of the State"
+ITA_body_of_the_state_desc: ""
+ITA_soul_of_the_state: "The Soul of the State"
+ITA_soul_of_the_state_desc: ""
+ITA_sword_of_the_state: "The Sword of the State"
+ITA_sword_of_the_state_desc: ""
+ITA_dawn_of_roman_traditionalism: "The Dawn of Roman Traditionalism"
+ITA_dawn_of_roman_traditionalism_desc: ""
+ITA_reconstitution_of_italian_freemasonry: "Reconstitution of Italian Freemasonry"
+ITA_reconstitution_of_italian_freemasonry_desc: ""
+ITA_the_grupo_di_ur: "The Grupo di Ur"
+ITA_the_grupo_di_ur_desc: ""
+ITA_rite_of_memphis_misraim: "The Rite of Memphis-Misraim"
+ITA_rite_of_memphis_misraim_desc: ""
+ITA_the_inner_enemy: "The Inner Enemy"
+ITA_the_inner_enemy_desc: ""
+ITA_the_white_general: "The White General"
+ITA_the_white_general_desc: ""
+ITA_curtail_royalist_influence: "Curtail Royalist Influence"
+ITA_curtail_royalist_influence_desc: ""
+ITA_a_new_generation_of_officers: "A New Generation of Officers"
+ITA_a_new_generation_of_officers_desc: ""
+ITA_honourary_retirements: "Honourary "Retirements""
+ITA_honourary_retirements_desc: ""
+ITA_in_the_spirit_of_garibaldi: "In the Spirit of Garibaldi"
+ITA_in_the_spirit_of_garibaldi_desc: ""
+ITA_carrot_and_stick: "Carrot and Stick"
+ITA_carrot_and_stick_desc: ""
+ITA_a_truly_national_army: "A Truly National Army"
+ITA_a_truly_national_army_desc: ""
+ITA_the_red_duce: "The Red Duce"
+ITA_the_red_duce_desc: ""
+ITA_break_power_of_syndicates: "Break the Power of the Syndicates"
+ITA_break_power_of_syndicates_desc: ""
+ITA_break_national_confederation_of_latin_syndicates: "Break the National Confederation of Latin Syndicates"
+ITA_break_national_confederation_of_latin_syndicates_desc: ""
+ITA_favour_proprietary_corporations: "Favour Proprietary Corporations"
+ITA_favour_proprietary_corporations_desc: ""
+ITA_break_down_renegade_strikes: "Break Down Renegade Strikes"
+ITA_break_down_renegade_strikes_desc: ""
+ITA_reshuffle_positions: "Reshuffle Positions"
+ITA_reshuffle_positions_desc: ""
+ITA_the_corporatist_state: "The Corporatist State"
+ITA_the_corporatist_state_desc: ""
+ITA_the_popes_pawn: "The Pope's Pawn"
+ITA_the_popes_pawn_desc: ""
+ITA_infiltrate_their_ranks: "Infiltrate Their Ranks"
+ITA_infiltrate_their_ranks_desc: ""
+ITA_support_internal_factionalism: "Support Internal Factionalism"
+ITA_support_internal_factionalism_desc: ""
+ITA_sway_the_conservative_elements: "Sway the Conservative Elements"
+ITA_sway_the_conservative_elements_desc: ""
+ITA_the_latin_elections: "The Latin "Elections""
+ITA_the_latin_elections_desc: ""
+ITA_the_capitoline_senate: "The Capitoline Senate"
+ITA_the_capitoline_senate_desc: ""
+ITA_distribute_the_eagle_standards: "Distribute the Eagle Standards"
+ITA_distribute_the_eagle_standards_desc: ""
+ITA_promote_new_thinkers: "Promote New Thinkers"
+ITA_promote_new_thinkers_desc: ""
+ITA_aristocracy_of_the_trenches: "Aristocracy of the Trenches"
+ITA_aristocracy_of_the_trenches_desc: ""
+ITA_appoint_new_defense_minister: "Appoint new Defense Minister"
+ITA_appoint_new_defense_minister_desc: ""
+ITA_the_national_republican_navy: "The Marina Nazionale Repubblicana"
+ITA_the_national_republican_navy_desc: ""
+ITA_build_marcello_submarines: "Build the Marcello Class Submarines"
+ITA_build_marcello_submarines_desc: ""
+ITA_modernize_the_submarine_fleet: "Modernize the Submarine Fleet"
+ITA_modernize_the_submarine_fleet_desc: ""
+ITA_fund_marconi_class_submarines: "Fund the Marconi Class Submarines"
+ITA_fund_marconi_class_submarines_desc: ""
+ITA_expand_torpedo_research: "Expand Torpedo Research"
+ITA_expand_torpedo_research_desc: ""
+ITA_expand_san_marco_regiment: "Expand the San-Marco regiment"
+ITA_expand_san_marco_regiment_desc: ""
+ITA_expand_naval_dockyards: "Expand Naval Dockyards"
+ITA_expand_naval_dockyards_desc: ""
+ITA_maximum_program: "Programma Massimo"
+ITA_maximum_program_desc: ""
+ITA_continue_the_fleet_expansion_program: "Continue the Fleet Expansion Program"
+ITA_continue_the_fleet_expansion_program_desc: ""
+ITA_focus_on_the_battleship_program: "Focus on the Battleship Program"
+ITA_focus_on_the_battleship_program_desc: ""
+ITA_naval_anti_air_investments: "Naval Anti Air Investments"
+ITA_naval_anti_air_investments_desc: ""
+ITA_expand_ansaldo_contracts: "Expand Ansaldo Contracts"
+ITA_expand_ansaldo_contracts_desc: ""
+ITA_the_roma_class_battleship: "Roma Class Battleship"
+ITA_the_roma_class_battleship_desc: ""
+ITA_create_a_sonar_program: "Create a Sonar Program"
+ITA_create_a_sonar_program_desc: ""
+ITA_fund_ugo_tibero: "Fund Ugo Tibero"
+ITA_fund_ugo_tibero_desc: ""
+ITA_minimum_program: "Programma Minimo"
+ITA_minimum_program_desc: ""
+ITA_minimum_doctrine: "Minimo Doctrine"
+ITA_minimum_doctrine_desc: ""
+ITA_focus_on_the_carrier_program: "Focus on the Carrier Program"
+ITA_focus_on_the_carrier_program_desc: ""
+ITA_modern_carrier_planes: "Modern Carrier Planes"
+ITA_modern_carrier_planes_desc: ""
+ITA_expand_naval_academy: "Expand the Accademia Navale"
+ITA_expand_naval_academy_desc: ""
+ITA_develop_reconnissance_aircraft: "Develop Reconnissance Aircraft"
+ITA_develop_reconnissance_aircraft_desc: ""
+ITA_the_national_republican_airforce: "The Aeronautica Nazionale Repubblicana"
+ITA_the_national_republican_airforce_desc: ""
+ITA_fund_the_city_of_the_air: "Fund the Citta Dell'Aria"
+ITA_fund_the_city_of_the_air_desc: ""
+ITA_naval_aviation: "Fate of the Aviazone Navale"
+ITA_naval_aviation_desc: ""
+ITA_fund_aircraft_and_jet_boats: "Fund the Velivoli e Natanti a Reazione"
+ITA_fund_aircraft_and_jet_boats_desc: ""
+ITA_develop_jet_aircraft: "Develop the Caproni Campini N.1"
+ITA_develop_jet_aircraft_desc: ""
+ITA_favor_amadeo_mecozzis_doctrine: "Favor Amadeo Mecozzi's Doctrine"
+ITA_favor_amadeo_mecozzis_doctrine_desc: ""
+ITA_increase_fighter_roles: "Increase Fighter Roles"
+ITA_increase_fighter_roles_desc: ""
+ITA_expand_the_paratrooper_corps: "Expand the Paratrooper Corps"
+ITA_expand_the_paratrooper_corps_desc: ""
+ITA_theory_of_assault_aviation: "Theory of Assault Aviation"
+ITA_theory_of_assault_aviation_desc: ""
+ITA_develop_series_5_airplanes: "Develop Series 5 Airplanes"
+ITA_develop_series_5_airplanes_desc: ""
+ITA_establish_torpedo_squadrons: "Establish Torpedo Squadrons"
+ITA_establish_torpedo_squadrons_desc: ""
+ITA_expand_pilot_training_programs: "Expand Pilot Training Programs"
+ITA_expand_pilot_training_programs_desc: ""
+ITA_fund_further_engine_research: "Fund Further Engine Research"
+ITA_fund_further_engine_research_desc: ""
+ITA_italo_balbos_reforms: "Italo Balbo's Reforms"
+ITA_italo_balbos_reforms_desc: ""
+ITA_appoint_general_valle: "Appoint General Valle"
+ITA_appoint_general_valle_desc: ""
+ITA_phase_out_outdated_planes: "Phase Out Outdated Planes"
+ITA_phase_out_outdated_planes_desc: ""
+ITA_continue_douhets_ideas: "Continue Douhet's Ideas"
+ITA_continue_douhets_ideas_desc: ""
+ITA_supremacy_of_the_bomber: "Supremacy of the Bomber"
+ITA_supremacy_of_the_bomber_desc: ""
+ITA_develop_escort_aircraft: "Develop Escort Aircraft"
+ITA_develop_escort_aircraft_desc: ""
+ITA_employ_terror_bombings: "Employ Terror Bombings"
+ITA_employ_terror_bombings_desc: ""
+ITA_develop_long_range_bombers: "Develop Long Range Bombers"
+ITA_develop_long_range_bombers_desc: ""
+ITA_pioneers_of_aviation: "Pioneers of Aviation"
+ITA_pioneers_of_aviation_desc: ""
+ITA_expand_our_airfields: "Expand Our Airfields"
+ITA_expand_our_airfields_desc: ""
+ITA_cannone_90_53_development: "The Cannone da 90/53"
+ITA_cannone_90_53_development_desc: ""
+ITA_national_republican_army: "The Esercito Nazionale Repubblicano"
+ITA_national_republican_army_desc: ""
+ITA_marshall_ugo_cavallero: "Marshall Ugo Cavallero"
+ITA_marshall_ugo_cavallero_desc: ""
+ITA__desc: ""
+ITA_doctrine_for_elitist_fighting_force: "Doctrine for an Elitist Fighting Force"
+ITA_doctrine_for_elitist_fighting_force_desc: ""
+ITA_modern_equipment_for_modern_army: "Modern Equipment for a Modern Army"
+ITA_modern_equipment_for_modern_army_desc: ""
+ITA_fund_national_research_council: "Fund the National Research Council"
+ITA_fund_national_research_council_desc: ""
+ITA_economy_of_force: "Economy of Force"
+ITA_economy_of_force_desc: ""
+ITA_giuseppe_francesco_ferraris_reforms: "Giuseppe Francesco Ferrari's Reforms"
+ITA_giuseppe_francesco_ferraris_reforms_desc: ""
+ITA_start_mechanization_efforts: "Start Mechanization Efforts"
+ITA_start_mechanization_efforts_desc: ""
+ITA_general_federico_baistrocchi: "General Federico Baistrocchi"
+ITA_general_federico_baistrocchi_desc: ""
+ITA_merit_based_accelerated_promotions: "Merit Based Accelerated Promotions"
+ITA_merit_based_accelerated_promotions_desc: ""
+ITA_hand_out_new_uniforms: "Hand Out New Uniforms"
+ITA_hand_out_new_uniforms_desc: ""
+ITA_continue_the_course: "Continue the Course"
+ITA_continue_the_course_desc: ""
+ITA_expand_joint_operations: "Expand Joint Operations"
+ITA_expand_joint_operations_desc: ""
+ITA_increase_support_roles: "Increase Support Roles"
+ITA_increase_support_roles_desc: ""
+ITA_well_equipped_elite_army: "A Well Equipped Elite Army"
+ITA_well_equipped_elite_army_desc: ""
+ITA_modern_artillery_corps: "A Modern Artillery Corps"
+ITA_modern_artillery_corps_desc: ""
+ITA_standardized_tank_production: "Standardized Tank Production"
+ITA_standardized_tank_production_desc: ""
+ITA_general_alberto_pariani: "General Alberto Pariani"
+ITA_general_alberto_pariani_desc: ""
+ITA_expand_commando_training: "Expand Commando Training"
+ITA_expand_commando_training_desc: ""
+ITA_produce_semoventes: "Produce the Semoventes"
+ITA_produce_semoventes_desc: ""
+ITA_ansaldo_pesante_projects: "The Ansaldo Pesante Projects"
+ITA_ansaldo_pesante_projects_desc: ""
+ITA_an_ideological_army: "An Ideological Army"
+ITA_an_ideological_army_desc: ""
+ITA_motorization_efforts: "Motorization Efforts"
+ITA_motorization_efforts_desc: ""
+ITA_introduce_binary_divisions: "Introduce Binary Divisions"
+ITA_introduce_binary_divisions_desc: ""
+ITA_poco_un_pronto: "Poco Un Pronto"
+ITA_poco_un_pronto_desc: ""
+ITA_increase_tank_production: "Increase Tank Production"
+ITA_increase_tank_production_desc: ""
+ITA_eight_million_bayonets: "Eight Million Bayonets"
+ITA_eight_million_bayonets_desc: ""
+ITA_begin_reforms_of_general_staff: "Begin Reforms of the General Staff"
+ITA_begin_reforms_of_general_staff_desc: ""
+ITA_establish_high_command: "Establish the Comando Supreme"
+ITA_establish_high_command_desc: ""
+ITA_industrial_militarisation_efforts: "Industrial Militarisation Efforts"
+ITA_industrial_militarisation_efforts_desc: ""
+ITA_expand_agip: "Expand the Azienda Generali Italiana Petroli"
+ITA_expand_agip_desc: ""
+ITA_national_latin_guard: "The National Latin Guard"
+ITA_national_latin_guard_desc: ""
+ITA_republican_police_corps: "Create the Corpo di Polizia Repubblicano"
+ITA_republican_police_corps_desc: ""
+ITA_create_the_ministry_of_popular_culture: "Create the Ministero della Cultura Popolare"
+ITA_create_the_ministry_of_popular_culture_desc: ""
+ITA_create_the_operation_for_national_security: "Create the Opera per la Sicurezza Nazionale"
+ITA_create_the_operation_for_national_security_desc: ""
+ITA_expand_the_power_of_the_sim: "Expand the Power of the SIM"
+ITA_expand_the_power_of_the_sim_desc: ""
+ITA_merge_counter_intelligence_branches: "Merge Counter Intelligence Branches"
+ITA_merge_counter_intelligence_branches_desc: ""
+ITA_appoint_alessandro_pavolini: "Appoint Alessandro Pavolini"
+ITA_appoint_alessandro_pavolini_desc: ""
+ITA_brigade_legionaries: "The Brigade Legionaries"
+ITA_brigade_legionaries_desc: ""
+ITA_the_new_warrior_caste: "The New Warrior Caste"
+ITA_the_new_warrior_caste_desc: ""
+ITA_form_assault_battalions: "Form Assault Battalions"
+ITA_form_assault_battalions_desc: ""
+ITA_heroic_idealism: "Heroic Idealism"
+ITA_heroic_idealism_desc: ""
+ITA_appoint_ettore_muti: "Appoint Ettore Muti"
+ITA_appoint_ettore_muti_desc: ""
+ITA_fund_the_military_labor_inspectorate: "Fund the Military Labour Inspectorate"
+ITA_fund_the_military_labor_inspectorate_desc: ""
+ITA_fund_infrastructure_projects: "Fund Infrastructure Projects"
+ITA_fund_infrastructure_projects_desc: ""
+ITA_expand_the_alpine_wall: "Expand the Alpine Wall"
+ITA_expand_the_alpine_wall_desc: ""
+ITA_expand_radar_efforts: "Expand RADAR Efforts"
+ITA_expand_radar_efforts_desc: ""
+ITA_fortify_the_islands: "Fortify The Islands"
+ITA_fortify_the_islands_desc: ""
+ITA_appoint_giuseppe_bottai: "Appoint Giuseppe Bottai"
+ITA_appoint_giuseppe_bottai_desc: ""
+ITA_enforce_religious_laws: "Enforce Religious Laws"
+ITA_enforce_religious_laws_desc: ""
+ITA_increase_secret_police_recruitment: "Increase Secret Police Recruitment"
+ITA_increase_secret_police_recruitment_desc: ""
+ITA_the_black_heart_of_europe: "The Black Heart of Europe"
+ITA_the_black_heart_of_europe_desc: ""
+ITA_a_brotherhood_of_warriors: "A Brotherhood of Warriors"
+ITA_a_brotherhood_of_warriors_desc: ""
+ITA_order_of_purity: "Order of Purity"
+ITA_order_of_purity_desc: ""
+ITA_expand_the_role_of_youth_organizations: "Expand the Role of Youth Organizations"
+ITA_expand_the_role_of_youth_organizations_desc: ""
+ITA_promote_militarism: "Promote Militarism"
+ITA_promote_militarism_desc: ""
+ITA_the_aristocracy_of_labor: "The Aristocracy of Labor"
+ITA_the_aristocracy_of_labor_desc: ""
+
 
 
 ### Decisions ###
