@@ -118,29 +118,30 @@ add_ideas = {
 	extensive_conscription
 	low_economic_mobilisation
 	parliamentary_republic
+	SPR_economic_disease
+	SPR_the_sons_of_the_party
+	SPR_the_regenerationist_republic
+	SPR_the_cornered_bull
 }
 
-give_military_access = SPA
-
 set_politics = {
-	ruling_party = liberal
+	ruling_party = revolutionary_socialist
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 0
-  utopian_socialist = 4
-  revolutionary_socialist = 0
-  social_democrat = 10
-  liberal = 37
-  liberal = 30
-  social_conservative = 10
-  authoritarian_democrat = 4
+  vanguardist = 15
+  utopian_socialist = 5
+  revolutionary_socialist = 50
+  social_democrat = 20
+  liberal = 5
+  social_conservative = 0
+  authoritarian_democrat = 0
   paternal_autocrat = 0
-  ultranationalist = 0
-  esoteric_nationalist = 5
+  ultranationalist = 5
+  esoteric_nationalist = 0
 }
 
 add_coalition_liberal = yes 

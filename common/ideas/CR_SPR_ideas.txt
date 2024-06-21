@@ -1,0 +1,85 @@
+ideas = {
+	country = {
+		SPR_economic_disease = {
+		picture = SPR_economic_disease
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			consumer_goods_factor = 0.4
+			stability_factor = -0.05
+            production_factory_max_efficiency_factor = -0.15
+			production_speed_buildings_factor = -0.1 
+			}
+		
+		}
+				SPR_the_sons_of_the_party = {
+		picture = SPR_the_sons_of_the_party
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = -0.05
+			stability_weekly = -0.01
+            vanguardist_drift = 0.02
+            revolutionary_socialist_drift = 0.02
+            social_democrat_drift = 0.02
+            ultranationalist_drift = 0.02			
+}
+}
+				SPR_the_regenerationist_republic = {
+		picture = SPR_the_regenerationist_republic
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			political_power_gain = -0.3
+			stability_factor = -0.1
+			research_speed_factor = 0.1
+}		
+		}
+				SPR_the_cornered_bull = {
+		picture = SPR_the_cornered_bull
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.3
+	        army_defence_factor = 0.15
+}		
+		}
+}
+
+}
